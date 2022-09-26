@@ -36,14 +36,12 @@ zstyle ':completion:*' verbose true
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
-alias sp='export all_proxy=socks5://127.0.0.1:1080'
+alias sp='export all_proxy=socks5://naizi.fun:10800'
 alias unsp='unset all_proxy'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-export NVM_NODEJS_ORG_MIRROR='https://mirrors.ustc.edu.cn/node/'
-export NODE_MIRROR='https://mirrors.ustc.edu.cn/node/'
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
@@ -60,9 +58,8 @@ export NVM_IOJS_ORG_MIRROR=https://npm.taobao.org/mirrors/iojs
 export NVMW_IOJS_ORG_MIRROR=https://npm.taobao.org/mirrors/iojs
 export NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
 export NODIST_NODE_MIRROR=https://npm.taobao.org/mirrors/node
-export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
-export NVMW_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
+export NODE_MIRROR='https://mirrors.ustc.edu.cn/node/'
+export NVM_NODEJS_ORG_MIRROR='https://mirrors.ustc.edu.cn/node/'
+export NVMW_NODEJS_ORG_MIRROR='https://mirrors.ustc.edu.cn/node/'
 export NVMW_NPM_MIRROR=https://npm.taobao.org/mirrors/npm
 # End of mirror-config-china
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
