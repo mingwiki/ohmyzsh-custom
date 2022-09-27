@@ -4,6 +4,6 @@
 ```shell
 $ cd $HOME/.ohmyzsh
 $ git clone git@github.com:mingwiki/ohmyzsh-custom.git
-$ ln -sf ohmyzsh-custom custom
+$ mv custom custom.bk && ln -sf ohmyzsh-custom custom
 $ git submodule update --recursive
 ```
