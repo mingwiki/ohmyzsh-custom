@@ -1,0 +1,125 @@
+: 1664416420:0;la
+: 1664416424:0;vi linux.zsh
+: 1664416497:0;git submodule deinit plugins/zsh-syntax-highlighting
+: 1664416506:0;git rm plugins/zsh-syntax-highlighting
+: 1664416514:0;ls
+: 1664416521:0;la
+: 1664416524:0;vi .gitmodules
+: 1664416528:0;ls
+: 1664416532:0;cd
+: 1664416598:0;la
+: 1664416599:0;cd .oh-my-zsh
+: 1664416600:0;ls
+: 1664416602:0;cd custom
+: 1664416602:0;ls
+: 1664416604:0;vi linux.zsh
+: 1664416613:0;la
+: 1664416616:0;cd
+: 1664416616:0;la
+: 1664416623:0;source .zshrc
+: 1664416627:0;rm zsh_history
+: 1664416629:0;la
+: 1664416631:0;sfjsf
+: 1664416632:0;la
+: 1664416636:0;vi ~/.oh-my-zsh
+: 1664416646:0;clear
+: 1664416682:0;ls
+: 1664416690:0;.oh-my-zsh/custom
+: 1664416691:0;la
+: 1664416693:0;cd .git
+: 1664416694:0;l
+: 1664416697:0;cd modules
+: 1664416697:0;l
+: 1664416704:0;plugins
+: 1664416705:0;la
+: 1664416716:0;rm -rf fast-syntax-highlighting zsh-syntax-highlighting
+: 1664416767:0;git rm --cached
+: 1664416769:0;cd ..
+: 1664416769:0;la
+: 1664416771:0;cd ..
+: 1664416772:0;git rm --cached
+: 1664416806:0;git rm -r --cached .
+: 1664416810:0;la
+: 1664416814:0;cd ..
+: 1664416814:0;la
+: 1664416817:0;git rm -r --cached .
+: 1664416821:0;ls
+: 1664416828:0;git status
+: 1664416839:0;la
+: 1664416845:0;cd plugins
+: 1664416845:0;la
+: 1664416856:0;cd zsh-autocomplete
+: 1664416857:0;la
+: 1664416859:0;cd ..
+: 1664416860:0;cd
+: 1664416863:0;source .zshrc
+: 1664416867:0;la
+: 1664416877:0;cd .oh-my-zsh
+: 1664416877:0;ls
+: 1664416880:0;cd plugins
+: 1664416881:0;la
+: 1664416883:0;cd ..
+: 1664416884:0;la
+: 1664416887:0;cd custom
+: 1664416887:0;ls
+: 1664416889:0;vi linux.zsh
+: 1664416922:0;git submodule deinit plugins/zsh-autocomplete
+: 1664416938:0;la
+: 1664416944:0;cat .gitmodules
+: 1664416955:0;git submodule deinit plugins/zsh-autocomplete
+: 1664416978:0;git submodule init --resursive
+: 1664416984:0;git submodule init -r
+: 1664417010:0;git submodule init --recursive
+: 1664417023:0;git submodule update --recursive
+: 1664417031:0;ls
+: 1664417039:0;vi .gitmodules
+: 1664417065:0;afjsf 
+: 1664417071:0;fjskfj
+: 1664417073:0;clear
+: 1664417074:0;cd
+: 1664417077:0;source .zshrc
+: 1664417088:0;la
+: 1664417091:0;clear
+: 1664417098:0;cd .oh-my-zsh/custom
+: 1664417099:0;la
+: 1664417104:0;git status
+: 1664417111:0;git add .
+: 1664417129:0;git rm --cached plugins/zsh-autocomplete
+: 1664417139:0;git add .
+: 1664417143:0;git status
+: 1664417152:0;vi .gitmodules
+: 1664417168:0;git submodule deinit plugins/zsh-autocomplete
+: 1664417172:0;git status
+: 1664417178:0;git add .
+: 1664417192:0;cd .git
+: 1664417192:0;ls
+: 1664417194:0;cd modules
+: 1664417194:0;ls
+: 1664417197:0;cd plugins
+: 1664417197:0;la
+: 1664417205:0;rm -rf zsh-autocomplete
+: 1664417208:0;cd ...
+: 1664417208:0;ls
+: 1664417209:0;cd ..
+: 1664417210:0;ls
+: 1664417232:0;cd plugins
+: 1664417233:0;la
+: 1664417249:0;rm -rf zsh-autocomplete zsh_history
+: 1664417250:0;la
+: 1664417252:0;cd ..
+: 1664417253:0;ls
+: 1664417255:0;cd
+: 1664417255:0;la
+: 1664417262:0;cd .oh-my-zsh/custom
+: 1664417263:0;la
+: 1664417270:0;cd plugins
+: 1664417270:0;la
+: 1664417274:0;cd ..
+: 1664417274:0;la
+: 1664417277:0;vi linux.zsh
+: 1664417282:0;cd
+: 1664417286:0;source .zshrc
+: 1664417350:0;cd .oh-my-zsh/custom
+: 1664417350:0;la
+: 1664417352:0;git status
+: 1664417355:0;git add .
