@@ -32,4 +32,3 @@ export NVMW_NPM_MIRROR=https://npm.taobao.org/mirrors/npm
 # End of mirror-config-china
 export DOCKER_CLIENT_TIMEOUT=120
 export COMPOSE_HTTP_TIMEOUT=120
-[[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh

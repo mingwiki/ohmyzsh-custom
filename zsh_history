@@ -123,3 +123,106 @@
 : 1664417350:0;la
 : 1664417352:0;git status
 : 1664417355:0;git add .
+: 1664417360:0;git commit
+: 1664417368:0;git push 
+: 1664417375:0;cd
+: 1664417376:0;la
+: 1664417379:0;source .zshrc
+: 1664417381:0;la
+: 1664417385:0;rm 8548092_cloud.naizi.fun_other.zip
+: 1664417386:0;la
+: 1664417477:0;cd .oh-my-zsh/custom
+: 1664417478:0;la
+: 1664417481:0;vi linux.zsh
+: 1664417499:0;git status
+: 1664417502:0;cd
+: 1664417503:0;la
+: 1664454090:0;docker ps
+: 1664454103:0;docker ps -a
+: 1664454111:0;docker logs -f rsshub
+: 1664454139:0;cd 
+: 1664454139:0;;la
+: 1664454155:0;cd .oh-my-zsh/custom
+: 1664454158:0;git pull
+: 1664454163:0;cd
+: 1664454171:0;la
+: 1664454191:0;cd /mnt/omv/compose/proxy-server
+: 1664454191:0;la
+: 1664454192:0;vi config.yml
+: 1664454216:0;cd
+: 1664454221:0;j compose
+: 1664454230:0;cd .oh-my-zsh/custom
+: 1664454230:0;la
+: 1664454235:0;cd plugins
+: 1664454235:0;ls
+: 1664454239:0;cd ..
+: 1664454240:0;la
+: 1664454241:0;cd
+: 1664454247:0;apt install autojump
+: 1664454250:0;j
+: 1664454254:0;jump
+: 1664454264:0;vi .oh-my-zsh/custom/linux.zsh
+: 1664454272:0;autojump
+: 1664454284:0;la
+: 1664454290:0;apt install autojump
+: 1664454295:0;which autojump
+: 1664454300:0;la
+: 1664454304:0;cd .oh-my-zsh
+: 1664454305:0;la
+: 1664454307:0;cd custom
+: 1664454308:0;la
+: 1664454309:0;cd 
+: 1664454310:0;la
+: 1664454318:0;	cd /mnt/omv/compose
+: 1664454326:0;docker-compose down && docker-compose up -d
+: 1664455538:0;docker ps
+: 1664455544:0;docker ps -a
+: 1664455549:0;docker-compose up 0d
+: 1664455555:0;docker-compose up -d
+: 1664459590:0;docker ps
+: 1664459595:0;docker ps -a
+: 1664504291:0;la
+: 1664504334:0;vi /mnt/omv/trojan/config.json
+: 1664504382:0;systemctl restart trojan
+: 1664504419:0;vi /mnt/omv/trojan/config.json
+: 1664504427:0;systemctl restart trojan
+: 1664504559:0;vi /mnt/omv/trojan/config.json
+: 1664504592:0;systemctl restart trojan
+: 1664543809:0;ls
+: 1664543810:0;la
+: 1665038369:0;systemctl stop trojan.service
+: 1665038384:0;df -h
+: 1665038498:0;systemctl status trojan
+: 1665038532:0;cd /mnt/omv/trojan
+: 1665038533:0;la
+: 1665038546:0;cd
+: 1665038616:0;journalctl -u trojan.service
+: 1665044682:0;la
+: 1665044690:0;systemctl start trojan.service
+: 1665047418:0;df -h
+: 1665047432:0;aria2p show
+: 1665047476:0;aria2p autopurge
+: 1665047484:0;aria2p autopurge -h
+: 1665047494:0;aria2p autopurge 
+: 1665047502:0;aria2p autopurge completed
+: 1665047526:0;aria2p call purge_download_result
+: 1665047530:0;aria2p show
+: 1665048395:0;cd /mnt/omv/compose
+: 1665048396:0;ls
+: 1665048397:0;vi docker-compose.yml
+: 1665048422:0;docker-compose down
+: 1665050754:0;systemctl start trojan
+: 1665050780:0;j
+: 1665050981:0;docker
+: 1665050985:0;j
+: 1665050986:0;jo
+: 1665050999:0;cd .oh-my-zsh/custom
+: 1665051002:0;l
+: 1665051008:0;vi linux.zsh
+: 1665051043:0;cd
+: 1665051044:0;l
+: 1665051057:0;source .zshrc
+: 1665051059:0;j
+: 1665051075:0;git status
+: 1665051090:0;ga
+: 1665051095:0;ga .
