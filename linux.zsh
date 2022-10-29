@@ -3,7 +3,7 @@ HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.oh-my-zsh/custom/zsh_history
 
-alias sp='export all_proxy=socks5://naizi.fun:10800'
+alias sp='export all_proxy=socks5://10.10.10.10:10800'
 alias unsp='unset all_proxy'
 
 export NVM_DIR="$HOME/.nvm"

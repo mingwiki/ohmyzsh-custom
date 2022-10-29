@@ -226,3 +226,61 @@
 : 1665051075:0;git status
 : 1665051090:0;ga
 : 1665051095:0;ga .
+: 1666365603:0;j
+: 1666365650:0;apt install autojump
+: 1666365655:0;source .zshrc
+: 1666365657:0;j
+: 1666365659:0;j compose
+: 1666365663:0;cd /mnt/omv/compose
+: 1666365664:0;l
+: 1666365665:0;j
+: 1666365666:0;la
+: 1666524577:0;ldf
+: 1666524585:0;vi /mnt/omv/trojan/config.json
+: 1666524658:0;systemctl restart trojan
+: 1666524679:0;vi /mnt/omv/trojan/config.json
+: 1666524687:0;systemctl restart trojan
+: 1666529327:0;vi /mnt/omv/trojan/config.json
+: 1666529344:0;systemctl restart trojan
+: 1666529354:0;vi /mnt/omv/trojan/config.json
+: 1666529435:0;systemctl restart trojan
+: 1666529517:0;vi /mnt/omv/trojan/config.json
+: 1666529525:0;systemctl restart trojan
+: 1666540080:0;la
+: 1666540086:0;rm .bash_history
+: 1666540091:0;docker ps
+: 1666664909:0;iredis
+: 1666664913:0;iredis -h
+: 1666664929:0;iredis -h redis
+: 1666664940:0;iredis -h redis://redis
+: 1666664953:0;docker inspect redis
+: 1666664969:0;iredis -h 172.19.0.2
+: 1666703830:0;la
+: 1666703842:0;cd /mnt/omv/compose
+: 1666703843:0;ls
+: 1666703847:0;vi docker-compose.yml
+: 1666703869:0;docker compose up -d
+: 1666703956:0;docker ps
+: 1666704016:0;vi /mnt/omv/trojan
+: 1666704113:0;systemctl restart trojan
+: 1666704137:0;vi /mnt/omv/trojan
+: 1666704146:0;systemctl restart trojan
+: 1666704198:0;vi /mnt/omv/trojan
+: 1666704205:0;systemctl restart trojan
+: 1666921946:0;ls
+: 1666921948:0;cd compose
+: 1666921951:0;vi docker-compose.yml
+: 1666921960:0;docker compose up -d
+: 1666922062:0;cd nextcloud/data/mingwiki/files
+: 1666922063:0;l
+: 1666922098:0;cp latest_usb_driver_windows.zip lineage-19.1-20221022-* miflash_unlock-6.5.224.28.zip platform-tools_r33.0.3-windows.zip vendor_boot.img /mnt/omv/share
+: 1666922216:0;cd
+: 1666922220:0;cd /mnt/omv/compose
+: 1666922226:0;docker compose restart nginx
+: 1667047708:0;sp
+: 1667047713:0;youtube-dl https://www.youtube.com/watch\?v\=x2XJfA3AB9s
+: 1667047768:0;vi .oh-my-zsh/custom/linux.zsh
+: 1667047783:0;source .zshrc
+: 1667047786:0;cd .oh-my-zsh/custom
+: 1667047788:0;git status
+: 1667047790:0;git add .
