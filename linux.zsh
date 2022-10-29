@@ -5,6 +5,7 @@ HISTFILE=~/.oh-my-zsh/custom/zsh_history
 
 alias sp='export all_proxy=socks5://10.10.10.10:10800'
 alias unsp='unset all_proxy'
+alias yt='yt-dlp'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

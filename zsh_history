@@ -284,3 +284,73 @@
 : 1667047786:0;cd .oh-my-zsh/custom
 : 1667047788:0;git status
 : 1667047790:0;git add .
+: 1667047794:0;git commit
+: 1667047803:0;git push
+: 1667047821:0;git pll
+: 1667047824:0;git pull
+: 1667047835:0;git push
+: 1667047842:0;cd
+: 1667047842:0;ls
+: 1667047844:0;sp
+: 1667047848:0;youtube-dl https://www.youtube.com/watch\?v\=x2XJfA3AB9s
+: 1667047882:0;youtube-dl 'https://www.youtube.com/watch\?v\=x2XJfA3AB9s'
+: 1667048902:0;sp
+: 1667048903:0;youtube-dl 'https://www.youtube.com/watch\?v\=x2XJfA3AB9s'
+: 1667048949:0;cd /mnt/omv/compose/cookies
+: 1667048950:0;ls
+: 1667048961:0;youtube-dl 'https://www.youtube.com/watch\?v\=x2XJfA3AB9s' --cookies youtube.txt
+: 1667049044:0;youtube-dl 'https://www.youtube.com/watch\?v\=x2XJfA3AB9s' --add-header 'SIDCC=AIKkIs35tXTDI8Qum1Ws8ufbyaNWgSn-2kXrjaqirZ2hccJcXgZRPJIaoIZwxqMgQ_93uBMVtsM; expires=Sun, 29-Oct-2023 13:10:22 GMT; path=/; domain=.youtube.com; priority=high'
+: 1667049081:0;apt remove youtube-dl
+: 1667049086:0;cd
+: 1667049087:0;cd /
+: 1667049089:0;ncdu
+: 1667049094:0;apt install ncdu
+: 1667049098:0;ncdu
+: 1667049121:0;ls
+: 1667049122:0;cd
+: 1667049122:0;la
+: 1667049124:0;ls
+: 1667049186:0;curl google.com
+: 1667049190:0;sp
+: 1667049192:0;curl google.com
+: 1667049200:0;apt install youtube-dl
+: 1667049212:0;youtube-dl 'SIDCC=AIKkIs35tXTDI8Qum1Ws8ufbyaNWgSn-2kXrjaqirZ2hccJcXgZRPJIaoIZwxqMgQ_93uBMVtsM; expires=Sun, 29-Oct-2023 13:10:22 GMT; path=/; domain=.youtube.com; priority=high'
+: 1667049267:0;youtube-dl 'https://www.youtube.com/watch\?v\=XQp3LUAgItk'
+: 1667049298:0;youtube-dl 'https://www.youtube.com/watch\?v\=x2XJfA3AB9s' --add-header set-cookie:'SIDCC=AIKkIs35tXTDI8Qum1Ws8ufbyaNWgSn-2kXrjaqirZ2hccJcXgZRPJIaoIZwxqMgQ_93uBMVtsM; expires=Sun, 29-Oct-2023 13:10:22 GMT; path=/; domain=.youtube.com; priority=high'
+: 1667049322:0;run-help youtube-dl
+: 1667049325:0;youtube-dl 'https://www.youtube.com/watch\?v\=x2XJfA3AB9s' --add-header set-cookie:'SIDCC=AIKkIs35tXTDI8Qum1Ws8ufbyaNWgSn-2kXrjaqirZ2hccJcXgZRPJIaoIZwxqMgQ_93uBMVtsM; expires=Sun, 29-Oct-2023 13:10:22 GMT; path=/; domain=.youtube.com; priority=high'
+: 1667049336:0;youtube-dl 'https://www.youtube.com/watch\?v\=x2XJfA3AB9s' --add-header cookie:'SIDCC=AIKkIs35tXTDI8Qum1Ws8ufbyaNWgSn-2kXrjaqirZ2hccJcXgZRPJIaoIZwxqMgQ_93uBMVtsM; expires=Sun, 29-Oct-2023 13:10:22 GMT; path=/; domain=.youtube.com; priority=high'
+: 1667049457:0;apt remove youtube-dl
+: 1667049461:0;cd
+: 1667049464:0;python -v
+: 1667049468:0;conda
+: 1667049572:0;apt install miniconda
+: 1667049574:0;cd
+: 1667049633:0;curl -O https://mirrors.bfsu.edu.cn/anaconda/miniconda/Miniconda3-py39_4.12.0-Linux-x86_64.sh
+: 1667049648:0;ls
+: 1667049654:0;sh Miniconda3-py39_4.12.0-Linux-x86_64.sh
+: 1667049693:0;ls
+: 1667049702:0;cp Miniconda3-py39_4.12.0-Linux-x86_64.sh /mnt/omv/
+: 1667049704:0;ls
+: 1667049710:0;rm Miniconda3-py39_4.12.0-Linux-x86_64.sh
+: 1667049733:0;pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple
+: 1667049739:0;pip install -i https://mirrors.ustc.edu.cn/pypi/web/simple pip -U
+: 1667049754:0;conda
+: 1667049790:0;conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/\
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/main/\
+conda config --set show_channel_urls yes
+: 1667049805:0;conda install yt-dlp
+: 1667049824:0;pip install yt-dlp
+: 1667049836:0;yt-dlp 
+: 1667049839:0;yt-dlp  --help
+: 1667049848:0;ls
+: 1667049849:0;la
+: 1667049868:0;mv .condarc /mnt/omv
+: 1667049881:0;ln -s /mnt/omv/.condarc .condarc
+: 1667049882:0;la
+: 1667049915:0;mv .gitconfig /mnt/omv
+: 1667049923:0;ln -s /mnt/omv/.gitconfig .gitconfig
+: 1667049925:0;la
+: 1667049952:0;vi .oh-my-zsh/custom/linux.zsh
+: 1667049971:0;cd .oh-my-zsh/custom
+: 1667049973:0;git add .
