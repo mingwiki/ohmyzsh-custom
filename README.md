@@ -1,10 +1,13 @@
 # ohmyzsh-custom
 
+.zshrc
+```
+ZSH_CUSTOM=$ZSH/ohmyzsh-custom
+```
 
 ```shell
-$ cd $HOME/.oh-my-zsh
+$ cd $ZSH
 $ git clone git@github.com:mingwiki/ohmyzsh-custom.git
-$ mv custom custom.bk && ln -sf ohmyzsh-custom custom
-$ cd custom && git submodule update --recursive --init
+$ git submodule update --recursive --init
 $ source $HOME/.zshrc
 ```
