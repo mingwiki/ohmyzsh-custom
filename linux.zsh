@@ -1,4 +1,4 @@
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/snap/bin:$PATH
 HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.oh-my-zsh/custom/zsh_history
