@@ -1,7 +1,7 @@
 export PATH=$HOME/bin:/usr/local/bin:/snap/bin:$PATH
 HISTSIZE=1000
 SAVEHIST=1000
-HISTFILE=~/.oh-my-zsh/custom/zsh_history
+HISTFILE=~/.oh-my-zsh/ohmyzsh-custom/zsh_history
 
 alias sp='export all_proxy=socks5://10.10.10.10:10800'
 alias unsp='unset all_proxy'

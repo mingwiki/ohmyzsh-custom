@@ -1128,3 +1128,5 @@ conda config --set show_channel_urls yes
 : 1668997133:0;cd .oh-my-zsh
 : 1668997134:0;ls
 : 1668997148:0;rm custom
+: 1669285066:0;cd .oh-my-zsh/ohmyzsh-custom
+: 1669285070:0;git add .
