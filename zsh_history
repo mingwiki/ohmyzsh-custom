@@ -1,6 +1,5 @@
 : 1664416497:0;git submodule deinit plugins/zsh-syntax-highlighting
 : 1664416506:0;git rm plugins/zsh-syntax-highlighting
-: 1664416627:0;rm zsh_history
 : 1664416631:0;sfjsf
 : 1664416636:0;vi ~/.oh-my-zsh
 : 1664416690:0;.oh-my-zsh/custom
@@ -31,14 +30,9 @@
 : 1664454192:0;vi config.yml
 : 1664454235:0;cd plugins
 : 1664454254:0;jump
-: 1664454272:0;autojump
-: 1664454295:0;which autojump
-: 1664454304:0;cd .oh-my-zsh
-: 1664454307:0;cd custom
 : 1664454326:0;docker-compose down && docker-compose up -d
 : 1664455549:0;docker-compose up 0d
 : 1664455555:0;docker-compose up -d
-: 1664459595:0;docker ps -a
 : 1665038369:0;systemctl stop trojan.service
 : 1665038498:0;systemctl status trojan
 : 1665038532:0;cd /mnt/omv/trojan
@@ -51,9 +45,7 @@
 : 1665051008:0;vi linux.zsh
 : 1665051090:0;ga
 : 1665051095:0;ga .
-: 1666365650:0;apt install autojump
 : 1666365659:0;j compose
-: 1666365665:0;j
 : 1666524577:0;ldf
 : 1666529517:0;vi /mnt/omv/trojan/config.json
 : 1666540086:0;rm .bash_history
@@ -61,7 +53,6 @@
 : 1666664913:0;iredis -h
 : 1666664929:0;iredis -h redis
 : 1666664940:0;iredis -h redis://redis
-: 1666664953:0;docker inspect redis
 : 1666664969:0;iredis -h 172.19.0.2
 : 1666704198:0;vi /mnt/omv/trojan
 : 1666922062:0;cd nextcloud/data/mingwiki/files
@@ -76,13 +67,11 @@
 : 1667049044:0;youtube-dl 'https://www.youtube.com/watch\?v\=x2XJfA3AB9s' --add-header 'SIDCC=AIKkIs35tXTDI8Qum1Ws8ufbyaNWgSn-2kXrjaqirZ2hccJcXgZRPJIaoIZwxqMgQ_93uBMVtsM; expires=Sun, 29-Oct-2023 13:10:22 GMT; path=/; domain=.youtube.com; priority=high'
 : 1667049094:0;apt install ncdu
 : 1667049192:0;curl google.com
-: 1667049200:0;apt install youtube-dl
 : 1667049212:0;youtube-dl 'SIDCC=AIKkIs35tXTDI8Qum1Ws8ufbyaNWgSn-2kXrjaqirZ2hccJcXgZRPJIaoIZwxqMgQ_93uBMVtsM; expires=Sun, 29-Oct-2023 13:10:22 GMT; path=/; domain=.youtube.com; priority=high'
 : 1667049267:0;youtube-dl 'https://www.youtube.com/watch\?v\=XQp3LUAgItk'
 : 1667049322:0;run-help youtube-dl
 : 1667049325:0;youtube-dl 'https://www.youtube.com/watch\?v\=x2XJfA3AB9s' --add-header set-cookie:'SIDCC=AIKkIs35tXTDI8Qum1Ws8ufbyaNWgSn-2kXrjaqirZ2hccJcXgZRPJIaoIZwxqMgQ_93uBMVtsM; expires=Sun, 29-Oct-2023 13:10:22 GMT; path=/; domain=.youtube.com; priority=high'
 : 1667049336:0;youtube-dl 'https://www.youtube.com/watch\?v\=x2XJfA3AB9s' --add-header cookie:'SIDCC=AIKkIs35tXTDI8Qum1Ws8ufbyaNWgSn-2kXrjaqirZ2hccJcXgZRPJIaoIZwxqMgQ_93uBMVtsM; expires=Sun, 29-Oct-2023 13:10:22 GMT; path=/; domain=.youtube.com; priority=high'
-: 1667049457:0;apt remove youtube-dl
 : 1667049572:0;apt install miniconda
 : 1667049633:0;curl -O https://mirrors.bfsu.edu.cn/anaconda/miniconda/Miniconda3-py39_4.12.0-Linux-x86_64.sh
 : 1667049654:0;sh Miniconda3-py39_4.12.0-Linux-x86_64.sh
@@ -92,7 +81,6 @@
 conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/main/\
 conda config --set show_channel_urls yes
 : 1667049805:0;conda install yt-dlp
-: 1667049824:0;pip install yt-dlp
 : 1667049836:0;yt-dlp 
 : 1667049839:0;yt-dlp  --help
 : 1667049868:0;mv .condarc /mnt/omv
@@ -103,11 +91,9 @@ conda config --set show_channel_urls yes
 : 1667049971:0;cd .oh-my-zsh/custom
 : 1667049994:0;git  config --global
 : 1667050056:0;git push 
-: 1667050091:0;source .zshrc
 : 1667050097:0;cd /mnt/omv
 : 1667050111:0;mv .ssh /mnt/omv
 : 1667050118:0;ln -s /mnt/omv/.ssh .ssh
-: 1667050128:0;yt
 : 1667050130:0;yt 
 : 1667050132:0;https://www.youtube.com/watch\?v\=0a97Z7duuGs
 : 1667050155:0;yt 'https://www.youtube.com/watch\?v\=0a97Z7duuGs'
@@ -239,7 +225,6 @@ conda config --set show_channel_urls yes
 : 1667315500:0;docker container prune
 : 1667315503:0;docker container prune -a
 : 1667315516:0;docker image prune
-: 1667315583:0;docker info
 : 1667315612:0;docker system prune -a -f
 : 1667315617:0;docker 
 : 1667315622:0;docker prune
@@ -248,271 +233,84 @@ conda config --set show_channel_urls yes
 : 1667315655:0;docker rm -v $(sudo docker ps -a -q -f status=exited)
 : 1667315666:0;delete old docker processes
 : 1667315673:0;docker rm `docker ps -a | grep Exited | awk '{print $1 }'`
-: 1667315685:0;systemctl stop docker
-: 1667315689:0;docker info
 : 1667315720:0;docker
 : 1667315723:0;rm -rf /var/lib/docker/
-: 1667315729:0;df -h
-: 1667315745:0;rm -rf /var/lib/containers
-: 1667315753:0;ls
-: 1667315755:0;rm -rf /var/lib/containers
-: 1667315759:0;docke rps
-: 1667315761:0;docker ps
-: 1667315768:0;systemctl stop docker
-: 1667315783:0;rm -rf /var/lib/containers
-: 1667315785:0;docker ps
-: 1667315793:0;systemctl stop docker
-: 1667315832:0;apt
 : 1667315842:0;apt list
 : 1667315845:0;apt list -v
 : 1667315859:0;apt list-installed
 : 1667315866:0;apt installed
 : 1667315868:0;apt installed-list
-: 1667315870:0;apt
 : 1667315873:0;apt show
 : 1667315885:0;apt list -h
 : 1667315892:0;apt list --help
-: 1667315901:0;docker ps
-: 1667315910:0;df -h
 : 1667315964:0;podman
 : 1667315968:0;podman --help
 : 1667315973:0;apt remove podman
-: 1667316030:0;apt autoremove
-: 1667316037:0;apt autoclean
 : 1667316073:0;apt autoremove
 : 1667316074:0;apt autoclean
-: 1667316078:0;apt update
-: 1667316101:0;docker info
-: 1667316116:0;systemctl stop docker
 : 1667316145:0;rm -rf /var/lib/containers
-: 1667316147:0;docker ps
-: 1667316152:0;docker info
-: 1667316158:0;docker ps
 : 1667316166:0;cd /mnt
-: 1667316167:0;ls
 : 1667316171:0;cd r10
-: 1667316175:0;df -h
-: 1667316193:0;ls
-: 1667316197:0;cd compose
-: 1667316198:0;ls
-: 1667316202:0;docker compose up -d
-: 1667316231:0;docker ps
-: 1667316238:0;htop
-: 1667316335:0;df -h
-: 1667316337:0;docker ps
 : 1667316347:0;cd /mnt/r10/aliyun-ddns
 : 1667316349:0;npm start
 : 1667316361:0;docker logs -f gitea
-: 1667316400:0;docker ps
-: 1667316409:0;cd ..
-: 1667316410:0;cd compose
-: 1667316416:0;docker compose up -d
-: 1667316439:0;docker ps
 : 1667316494:0;docker logs -f photoprism
-: 1667316549:0;ls
-: 1667316551:0;cd photoprism
-: 1667316551:0;ls
-: 1667316555:0;cd
 : 1667316567:0;cd  /mnt/r10/compose/photoprism
 : 1667316569:0;cd originals
-: 1667316570:0;ls
 : 1667316581:0;c 2011
-: 1667316581:0;ls
 : 1667316585:0;cd 2011
-: 1667316585:0;ls
 : 1667316587:0;cd 08
-: 1667316589:0;l
-: 1667316591:0;cd
-: 1667316591:0;ls
-: 1667316621:0;cd
-: 1667316622:0;docker ps
-: 1667316627:0;htop
-: 1667316641:0;ls
 : 1667316650:0;cd /mnt/r10/compose/photoprism/
-: 1667316651:0;ls
-: 1667316653:0;cd
-: 1667316656:0;cd /mnt/r1
-: 1667316657:0;ls
-: 1667316659:0;cd photoprism
-: 1667316660:0;ls
-: 1667316663:0;cd
 : 1667316673:0;crontab -eu
-: 1667316674:0;crontab -e
 : 1667316688:0;pwd /
 : 1667316707:0;cd /mnt/r10/compose/photoprism/originals
-: 1667316708:0;pwd
 : 1667316719:0;crontab -e 
-: 1667316732:0;cd
-: 1667316820:0;docker ps
-: 1667316823:0;htop
-: 1667316911:0;docker ps
-: 1667316923:0;ps aux
-: 1667317008:0;htop
 : 1667317035:0;ps aux | grep java
 : 1667317119:0;java
 : 1667317133:0;cd /usr/local/
-: 1667317133:0;ls
 : 1667317135:0;cd etc
-: 1667317135:0;ls
-: 1667317137:0;cd ..
-: 1667317138:0;ls
-: 1667317151:0;cd
-: 1667317152:0;ls
 : 1667317157:0;cd /opt/containerd/
-: 1667317159:0;cd
-: 1667317159:0;la
 : 1667317168:0;containerd
 : 1667317173:0;containerd -v
 : 1667317175:0;containerd -V
-: 1667379839:0;la
-: 1667379841:0;cd .ssh
 : 1667379843:0;vi authorized_keys
-: 1667382650:0;ls
 : 1667382654:0;cd st-sync
-: 1667382655:0;ls
 : 1667382661:0;rm -rf photoprism-bk
-: 1667382730:0;ls
-: 1667382736:0;cd ..
-: 1667382736:0;ls
-: 1667382748:0;docker compose down
 : 1667382865:0;mv photoprism/originals st-sync
-: 1667382867:0;ls
-: 1667382879:0;rm -rf photoprism
-: 1667382933:0;crontab -e
-: 1667382944:0;rm -rf photoprism
-: 1667382991:0;ls
-: 1667382993:0;cd photoprism
 : 1667382997:0;docker pos
-: 1667382999:0;docker ps
-: 1667383001:0;ls
-: 1667383003:0;cd storage
-: 1667383004:0;la
-: 1667383007:0;cd ..
-: 1667383009:0;..
-: 1667383011:0;rm -rf photoprism
 : 1667383122:0;sudo rm -rf photoprism
-: 1667383139:0;la
-: 1667383151:0;clear
-: 1667383152:0;la
 : 1667383160:0;du 
-: 1667383163:0;du -h
-: 1667383169:0;ncdu
-: 1667383221:0;clear
-: 1667383222:0;ls
-: 1667383224:0;la
 : 1667383228:0;rm -rf storage
-: 1667383273:0;docker info
 : 1667383275:0;docke rps
-: 1667383276:0;docker ps
 : 1667383281:0;systemctl stop dcoker
 : 1667383284:0;systemctl stop docker
 : 1667383292:0;ps aux | grep photo
-: 1667383295:0;celar
-: 1667383296:0;clear
 : 1667383298:0;cd storage
 : 1667383299:0;al
-: 1667383300:0;la
 : 1667383301:0;rm -rf albums
 : 1667383306:0;rm -rf backup
 : 1667383314:0;rm -rf cache config serial
 : 1667383363:0;rm -rf  config serial
 : 1667383366:0;rm -rf index.db
-: 1667383368:0;ls
 : 1667383373:0;rm -rf sidecar
-: 1667383442:0;...
 : 1667383456:0;rm -rvf photoprism
-: 1667383651:0;...
 : 1667383654:0;cd r1/
-: 1667383655:0;ls
 : 1667383663:0;cd photoprism
-: 1667383664:0;ls
-: 1667383670:0;..
-: 1667383671:0;la
-: 1667383673:0;cd
-: 1667383681:0;cd /mnt/r10/compose
-: 1667383681:0;la
-: 1667383686:0;docker compose up -d
-: 1667383854:0;docker ps
-: 1667383862:0;docker compose up -d
-: 1667385282:0;..
-: 1667385283:0;ls
-: 1667385288:0;cd share
-: 1667385289:0;la
 : 1667385311:0;mv ../compose/*.pdf .
-: 1667385312:0;la
-: 1667385321:0;cd ..
-: 1667385321:0;la
-: 1667385791:0;cd compose
-: 1667385794:0;docker compose up -d
-: 1667385894:0;ls
 : 1667385904:0;cd filebrowser
-: 1667385905:0;ls
-: 1667385906:0;..
-: 1667385907:0;ls
-: 1667385927:0;..
-: 1667385929:0;ls
-: 1667385931:0;cd share
-: 1667385932:0;ls
-: 1667385936:0;cd ..
-: 1667385937:0;la
 : 1667385947:0;chown -R mingwiki:1000 share
-: 1667385950:0;cd compose
-: 1667385953:0;docker compose up -d
 : 1667386009:0;mv ../share .
-: 1667386010:0;ls
-: 1667386022:0;docker compose up -d
-: 1667386439:0;mv share ..
-: 1667386440:0;ls
-: 1667386462:0;pwd
-: 1667386465:0;docker compose up -d
 : 1667386611:0;docker compose restart nginx
-: 1667389145:0;docker ps
-: 1667389167:0;cd /mnt/r10/compose
-: 1667389168:0;ls
 : 1667389174:0;vi docker-compose.yml
-: 1667389267:0;ls
 : 1667389272:0;mv ../share filebrowser
-: 1667389273:0;ls
-: 1667389296:0;docker compose up -d
-: 1667450058:0;docker ps
-: 1667450065:0;docker compose up -d
-: 1667450072:0;crontab -e
-: 1667450092:0;cd /mnt/r1
-: 1667450093:0;ls
 : 1667450100:0;rm -rf photoprism
-: 1667450144:0;ls
-: 1667450147:0;cd /mnt/r1
-: 1667450148:0;ls
 : 1667450151:0;rm -rf originals
-: 1667450165:0;ls
-: 1667450201:0;la
-: 1667450205:0;cd /mnt/r10
-: 1667450205:0;ls
 : 1667450257:0;mv Miniconda3-py39_4.12.0-Linux-x86_64.sh sshd_config Trojan-Qt5-Windows.1.1.6 æ­¦åƒªƒ¿ç§ƒ¸ç±ƒ­ /mnt/r1
-: 1667450290:0;ls
-: 1667450300:0;cd compose
-: 1667450300:0;ls
-: 1667450302:0;..
-: 1667450302:0;ls
-: 1667450321:0;cd aria2
-: 1667450321:0;la
-: 1667450327:0;clear
-: 1667450343:0;..
-: 1667450344:0;ls
-: 1667450346:0;cd aria2
-: 1667450347:0;la
-: 1667450350:0;vi aria2.conf
-: 1667450377:0;git remote
 : 1667450382:0;git remote show origin 
 : 1667450393:0;git remote origin
 : 1667450404:0;git remote show
 : 1667450407:0;git remote show origin
-: 1667450417:0;git status
-: 1667450422:0;git add .
 : 1667450487:0;git remote set-url origin https://github.com/mingwiki/aria2.git
-: 1667450493:0;git add .
-: 1667450495:0;git commit
-: 1667450508:0;git push
 : 1667450556:0;git push -u origin main
 : 1667450566:0;git push -u origin main -f
 : 1667450571:0;git push -f
@@ -1130,3 +928,130 @@ conda config --set show_channel_urls yes
 : 1668997148:0;rm custom
 : 1669285066:0;cd .oh-my-zsh/ohmyzsh-custom
 : 1669285070:0;git add .
+: 1669285073:0;git commit
+: 1669285079:0;..
+: 1669285082:0;cd custom
+: 1669285083:0;ls
+: 1669285085:0;rm zsh_history
+: 1669285087:0;cd ..
+: 1669285087:0;ls
+: 1669286049:0;cd ohmyzsh-custom
+: 1669286051:0;git push
+: 1669342258:0;htop
+: 1669342356:0;crontab -e
+: 1669390942:0;docker ps
+: 1669454242:0;docker compose up -d
+: 1669561472:0;ls
+: 1669561495:0;cd /mnt/r10/compose
+: 1669561496:0;code .
+: 1669561865:0;docker ps
+: 1669561888:0;uptime
+: 1669562507:0;ls
+: 1669562516:0;celarf
+: 1669562518:0;celar
+: 1669562522:0;neofetch
+: 1669562534:0;la
+: 1669562541:0;j
+: 1669562569:0;vi /mnt/r10/trojan/config.json
+: 1669562645:0;systemctl restart trojan
+: 1669562697:0;apt install youtube-dl
+: 1669562703:0;ls
+: 1669562709:0;cd /mnt/r10
+: 1669562709:0;ls
+: 1669562716:0;youtube-dl https://www.youtube.com/watch\?v\=5r5U-OaUTr0
+: 1669562723:0;sp
+: 1669562724:0;youtube-dl https://www.youtube.com/watch\?v\=5r5U-OaUTr0
+: 1669562803:0;ls
+: 1669562804:0;cd 
+: 1669562804:0;ls
+: 1669562816:0;vi .oh-my-zsh/ohmyzsh-custom/linux.zsh
+: 1669562823:0;yt
+: 1669562832:0;youtube-dl https://www.youtube.com/watch\?v\=5r5U-OaUTr0
+: 1669562876:0;unsp
+: 1669562884:0;vi .oh-my-zsh/ohmyzsh-custom/linux.zsh
+: 1669562994:0;code .oh-my-zsh/ohmyzsh-custom/linux.zsh
+: 1669563047:0;source .zshrc
+: 1669563051:0;youtube-dl https://www.youtube.com/watch\?v\=5r5U-OaUTr0
+: 1669563214:0;source .zshrc
+: 1669563220:0;apt remove youtube-dl
+: 1669563225:0;pip install yt-dlp
+: 1669563230:0;yt
+: 1669563261:0;yt https://www.youtube.com/watch\?v\=fuM1aVCGR8c
+: 1669563292:0;sp
+: 1669563295:0;yt https://www.youtube.com/watch\?v\=fuM1aVCGR8c
+: 1669563567:0;ls
+: 1669563575:0;apt install autojump
+: 1669563587:0;j
+: 1669563590:0;autojump
+: 1669563646:0;which autojump
+: 1669563714:0;source .zshrc
+: 1669563715:0;j
+: 1669563726:0;cd /mnt/r10/compose
+: 1669563727:0;j
+: 1669563728:0;la
+: 1669563743:0;j /mnt/r10/com
+: 1669563744:0;ls
+: 1669563745:0;la
+: 1669563747:0;ls
+: 1669563749:0;ll
+: 1669563753:0;clear
+: 1669563754:0;la
+: 1669567101:0;cd /etc/dri
+: 1669567105:0;apt install xserver-xorg-core
+: 1669567117:0;cd /etc/dri
+: 1669567129:0;cd /dev/dri
+: 1669567130:0;ls
+: 1669567132:0;cd ar
+: 1669567209:0;lspci -nn | egrep -i "3d|display|vga"
+: 1669567217:0;clear
+: 1669567218:0;lspci -nn | egrep -i "3d|display|vga"
+: 1669567223:0;lshw -C display
+: 1669567228:0;apt install lshw
+: 1669567231:0;lshw -C display
+: 1669567402:0;apt install lshw
+: 1669567406:0;lspci -nn | egrep -i "3d|display|vga"
+: 1669567410:0;lspci -nn 
+: 1669567593:0;lshw -c video
+: 1669567609:0;apt install mesa
+: 1669567632:0;apt install vulkan-intel 
+: 1669567679:0;apt install intel-gfx
+: 1669567732:0;apt install xserver-xorg-video-intel
+: 1669567739:0;lshw -c video
+: 1669567743:0;lspci -nn 
+: 1669567760:0;ls 
+: 1669567763:0;celar
+: 1669567764:0;clear
+: 1669568568:0;cd
+: 1669568569:0;fy
+: 1669568570:0;fy pitch
+: 1669568577:0;fanyi pitch
+: 1669568586:0;n
+: 1669568594:0;n 16
+: 1669568597:0;n
+: 1669568601:0;fy pitch
+: 1669568606:0;n 12
+: 1669568610:0;fy pitch
+: 1669568619:0;n 18
+: 1669568889:0;fy 
+: 1669568892:0;fy  afsf
+: 1669568904:0;node i fanyi
+: 1669568907:0;npm i fanyi
+: 1669568923:0;ls
+: 1669568924:0;la
+: 1669568929:0;npm i -g fanyi
+: 1669568977:0;fy test
+: 1669568985:0;npm fund
+: 1669599552:0;nvm ls
+: 1669599554:0;l
+: 1669599948:0;fy arbitrary
+: 1669599960:0;fanyi arbitrary
+: 1669599964:0;clear
+: 1669599972:0;fy arbitrary
+: 1669600002:0;killall node
+: 1669600015:0;fy killall node
+: 1669600043:0;ls
+: 1669600048:0;cd
+: 1669601240:0;cd 
+: 1669601248:0;code .oh-my-zsh/ohmyzsh-custom
+: 1669602749:0;cd .oh-my-zsh/ohmyzsh-custom
+: 1669602758:0;git add .
