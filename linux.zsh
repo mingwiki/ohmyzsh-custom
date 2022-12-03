@@ -30,6 +30,7 @@ export NODE_MIRROR='https://mirrors.ustc.edu.cn/node/'
 export NVM_NODEJS_ORG_MIRROR='https://mirrors.ustc.edu.cn/node/'
 export NVMW_NODEJS_ORG_MIRROR='https://mirrors.ustc.edu.cn/node/'
 export NVMW_NPM_MIRROR=https://npm.taobao.org/mirrors/npm
+export N_NODE_MIRROR='https://mirrors.ustc.edu.cn/node/'
 # End of mirror-config-china
 export DOCKER_CLIENT_TIMEOUT=120
 export COMPOSE_HTTP_TIMEOUT=120

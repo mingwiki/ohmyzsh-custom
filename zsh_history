@@ -1055,3 +1055,6 @@ conda config --set show_channel_urls yes
 : 1669601248:0;code .oh-my-zsh/ohmyzsh-custom
 : 1669602749:0;cd .oh-my-zsh/ohmyzsh-custom
 : 1669602758:0;git add .
+: 1670085344:0;glances
+: 1670085350:0;apt install glances
+: 1670085360:0;glances
