@@ -143,7 +143,6 @@ conda config --set show_channel_urls yes
 : 1667122822:0;rm .gitconfig
 : 1667122832:0;rm .ssh
 : 1667122926:0;mkdir .ssh
-: 1667122936:0;vi .ssh/authorized_keys
 : 1667123006:0;systemctl restart ssh
 : 1667123033:0;apt remove ssh
 : 1667123062:0;apt list ssh
@@ -273,7 +272,6 @@ conda config --set show_channel_urls yes
 : 1667317168:0;containerd
 : 1667317173:0;containerd -v
 : 1667317175:0;containerd -V
-: 1667379843:0;vi authorized_keys
 : 1667382654:0;cd st-sync
 : 1667382661:0;rm -rf photoprism-bk
 : 1667382865:0;mv photoprism/originals st-sync
@@ -313,64 +311,29 @@ conda config --set show_channel_urls yes
 : 1667450487:0;git remote set-url origin https://github.com/mingwiki/aria2.git
 : 1667450556:0;git push -u origin main
 : 1667450566:0;git push -u origin main -f
-: 1667450571:0;git push -f
 : 1667450653:0;git remote
 : 1667450658:0;git remote -h
 : 1667450663:0;git remote remove origin
-: 1667450674:0;git remote add origin https://github.com/mingwiki/aria2.git
-: 1667450684:0;git push -u origin master
-: 1667450722:0;sp
-: 1667450723:0;git push -u origin master
-: 1667453108:0;ls
 : 1667453112:0;git config
 : 1667453122:0;git config --global user.name
 : 1667453127:0;git config --global user.name mingwiki
 : 1667453140:0;git config --global user.email mingwiki@gmail.com
 : 1667453142:0;git puh
-: 1667453145:0;git push
-: 1667453152:0;git push -u origin master
-: 1667453166:0;cd
 : 1667453167:0;sl
-: 1667453170:0;cd .ssh
-: 1667453170:0;la
 : 1667453176:0;rm known_hosts
-: 1667453177:0;cd
-: 1667453183:0;cd /mnt/r10/aria2
-: 1667453184:0;git push
-: 1667453191:0;git push -u origin master
 : 1667453214:0;cat ~/.ssh/id_rsa.pub
-: 1667453219:0;cd
-: 1667453223:0;cd .ssh
-: 1667453224:0;ls
-: 1667453231:0;cd /mnt/r10
-: 1667453231:0;ls
-: 1667453233:0;la
 : 1667453242:0;dc
-: 1667453244:0;cd 
 : 1667453245:0;cd .ssh
-: 1667453246:0;la
 : 1667453252:0;vi id_rsa
 : 1667453299:0;vi id_rsa.pub
 : 1667453326:0;cd /mnt/r10/air
-: 1667453330:0;cd /mnt/r10/aria2
-: 1667453331:0;git push
-: 1667453336:0;git push -u origin master
-: 1667453423:0;unsp
-: 1667453424:0;git push -u origin master
 : 1667453439:0;ssh -T git@github.com
-: 1667453447:0;git push -u origin master
-: 1667453461:0;ls
 : 1667453465:0;git status
 : 1667453467:0;git log
 : 1667453479:0;rm -rf .git
 : 1667453482:0;git init
-: 1667453487:0;git add .
-: 1667453490:0;git commit
 : 1667453505:0;git config --global core.editor nvim
-: 1667453508:0;git commit
 : 1667453521:0;git remote add origin https://github.com/mingwiki/aria2.git
-: 1667453533:0;git push -u origin master
-: 1667453565:0;la
 : 1667453569:0;ncdu
 : 1667453581:0;git push -u
 : 1667453585:0;git push -f
@@ -378,62 +341,24 @@ conda config --set show_channel_urls yes
 : 1667453971:0;apt install gnutls-bin
 : 1667453997:0;git  config --global http.sslVerify 
 : 1667454005:0;git  config --global http.sslVerify false
-: 1667454013:0;git push -u origin master
 : 1667454048:0;rm /usr/sbin/omv-mkaptidx
-: 1667454049:0;git push -u origin master
-: 1667454092:0;git config --global --unset http.proxy
 : 1667454095:0;git config --global --unset https.proxy
 : 1667454096:0;git config --global --unset http.proxy
-: 1667454098:0;git push -u origin master
-: 1667454111:0;cd
-: 1667454113:0;la
 : 1667454116:0;vi .gitconfig
 : 1667454154:0;cd /mnt/r10/aria2
-: 1667454155:0;la
-: 1667454163:0;git push --progress origin master
 : 1667454200:0;git config --global http.postBuffer 1048576000
 : 1667454201:0;git push --progress origin master
-: 1667454400:0;cd ..
-: 1667454400:0;ls
-: 1667454401:0;cd aria2
-: 1667454402:0;ls
-: 1667454409:0;git push -u origin master
-: 1667454432:0;systemctl stop aria2.service
-: 1667454435:0;git push -u origin master
 : 1667454503:0;git remote set-url origin git@github.com:mingwiki/aria2.git
 : 1667454510:0;git push -u origin master
-: 1667454559:0;..
-: 1667454559:0;ls
 : 1667454577:0;mv ç½ƒ±åƒ¥³éƒ¥ƒ­ç½® /mnt/r1
-: 1667454578:0;la
 : 1667454584:0;cd compose
-: 1667454584:0;ls
 : 1667454610:0;cd minio-data
-: 1667454610:0;la
-: 1667454613:0;cd
-: 1667454616:0;pwd
-: 1667454626:0;crontab -e
-: 1667454653:0;cd /mnt/r1
-: 1667454654:0;la
 : 1667454663:0;crontab
 : 1667454667:0;crontab -h
 : 1667454679:0;crontab -l
 : 1667454694:0;systemctl start aria2
-: 1667454699:0;systemctl start aria
-: 1667454702:0;clear
-: 1667463005:0;..
-: 1667463015:0;cd /mnt/r1
 : 1667463016:0;;a
-: 1667463017:0;la
-: 1667463018:0;clear
-: 1667463018:0;la
-: 1667463027:0;crontab -e
-: 1667463057:0;clear
-: 1667463060:0;df -h
-: 1667472148:0;node -v
-: 1667472151:0;which node
 : 1667472156:0;nvm 
-: 1667472162:0;n
 : 1667472166:0;node -V
 : 1667472170:0;node -v
 : 1667472172:0;npm install -g n
@@ -1058,3 +983,149 @@ conda config --set show_channel_urls yes
 : 1670085344:0;glances
 : 1670085350:0;apt install glances
 : 1670085360:0;glances
+: 1670085751:4;npm i -g n
+: 1670085768:41;n latest
+: 1670086193:0;n lts
+: 1670086206:0;which node
+: 1670086210:0;which npmm
+: 1670086211:0;which npm
+: 1670086216:0;la /usr/bin/npm
+: 1670086219:0;cd
+: 1670204819:0;ls
+: 1670204827:0;cd .ssh/
+: 1670204829:0;vi authorized_keys
+: 1670204865:0;vi .ssh/authorized_keys
+: 1670204943:0;ls
+: 1670204946:0;vi .ssh/authorized_keys
+: 1670204992:0;ls
+: 1670204999:0;vi .ssh/authorized_keys
+: 1670205021:0;exit
+: 1670225728:0;echo $LFS
+: 1670225774:0;source .zshrc
+: 1670225775:0;echo $LFS
+: 1670225784:0;mkdir -v $LFS/sources
+: 1670225791:0;chmod -v a+wt $LFS/sources
+: 1670226075:0;curl -O https://lfs.xry111.site/zh_CN/11.2-systemd/wget-list-systemd
+: 1670226082:0;wget --input-file=wget-list-systemd --continue --directory-prefix=$LFS/sources
+: 1670226125:0;umount /mnt/lfs
+: 1670226127:0;ls
+: 1670226129:0;rm lfs.img
+: 1670226146:0;dd if=/dev/zero of=lfs.img bs=1M count=20000
+: 1670226169:0;mkfs -t ext4 lfs.img
+: 1670226179:0;mount -t auto -o loop lfs.img /mnt/lfs
+: 1670226189:0;cd /mnt/lfs
+: 1670226189:0;ls
+: 1670226191:0;cd
+: 1670226202:0;mkdir -v $LFS/sources
+: 1670226210:0;chmod -v a+wt $LFS/sources
+: 1670226223:0;wget --input-file=wget-list-systemd --continue --directory-prefix=$LFS/sources
+: 1670226745:0;sp
+: 1670226746:0;wget --input-file=wget-list-systemd --continue --directory-prefix=$LFS/sources
+: 1670227400:0;curl https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.19.2.tar.xz -O /mnt/lfs/sources
+: 1670227423:0;curl -O https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.19.2.tar.xz /mnt/lfs/sources
+: 1670227435:0;curl -O https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.19.2.tar.xz 
+: 1670227440:0;sp
+: 1670227441:0;curl -O https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.19.2.tar.xz 
+: 1670227445:0;ls
+: 1670227450:0;la
+: 1670227458:0;rm linux-5.19.2.tar.xz
+: 1670227466:0;curl -O https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.19.2.tar.xz 
+: 1670227503:0;ls
+: 1670227510:0;mv linux-5.19.2.tar.xz /mnt/lfs/sources
+: 1670227530:0;aria2c https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.19.2.tar.xz
+: 1670227542:0;ls
+: 1670227545:0;wget https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.19.2.tar.xz
+: 1670227564:0;curl -O https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.19.2.tar.xz  -L
+: 1670227734:0;unsp
+: 1670227737:0;wget https://mirrors.ustc.edu.cn/lfs/lfs-packages/11.2/
+: 1670227750:0;wget https://mirrors.ustc.edu.cn/lfs/lfs-packages/11.2/linux-5.19.2.tar.xz   
+: 1670227754:0;ls
+: 1670227757:0;rm index.html
+: 1670227760:0;mv linux-5.19.2.tar.xz /mnt/lfs/sources
+: 1670227774:0;code wget-list-systemd
+: 1670228118:0;unsp
+: 1670228123:0;wget --input-file=wget-list-systemd --continue --directory-prefix=$LFS/sources
+: 1670228199:0;pushd $LFS/sources\
+  md5sum -c md5sums\
+popd
+: 1670228215:0;wget https://lfs.xry111.site/zh_CN/11.2-systemd/md5sums
+: 1670228221:0;pushd $LFS/sources\
+  md5sum -c md5sums\
+popd
+: 1670228231:0;ls
+: 1670228248:0;rm linux-5.19.2.tar.xz.1
+: 1670228256:0;mv md5sums /mnt/lfs
+: 1670228259:0;pushd $LFS/sources\
+  md5sum -c md5sums\
+popd
+: 1670228343:0;git clone git@github.com:mingwiki/memoz.gi
+: 1670228345:0;ls
+: 1670228351:0;mv wget-list-systemd /mnt/lfs
+: 1670228368:0;mv version-check.sh /mnt/lfs
+: 1670228673:0;ls
+: 1670228684:0;cp lfs.img lfs-init.img
+: 1670228686:0;ls
+: 1670228689:0;df -h
+: 1670228700:0;la
+: 1670228713:0;df -h
+: 1670228956:0;cd /home
+: 1670228957:0;ls
+: 1670228959:0;cd lfs
+: 1670228960:0;ls
+: 1670228962:0;la
+: 1670229167:0;cd
+: 1670229172:0;ls
+: 1670229174:0;mkdir -v build
+: 1670229175:0;ls
+: 1670229176:0;cd build
+: 1670229177:0;ls
+: 1670229185:0;../configure --prefix=$LFS/tools \\
+             --with-sysroot=$LFS \\
+             --target=$LFS_TGT   \\
+             --disable-nls       \\
+             --enable-gprofng=no \\
+             --disable-werror
+: 1670229365:0;cd ..
+: 1670229365:0;ls
+: 1670229368:0;rm -rf build
+: 1670229368:0;ls
+: 1670229623:0;glances
+: 1670240384:0;ls
+: 1670240388:0;rm lfs.img
+: 1670240389:0;ls
+: 1670240391:0;pwd
+: 1670240394:0;findmnt
+: 1670240399:0;df -h
+: 1670331043:0;systemctl restart trojan.service
+: 1670331063:0;systemctl status trojan.service
+: 1670331081:0;lspci -nn | egrep -i "3d|display|vga"
+: 1670331085:0;lshw -C display
+: 1670331148:0;cat /proc/cpuinfo
+: 1670331188:0;lshw -C display
+: 1670331192:0;apt install lshw
+: 1670331195:0;lshw -C display
+: 1670331996:0;systemctl restart trojan
+: 1670333272:0;lspci | grep VGA
+: 1670333277:0;lspci
+: 1670333438:0;systemctl restart docker
+: 1670333609:0;systemctl restart trojan.service
+: 1670333680:0;systemctl status trojan.service
+: 1670333751:0;ls
+: 1670333763:0;code /mnt/r10/trojan
+: 1670337470:0;run-help sfjsfhh
+: 1670337472:0;run-help sfjsfhhhs
+: 1670337475:0;sfjsfhhhsh
+: 1670337524:0;ls
+: 1670337538:0;code .oh-my-zsh/ohmyzsh-custom/linux.zsh
+: 1670337663:0;cd .oh-my-zsh/ohmyzsh-custom
+: 1670337664:0;ls
+: 1670337686:0;git submodule add https://github.com/jeffreytse/zsh-vi-mode.git plugins/zsh-vi-mode
+: 1670337975:0;sp
+: 1670337976:0;git submodule add https://github.com/jeffreytse/zsh-vi-mode.git plugins/zsh-vi-mode
+: 1670337984:0;cat .gitmodules
+: 1670337989:0;ls
+: 1670338004:0;git submodule deinit -f plugins/zsh-vim-mode
+: 1670338033:0;rm -rf .git/modules/plugins/zsh-vim-mode
+: 1670338046:0;git rm -f  plugins/zsh-vim-mode
+: 1670338050:0;cat .gitmodules
+: 1670338055:0;git add .
