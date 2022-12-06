@@ -1129,3 +1129,19 @@ popd
 : 1670338046:0;git rm -f  plugins/zsh-vim-mode
 : 1670338050:0;cat .gitmodules
 : 1670338055:0;git add .
+: 1670338058:0;git commit
+: 1670338066:0;git push
+: 1670338073:0;unsp
+: 1670338096:0;cd
+: 1670338098:0;source .zshrc
+: 1670338118:0;run-help sfs
+: 1670338120:0;run-help sfshsfsf
+: 1670338124:0;celar
+: 1670338128:0;clear
+: 1670338131:0;source .zshrc
+: 1670338181:0;run-help fsfsfsfsffsfs
+: 1670338206:0;cd .oh-my-zsh/ohmyzsh-custom
+: 1670338214:0;git submodule deinit -f plugins/zsh-vi-mode
+: 1670338226:0;rm -rf .git/modules/plugins/zsh-vi-mode
+: 1670338236:0;git rm -f  plugins/zsh-vi-mode
+: 1670338239:0;git add .
