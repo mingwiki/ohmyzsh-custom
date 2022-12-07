@@ -1145,3 +1145,77 @@ popd
 : 1670338226:0;rm -rf .git/modules/plugins/zsh-vi-mode
 : 1670338236:0;git rm -f  plugins/zsh-vi-mode
 : 1670338239:0;git add .
+: 1670338242:0;git commit
+: 1670338247:0;cat .gitmodules
+: 1670338250:0;git push
+: 1670338257:0;cd
+: 1670338260:0;source .zshrc
+: 1670338871:0;yt
+: 1670338876:0;pip 
+: 1670338883:0;pip install yt-dlp
+: 1670339062:0;sp
+: 1670339064:0;pip install yt-dlp
+: 1670339068:0;unsp
+: 1670339070:0;pip -V
+: 1670339090:0;pip install -i https://mirrors.ustc.edu.cn/pypi/web/simple pip -U
+: 1670339096:0;pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple
+: 1670339103:0;pip install yt-dlp
+: 1670341758:0;yt https://www.youtube.com/watch\?v\=_UeoYie2tXU
+: 1670341868:0;sp
+: 1670341869:0;yt https://www.youtube.com/watch\?v\=_UeoYie2tXU
+: 1670341950:0;yt https://www.youtube.com/watch\?v\=_UeoYie2tXU --proxy socks5://10.10.10.10:10800
+: 1670341960:0;ls
+: 1670341964:0;rm 904ÔºÉ¨Ear\ licking\ ËÉ®É¥ËÄ≥+ÂÉ∞´ËÄ≥ÔºÉ®RodeÂÅÉßËÄ≥ÔºÉ©„ÄÉ∞MIAOW\ ASMRÈÉ∏øÈÉ£ÅÁÉ∫É§Â∞ÉØÈªÉ±ÁÉ¨´„ÄÉ±\ 26min\ \[_UeoYie2tXU\].f248.webm.part
+: 1670341981:0;unsp
+: 1670342050:0;ls
+: 1670342058:0;cd /mnt/r10
+: 1670342059:0;ls
+: 1670342061:0;cd compose
+: 1670342062:0;ls
+: 1670342072:0;cd ..
+: 1670342072:0;ls
+: 1670342073:0;cd
+: 1670342074:0;ls
+: 1670342118:0;code cookie.txt
+: 1670342135:0;pwd
+: 1670342153:0;ll
+: 1670342241:0;cd /mnt/r10
+: 1670342242:0;yr https://91porn.com/view_video.php\?viewkey\=999cb1797fe050654c0b\&c\=t\&viewtype\=\&category\=
+: 1670342245:0;yt https://91porn.com/view_video.php\?viewkey\=999cb1797fe050654c0b\&c\=t\&viewtype\=\&category\=
+: 1670342637:0;yt "https://91porn.com/view_video.php\?viewkey\=999cb1797fe050654c0b\&c\=t\&viewtype\=\&category\="
+: 1670342667:0;source /root/.zshrc
+: 1670342670:0;yt "https://91porn.com/view_video.php\?viewkey\=999cb1797fe050654c0b\&c\=t\&viewtype\=\&category\="
+: 1670342695:0;yt "https://www.pornhub.com/view_video.php\?viewkey\=ph62f5aae6a1ada"
+: 1670342725:0;yt https://91porn.com/view_video.php\?viewkey\=999cb1797fe050654c0b\&c\=t\&viewtype\=\&category\=
+: 1670342732:0;yt "https://91porn.com/view_video.php\?viewkey\=999cb1797fe050654c0b\&c\=t\&viewtype\=\&category\='
+: 1670342768:0;https://91porn.com/view_video.php\?viewkey\=999cb1797fe050654c0b\&c\=t\&viewtype\=\&category\=
+: 1670342899:0;cd /mnt/r10
+: 1670342907:0;yt 'https://91porn.com/view_video.php\?viewkey\=999cb1797fe050654c0b\&c\=t\&viewtype\=\&category\='
+: 1670342991:0;source ~/.zshrc
+: 1670343013:0;source /root/.zshrc
+: 1670343017:0;# *-magic is known buggy in some versions; disable if so\
+# if [[ $DISABLE_MAGIC_FUNCTIONS != true ]]; then\
+#   for d in $fpath; do\
+#     if [[ -e "$d/url-quote-magic" ]]; then\
+#       if is-at-least 5.1; then\
+#         autoload -Uz bracketed-paste-magic\
+#         zle -N bracketed-paste bracketed-paste-magic\
+#       fi\
+#       autoload -Uz url-quote-magic\
+#       zle -N self-insert url-quote-magic\
+#     break\
+#     fi\
+#   done\
+# fi
+: 1670343024:0;https://91porn.com/view_video.php\?viewkey\=999cb1797fe050654c0b\&c\=t\&viewtype\=\&category\=
+: 1670343066:0;apt install fish
+: 1670343129:0;apt-get install xclip
+: 1670343149:0;source /root/.zshrc
+: 1670343154:0;https://91porn.com/view_video.php\?viewkey\=999cb1797fe050654c0b\&c\=t\&viewtype\=\&category\=
+: 1670343175:0;yt 'https://91porn.com/view_video.php?viewkey=999cb1797fe050654c0b&c=t&viewtype=&category='
+: 1670343194:0;yt-dlp -U
+: 1670343236:0;yt "https://91porn.com/view_video.php?c=t&viewkey=88672bd8634c7c68d6e2"
+: 1670343454:0;source /root/.zshrc
+: 1670343457:0;yt "https://91porn.com/view_video.php?c=t&viewkey=88672bd8634c7c68d6e2"
+: 1670343544:0;ls
+: 1670343587:0;yt "https://www.pornhub.com/view_video.php?viewkey=ph60745978bfc92"

@@ -2,10 +2,11 @@ export PATH=$HOME/bin:/usr/local/bin:/snap/bin:$PATH
 HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.oh-my-zsh/ohmyzsh-custom/zsh_history
-
+alias zhistory_paste='echo : `expr $(date +%s) + 1`:0\;`printf "$(xclip -o clipboard)\n"` >> ~/.zsh_history && fc -R'
 alias sp='export all_proxy=socks5://10.10.10.10:10800'
 alias unsp='unset all_proxy'
-alias yt='yt-dlp'
+alias ytc='yt-dlp --proxy socks5://10.10.10.10:10800 --cookies=/root/cookie.txt --verbose --no-check-certificates'
+alias yt='yt-dlp --proxy socks5://10.10.10.10:10800 --verbose --no-check-certificates'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
