@@ -18,7 +18,7 @@ export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_US.UTF-8
 export ARCHFLAGS="-arch x86_64"
 export HISTFILE="$ZSH_CUSTOM/zsh_history"
-plugins=(git autojump zsh-autosuggestions)
+plugins=(git deno adb ag autojump docker docker-compose docker-machine emoji encode64 fzf github golang history kubectl microk8s minikube man nmap node npm nvm pip systemd vim-interaction vi-mode virtualenv vscode zsh-interactive-cd zsh-navigation-tools yarn zsh-autosuggestions rsync ruby rust rvm)
 HISTSIZE=2000
 SAVEHIST=2000
 setopt BANG_HIST                 # Treat the '!' character specially during expansion.
