@@ -1,4 +1,5 @@
 export PATH=$HOME/bin:/usr/local/bin:/snap/bin:$PATH
+export ZSH_CUSTOM=$ZSH/ohmyzsh-custom
 HISTSIZE=1000
 SAVEHIST=1000
 alias p='echo : `expr $(date +%s) + 1`:0\;`printf "$(xclip -o clipboard)\n"` >> ~/.zsh_history && fc -R'
@@ -13,12 +14,12 @@ export NVM_DIR="$HOME/.nvm"
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
-ZSH_THEME="powerlevel10k/powerlevel10k"
+export ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git autojump zsh-autosuggestions)
 export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_US.UTF-8
 export ARCHFLAGS="-arch x86_64"
-[[ ! -f ~/.oh-my-zsh/custom/.p10k.zsh ]] || source ~/.oh-my-zsh/custom/.p10k.zsh
+[[ ! -f $ZSH_CUSTOM/p10k.zsh ]] || source $ZSH_CUSTOM/p10k.zsh
 # Created by mirror-config-china
 export IOJS_ORG_MIRROR=https://npm.taobao.org/mirrors/iojs
 export NODIST_IOJS_MIRROR=https://npm.taobao.org/mirrors/iojs
