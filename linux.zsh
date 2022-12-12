@@ -34,7 +34,6 @@ setopt HIST_SAVE_NO_DUPS         # Don't write duplicate entries in the history 
 setopt HIST_REDUCE_BLANKS        # Remove superfluous blanks before recording entry.
 setopt HIST_VERIFY               # Don't execute immediately upon history expansion.
 setopt HIST_BEEP                 # Beep when accessing nonexistent history.
-alias p='echo : `expr $(date +%s) + 1`:0\;`printf "$(xclip -o clipboard)\n"` >> `$HISTFILE` && fc -R'
 alias sp='export all_proxy=socks5://10.10.10.10:10800'
 alias unsp='unset all_proxy'
 alias ytc='yt-dlp --proxy socks5://10.10.10.10:10800 --cookies=/root/cookie.txt --verbose --no-check-certificates'
