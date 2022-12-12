@@ -1,26 +1,6 @@
 export PATH=$HOME/bin:/usr/local/bin:/snap/bin:$PATH
 export ZSH_CUSTOM=$ZSH/ohmyzsh-custom
-HISTSIZE=1000
-SAVEHIST=1000
-alias p='echo : `expr $(date +%s) + 1`:0\;`printf "$(xclip -o clipboard)\n"` >> ~/.zsh_history && fc -R'
-alias sp='export all_proxy=socks5://10.10.10.10:10800'
-alias unsp='unset all_proxy'
-alias ytc='yt-dlp --proxy socks5://10.10.10.10:10800 --cookies=/root/cookie.txt --verbose --no-check-certificates'
-alias yt='yt-dlp --proxy socks5://10.10.10.10:10800 --verbose --no-check-certificates'
-
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-export ZSH_THEME="powerlevel10k/powerlevel10k"
-plugins=(git autojump zsh-autosuggestions)
-export MANPATH="/usr/local/man:$MANPATH"
-export LANG=en_US.UTF-8
-export ARCHFLAGS="-arch x86_64"
-[[ ! -f $ZSH_CUSTOM/p10k.zsh ]] || source $ZSH_CUSTOM/p10k.zsh
-# Created by mirror-config-china
 export IOJS_ORG_MIRROR=https://npm.taobao.org/mirrors/iojs
 export NODIST_IOJS_MIRROR=https://npm.taobao.org/mirrors/iojs
 export NVM_IOJS_ORG_MIRROR=https://npm.taobao.org/mirrors/iojs
@@ -32,7 +12,37 @@ export NVM_NODEJS_ORG_MIRROR='https://mirrors.ustc.edu.cn/node/'
 export NVMW_NODEJS_ORG_MIRROR='https://mirrors.ustc.edu.cn/node/'
 export NVMW_NPM_MIRROR=https://npm.taobao.org/mirrors/npm
 export N_NODE_MIRROR='https://mirrors.ustc.edu.cn/node/'
-# End of mirror-config-china
 export DOCKER_CLIENT_TIMEOUT=120
 export COMPOSE_HTTP_TIMEOUT=120
+export ZSH_THEME="powerlevel10k/powerlevel10k"
+export MANPATH="/usr/local/man:$MANPATH"
+export LANG=en_US.UTF-8
+export ARCHFLAGS="-arch x86_64"
+export HISTFILE="$ZSH_CUSTOM/.zsh_history"
+plugins=(git autojump zsh-autosuggestions)
+HISTSIZE=2000
+SAVEHIST=2000
+setopt BANG_HIST                 # Treat the '!' character specially during expansion.
+setopt EXTENDED_HISTORY          # Write the history file in the ":start:elapsed;command" format.
+setopt INC_APPEND_HISTORY        # Write to the history file immediately, not when the shell exits.
+setopt SHARE_HISTORY             # Share history between all sessions.
+setopt HIST_EXPIRE_DUPS_FIRST    # Expire duplicate entries first when trimming history.
+setopt HIST_IGNORE_DUPS          # Don't record an entry that was just recorded again.
+setopt HIST_IGNORE_ALL_DUPS      # Delete old recorded entry if new entry is a duplicate.
+setopt HIST_FIND_NO_DUPS         # Do not display a line previously found.
+setopt HIST_IGNORE_SPACE         # Don't record an entry starting with a space.
+setopt HIST_SAVE_NO_DUPS         # Don't write duplicate entries in the history file.
+setopt HIST_REDUCE_BLANKS        # Remove superfluous blanks before recording entry.
+setopt HIST_VERIFY               # Don't execute immediately upon history expansion.
+setopt HIST_BEEP                 # Beep when accessing nonexistent history.
+alias p='echo : `expr $(date +%s) + 1`:0\;`printf "$(xclip -o clipboard)\n"` >> $(HISTFILE) && fc -R'
+alias sp='export all_proxy=socks5://10.10.10.10:10800'
+alias unsp='unset all_proxy'
+alias ytc='yt-dlp --proxy socks5://10.10.10.10:10800 --cookies=/root/cookie.txt --verbose --no-check-certificates'
+alias yt='yt-dlp --proxy socks5://10.10.10.10:10800 --verbose --no-check-certificates'
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+[[ ! -f $ZSH_CUSTOM/p10k.zsh ]] || source $ZSH_CUSTOM/p10k.zsh
 source /usr/share/autojump/autojump.zsh
