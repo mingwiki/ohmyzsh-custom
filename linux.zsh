@@ -1,5 +1,4 @@
 export PATH=$HOME/bin:/usr/local/bin:/snap/bin:$PATH
-export ZSH_CUSTOM=$ZSH/ohmyzsh-custom
 export NVM_DIR="$HOME/.nvm"
 export IOJS_ORG_MIRROR=https://npm.taobao.org/mirrors/iojs
 export NODIST_IOJS_MIRROR=https://npm.taobao.org/mirrors/iojs
