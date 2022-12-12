@@ -182,3 +182,20 @@ esac
 : 1670842235:0;ls
 : 1670842239:0;j ohmyzsh
 : 1670842242:0;git add .
+: 1670842244:0;git commit
+: 1670842248:0;cd
+: 1670842250:0;j ohmyzsh
+: 1670842253:0;git push
+: 1670842258:0;cd
+: 1670842258:0;la
+: 1670842260:0;l
+: 1670842261:0;la
+: 1670842262:0;ls
+: 1670842327:0;cat .oh-my-zsh/plugins/
+: 1670842331:0;ls .oh-my-zsh/plugins/
+: 1670842409:0;source .zshrc
+: 1670842420:0;docker
+: 1670842429:0;_microk8s_kubectl_completion
+: 1670842430:0;ls
+: 1670842434:0;j ohmyzsh
+: 1670842436:0;git add .
