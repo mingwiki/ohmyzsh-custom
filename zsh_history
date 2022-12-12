@@ -6,3 +6,140 @@
 : 1670825380:0;ls
 : 1670825381:0;la
 : 1670825810:0;source .zshrc
+: 1670835686:0;p
+: 1670835694:0;j ohmyzsh
+: 1670835695:0;ls
+: 1670835701:0;la
+: 1670835704:0;cd
+: 1670835705:0;p
+: 1670835729:0;echo HISTFILE
+: 1670835734:0;echo $HISTFILE
+: 1670835752:0;xclip
+: 1670835759:0;HISTFILE
+: 1670835765:0;source .zshrc
+: 1670835770:0;http://localhost:20000/admin/queries.php
+: 1670835776:0;ls
+: 1670835777:0;clear
+: 1670835992:0;glances
+: 1670836512:0;dd if=/dev/zero of=lfs.img bs=1M count=20000
+: 1670836533:0;mkfs -t ext4 lfs.img
+: 1670836538:0;mount -t auto -o loop lfs.img /mnt/lfs
+: 1670836548:0;mkdir -p /mnt/lfs
+: 1670836560:0;mount -t auto -o loop lfs.img /mnt/lfs
+: 1670836836:0;cat > version-check.sh << "EOF"\
+#!/bin/bash\
+# Simple script to list version numbers of critical development tools\
+export LC_ALL=C\
+bash --version | head -n1 | cut -d" " -f2-4\
+MYSH=$(readlink -f /bin/sh)\
+echo "/bin/sh -> $MYSH"\
+echo $MYSH | grep -q bash || echo "ERROR: /bin/sh does not point to bash"\
+unset MYSH\
+\
+echo -n "Binutils: "; ld --version | head -n1 | cut -d" " -f3-\
+bison --version | head -n1\
+\
+if [ -h /usr/bin/yacc ]; then\
+  echo "/usr/bin/yacc -> `readlink -f /usr/bin/yacc`";\
+elif [ -x /usr/bin/yacc ]; then\
+  echo yacc is `/usr/bin/yacc --version | head -n1`\
+else\
+  echo "yacc not found"\
+fi\
+\
+echo -n "Coreutils: "; chown --version | head -n1 | cut -d")" -f2\
+diff --version | head -n1\
+find --version | head -n1\
+gawk --version | head -n1\
+\
+if [ -h /usr/bin/awk ]; then\
+  echo "/usr/bin/awk -> `readlink -f /usr/bin/awk`";\
+elif [ -x /usr/bin/awk ]; then\
+  echo awk is `/usr/bin/awk --version | head -n1`\
+else\
+  echo "awk not found"\
+fi\
+\
+gcc --version | head -n1\
+g++ --version | head -n1\
+grep --version | head -n1\
+gzip --version | head -n1\
+cat /proc/version\
+m4 --version | head -n1\
+make --version | head -n1\
+patch --version | head -n1\
+echo Perl `perl -V:version`\
+python3 --version\
+sed --version | head -n1\
+tar --version | head -n1\
+makeinfo --version | head -n1  # texinfo version\
+xz --version | head -n1\
+\
+echo 'int main(){}' > dummy.c && g++ -o dummy dummy.c\
+if [ -x dummy ]\
+  then echo "g++ compilation OK";\
+  else echo "g++ compilation failed"; fi\
+rm -f dummy.c dummy\
+EOF\
+
+: 1670836838:0;ls
+: 1670836844:0;bash version-check.sh
+: 1670836952:0;echo $LFS
+: 1670836975:0;cat /etc/fstab
+: 1670836997:0;mkdir -v $LFS/sources
+: 1670837007:0;chmod -v a+wt $LFS/sources
+: 1670837210:0;ls
+: 1670837223:0;wget https://lfs.xry111.site/zh_CN/11.2-systemd/wget-list-systemd
+: 1670837227:0;code wget-list-systemd
+: 1670837257:0;wget --input-file=wget-list-systemd --continue --directory-prefix=$LFS/sources
+: 1670837377:0;mkdir -pv $LFS/{etc,var,bin,lib,sbin}
+: 1670837379:0;case $(uname -m) in\
+ x86_64) mkdir -pv $LFS/lib64 ;;\
+esac
+: 1670837385:0;mkdir -pv $LFS/tools
+: 1670837391:0;code /mnt/lfs
+: 1670837558:0;groupadd lfs
+: 1670837565:0;useradd -s /bin/bash -g lfs -m -k /dev/null lfs
+: 1670837610:0;passwd lfs
+: 1670837640:0;chown -v lfs $LFS/{lib,var,etc,bin,sbin,tools}
+: 1670837659:0;case $(uname -m) in\
+ x86_64) chown -v lfs $LFS/lib64 ;;\
+esac
+: 1670837713:0;code /home/lfs
+: 1670838098:0;gl
+: 1670838101:0;glances
+: 1670838910:0;umount /mnt/lfs
+: 1670838913:0;ls
+: 1670838920:0;rm -rf /mnt/lfs
+: 1670838921:0;ls
+: 1670838924:0;rm lfs.img
+: 1670838932:0;groupdel lfs
+: 1670838942:0;userdel lfs
+: 1670838943:0;groupdel lfs
+: 1670838957:0;rm -rf /home
+: 1670838958:0;ls
+: 1670838959:0;cd /
+: 1670838960:0;ls
+: 1670839728:0;cd
+: 1670839729:0;ls
+: 1670839731:0;uname
+: 1670839733:0;uname -a
+: 1670839754:0;clear
+: 1670839756:0;uname -a
+: 1670839774:0;m
+: 1670839775:0;make
+: 1670839777:0;ls
+: 1670839792:0;rm version-check.sh wget-list-systemd op_support toolkits -rf
+: 1670839794:0;ls
+: 1670839798:0;cd
+: 1670839800:0;htop
+: 1670841368:0;j ohmyzsh
+: 1670841369:0;ls
+: 1670841371:0;la
+: 1670841380:0;rm .p10k.zsh
+: 1670841388:0;rm .zsh_history
+: 1670841390:0;la
+: 1670841401:0;rm lfs.zsh
+: 1670841403:0;ls
+: 1670841405:0;la
+: 1670841411:0;git add .
