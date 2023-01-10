@@ -1,29 +1,10 @@
-: 1670825352:0;ls
-: 1670825354:0;la
-: 1670825374:0;cd
-: 1670825375:0;la
-: 1670825379:0;rm .zsh_history
-: 1670825380:0;ls
-: 1670825381:0;la
-: 1670825810:0;source .zshrc
-: 1670835686:0;p
-: 1670835694:0;j ohmyzsh
-: 1670835695:0;ls
-: 1670835701:0;la
-: 1670835704:0;cd
-: 1670835705:0;p
 : 1670835729:0;echo HISTFILE
 : 1670835734:0;echo $HISTFILE
 : 1670835752:0;xclip
 : 1670835759:0;HISTFILE
-: 1670835765:0;source .zshrc
 : 1670835770:0;http://localhost:20000/admin/queries.php
-: 1670835776:0;ls
-: 1670835777:0;clear
-: 1670835992:0;glances
 : 1670836512:0;dd if=/dev/zero of=lfs.img bs=1M count=20000
 : 1670836533:0;mkfs -t ext4 lfs.img
-: 1670836538:0;mount -t auto -o loop lfs.img /mnt/lfs
 : 1670836548:0;mkdir -p /mnt/lfs
 : 1670836560:0;mount -t auto -o loop lfs.img /mnt/lfs
 : 1670836836:0;cat > version-check.sh << "EOF"\
@@ -82,13 +63,11 @@ if [ -x dummy ]\
 rm -f dummy.c dummy\
 EOF\
 
-: 1670836838:0;ls
 : 1670836844:0;bash version-check.sh
 : 1670836952:0;echo $LFS
 : 1670836975:0;cat /etc/fstab
 : 1670836997:0;mkdir -v $LFS/sources
 : 1670837007:0;chmod -v a+wt $LFS/sources
-: 1670837210:0;ls
 : 1670837223:0;wget https://lfs.xry111.site/zh_CN/11.2-systemd/wget-list-systemd
 : 1670837227:0;code wget-list-systemd
 : 1670837257:0;wget --input-file=wget-list-systemd --continue --directory-prefix=$LFS/sources
@@ -107,101 +86,840 @@ esac
 esac
 : 1670837713:0;code /home/lfs
 : 1670838098:0;gl
-: 1670838101:0;glances
 : 1670838910:0;umount /mnt/lfs
-: 1670838913:0;ls
 : 1670838920:0;rm -rf /mnt/lfs
-: 1670838921:0;ls
 : 1670838924:0;rm lfs.img
-: 1670838932:0;groupdel lfs
 : 1670838942:0;userdel lfs
 : 1670838943:0;groupdel lfs
 : 1670838957:0;rm -rf /home
-: 1670838958:0;ls
-: 1670838959:0;cd /
-: 1670838960:0;ls
-: 1670839728:0;cd
-: 1670839729:0;ls
 : 1670839731:0;uname
-: 1670839733:0;uname -a
-: 1670839754:0;clear
 : 1670839756:0;uname -a
 : 1670839774:0;m
 : 1670839775:0;make
-: 1670839777:0;ls
 : 1670839792:0;rm version-check.sh wget-list-systemd op_support toolkits -rf
-: 1670839794:0;ls
-: 1670839798:0;cd
-: 1670839800:0;htop
-: 1670841368:0;j ohmyzsh
-: 1670841369:0;ls
-: 1670841371:0;la
 : 1670841380:0;rm .p10k.zsh
 : 1670841388:0;rm .zsh_history
-: 1670841390:0;la
 : 1670841401:0;rm lfs.zsh
-: 1670841403:0;ls
-: 1670841405:0;la
-: 1670841411:0;git add .
-: 1670841412:0;git commit
-: 1670841418:0;git push
 : 1670841433:0;code p10k.zsh
-: 1670841450:0;cd
-: 1670841451:0;source .zshrc
-: 1670841454:0;j ohmyzsh
-: 1670841455:0;ls
-: 1670841455:0;la
-: 1670841508:0;ls
-: 1670841522:0;cd
 : 1670841525:0;code .zshrc
-: 1670841532:0;source .zshrc
-: 1670841538:0;j ohmyzsh
-: 1670841539:0;git add .
-: 1670841542:0;git commit
-: 1670841550:0;git push
-: 1670841708:0;cd ..
-: 1670841708:0;sl
-: 1670841711:0;ls
 : 1670841714:0;cd plugins
-: 1670841714:0;ls
 : 1670841837:0;fnm
 : 1670841840:0;fnm -h
 : 1670841845:0;fd
-: 1670842151:0;cd
-: 1670842155:0;source .zshrc
 : 1670842177:0;history
-: 1670842188:0;source .zshrc
 : 1670842198:0;apt install fzf
-: 1670842203:0;source .zshrc
-: 1670842214:0;ls
 : 1670842219:0;fwfsfsf
 : 1670842223:0;hsfs
-: 1670842228:0;fzf
-: 1670842233:0;ls
-: 1670842234:0;cd
-: 1670842235:0;ls
-: 1670842239:0;j ohmyzsh
-: 1670842242:0;git add .
-: 1670842244:0;git commit
-: 1670842248:0;cd
-: 1670842250:0;j ohmyzsh
-: 1670842253:0;git push
-: 1670842258:0;cd
-: 1670842258:0;la
-: 1670842260:0;l
-: 1670842261:0;la
-: 1670842262:0;ls
 : 1670842327:0;cat .oh-my-zsh/plugins/
 : 1670842331:0;ls .oh-my-zsh/plugins/
 : 1670842409:0;source .zshrc
-: 1670842420:0;docker
 : 1670842429:0;_microk8s_kubectl_completion
-: 1670842430:0;ls
 : 1670842434:0;j ohmyzsh
-: 1670842436:0;git add .
-: 1670842439:0;git commit
-: 1670842443:0;git push
 : 1670842577:0;p
 : 1670842597:0;paste
-: 1670842606:0;ls
-: 1670842620:0;git add .
+: 1670842622:0;gc
+: 1670842628:0;gp
+: 1670842640:0;gam
+: 1670842644:0;ga
+: 1670842649:0;gas
+: 1670842651:0;gaa
+: 1670842688:0;node
+: 1670842694:0;node -V
+: 1670842704:0;node -h
+: 1670842747:0;emoji
+: 1670842751:0;emoji -h
+: 1670842763:0;encode64 'fsfusm'
+: 1670842769:0;encode64 fuming
+: 1670842779:0;decode64 fuming
+: 1670842785:0;decode64 ZnVtaW5n
+: 1670842802:0;encode64 -h
+: 1670842805:0;encode64 -v
+: 1670842807:0;encode64
+: 1670842811:0;encode64 cookie.txt
+: 1670842830:0;docker app
+: 1670843036:0;apt installed-list
+: 1670843047:0;apt list-installed
+: 1670843079:0;apt autoclean
+: 1670843095:0;apt autoremove
+: 1670843097:0;apt update
+: 1670843104:0;apt upgrade
+: 1670896985:0;cd /mnt/r1/alidrive
+: 1670899027:0;find . -d empty
+: 1670899037:0;find . -depth empty
+: 1670899074:0;find . -empty
+: 1670899115:0;find . -empty -type d
+: 1670899119:0;find . -empty -type d delete
+: 1670899294:0;mv åƒ»¾çµ*/* /mnt/r10/compose/kavita/books
+: 1670899338:0;mv äººé‚®*/* /mnt/r10/compose/kavita/books
+: 1670899647:0;cd downloads
+: 1670899679:0;ncdu /mnt/r1/downloads /mnt/r10/downloads
+: 1670899694:0;du /mnt/r1/downloads
+: 1670899706:0;du -h /mnt/r1/downloads
+: 1670899856:0;du -hs /mnt/r1/downloads
+: 1670899863:0;du -hs /mnt/r10/downloads
+: 1670911171:0;cd kavita
+: 1670911183:0;chown -R root:root books
+: 1670911370:0;chown -R mingwiki:root alidrive
+: 1670911379:0;cd alidrive
+: 1670913390:0;j books
+: 1670913399:0;mv */* .
+: 1670913458:0;find . -empty -type d -delete
+: 1670913557:0;rm */cover.jpg
+: 1670913560:0;rm */cover
+: 1670913562:0;rm */cover*
+: 1670913566:0;find . -type d -delete
+: 1670913571:0;find . -type d
+: 1670925498:0;swapon -show
+: 1670925564:0;swap -l
+: 1670925568:0;swapon -l
+: 1670925573:0;swapon --help
+: 1670925664:0;rm /swapfile
+: 1670925715:0;kill 777 3585771
+: 1670925717:0;ps axu | grep glances
+: 1670925727:0;ps aux | grep vscode
+: 1670987767:0;ps aux | grep 25
+: 1670987813:0;lsof -i:25
+: 1670987818:0;lsof
+: 1670987822:0;lsof -h
+: 1670987848:0;lsof -i:25 -V
+: 1670987862:0;ps aux | grep 1485571
+: 1671453541:0;git clone https://github.com/zas023/JdBuyer.git
+: 1671453554:0;cd JdBuyer
+: 1671453598:0;code JdBuyer
+: 1671453852:0;pip3
+: 1671501739:0;python JdBuyerApp.py
+: 1671501745:0;python JdBuyer.py
+: 1671501752:0;python3 JdBuyer.py
+: 1671501782:0;python3 JdBuyerApp.py
+: 1671522316:0;pip3 install -r requirements.txt
+: 1671602894:0;git clone git@github.com:mingwiki/toolkits.git
+: 1671602904:0;git clone git@github.com:mingwiki/op_support.git
+: 1671694502:0;git clone git@code.aliyun.com:chaac_Group/huafeibao-h5.git
+: 1671694514:0;cd huafeibao-h5
+: 1671694519:0;code yuehuibao
+: 1671694535:0;n 12
+: 1671694616:0;git branch -a
+: 1671694641:0;git checkout -b origin/fuming
+: 1671694796:0;echo $NVMW_NPM_MIRROR
+: 1671694844:0;code .oh-my-zsh/ohmyzsh-custom/linux.zsh
+: 1671694938:0;npm set registry https://registry.npmmirror.com
+: 1671694957:0;rm package-lock.json
+: 1671694960:0;rm -rf node_modules
+: 1671694964:0;npm i
+: 1671710442:0;mailq
+: 1671710594:0;nslookup 10.10.10.10
+: 1671710596:0;nslookup 10.10.10.1
+: 1671710611:0;dig 10.10.10.1
+: 1671726448:0;docker compose restart outline
+: 1671726541:0;code nginx-conf/outline.conf
+: 1671726917:0;aria2p call
+: 1671726923:0;aria2p call met
+: 1671726929:0;aria2p call listmethods
+: 1671726989:0;aria2p call pauseAll"
+: 1671727001:0;aria2p call pauseAll
+: 1671727020:0;aria2p
+: 1671727025:0;aria2p rm
+: 1671727029:0;aria2p rm --all
+: 1671727357:0;j alidrive
+: 1671727406:0;mv æ­¦åƒªƒ¿ç§ƒ¸ç±ƒ­ /mnt/r10/compose/kavita/
+: 1671727467:0;chown -R root:root æ­¦åƒªƒ¿ç§ƒ¸ç±ƒ­
+: 1671727473:0;cd books
+: 1671727491:0;chown -R root:root kavita
+: 1671727566:0;j kav__
+: 1671727584:0;mv æ­¦åƒªƒ¿ç§ƒ¸ç±ƒ­ comics
+: 1671727738:0;cd comics/æ­¦åƒªƒ¿ç§ƒ¸ç±ƒ­
+: 1671727747:0;mv å¤ƒ¶åƒ»½æ­¦æƒ¼¯/* .
+: 1671727769:0;find . -type d -empty -delete
+: 1671727772:0;find . -type d -empty
+: 1671727939:0;j comics
+: 1671727947:0;cd æ­¦åƒªƒ¿ç§ƒ¸ç±ƒ­
+: 1671728292:0;node -v
+: 1671986575:0;aria2p add-magnet
+: 1671986586:0;aria2p add-magnets magnet:?xt=urn:btih:ed9a5b51521c36fe570eae024efa94c1dcde78f3&dn=avav55.xyz%40nyoshin-n2243&tr=http://sukebei.tracker.wf:8888/announce&tr=http://torrentzilla.org/announce.php&tr=http://kinorun.com/announce.php&tr=http://siambit.com/announce.php&tr=https://tracker.jiesen.life:8443/announce&tr=http://bt.ali213.net:8000/announce&tr=http://tracker.ali213.net:8080/announce&tr=http://bt.3dmgame.com:2710/announce&tr=http://tracker.skyts.cn:6969/announce&tr=udp://156.234.201.18:80/announce&tr=udp://tracker1.bt.moack.co.kr:80/announce&tr=http://119.28.71.45:8080/announce&tr=udp://chouchou.top:8080/announce&tr=http://212.6.3.67/announce&tr=http://fxtt.ru/announce&tr=udp://172.105.235.127:6969/announce&tr=http://171.104.226.25:6969/announce&tr=http://open.tracker.ink:6969/announce&tr=udp://laze.cc:6969/announce&tr=http://tracker.baltracker.net:3390/announce&tr=https://torrents.linuxmint.com/announce.php&tr=http://data-bg.net/announce.php&tr=https://tr.highstar.shop/announce&tr=udp://tracker.filemail.com:6969/announce&tr=udp://52.58.128.163:6969/announce&tr=udp://185.21.216.185:6969/announce&tr=udp://tracker.0x.tf:6969/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://opentrackr.org:1337/announce&tr=http://93.158.213.92:1337/announce&tr=http://alltorrents.net/bt/announce.php&tr=http://torrent.unix-ag.uni-kl.de/announce&tr=http://tracker.gcvchp.com:2710/announce&tr=https://tr.abir.ga/announce&tr=http://bt.beatrice-raws.org/announce&tr=https://tracker1.520.jp/announce&tr=udp://v2.iperson.xyz:6969/announce&tr=http://www.thegeeks.bz:3210/announce&tr=https://tracker.lilithraws.cf/announce&tr=udp://74.120.175.165:6969/announce&tr=https://tracker.lilithraws.org/announce&tr=http://www.all4nothin.net/announce.php&tr=http://torrentsmd.com:8080/announce&tr=udp://147.78.245.128:6969/announce&tr=http://torrent.mp3quran.net/announce.php&tr=udp://960303.xyz:6969/announce&tr=udp://smtp-relay.odysseylabel.com.au:6969/announce&tr=udp://167.172.199.173:6969/announce&tr=http://tracker.gbitt.info/announce&tr=http://xbtrutor.com:2710/announce&tr=http://www.thetradersden.org/forums/tracker/announce.php&tr=http://beertracker.ml/announce&tr=https://tracker.foreverpirates.co/announce&tr=http://btx.anifilm.tv/announce.php&tr=udp://178.170.48.154:1337/announce&tr=https://tracker.kuroy.me/announce&tr=https://tr.fuckbitcoin.xyz/announce&tr=http://tracker.minglong.org:8080/announce&tr=http://bt2.54new.com:8080/announce&tr=http://www.tvnihon.com:6969/announce&tr=http://masters-tb.com/announce.php&tr=https://tr.burnabyhighstar.com/announce&tr=udp://184.105.151.166:6969/announce&tr=udp://explodie.org:6969/announce&tr=http://www.xwt-classics.net/announce.php&tr=http://tracker.anirena.com/announce&tr=udp://www.torrent.eu.org:451/announce&tr=udp://91.216.110.52:451/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=http://bt.zlofenix.org:81/announce&tr=udp://176.31.250.174:6969/announce&tr=udp://tamas3.ynh.fr:6969/announce&tr=http://xtremewrestlingtorrents.net/announce.php&tr=udp://rep-art.ynh.fr:6969/announce&tr=udp://135.125.106.92:6969/announce&tr=udp://37.59.48.81:6969/announce&tr=http://concen.org:6969/announce&tr=udp://tracker.tricitytorrents.com:2710/announce&tr=http://1337.abcvg.info/announce&tr=udp://tracker.dler.com:6969/announce&tr=udp://ben.kerbertools.xyz:6969/announce&tr=udp://5.196.93.20:6969/announce&tr=http://vps02.net.orel.ru/announce&tr=http://95.107.48.115/announce&tr=http://datascene.net/announce.php&tr=http://tracker.nucozer-tracker.ml:2710/announce&tr=udp://bt.oiyo.tk:6969/announce&tr=http://34.94.213.23:2710/announce&tr=http://btracker.top:11451/announce&tr=udp://epider.me:6969/announce&tr=udp://51.68.174.87:6969/announce&tr=http://tracker.torrentleech.org:2710/announce&tr=https://tracker.expli.top/announce&tr=http://open.touki.ru/announce.php&tr=http://tracker.frozen-layer.net:6969/announce&tr=http://tracker.frozen-layer.com:6969/announce&tr=udp://194.53.137.231:6969/announce&tr=udp://tracker.publictracker.xyz:6969/announce&tr=http://tracker.electro-torrent.pl/announce&tr=udp://anidex.moe:6969/announce&tr=http://www.theplace.bz:2910/announce&tr=http://tracker.theempire.bz:3110/announce&tr=http://torrent.arjlover.net:2710/announce&tr=udp://run.publictracker.xyz:6969/announce&tr=http://bt-tracker.gamexp.ru:2710/announce&tr=udp://193.37.214.12:6969/announce&tr=udp://216.146.25.92:1337/announce&tr=udp://open.demonii.com:1337/announce&tr=udp://tracker.altrosky.nl:6969/announce&tr=udp://185.134.22.3:6969/announce&tr=udp://65.21.91.32:6969/announce&tr=udp://zecircle.xyz:6969/announce&tr=udp://black-bird.ynh.fr:6969/announce&tr=udp://82.65.115.10:6969/announce&tr=udp://sugoi.pomf.se:80/announce&tr=udp://65.108.63.133:80/announce&tr=udp://tracker.pomf.se:80/announce&tr=http://nyaa.tracker.wf:7777/announce&tr=udp://thouvenin.cloud:6969/announce&tr=udp://5.196.89.204:6969/announce&tr=udp://tracker.leech.ie:1337/announce&tr=udp://135.181.197.114:1337/announce&tr=http://tracker.fdn.fr:6969/announce&tr=http://baibako.tv/announce&tr=udp://p4p.arenabg.com:1337/announce&tr=udp://94.243.222.100:6969/announce&tr=udp://new-line.net:6969/announce&tr=udp://psyco.fr:6969/announce&tr=udp://37.187.95.112:6969/announce&tr=udp://htz3.noho.st:6969/announce&tr=udp://95.216.74.39:6969/announce&tr=udp://tracker.breizh.pm:6969/announce&tr=http://torrent.resonatingmedia.com:6969/announce&tr=udp://209.126.11.233:6969/announce&tr=udp://torrents.artixlinux.org:6969/announce&tr=http://www.legittorrents.info/announce.php&tr=udp://185.102.219.163:6969/announce&tr=udp://uploads.gamecoast.net:6969/announce&tr=udp://199.217.118.72:6969/announce&tr=udp://bubu.mapfactor.com:6969/announce&tr=udp://tracker.srv00.com:6969/announce&tr=udp://6ahddutb1ucc3cp.ru:6969/announce&tr=udp://89.36.216.8:6969/announce&tr=http://bt.firebit.org:2710/announce&tr=http://freerainbowtables.com:6969/announce&tr=http://www.freerainbowtables.com:6969/announce&tr=http://tracker.etree.org:6969/announce&tr=http://hdreactor.org:2710/announce&tr=http://107.152.127.9:6969/announce&tr=http://torrenttracker.nwc.acsalaska.net:6969/announce&tr=http://tracker.mywaifu.best:6969/announce&tr=http://95.217.167.10:6969/announce&tr=udp://tracker.theoks.net:6969/announce&tr=udp://209.141.59.16:6969/announce&tr=udp://denis.stalker.upeer.me:1337/announce&tr=udp://bt.ktrackers.com:6666/announce&tr=udp://213.108.129.160:6969/announce&tr=udp://mts.tvbit.co:6969/announce&tr=http://music-torrent.net:2710/announce&tr=http://tracker.files.fm:6969/announce&tr=http://incine.ru:6969/announce&tr=http://159.69.65.157:6969/announce&tr=http://144.76.118.107:6969/announce&tr=udp://vibe.sleepyinternetfun.xyz:1738/announce&tr=udp://149.28.47.87:1738/announce&tr=http://tracker3.dler.org:2710/announce&tr=udp://tracker2.dler.org:80/announce&tr=udp://tracker.open-internet.nl:6969/announce&tr=udp://93.104.214.40:6969/announce&tr=udp://tracker.monitorit4.me:6969/announce&tr=wss://peertube.cpy.re:443/tracker/socket&tr=http://tracker.xdvdz.com:2710/announce&tr=udp://148.251.53.72:6969/announce&tr=udp://fe.dealclub.de:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://208.83.20.20:6969/announce&tr=udp://tracker.tcp.exchange:6969/announce&tr=https://tracker.torrentsnows.com/announce&tr=http://bluebird-hd.org/announce.php&tr=http://deviloid.net:6969/announce&tr=udp://66.94.100.216:6969/announce&tr=http://torrents.hikarinokiseki.com:6969/announce&tr=udp://88.80.28.7:6969/announce&tr=http://tracker.kali.org:6969/announce&tr=udp://tracker.ddunlimited.net:6969/announce&tr=udp://107.189.11.230:6969/announce&tr=udp://tracker.jonaslsa.com:6969/announce&tr=udp://158.39.77.211:6969/announce&tr=https://torrent.ubuntu.com/announce&tr=udp://tracker.moeking.me:6969/announce&tr=http://open.nyaatorrents.info:6544/announce&tr=http://tracker.tasvideos.org:6969/announce&tr=http://irrenhaus.dyndns.dk/announce.php&tr=https://tr.bangumi.moe:9696/announce&tr=udp://88.99.2.212:6969/announce&tr=udp://fh2.cmp-gaming.com:6969/announce&tr=udp://212.83.181.109:6969/announce&tr=http://163.172.209.40/announce&tr=http://www.megatorrents.kg/announce.php&tr=udp://tracker.btsync.gq:6969/announce&tr=udp://qg.lorzl.gq:6969/announce&tr=http://blackz.ro/announce.php&tr=http://fosstorrents.com:6969/announce&tr=udp://185.106.94.80:6969/announce&tr=udp://tracker2.dler.com:80/announce&tr=http://uatracker.net/announce.php&tr=udp://openbittorrent.com:80/announce&tr=http://atrack.pow7.com/announce&tr=http://t1.pow7.com/announce&tr=http://t2.pow7.com/announce&tr=udp://qtstm32fan.ru:6969/announce&tr=http://announce.partis.si/announce&tr=http://mixfiend.com:6969/announce&tr=http://tracker.linkomanija.org:2710/announce&tr=http://mvgforumtracker.mvgroup.org/tracker.php/announce&tr=http://mvgroup.org:2710/announce&tr=udp://tracker.coppersurfer.tk:80/announce&tr=udp://pow7.com:80/announce&tr=http://45.154.253.6/announce&tr=http://secure.pow7.com/announce&tr=http://tracker.pow7.com/announce&tr=udp://public.publictracker.xyz:6969/announce&tr=http://milliontorrent.pl/announce.php&tr=udp://www.mvgroup.org:2710/announce&tr=udp://195.154.237.90:6666/announce&tr=udp://5.188.6.45:6969/announce&tr=http://www.thevault.bz:2810/announce&tr=https://opentracker.i2p.rocks/announce&tr=udp://aarsen.me:6969/announce&tr=udp://tracker.openbittorrent.com:80/announce&tr=http://tracker.gigatorrents.ws:2710/announce&tr=http://tracker.tambovnet.org/announce.php&tr=udp://movies.zsw.ca:6969/announce&tr=udp://198.100.149.66:6969/announce&tr=http://tracker.torrenty.org:6969/announce&tr=http://big-boss-tracker.net/announce.php&tr=http://bithq.org/announce.php&tr=udp://41.79.68.156:6969/announce&tr=http://bttracker.debian.org:6969/announce&tr=http://www.tribalmixes.com/announce.php&tr=udp://tracker.auctor.tv:6969/announce&tr=udp://51.158.144.42:6969/announce&tr=http://torrents-nn.cn:2710/announce&tr=http://bt-club.ws/announce&tr=http://tehconnection.eu:2790/announce&tr=udp://tracker.tallpenguin.org:15750/announce&tr=udp://tracker.fatkhoala.org:13790/announce&tr=udp://sanincode.com:6969/announce&tr=http://t.acg.rip:6699/announce&tr=http://share.camoe.cn:8080/announce&tr=http://51.81.200.170:6699/announce&tr=http://tracker.torrentbytes.net/announce.php&tr=udp://moonburrow.club:6969/announce&tr=http://proaudiotorrents.org/announce.php&tr=http://all4nothin.net/announce.php&tr=https://t.btcland.xyz/announce&tr=http://tracker3.ctix.cn:8080/announce&tr=https://tracker.nanoha.org/announce&tr=http://tracker1.itzmx.com:8080/announce
+: 1671986606:0;aria2p add-magnets 'magnet:?xt=urn:btih:ed9a5b51521c36fe570eae024efa94c1dcde78f3&dn=avav55.xyz%40nyoshin-n2243&tr=http://sukebei.tracker.wf:8888/announce&tr=http://torrentzilla.org/announce.php&tr=http://kinorun.com/announce.php&tr=http://siambit.com/announce.php&tr=https://tracker.jiesen.life:8443/announce&tr=http://bt.ali213.net:8000/announce&tr=http://tracker.ali213.net:8080/announce&tr=http://bt.3dmgame.com:2710/announce&tr=http://tracker.skyts.cn:6969/announce&tr=udp://156.234.201.18:80/announce&tr=udp://tracker1.bt.moack.co.kr:80/announce&tr=http://119.28.71.45:8080/announce&tr=udp://chouchou.top:8080/announce&tr=http://212.6.3.67/announce&tr=http://fxtt.ru/announce&tr=udp://172.105.235.127:6969/announce&tr=http://171.104.226.25:6969/announce&tr=http://open.tracker.ink:6969/announce&tr=udp://laze.cc:6969/announce&tr=http://tracker.baltracker.net:3390/announce&tr=https://torrents.linuxmint.com/announce.php&tr=http://data-bg.net/announce.php&tr=https://tr.highstar.shop/announce&tr=udp://tracker.filemail.com:6969/announce&tr=udp://52.58.128.163:6969/announce&tr=udp://185.21.216.185:6969/announce&tr=udp://tracker.0x.tf:6969/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://opentrackr.org:1337/announce&tr=http://93.158.213.92:1337/announce&tr=http://alltorrents.net/bt/announce.php&tr=http://torrent.unix-ag.uni-kl.de/announce&tr=http://tracker.gcvchp.com:2710/announce&tr=https://tr.abir.ga/announce&tr=http://bt.beatrice-raws.org/announce&tr=https://tracker1.520.jp/announce&tr=udp://v2.iperson.xyz:6969/announce&tr=http://www.thegeeks.bz:3210/announce&tr=https://tracker.lilithraws.cf/announce&tr=udp://74.120.175.165:6969/announce&tr=https://tracker.lilithraws.org/announce&tr=http://www.all4nothin.net/announce.php&tr=http://torrentsmd.com:8080/announce&tr=udp://147.78.245.128:6969/announce&tr=http://torrent.mp3quran.net/announce.php&tr=udp://960303.xyz:6969/announce&tr=udp://smtp-relay.odysseylabel.com.au:6969/announce&tr=udp://167.172.199.173:6969/announce&tr=http://tracker.gbitt.info/announce&tr=http://xbtrutor.com:2710/announce&tr=http://www.thetradersden.org/forums/tracker/announce.php&tr=http://beertracker.ml/announce&tr=https://tracker.foreverpirates.co/announce&tr=http://btx.anifilm.tv/announce.php&tr=udp://178.170.48.154:1337/announce&tr=https://tracker.kuroy.me/announce&tr=https://tr.fuckbitcoin.xyz/announce&tr=http://tracker.minglong.org:8080/announce&tr=http://bt2.54new.com:8080/announce&tr=http://www.tvnihon.com:6969/announce&tr=http://masters-tb.com/announce.php&tr=https://tr.burnabyhighstar.com/announce&tr=udp://184.105.151.166:6969/announce&tr=udp://explodie.org:6969/announce&tr=http://www.xwt-classics.net/announce.php&tr=http://tracker.anirena.com/announce&tr=udp://www.torrent.eu.org:451/announce&tr=udp://91.216.110.52:451/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=http://bt.zlofenix.org:81/announce&tr=udp://176.31.250.174:6969/announce&tr=udp://tamas3.ynh.fr:6969/announce&tr=http://xtremewrestlingtorrents.net/announce.php&tr=udp://rep-art.ynh.fr:6969/announce&tr=udp://135.125.106.92:6969/announce&tr=udp://37.59.48.81:6969/announce&tr=http://concen.org:6969/announce&tr=udp://tracker.tricitytorrents.com:2710/announce&tr=http://1337.abcvg.info/announce&tr=udp://tracker.dler.com:6969/announce&tr=udp://ben.kerbertools.xyz:6969/announce&tr=udp://5.196.93.20:6969/announce&tr=http://vps02.net.orel.ru/announce&tr=http://95.107.48.115/announce&tr=http://datascene.net/announce.php&tr=http://tracker.nucozer-tracker.ml:2710/announce&tr=udp://bt.oiyo.tk:6969/announce&tr=http://34.94.213.23:2710/announce&tr=http://btracker.top:11451/announce&tr=udp://epider.me:6969/announce&tr=udp://51.68.174.87:6969/announce&tr=http://tracker.torrentleech.org:2710/announce&tr=https://tracker.expli.top/announce&tr=http://open.touki.ru/announce.php&tr=http://tracker.frozen-layer.net:6969/announce&tr=http://tracker.frozen-layer.com:6969/announce&tr=udp://194.53.137.231:6969/announce&tr=udp://tracker.publictracker.xyz:6969/announce&tr=http://tracker.electro-torrent.pl/announce&tr=udp://anidex.moe:6969/announce&tr=http://www.theplace.bz:2910/announce&tr=http://tracker.theempire.bz:3110/announce&tr=http://torrent.arjlover.net:2710/announce&tr=udp://run.publictracker.xyz:6969/announce&tr=http://bt-tracker.gamexp.ru:2710/announce&tr=udp://193.37.214.12:6969/announce&tr=udp://216.146.25.92:1337/announce&tr=udp://open.demonii.com:1337/announce&tr=udp://tracker.altrosky.nl:6969/announce&tr=udp://185.134.22.3:6969/announce&tr=udp://65.21.91.32:6969/announce&tr=udp://zecircle.xyz:6969/announce&tr=udp://black-bird.ynh.fr:6969/announce&tr=udp://82.65.115.10:6969/announce&tr=udp://sugoi.pomf.se:80/announce&tr=udp://65.108.63.133:80/announce&tr=udp://tracker.pomf.se:80/announce&tr=http://nyaa.tracker.wf:7777/announce&tr=udp://thouvenin.cloud:6969/announce&tr=udp://5.196.89.204:6969/announce&tr=udp://tracker.leech.ie:1337/announce&tr=udp://135.181.197.114:1337/announce&tr=http://tracker.fdn.fr:6969/announce&tr=http://baibako.tv/announce&tr=udp://p4p.arenabg.com:1337/announce&tr=udp://94.243.222.100:6969/announce&tr=udp://new-line.net:6969/announce&tr=udp://psyco.fr:6969/announce&tr=udp://37.187.95.112:6969/announce&tr=udp://htz3.noho.st:6969/announce&tr=udp://95.216.74.39:6969/announce&tr=udp://tracker.breizh.pm:6969/announce&tr=http://torrent.resonatingmedia.com:6969/announce&tr=udp://209.126.11.233:6969/announce&tr=udp://torrents.artixlinux.org:6969/announce&tr=http://www.legittorrents.info/announce.php&tr=udp://185.102.219.163:6969/announce&tr=udp://uploads.gamecoast.net:6969/announce&tr=udp://199.217.118.72:6969/announce&tr=udp://bubu.mapfactor.com:6969/announce&tr=udp://tracker.srv00.com:6969/announce&tr=udp://6ahddutb1ucc3cp.ru:6969/announce&tr=udp://89.36.216.8:6969/announce&tr=http://bt.firebit.org:2710/announce&tr=http://freerainbowtables.com:6969/announce&tr=http://www.freerainbowtables.com:6969/announce&tr=http://tracker.etree.org:6969/announce&tr=http://hdreactor.org:2710/announce&tr=http://107.152.127.9:6969/announce&tr=http://torrenttracker.nwc.acsalaska.net:6969/announce&tr=http://tracker.mywaifu.best:6969/announce&tr=http://95.217.167.10:6969/announce&tr=udp://tracker.theoks.net:6969/announce&tr=udp://209.141.59.16:6969/announce&tr=udp://denis.stalker.upeer.me:1337/announce&tr=udp://bt.ktrackers.com:6666/announce&tr=udp://213.108.129.160:6969/announce&tr=udp://mts.tvbit.co:6969/announce&tr=http://music-torrent.net:2710/announce&tr=http://tracker.files.fm:6969/announce&tr=http://incine.ru:6969/announce&tr=http://159.69.65.157:6969/announce&tr=http://144.76.118.107:6969/announce&tr=udp://vibe.sleepyinternetfun.xyz:1738/announce&tr=udp://149.28.47.87:1738/announce&tr=http://tracker3.dler.org:2710/announce&tr=udp://tracker2.dler.org:80/announce&tr=udp://tracker.open-internet.nl:6969/announce&tr=udp://93.104.214.40:6969/announce&tr=udp://tracker.monitorit4.me:6969/announce&tr=wss://peertube.cpy.re:443/tracker/socket&tr=http://tracker.xdvdz.com:2710/announce&tr=udp://148.251.53.72:6969/announce&tr=udp://fe.dealclub.de:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://208.83.20.20:6969/announce&tr=udp://tracker.tcp.exchange:6969/announce&tr=https://tracker.torrentsnows.com/announce&tr=http://bluebird-hd.org/announce.php&tr=http://deviloid.net:6969/announce&tr=udp://66.94.100.216:6969/announce&tr=http://torrents.hikarinokiseki.com:6969/announce&tr=udp://88.80.28.7:6969/announce&tr=http://tracker.kali.org:6969/announce&tr=udp://tracker.ddunlimited.net:6969/announce&tr=udp://107.189.11.230:6969/announce&tr=udp://tracker.jonaslsa.com:6969/announce&tr=udp://158.39.77.211:6969/announce&tr=https://torrent.ubuntu.com/announce&tr=udp://tracker.moeking.me:6969/announce&tr=http://open.nyaatorrents.info:6544/announce&tr=http://tracker.tasvideos.org:6969/announce&tr=http://irrenhaus.dyndns.dk/announce.php&tr=https://tr.bangumi.moe:9696/announce&tr=udp://88.99.2.212:6969/announce&tr=udp://fh2.cmp-gaming.com:6969/announce&tr=udp://212.83.181.109:6969/announce&tr=http://163.172.209.40/announce&tr=http://www.megatorrents.kg/announce.php&tr=udp://tracker.btsync.gq:6969/announce&tr=udp://qg.lorzl.gq:6969/announce&tr=http://blackz.ro/announce.php&tr=http://fosstorrents.com:6969/announce&tr=udp://185.106.94.80:6969/announce&tr=udp://tracker2.dler.com:80/announce&tr=http://uatracker.net/announce.php&tr=udp://openbittorrent.com:80/announce&tr=http://atrack.pow7.com/announce&tr=http://t1.pow7.com/announce&tr=http://t2.pow7.com/announce&tr=udp://qtstm32fan.ru:6969/announce&tr=http://announce.partis.si/announce&tr=http://mixfiend.com:6969/announce&tr=http://tracker.linkomanija.org:2710/announce&tr=http://mvgforumtracker.mvgroup.org/tracker.php/announce&tr=http://mvgroup.org:2710/announce&tr=udp://tracker.coppersurfer.tk:80/announce&tr=udp://pow7.com:80/announce&tr=http://45.154.253.6/announce&tr=http://secure.pow7.com/announce&tr=http://tracker.pow7.com/announce&tr=udp://public.publictracker.xyz:6969/announce&tr=http://milliontorrent.pl/announce.php&tr=udp://www.mvgroup.org:2710/announce&tr=udp://195.154.237.90:6666/announce&tr=udp://5.188.6.45:6969/announce&tr=http://www.thevault.bz:2810/announce&tr=https://opentracker.i2p.rocks/announce&tr=udp://aarsen.me:6969/announce&tr=udp://tracker.openbittorrent.com:80/announce&tr=http://tracker.gigatorrents.ws:2710/announce&tr=http://tracker.tambovnet.org/announce.php&tr=udp://movies.zsw.ca:6969/announce&tr=udp://198.100.149.66:6969/announce&tr=http://tracker.torrenty.org:6969/announce&tr=http://big-boss-tracker.net/announce.php&tr=http://bithq.org/announce.php&tr=udp://41.79.68.156:6969/announce&tr=http://bttracker.debian.org:6969/announce&tr=http://www.tribalmixes.com/announce.php&tr=udp://tracker.auctor.tv:6969/announce&tr=udp://51.158.144.42:6969/announce&tr=http://torrents-nn.cn:2710/announce&tr=http://bt-club.ws/announce&tr=http://tehconnection.eu:2790/announce&tr=udp://tracker.tallpenguin.org:15750/announce&tr=udp://tracker.fatkhoala.org:13790/announce&tr=udp://sanincode.com:6969/announce&tr=http://t.acg.rip:6699/announce&tr=http://share.camoe.cn:8080/announce&tr=http://51.81.200.170:6699/announce&tr=http://tracker.torrentbytes.net/announce.php&tr=udp://moonburrow.club:6969/announce&tr=http://proaudiotorrents.org/announce.php&tr=http://all4nothin.net/announce.php&tr=https://t.btcland.xyz/announce&tr=http://tracker3.ctix.cn:8080/announce&tr=https://tracker.nanoha.org/announce&tr=http://tracker1.itzmx.com:8080/announce'
+: 1671986640:0;aria2p add-magnets 'magnet:?xt=urn:btih:2b7651e44d193dfe6c8cbb3240dbd798624759cc&dn=avav55.xyz%40H4610-ori1803&tr=http://sukebei.tracker.wf:8888/announce&tr=http://www.zone-torrent.net/announce.php&tr=http://siambit.com/announce.php&tr=http://tracker.ali213.net:8000/announce&tr=http://bt.3dmgame.com:2710/announce&tr=http://bt.ali213.net:8080/announce&tr=http://tracker.skyts.cn:6969/announce&tr=udp://tracker1.bt.moack.co.kr:80/announce&tr=http://119.28.71.45:8080/announce&tr=udp://chouchou.top:8080/announce&tr=udp://tracker.skyts.net:6969/announce&tr=udp://171.104.111.30:6969/announce&tr=http://tracker.baltracker.net:3390/announce&tr=http://tracker.dler.org:6969/announce&tr=http://data-bg.net/announce.php&tr=udp://laze.cc:6969/announce&tr=udp://172.105.235.127:6969/announce&tr=http://torrentzilla.org/announce&tr=https://tr.highstar.shop/announce&tr=http://tracker.theempire.bz:3110/announce&tr=http://torrents.linuxmint.com/announce.php&tr=http://fxtt.ru/announce&tr=http://212.6.3.67/announce&tr=udp://tracker.tiny-vps.com:6969/announce&tr=udp://89.237.1.42:6969/announce&tr=udp://tracker.filemail.com:6969/announce&tr=udp://52.58.128.163:6969/announce&tr=udp://tracker.0x.tf:6969/announce&tr=udp://185.21.216.185:6969/announce&tr=http://torrent.unix-ag.uni-kl.de/announce&tr=udp://74.120.175.165:6969/announce&tr=udp://v2.iperson.xyz:6969/announce&tr=https://tracker.lilithraws.cf/announce&tr=http://btx.anifilm.tv/announce.php&tr=https://tr.abir.ga/announce&tr=udp://opentrackr.org:1337/announce&tr=udp://50.116.14.248:6969/announce&tr=http://tracker.gcvchp.com:2710/announce&tr=udp://147.78.245.128:6969/announce&tr=udp://960303.xyz:6969/announce&tr=https://tracker.expli.top/announce&tr=udp://167.172.199.173:6969/announce&tr=udp://smtp-relay.odysseylabel.com.au:6969/announce&tr=http://torrentsmd.com:8080/announce&tr=http://xbtrutor.com:2710/announce&tr=http://www.xwt-classics.net/announce.php&tr=udp://178.170.48.154:1337/announce&tr=http://www.thegeeks.bz:3210/announce&tr=http://all4nothin.net/announce.php&tr=udp://tracker.zemoj.com:6969/announce&tr=http://xtremewrestlingtorrents.net/announce.php&tr=http://tracker.tricitytorrents.com:2710/announce&tr=http://torrent.mp3quran.net/announce.php&tr=http://60-fps.org/bt/announce.php&tr=https://tracker.foreverpirates.co/announce&tr=udp://explodie.org:6969/announce&tr=udp://184.105.151.166:6969/announce&tr=http://www.tvnihon.com:6969/announce&tr=udp://rep-art.ynh.fr:6969/announce&tr=udp://135.125.106.92:6969/announce&tr=udp://uploads.gamecoast.net:6969/announce&tr=udp://www.torrent.eu.org:451/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://91.216.110.52:451/announce&tr=http://bt.zlofenix.org:81/announce&tr=http://tracker.minglong.org:8080/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://u4.trakx.crim.ist:1337/announce&tr=udp://155.248.196.36:1337/announce&tr=http://1337.abcvg.info/announce&tr=http://tracker.anirena.com/announce&tr=http://hdreactor.org:2710/announce&tr=udp://ben.kerbertools.xyz:6969/announce&tr=udp://5.196.93.20:6969/announce&tr=https://tracker.nanoha.org/announce&tr=http://datascene.net/announce.php&tr=http://nyaa.tracker.wf:7777/announce&tr=http://vps02.net.orel.ru/announce&tr=https://tracker.lilithraws.org/announce&tr=udp://concen.org:6969/announce&tr=udp://37.59.48.81:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=https://tracker.kuroy.me/announce&tr=udp://51.68.174.87:6969/announce&tr=udp://epider.me:6969/announce&tr=http://www.bit-hdtv.com:2710/announce&tr=https://tr.fuckbitcoin.xyz/announce&tr=udp://195.154.237.90:6666/announce&tr=udp://tracker.gbitt.info:80/announce&tr=udp://bt.ktrackers.com:6666/announce&tr=http://bt-tracker.gamexp.ru:2710/announce&tr=http://www.all4nothin.net/announce.php&tr=https://t.btcland.xyz/announce&tr=http://open.touki.ru/announce&tr=udp://212.83.181.109:6969/announce&tr=http://finbytes.org/announce.php&tr=http://34.94.213.23:2710/announce&tr=http://bt.beatrice-raws.org/announce&tr=http://tracker.torrentleech.org:2710/announce&tr=udp://tracker.btsync.gq:6969/announce&tr=http://93.158.213.92:1337/announce&tr=udp://tracker.publictracker.xyz:6969/announce&tr=http://www.thetradersden.org/forums/tracker/announce.php&tr=udp://admin.videoenpoche.info:6969/announce&tr=http://tracker.breizh.pm:6969/announce&tr=http://tracker.frozen-layer.com:6969/announce&tr=http://tracker.frozen-layer.net:6969/announce&tr=http://open.nyaatorrents.info:6544/announce&tr=udp://194.53.137.231:6969/announce&tr=http://torrent.arjlover.net:2710/announce&tr=udp://193.37.214.12:6969/announce&tr=udp://run.publictracker.xyz:6969/announce&tr=udp://tamas3.ynh.fr:6969/announce&tr=udp://176.31.250.174:6969/announce&tr=udp://5.196.89.204:6969/announce&tr=udp://thouvenin.cloud:6969/announce&tr=http://tracker.fdn.fr:6969/announce&tr=udp://black-bird.ynh.fr:6969/announce&tr=udp://82.65.115.10:6969/announce&tr=http://masters-tb.com/announce.php&tr=http://anidex.moe:6969/announce&tr=udp://95.216.74.39:6969/announce&tr=udp://htz3.noho.st:6969/announce&tr=udp://37.187.95.112:6969/announce&tr=udp://psyco.fr:6969/announce&tr=http://alltorrents.net/bt/announce.php&tr=udp://tracker.leech.ie:1337/announce&tr=udp://135.181.197.114:1337/announce&tr=http://torrent.resonatingmedia.com:6969/announce&tr=udp://torrents.artixlinux.org:6969/announce&tr=udp://209.126.11.233:6969/announce&tr=udp://tracker.theoks.net:6969/announce&tr=udp://209.141.59.16:6969/announce&tr=udp://tracker.altrosky.nl:6969/announce&tr=udp://185.134.22.3:6969/announce&tr=http://www.legittorrents.info/announce.php&tr=udp://199.217.118.72:6969/announce&tr=udp://bubu.mapfactor.com:6969/announce&tr=udp://65.108.63.133:80/announce&tr=udp://sugoi.pomf.se:80/announce&tr=udp://tracker.pomf.se:80/announce&tr=udp://65.21.91.32:6969/announce&tr=udp://zecircle.xyz:6969/announce&tr=udp://6ahddutb1ucc3cp.ru:6969/announce&tr=udp://89.36.216.8:6969/announce&tr=http://www.freerainbowtables.com:6969/announce&tr=http://freerainbowtables.com:6969/announce&tr=https://tr.burnabyhighstar.com/announce&tr=udp://mail.zasaonsk.ga:6969/announce&tr=udp://138.3.249.47:6969/announce&tr=http://tracker.etree.org:6969/announce&tr=http://95.217.167.10:6969/announce&tr=http://tracker.mywaifu.best:6969/announce&tr=udp://tracker.monitorit4.me:6969/announce&tr=udp://93.104.214.40:6969/announce&tr=http://tracker.electro-torrent.pl/announce&tr=http://tracker.tasvideos.org:6969/announce&tr=udp://torrentclub.space:6969/announce&tr=udp://vibe.sleepyinternetfun.xyz:1738/announce&tr=udp://149.28.47.87:1738/announce&tr=udp://run-2.publictracker.xyz:6969/announce&tr=udp://tracker.open-internet.nl:6969/announce&tr=udp://107.175.221.194:6969/announce&tr=wss://peertube.cpy.re:443/tracker/socket&tr=udp://46.138.242.240:6969/announce&tr=udp://astrr.ru:6969/announce&tr=udp://tracker.tcp.exchange:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=https://torrent.ubuntu.com/announce&tr=http://bluebird-hd.org/announce.php&tr=http://deviloid.net:6969/announce&tr=http://www.worldboxingvideoarchive.com/announce.php&tr=udp://66.94.100.216:6969/announce&tr=http://www.tribalmixes.com/announce.php&tr=http://torrents.hikarinokiseki.com:6969/announce&tr=https://tracker1.520.jp/announce&tr=udp://tracker.jonaslsa.com:6969/announce&tr=udp://158.39.77.211:6969/announce&tr=udp://167.99.185.219:6969/announce&tr=udp://216.146.25.92:1337/announce&tr=http://blackz.ro/announce.php&tr=udp://moonburrow.club:6969/announce&tr=udp://openbittorrent.com:80/announce&tr=http://uatracker.net/announce.php&tr=http://milliontorrent.pl/announce.php&tr=http://irrenhaus.dyndns.dk/announce.php&tr=https://tr.abiir.top/announce&tr=http://bt-club.ws/announce&tr=http://bt.firebit.org:2710/announce&tr=udp://bt.oiyo.tk:6969/announce&tr=http://btracker.top:11451/announce&tr=http://www.megatorrents.kg/announce.php&tr=udp://qg.lorzl.gq:6969/announce&tr=http://announce.partis.si/announce&tr=http://tracker.nucozer-tracker.ml:2710/announce&tr=udp://35.227.12.84:6969/announce&tr=http://music-torrent.net:2710/announce&tr=http://144.76.118.107:6969/announce&tr=http://mixfiend.com/announce.php&tr=udp://185.106.94.80:6969/announce&tr=udp://qtstm32fan.ru:6969/announce&tr=http://www.theplace.bz:2910/announce&tr=udp://pow7.com:80/announce&tr=http://tracker.files.fm:6969/announce&tr=http://159.69.65.157:6969/announce&tr=udp://denis.stalker.upeer.me:1337/announce&tr=http://tracker.pow7.com/announce&tr=udp://tracker.openbittorrent.com:80/announce&tr=http://tracker3.ctix.cn:8080/announce&tr=http://atrack.pow7.com/announce&tr=http://tracker.linkomanija.org:2710/announce&tr=udp://keke.re:6969/announce&tr=http://mvgforumtracker.mvgroup.org/tracker.php/announce&tr=udp://tracker.dler.com:6969/announce&tr=http://217.30.10.18:6969/announce&tr=udp://fe.dealclub.de:6969/announce&tr=udp://tracker2.dler.org:80/announce&tr=udp://tracker2.dler.com:80/announce&tr=udp://aarsen.me:6969/announce&tr=udp://51.15.79.209:6969/announce&tr=http://www.thevault.bz:2810/announce&tr=http://tracker.trancetraffic.com/announce.php&tr=http://t1.pow7.com/announce&tr=http://163.172.209.40/announce&tr=udp://45.154.253.8:6969/announce&tr=http://secure.pow7.com/announce&tr=udp://5.188.6.45:6969/announce&tr=udp://public.publictracker.xyz:6969/announce&tr=udp://148.251.53.72:6969/announce&tr=udp://www.mvgroup.org:2710/announce&tr=https://opentracker.i2p.rocks/announce&tr=udp://88.99.2.212:6969/announce&tr=udp://fh2.cmp-gaming.com:6969/announce&tr=udp://51.158.144.42:6969/announce&tr=udp://tracker.auctor.tv:6969/announce&tr=http://widemus.de:6969/announce&tr=http://185.216.178.49:6969/announce&tr=udp://198.100.149.66:6969/announce&tr=udp://movies.zsw.ca:6969/announce&tr=udp://134.122.65.89:6969/announce&tr=http://tracker.tambovnet.org/announce.php&tr=http://tracker.torrenty.org:6969/announce&tr=http://bithq.org/announce.php&tr=http://big-boss-tracker.net/announce.php&tr=http://torrents-nn.cn:2710/announce&tr=http://tehconnection.eu:2790/announce&tr=udp://sanincode.com:6969/announce&tr=udp://95.31.11.224:6969/announce&tr=udp://41.79.68.156:6969/announce&tr=udp://176.123.1.180:6969/announce&tr=udp://open.free-tracker.ga:6969/announce&tr=http://bttracker.debian.org:6969/announce&tr=http://tracker3.dler.org:2710/announce&tr=udp://185.181.60.155:80/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.tallpenguin.org:15770/announce&tr=http://mvgroup.org:2710/announce&tr=udp://tracker.moeking.me:6969/announce&tr=https://tracker.torrentsnows.com/announce&tr=udp://tracker.srv00.com:6969/announce&tr=udp://tracker.coppersurfer.tk:80/announce&tr=udp://89.208.105.58:6969/announce&tr=udp://tracker.fatkhoala.org:13720/announce&tr=udp://new-line.net:6969/announce&tr=udp://94.243.222.100:6969/announce&tr=http://51.81.200.170:6699/announce&tr=http://share.camoe.cn:8080/announce&tr=http://t.acg.rip:6699/announce&tr=http://tracker.torrentbytes.net/announce.php&tr=http://tracker.nighthawk.pw:4201/announce&tr=udp://107.189.11.230:6969/announce&tr=http://proaudiotorrents.org/announce.php'
+: 1671986654:0;aria2p top
+: 1671986951:0;aria2p add-torrents /mnt/r1/*.torr*
+: 1672018717:0;echo $SSH_CONNECTION
+: 1672019247:0;mv ä¸ƒªçƒ¹¾æƒ¼¬çƒ´µå­ƒ°ä¹¦åƒ°ƒ¨éƒ»ƒ¦5*/* /mnt/r10/compose/kavita/books
+: 1672024582:0;systemctl restart trojan.service
+: 1672026121:0;n
+: 1672026195:0;apt
+: 1672026202:0;apt list
+: 1672026212:0;conda
+: 1672031321:0;aria2p call forcePauseAll
+: 1672031339:0;aria2p call purgeDownloadResult
+: 1672031348:0;aria2p show
+: 1672037519:0;ls -F
+: 1672037531:0;apt install lsd
+: 1672037540:0;snap install lsd
+: 1672037565:0;lsd
+: 1672121487:0;nvm ls
+: 1672122771:0;git remote .
+: 1672122777:0;git rm vite.config.js
+: 1672122794:0;git add .
+: 1672130576:0;docke rps
+: 1672130643:0;~qqq0;40;36M0;40;36
+: 1672203947:0;curl --http2 -H "accept: application/dns-json" "https://1.1.1.1/dns-query?name=cloudflare.com" --next --http2 -H "accept: application/dns-json" "https://1.1.1.1/dns-query?name=example.com"\
+
+: 1672204848:0;netstat
+: 1672204863:0;lsof -i:8053
+: 1672205506:0;curl --doh-url https://cloudflare-dns.com/dns-query https://www.google.com
+: 1672205526:0;nslookup baa.com
+: 1672205529:0;curl --doh-url https://cloudflare-dns.com/dns-query www.google.com
+: 1672205542:0;curl --doh-url https://doh.pub/dns-query www.google.com
+: 1672205561:0;curl --doh-url https://doh.pub/dns-query https://www.google.com
+: 1672205573:0;curl --doh-url https://dns.alidns.com/dns-query https://www.google.com
+: 1672205634:0;nslookup google.com
+: 1672205644:0;nslookup google.com https://dns.google/dns-query
+: 1672205671:0;apt install dnslookuip
+: 1672205675:0;apt install dnslookup
+: 1672205681:0;snap install dnslookup
+: 1672205704:0;curl --doh-url https://cloudflare-dns.com/dns-query https://github.com
+: 1672205782:0;curl -H 'accept: application/dns-json' 'https://cloudflare-dns.com/dns-query?name=baidu.com.com&type=A'
+: 1672205790:0;curl -H 'accept: application/dns-json' 'https://cloudflare-dns.com/dns-query?name=baidu.com&type=A'
+: 1672205821:0;curl -H 'accept: application/dns-json' 'https://doh.pub/dns-query?name=baidu.com&type=A'
+: 1672206059:0;apt install dog
+: 1672206066:0;snap install dog
+: 1672206416:0;dog google.com --tls @dns.google
+: 1672206448:0;dog google.com --tls @dot.pub:42
+: 1672206454:0;dog google.com --tls @dot.pub
+: 1672206482:0;dog -H @https://dns.aliyun.com/dns-query google.com
+: 1672206539:0;ls cre
+: 1672206575:0;chmod 600 -R certs
+: 1672206578:0;cd certs
+: 1672206615:0;lsof -i:53
+: 1672206757:0;code /etc/resolv.conf
+: 1672207148:0;dog -H @https://dns.naizi.fun/dns-query google.com
+: 1672207158:0;dog -H @https://dns.naizi.fun:200 google.com
+: 1672207177:0;dog -H @https://dot.pub/dns-query google.com
+: 1672207185:0;dog -H @https://naizi.fun:200/dns-query google.com
+: 1672207202:0;nslookup baidu.com 127.0.0.1
+: 1672207209:0;nslookup google.com 127.0.0.1
+: 1672207215:0;nslookup google.com 10.0.10.0
+: 1672208195:0;curl -H 'accept: application/dns-json' 'https://dns.naizi.fun:200/dns-query?name=baidu.com&type=A'
+: 1672208210:0;curl -H 'accept: application/dns-json' 'https://dns.alidns.com/dns-query?name=baidu.com&type=A'
+: 1672208234:0;dog dog -H @https://dns.google/dns-query google.com
+: 1672208586:0;docker ocmpose up -d
+: 1672209992:0;cd gitea
+: 1672210278:0;docker compose restart gitea
+: 1672213549:0;docker compose stop nginx
+: 1672216114:0;ls certs
+: 1672216439:0;ls privatebin
+: 1672216616:0;rm -rf privatebin
+: 1672216966:0;cd privatebin/cfg
+: 1672216974:0;wget https://raw.githubusercontent.com/PrivateBin/PrivateBin/master/cfg/conf.sample.php
+: 1672216983:0;mv conf.sample.php conf.php
+: 1672216986:0;code conf.php
+: 1672217176:0;cd .
+: 1672217412:0;...
+: 1672217553:0;al
+: 1672217576:0;chown -R www:www privatebin
+: 1672217623:0;chown -R 1000:1000 privatebin
+: 1672217709:0;ll privatebin
+: 1672217719:0;chmod 777 -R privatebin
+: 1672217875:0;chown -R www-data:www-data privatebin
+: 1672217925:0;chown -R root:root privatebin
+: 1672217951:0;docker compose down && docker compose up -d
+: 1672220157:0;mc admin
+: 1672220163:0;mc admin policy
+: 1672220178:0;mc admin policy set public minio
+: 1672220197:0;mc alist
+: 1672220202:0;mc ls
+: 1672220211:0;mc alais
+: 1672220214:0;mc alis
+: 1672220219:0;mc alias list
+: 1672220244:0;mc admin policy set local/privatebin public
+: 1672220268:0;mc admin policy set privatebin public
+: 1672220276:0;mc admin policy set local public
+: 1672220282:0;mc
+: 1672220292:0;mc ls local
+: 1672220306:0;docker inspect minio
+: 1672220322:0;mc alias
+: 1672220339:0;mc alias set myminio
+: 1672220345:0;mc alias set
+: 1672220402:0;mc alias set myminio https://s3.naizi.fun:200 fuming fuming123 --api "s3v4" --path "off"
+: 1672220411:0;mc admin policy set myminio public
+: 1672220790:0;code privatebin
+: 1672221033:0;codde docker-compose.yml
+: 1672221066:0;rm -rf privatebin/data
+: 1672221271:0;docker compose up 0d
+: 1672221500:0;docker compose restart privatebin
+: 1672222249:0;cd data
+: 1672222251:0;a
+: 1672222394:0;cd privatebin
+: 1672222406:0;chmod 777 -R data
+: 1672222480:0;cd data/
+: 1672222540:0;rm -rf data
+: 1672222725:0;code privatebin/cfg/conf.php
+: 1672223568:0;docker compose stop privatebin
+: 1672224035:0;docker ocompose up -d
+: 1672224214:0;docker compose restart nginx
+: 1672224309:0;npm start
+: 1672228482:0;cd photoprism
+: 1672228490:0;cd originals
+: 1672228809:0;chmod 777 -R photoprism
+: 1672229244:0;code nginx-conf
+: 1672280875:0;s
+: 1672295213:0;mv ç»ƒ¯åƒ¥¸è€æ­ƒ¬1688é¦ƒ¶wma/ /mnt/r10/compose/jellyfin/media2
+: 1672295237:0;j alidr__
+: 1672295248:0;mv ç»ƒ¯åƒ¥¸éƒ¿³ä¹ƒ°åƒ°ƒ¨éƒ»ƒ¦ã€ƒ°4KMV+éƒ¿³ä¹ƒ°ä¸ƒ³è¾ƒ±ã€ƒ±ï¼ƒ¨24åƒ°ƒ¨éƒ»ƒ¦404.9GBï¼ƒ© /mnt/r10/compose/jellyfin/media2
+: 1672295725:0;mv æƒ¼ƒ©å£°çƒ£­éƒ·¨ä¹¦ä¸ƒªåƒ­ƒ£æƒ¼¬å¤§åƒ¥¨ /mnt/r10/compose/jellyfin/media2
+: 1672296763:0;cd /etc/systemd/
+: 1672297474:0;which npm
+: 1672297483:0;ls /usr/bin/npm
+: 1672297560:0;npm ---prefix
+: 1672297567:0;npm --prefix
+: 1672297588:0;pwd
+: 1672297681:0;systemctl enable toolkits
+: 1672297691:0;systemctl start toolkits.service
+: 1672297712:0;npm start --prefix=/root/toolkits
+: 1672297782:0;systemctl daemon-reload
+: 1672297816:0;systemctl enable opsupport
+: 1672297821:0;systemctl start opsupport
+: 1672298321:0;cd system
+: 1672298338:0;cp opsupport.service toolkits.service ~/op_support
+: 1672298357:0;mv op_support/toolkits.service toolkits
+: 1672298395:0;git psuh
+: 1672298422:0;git add toolkits.service
+: 1672298424:0;git commit
+: 1672298439:0;git push
+: 1672299068:0;fallocate -l 4G /swapfile
+: 1672299077:0;chmod 600 /swapfile
+: 1672299084:0;mkswap /swapfile
+: 1672299095:0;swapon /swapfile
+: 1672299139:0;vi /etc/fstab
+: 1672299170:0;cd /etc
+: 1672299178:0;rm fstab.*
+: 1672299932:0;swapon -a
+: 1672302329:0;tldr rsync
+: 1672302757:0;cd /mnt/r10/compose/jellyfin/media
+: 1672302764:0;cd media2
+: 1672302785:0;rsync -avzhP ç»ƒ¯åƒ¥¸éƒ¿³ä¹ƒ°åƒ°ƒ¨éƒ»ƒ¦ã€ƒ°4KMV+éƒ¿³ä¹ƒ°ä¸ƒ³è¾ƒ±ã€ƒ±ï¼ƒ¨24åƒ°ƒ¨éƒ»ƒ¦404.9GBï¼ƒ© /mnt/r10/compose/jellyfin/media2
+: 1672302843:0;rsync -avzhP æƒ¼ƒ©å£°çƒ£­éƒ·¨ä¹¦ä¸ƒªåƒ­ƒ£æƒ¼¬å¤§åƒ¥¨ /mnt/r10/compose/jellyfin/media2
+: 1672302977:0;rsync -avzhP ç»ƒ¯åƒ¥¸éƒ¿³ä¹ƒ°åƒ°ƒ¨éƒ»ƒ¦ã€ƒ°4KMV+éƒ¿³ä¹ƒ°ä¸ƒ³è¾ƒ±ã€ƒ±ï¼ƒ¨24åƒ°ƒ¨éƒ»ƒ¦404.9GBï¼ƒ© /mnt/r10/compose/jellyfin/media2 &
+: 1672302985:0;rsync -avzhP æƒ¼ƒ©å£°çƒ£­éƒ·¨ä¹¦ä¸ƒªåƒ­ƒ£æƒ¼¬å¤§åƒ¥¨ /mnt/r10/compose/jellyfin/media2 &
+: 1672303130:0;ps aux
+: 1672303135:0;ps aux | grep mv
+: 1672303151:0;j alidri__
+: 1672303215:0;nohup rsyncls -avhP æƒ¼ƒ©å£°çƒ£­éƒ·¨ä¹¦ä¸ƒªåƒ­ƒ£æƒ¼¬å¤§åƒ¥¨ ç»ƒ¯åƒ¥¸éƒ¿³ä¹ƒ°åƒ°ƒ¨éƒ»ƒ¦ã€ƒ°4KMV+éƒ¿³ä¹ƒ°ä¸ƒ³è¾ƒ±ã€ƒ±ï¼ƒ¨24åƒ°ƒ¨éƒ»ƒ¦404.9GBï¼ƒ© /mnt/r10/compose/jellyfin/media2
+: 1672303225:0;nohup rsyncls -avhP æƒ¼ƒ©å£°çƒ£­éƒ·¨ä¹¦ä¸ƒªåƒ­ƒ£æƒ¼¬å¤§åƒ¥¨ ç»ƒ¯åƒ¥¸éƒ¿³ä¹ƒ°åƒ°ƒ¨éƒ»ƒ¦ã€ƒ°4KMV+éƒ¿³ä¹ƒ°ä¸ƒ³è¾ƒ±ã€ƒ±ï¼ƒ¨24åƒ°ƒ¨éƒ»ƒ¦404.9GBï¼ƒ© /mnt/r10/compose/jellyfin/media2 &
+: 1672303256:0;ps axu | grep nohup
+: 1672303262:0;ps axu | grep rsync
+: 1672303334:0;nohup rsyncls -avhP æƒ¼ƒ©å£°çƒ£­éƒ·¨ä¹¦ä¸ƒªåƒ­ƒ£æƒ¼¬å¤§åƒ¥¨ /mnt/r10/compose/jellyfin/media2 &
+: 1672303369:0;less nohup.out
+: 1672303427:0;df -h .
+: 1672303431:0;df -h ~
+: 1672303436:0;du .
+: 1672303587:0;tldr tail
+: 1672303644:0;tail -f -l 6 nohup.out
+: 1672303648:0;tail -f --lines 6 nohup.out
+: 1672304627:0;nohup rsync -avhP æƒ¼ƒ©å£°çƒ£­éƒ·¨ä¹¦ä¸ƒªåƒ­ƒ£æƒ¼¬å¤§åƒ¥¨ ç»ƒ¯åƒ¥¸éƒ¿³ä¹ƒ°åƒ°ƒ¨éƒ»ƒ¦ã€ƒ°4KMV+éƒ¿³ä¹ƒ°ä¸ƒ³è¾ƒ±ã€ƒ±ï¼ƒ¨24åƒ°ƒ¨éƒ»ƒ¦404.9GBï¼ƒ© /mnt/r10/compose/jellyfin/media2 &
+: 1672304674:0;ps aux | grep rsync
+: 1672305408:0;top
+: 1672305849:0;swapon -p 1 /swapfile
+: 1672306259:0;sysctl -P
+: 1672306535:0;cat /etc/sysctl.conf
+: 1672306596:0;swapon -p -1 /dev/sdg3
+: 1672306616:0;swapoff /dev/sdg3
+: 1672306625:0;swapon -p 0 /dev/sdg3
+: 1672306659:0;swapon -p -1 /swapfile
+: 1672306953:0;swapoff /swapfile
+: 1672306959:0;swapon
+: 1672308068:0;lsb_release
+: 1672308136:0;cat /etc/os-release
+: 1672308622:0;docker inspect redis
+: 1672308659:0;apt install redis-cli
+: 1672308742:0;apt install redis
+: 1672309062:0;redis
+: 1672309065:0;redis-cli -h
+: 1672309073:0;apt remove redis
+: 1672309229:0;ps aux | 238240
+: 1672309255:0;apt remove redis-server
+: 1672309260:0;ps aux |grep 238240
+: 1672309264:0;lsof -i:6379
+: 1672309275:0;redis-cli
+: 1672309284:0;redis-cli -h 10.0.0.4
+: 1672310088:0;clera
+: 1672310176:0;cat docker-compose.yml| grep dnsproxy
+: 1672310184:0;cat docker-compose.yml| grep args
+: 1672310186:0;cat docker-compose.yml| grep arg
+: 1672310190:0;cat docker-compose.yml| grep --
+: 1672310196:0;cat docker-compose.yml|
+: 1672310197:0;cat docker-compose.yml
+: 1672310235:0;dog -h https://dns.google/dns-query baidu.com
+: 1672310244:0;dog https://dns.google/dns-query baidu.com
+: 1672310247:0;dog -h
+: 1672310249:0;dog -
+: 1672310270:0;dog -H https://dns.google/dns-query baidu.com
+: 1672310382:0;dog -H @https://dns.naizi.fun:200/dns-query google.com
+: 1672310390:0;cat docker-compose.yml| grep ARGS
+: 1672364900:0;nohup rsync -a æƒ¼ƒ©å£°çƒ£­éƒ·¨ä¹¦ä¸ƒªåƒ­ƒ£æƒ¼¬å¤§åƒ¥¨ ç»ƒ¯åƒ¥¸éƒ¿³ä¹ƒ°åƒ°ƒ¨éƒ»ƒ¦ã€ƒ°4KMV+éƒ¿³ä¹ƒ°ä¸ƒ³è¾ƒ±ã€ƒ±ï¼ƒ¨24åƒ°ƒ¨éƒ»ƒ¦404.9GBï¼ƒ© /mnt/r10/compose/jellyfin/media2 &
+: 1672364940:0;tail -f nohup.out
+: 1672387256:0;rsync -avhP æƒ¼ƒ©å£°çƒ£­éƒ·¨ä¹¦ä¸ƒªåƒ­ƒ£æƒ¼¬å¤§åƒ¥¨ ç»ƒ¯åƒ¥¸éƒ¿³ä¹ƒ°åƒ°ƒ¨éƒ»ƒ¦ã€ƒ°4KMV+éƒ¿³ä¹ƒ°ä¸ƒ³è¾ƒ±ã€ƒ±ï¼ƒ¨24åƒ°ƒ¨éƒ»ƒ¦404.9GBï¼ƒ© /mnt/r10/compose/jellyfin/media2
+: 1672387381:0;cd æƒ¼ƒ©å£°çƒ£­éƒ·¨ä¹¦ä¸ƒªåƒ­ƒ£æƒ¼¬å¤§åƒ¥¨
+: 1672387389:0;cd ç»ƒ¯åƒ¥¸éƒ¿³ä¹ƒ°åƒ°ƒ¨éƒ»ƒ¦ã€ƒ°4KMV+éƒ¿³ä¹ƒ°ä¸ƒ³è¾ƒ±ã€ƒ±ï¼ƒ¨24åƒ°ƒ¨éƒ»ƒ¦404.9GBï¼ƒ©
+: 1672392263:0;rm -rf æƒ¼ƒ©å£°çƒ£­éƒ·¨ä¹¦ä¸ƒªåƒ­ƒ£æƒ¼¬å¤§åƒ¥¨/ ç»ƒ¯åƒ¥¸éƒ¿³ä¹ƒ°åƒ°ƒ¨éƒ»ƒ¦ã€ƒ°4KMV+éƒ¿³ä¹ƒ°ä¸ƒ³è¾ƒ±ã€ƒ±ï¼ƒ¨24åƒ°ƒ¨éƒ»ƒ¦404.9GBï¼ƒ©
+: 1672475023:0;find -type d -empty .
+: 1672475024:0;find -type d -empty
+: 1672475344:0;code /mnt/r10/trojan/config.json
+: 1672475370:0;systemctl
+: 1672475375:0;systemctl -h
+: 1672475414:0;systemctl status op
+: 1672475605:0;systemctl restart trojan
+: 1672477027:0;hotp
+: 1672496433:0;rm nohup.out
+: 1672565835:0;code /mnt/r10/compose/docker-compose.yml
+: 1672565931:0;dog
+: 1672565945:0;dog -H @https://cloudflare-dns.com/dns-query google.com
+: 1672565961:0;dog -H @https://dns.google/dns-query google.com
+: 1672565984:0;dog -H @https://dns.alidns.com/dns-query google.com
+: 1672565991:0;dog -H @https://dns.pub/dns-query google.com
+: 1672566041:0;dog -H @https://unfiltered.adguard-dns.com/dns-query google.com
+: 1672578025:0;j ali__
+: 1672578027:0;mv ä¸ƒªçƒ¹¾æƒ¼¬çƒ´µå­ƒ°ä¹¦åƒ°ƒ¨éƒ»ƒ¦*/* /mnt/r10/compose/kavita/books
+: 1672578585:0;find -type d -empty -delete
+: 1672578649:0;j comp__
+: 1672580919:0;docker logs
+: 1672580924:0;docker logs --help
+: 1672580931:0;docker logs --details
+: 1672580945:0;j /var__d
+: 1672580953:0;cd log
+: 1672580960:0;cd docker
+: 1672581027:0;docker compose logs
+: 1672581030:0;docker compose
+: 1672581073:0;docker inspect dnsproxy
+: 1672581110:0;j
+: 1672581116:0;cd /var/log/docker
+: 1672581132:0;ncdu
+: 1672581171:0;ncdu --exclude /mnt
+: 1672584238:0;docker images
+: 1672587085:0;sp
+: 1672587673:0;unsp
+: 1672588674:0;code /etc/docker/daemon.json
+: 1672897299:0;j compo__
+: 1672897304:0;code docker-compose.yml
+: 1672897341:0;docker ps | grep Up
+: 1672897345:0;docker ps | grep Up | wc
+: 1672897349:0;docker ps | grep Up | wc -l
+: 1672897676:0;curl -sL yabs.sh
+: 1672898541:0;lsblk
+: 1672898573:0;neofetch
+: 1672898586:0;clear
+: 1672900763:0;j too__
+: 1672900793:0;git config pull.ff only
+: 1672916908:0;code vite.config.js
+: 1672917023:0;code common/v1/db.js
+: 1672917072:0;git discard common/v1/db.js
+: 1672917091:0;git reset HEAD
+: 1672917113:0;git rm common/v1/db.js
+: 1672917135:0;git rm common/v1/db.js -f
+: 1672917139:0;git status
+: 1672917162:0;cd common
+: 1672917167:0;code db.js
+: 1672917680:0;code toolkits
+: 1672917698:0;code op_support
+: 1672917974:0;la
+: 1672917989:0;code .env
+: 1672918056:0;code .
+: 1672919716:0;journalctl -u toolkits.service
+: 1672928282:0;cd SteamLibrary
+: 1672928285:0;cd steamapps
+: 1672928399:0;systemctl stop docker.s
+: 1672928401:0;systemctl stop docker
+: 1672928410:0;df -a
+: 1672928523:0;apt-btrfs-snapshot supported
+: 1672928564:0;j mnt
+: 1672928591:0;rsync -azvhP r10 r1
+: 1672929223:0;rm -rf r10
+: 1672929239:0;umount r10
+: 1672929446:0;docker compose donw
+: 1672929559:0;ll
+: 1672930217:0;..
+: 1672930227:0;cd r1
+: 1672930235:0;sl
+: 1672930242:0;cd r10
+: 1672930249:0;rsync compose /mnt/r1
+: 1672930271:0;j com
+: 1672930288:0;rsync -avzhP compose /mnt/r1
+: 1672934720:0;j r1
+: 1672934723:0;rm -rf compose
+: 1672936755:0;systemctl status trojan
+: 1672936811:0;journalctl -f -u opsupport
+: 1673001347:0;l
+: 1673180454:0;whoami
+: 1673180462:0;SSH_CONNECTION
+: 1673180463:0;SSH_CONNECTIO
+: 1673180476:0;echo $SSH_CLIENT
+: 1673180517:0;ss | grep ssh
+: 1673180523:0;ss
+: 1673180529:0;ss | grep -i ssh
+: 1673180536:0;last -a | grep -i still
+: 1673180570:0;netstat -tnpa | grep 'ESTABLISHED.*sshd'
+: 1673180625:0;ps auxwww | grep sshd: | grep -v grep
+: 1673189008:0;docker
+: 1673189016:0;docker info
+: 1673196106:0;j com__
+: 1673196117:0;j media2
+: 1673196122:0;mkdir music
+: 1673196140:0;mv ç»ƒ¯åƒ¥¸è€æ­ƒ¬1688é¦ƒ¶wma ç»ƒ¯åƒ¥¸éƒ¿³ä¹ƒ°åƒ°ƒ¨éƒ»ƒ¦ã€ƒ°4KMV+éƒ¿³ä¹ƒ°ä¸ƒ³è¾ƒ±ã€ƒ±ï¼ƒ¨24åƒ°ƒ¨éƒ»ƒ¦404.9GBï¼ƒ© music
+: 1673196150:0;mkdir musicbooks
+: 1673196158:0;mv æƒ¼ƒ©å£°çƒ£­éƒ·¨ä¹¦ä¸ƒªåƒ­ƒ£æƒ¼¬å¤§åƒ¥¨ musicbooks
+: 1673196670:0;killall node
+: 1673235486:0;cat /etc/passwd
+: 1673235500:0;ps aux | grep 410591
+: 1673235643:0;ps aux | grep manage.py
+: 1673235914:0;cd /
+: 1673235915:0;fzf
+: 1673235978:0;w
+: 1673236133:0;glances
+: 1673236295:0;ps -aux | grep defunct
+: 1673236308:0;killall defunct
+: 1673236319:0;kill -9 2320421 2320422
+: 1673236360:0;kill -9 2320916
+: 1673236362:0;ps aux | grep defunct
+: 1673236366:0;who
+: 1673236425:0;killall python3
+: 1673236893:0;ps -u 911
+: 1673236901:0;ps -u 911 aux
+: 1673236906:0;ps -u 911 ux
+: 1673236909:0;ps -u 911 x
+: 1673236912:0;ps -u 911 a
+: 1673240133:0;ps aux | grep ssh
+: 1673242525:0;j compose
+: 1673242585:0;systemctl restart docker
+: 1673242670:0;docker compose down
+: 1673242693:0;docker compose restart dnsproxy
+: 1673242696:0;docker compose up -d
+: 1673242707:0;docker ps
+: 1673242785:0;df -h
+: 1673244307:0;ls
+: 1673244484:0;journalctl -u opsupport.service
+: 1673258307:0;j to__
+: 1673258310:0;cd
+: 1673258315:0;cd op_support
+: 1673258331:0;systemctl restart opsupport.service
+: 1673258333:0;cd ..
+: 1673258334:0;cd toolkits
+: 1673258336:0;git pull
+: 1673258349:0;systemctl restart toolkits.service
+: 1673258360:0;systemctl status toolkits.service
+: 1673258673:0;systemctl status opsupport.service
+: 1673258728:0;fallocate -l 8G /swapfile
+: 1673258734:0;chmod 600 /swapfile \
+
+: 1673258779:0;swapon /swapfile -p 0
+: 1673258854:0;code /etc/fstab
+: 1673258872:0;code /etc/sysctl.conf
+: 1673258883:0;sysctl -p
+: 1673258890:0;tp
+: 1673258955:0;free -m
+: 1673258957:0;free
+: 1673258962:0;free -h
+: 1673258995:0;swapn -s
+: 1673259004:0;swapon -h
+: 1673259026:0;swapon -s
+: 1673259034:0;htop
+: 1673259233:0;exit
+: 1673264892:0;docker ps
+: 1673264894:0;htop
+: 1673274939:0;glances
+: 1673275098:0;systemctl restart trojan
+: 1673275175:0;systemctl status trojan.service
+: 1673275219:0;docker ps
+: 1673275233:0;systemctl restart docker
+: 1673275550:0;docker ps
+: 1673275555:0;docker compose down
+: 1673275571:0;docker compose up d-
+: 1673275573:0;docker compose up -d
+: 1673275588:0;docker ps
+: 1673275603:0;docker compose up -d
+: 1673275609:0;docker ps
+: 1673279171:0;apt update
+: 1673279185:0;apt upgrade
+: 1673279199:0;docker ps
+: 1673279306:0;htop
+: 1673279447:0;code docker-compose.yml
+: 1673279510:0;docker compose up -d
+: 1673316037:0;cd
+: 1673316037:0;ls
+: 1673316041:0;curl 6.ipw.cn
+: 1673316045:0;curl 4.ipw.cn
+: 1673316051:0;ip addr
+: 1673316150:0;curl test.ipw.cn
+: 1673317278:0;j compose
+: 1673317279:0;ls
+: 1673317280:0;code docker-compose.yml
+: 1673318221:0;docker compose up -d
+: 1673318549:0;ls certs
+: 1673318555:0;code nginx-conf
+: 1673318623:0;docker compose up -d
+: 1673318902:0;code nginx-conf
+: 1673319230:0;cd nextcloud
+: 1673319230:0;ls
+: 1673319250:0;code config/config.php
+: 1673319358:0;cd ..
+: 1673319359:0;code docker-compose.yml
+: 1673319426:0;docker compose up -d
+: 1673319850:0;code nextcloud/config/config.php
+: 1673319931:0;docker compose restart nextcloud
+: 1673320094:0;ls
+: 1673320095:0;cd nextcloud
+: 1673320096:0;ls
+: 1673320100:0;cd data
+: 1673320100:0;ls
+: 1673320105:0;cat nextcloud.log
+: 1673320119:0;tail -f nextcloud.log
+: 1673320196:0;cd ..
+: 1673320235:0;docker compose up -d
+: 1673320249:0;docker compose restart nextcloud
+: 1673320389:0;cat nextcloud/data/nextcloud.log| jq .
+: 1673320444:0;cat nextcloud/data/nextcloud.log| jq . | less
+: 1673320478:0;cat nextcloud/data/nextcloud.log| jq . | grep error
+: 1673320489:0;cat nextcloud/data/nextcloud.log| jq . | grep error | less
+: 1673320555:0;docker compose up -d
+: 1673320570:0;code nextcloud/config/config.php
+: 1673320607:0;cat nextcloud/data/nextcloud.log| jq . | grep error | less
+: 1673320642:0;code nextcloud/config/config.php
+: 1673320663:0;docker compose restart nextcloud
+: 1673320694:0;cat nextcloud/data/nextcloud.log| jq . | grep error | less
+: 1673320766:0;docker compose up -d
+: 1673320957:0;code nextcloud/config/config.php
+: 1673320968:0;docker compose up -d
+: 1673321340:0;code docker-compose.yml
+: 1673321362:0;docker compose up -d
+: 1673321415:0;code nextcloud/config/config.php
+: 1673321567:0;docker compose down
+: 1673321584:0;docker compose up -d
+: 1673321700:0;docker compose down
+: 1673321715:0;rm -rf nextcloud
+: 1673321727:0;docker compose up -d
+: 1673321875:0;code nextcloud/config/config.php
+: 1673321894:0;code nextcloud/config
+: 1673322126:0;docker compose up -d
+: 1673322147:0;code nextcloud/config
+: 1673322176:0;docker compose restart nextcloud
+: 1673322189:0;docker compose down
+: 1673322205:0;docker compose up -d
+: 1673322219:0;docker compose down
+: 1673322237:0;docker compose up -d
+: 1673322479:0;docker compose down
+: 1673322494:0;rm -rf nextcloud
+: 1673322503:0;docker compose up -d
+: 1673322514:0;docker compose down
+: 1673322533:0;docker compose up -d
+: 1673322541:0;docker compose down
+: 1673322556:0;docker compose up -d
+: 1673322562:0;docker compose down
+: 1673322589:0;docker compose up -d
+: 1673322635:0;cd nextcloud
+: 1673322635:0;ls
+: 1673322638:0;cd data
+: 1673322638:0;ls
+: 1673322639:0;cd ..
+: 1673322641:0;cd config
+: 1673322641:0;ls
+: 1673322712:0;j compose
+: 1673322835:0;rm -rf nextcloud
+: 1673322911:0;ls
+: 1673322921:0;docker compose up -d
+: 1673323153:0;ls
+: 1673323168:0;tail -f nextcloud/data/nextcloud.log| jq . | less
+: 1673323181:0;tail -f nextcloud/data/nextcloud.log
+: 1673323225:0;code nextcloud/config/config.php
+: 1673323268:0;docker compose restart nextcloud
+: 1673323738:0;ls
+: 1673323740:0;c d..
+: 1673323741:0;ls
+: 1673323743:0;j r10
+: 1673323744:0;ls
+: 1673323746:0;code aliyun-ddns
+: 1673323820:0;cd aliyun-ddns
+: 1673323822:0;npm start
+: 1673323836:0;git status
+: 1673323839:0;git add .
+: 1673323844:0;git commit
+: 1673323853:0;git push
+: 1673324140:0;j compose
+: 1673324157:0;tail -f nextcloud/data/nextcloud.log | jq .
+: 1673324163:0;tail -f nextcloud/data/nextcloud.log | jq . | less
+: 1673325063:0;code nextcloud/config/config.php
+: 1673325118:0;docker compose up -d
+: 1673325130:0;docker compose restart nextcloud
+: 1673325812:0;code docker-compose.yml
+: 1673325853:0;docker compose down
+: 1673325897:0;docker compose up -d
+: 1673325911:0;code nginx-conf
+: 1673325928:0;docker compose up -d
+: 1673329140:0;ls
+: 1673329143:0;ls certs
+: 1673329282:0;snap install core
+: 1673329289:0;snap refresh core
+: 1673329298:0;snap install --classic certbot\
+
+: 1673329361:0;sp
+: 1673329362:0;snap install --classic certbot\
+
+: 1673329386:0;certbot certonly --nginx
+: 1673329415:0;certbot -h
+: 1673329441:0;unsp
+: 1673329442:0;certbot certonly --nginx
+: 1673329607:0;certbot certonly --standalone -d cal.naizi.fun
+: 1673329643:0;sp
+: 1673329645:0;certbot certonly --standalone -d cal.naizi.fun
+: 1673329658:0;unsp
+: 1673329955:0;curl https://get.acme.sh | sh -s email=mingwiki@gmail.com
+: 1673330007:0;sp
+: 1673330008:0;curl https://get.acme.sh | sh -s email=mingwiki@gmail.com
+: 1673330017:0;unmsp
+: 1673330018:0;unsp
+: 1673330032:0;ls
+: 1673330039:0;cd
+: 1673330040:0;ls
+: 1673330105:0;j compose
+: 1673330106:0;cd akn
+: 1673330108:0;cd anki
+: 1673330108:0;ls
+: 1673330110:0;cd ..
+: 1673330110:0;ls
+: 1673330145:0;acme.sh --issue --standalone -d cal.naizi.fun
+: 1673330503:0;ls certs
+: 1673330662:0;certbot certonly --nginx
+: 1673330821:0;code nginx-conf
+: 1673330837:0;code docker-compose.yml
+: 1673331304:0;ls
+: 1673331309:0;mkdir certbot
+: 1673331326:0;mv nginx-conf/acme.config certbot
+: 1673331356:0;code certbot
+: 1673332003:0;docker compose up -d
+: 1673332074:0;ls
+: 1673332081:0;cd certbot
+: 1673332081:0;ls
+: 1673332085:0;cd ..
+: 1673332086:0;cd letsencrypt
+: 1673332087:0;ls
+: 1673332090:0;cd renewal-hooks
+: 1673332090:0;ls
+: 1673332092:0;cd ..
+: 1673332092:0;ls
+: 1673332096:0;cd accounts
+: 1673332096:0;ls
+: 1673332098:0;cd ..
+: 1673332098:0;ls
+: 1673332320:0;cd ..
+: 1673332324:0;docker compose up -d
+: 1673332436:0;code certbot
+: 1673332492:0;docker compose up -d
+: 1673332507:0;code letsencrypt
+: 1673332529:0;docker compose down cerbot
+: 1673332536:0;docker compose down
+: 1673332549:0;ls
+: 1673332554:0;rm -rf certbot letsencrypt
+: 1673332583:0;docker compose up -d
+: 1673332602:0;docker compose down
+: 1673332621:0;docker compose up -d
+: 1673332629:0;docker compose down
+: 1673332643:0;docker compose up -d
+: 1673332703:0;ls
+: 1673332718:0;cd certbot
+: 1673332719:0;ls
+: 1673332745:0;code .
+: 1673332790:0;code ng
+: 1673332797:0;cd ..
+: 1673332803:0;code nginx-conf
+: 1673332896:0;docker compose up -d
+: 1673332945:0;cd letsencrypt
+: 1673332946:0;ls
+: 1673332952:0;openssl dhparam -out ./dhparam.pem 2048
+: 1673332974:0;cd ..
+: 1673332979:0;docker compose up -d
+: 1673333003:0;ls
+: 1673333011:0;cd letsencrypt
+: 1673333012:0;ls
+: 1673333022:0;mv dhparam.pem ssl-dhparam.pem
+: 1673333024:0;cd ..
+: 1673333031:0;docker compose up -d
+: 1673333051:0;code certbot
+: 1673333060:0;cd letsencrypt
+: 1673333062:0;ls
+: 1673333067:0;mv ssl-dhparam.pem dhparam.pem
+: 1673333078:0;cd ..
+: 1673333081:0;docker compose up -d
+: 1673333481:0;docker compose exec certbot
+: 1673333549:0;docker compose exec certbot certonly --webroot --webroot-path "/var/www' -d cal.naizi.fun
+: 1673333552:0;docker compose exec certbot certonly --webroot --webroot-path "/var/www" -d cal.naizi.fun
+: 1673333562:0;docker compose exec -it certbot certonly --webroot --webroot-path "/var/www" -d cal.naizi.fun
+: 1673333568:0;docker compose exec -t certbot certonly --webroot --webroot-path "/var/www" -d cal.naizi.fun
+: 1673333586:0;docker compose exec -t certbot certbot certonly --webroot --webroot-path "/var/www" -d cal.naizi.fun
+: 1673333625:0;code nginx-conf
+: 1673333657:0;docker compose up -d
+: 1673333662:0;docker compose exec -t certbot certbot certonly --webroot --webroot-path "/var/www" -d cal.naizi.fun
+: 1673333710:0;ls
+: 1673333713:0;cd certbot
+: 1673333713:0;ls
+: 1673333715:0;cd ..
+: 1673333715:0;ls
+: 1673333717:0;cd letsencrypt
+: 1673333717:0;ls
+: 1673333736:0;cd ..
+: 1673333743:0;docker compose exec -t certbot certbot certonly --webroot --webroot-path "/var/www/html" -d cal.naizi.fun
+: 1673333757:0;docker compose exec -t certbot certbot certonly --webroot --webroot-path "/var/www" -d cal.naizi.fun
+: 1673333972:0;code nginx-conf
+: 1673334454:0;docker compose exec -t certbot certbot certonly -d cal.naizi.fun --manual --preferred-challenges dns --dry-run
+: 1673334472:0;docker compose exec -t certbot certbot certonly -d cal.naizi.fun
+: 1673334644:0;ls
+: 1673334648:0;cd certbot
+: 1673334649:0;ls
+: 1673334650:0;cd ..
+: 1673334668:0;cd letsencrypt
+: 1673334668:0;ls
+: 1673334674:0;cd ..
+: 1673334674:0;ls
+: 1673334694:0;mv certbot/acme.conf letsencrypt
+: 1673334719:0;code nginx-conf
+: 1673334743:0;code certbot
+: 1673334752:0;code letsencrypt
+: 1673334848:0;rm -rf certbot
+: 1673334852:0;docker compose down
+: 1673334869:0;docker compose up dnsproxy
+: 1673334873:0;docker compose up dnsproxy -d
+: 1673334877:0;docker compose up -d
+: 1673334929:0;code nginx-conf
+: 1673334960:0;docker compose up -d
+: 1673334995:0;cd cert
+: 1673334995:0;ls
+: 1673335001:0;cd certbot
+: 1673335001:0;ls
+: 1673335003:0;cd ..
+: 1673335003:0;ls
+: 1673335122:0;docker compose exec -t certbot certbot certonly --webroot -w /var/www --force-renewal --email mingwiki@gmail.com -d cal.naizi.fun --agree-tos
+: 1673335141:0;docker compose exec -t certbot certbot certonly --webroot -w /var/www --force-renewal --email mingwiki@gmail.com -d calendar.naizi.fun --agree-tos
+: 1673335271:0;docker compose down
+: 1673335292:0;code letsencrypt
+: 1673335427:0;ls
+: 1673335438:0;rm certbot letsencrypt
+: 1673335443:0;rm -rf certbot letsencrypt
+: 1673335444:0;ls
+: 1673335449:0;rm mc
+: 1673335449:0;ls
+: 1673335743:0;mv cal.naizi.fun.* certs
+: 1673335744:0;ls
+: 1673335746:0;cd certs
+: 1673335746:0;ls
+: 1673335747:0;la
+: 1673335755:0;cd ..
+: 1673335759:0;code nginx-conf
+: 1673335785:0;cd ..
+: 1673335791:0;docker composeu pud-
+: 1673335800:0;docker compose up -d
+: 1673337811:0;rm -rf nextcloud
+: 1673337938:0;docker ps
+: 1673337948:0;htop
+: 1673338100:0;docker compose up -d
+: 1673339310:0;l
+: 1673340406:0;htop
+: 1673340427:0;ls
+: 1673346392:0;j zsh
+: 1673346396:0;git status
+: 1673346415:0;git config --global core.editor nvim
+: 1673346418:0;git add .
