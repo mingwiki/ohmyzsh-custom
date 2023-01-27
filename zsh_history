@@ -141,8 +141,6 @@ esac
 : 1670843047:0;apt list-installed
 : 1670843079:0;apt autoclean
 : 1670843095:0;apt autoremove
-: 1670843097:0;apt update
-: 1670843104:0;apt upgrade
 : 1670896985:0;cd /mnt/r1/alidrive
 : 1670899027:0;find . -d empty
 : 1670899037:0;find . -depth empty
@@ -205,7 +203,6 @@ esac
 : 1671694938:0;npm set registry https://registry.npmmirror.com
 : 1671694957:0;rm package-lock.json
 : 1671694960:0;rm -rf node_modules
-: 1671694964:0;npm i
 : 1671710442:0;mailq
 : 1671710594:0;nslookup 10.10.10.10
 : 1671710596:0;nslookup 10.10.10.1
@@ -249,7 +246,6 @@ esac
 : 1672026212:0;conda
 : 1672031321:0;aria2p call forcePauseAll
 : 1672031339:0;aria2p call purgeDownloadResult
-: 1672031348:0;aria2p show
 : 1672037519:0;ls -F
 : 1672037531:0;apt install lsd
 : 1672037540:0;snap install lsd
@@ -257,8 +253,6 @@ esac
 : 1672121487:0;nvm ls
 : 1672122771:0;git remote .
 : 1672122777:0;git rm vite.config.js
-: 1672122794:0;git add .
-: 1672130576:0;docke rps
 : 1672130643:0;~qqq0;40;36M0;40;36
 : 1672203947:0;curl --http2 -H "accept: application/dns-json" "https://1.1.1.1/dns-query?name=cloudflare.com" --next --http2 -H "accept: application/dns-json" "https://1.1.1.1/dns-query?name=example.com"\
 
@@ -270,7 +264,6 @@ esac
 : 1672205542:0;curl --doh-url https://doh.pub/dns-query www.google.com
 : 1672205561:0;curl --doh-url https://doh.pub/dns-query https://www.google.com
 : 1672205573:0;curl --doh-url https://dns.alidns.com/dns-query https://www.google.com
-: 1672205634:0;nslookup google.com
 : 1672205644:0;nslookup google.com https://dns.google/dns-query
 : 1672205671:0;apt install dnslookuip
 : 1672205675:0;apt install dnslookup
@@ -287,7 +280,6 @@ esac
 : 1672206482:0;dog -H @https://dns.aliyun.com/dns-query google.com
 : 1672206539:0;ls cre
 : 1672206575:0;chmod 600 -R certs
-: 1672206578:0;cd certs
 : 1672206615:0;lsof -i:53
 : 1672206757:0;code /etc/resolv.conf
 : 1672207148:0;dog -H @https://dns.naizi.fun/dns-query google.com
@@ -304,7 +296,6 @@ esac
 : 1672209992:0;cd gitea
 : 1672210278:0;docker compose restart gitea
 : 1672213549:0;docker compose stop nginx
-: 1672216114:0;ls certs
 : 1672216439:0;ls privatebin
 : 1672216616:0;rm -rf privatebin
 : 1672216966:0;cd privatebin/cfg
@@ -320,7 +311,6 @@ esac
 : 1672217719:0;chmod 777 -R privatebin
 : 1672217875:0;chown -R www-data:www-data privatebin
 : 1672217925:0;chown -R root:root privatebin
-: 1672217951:0;docker compose down && docker compose up -d
 : 1672220157:0;mc admin
 : 1672220163:0;mc admin policy
 : 1672220178:0;mc admin policy set public minio
@@ -345,7 +335,6 @@ esac
 : 1672221066:0;rm -rf privatebin/data
 : 1672221271:0;docker compose up 0d
 : 1672221500:0;docker compose restart privatebin
-: 1672222249:0;cd data
 : 1672222251:0;a
 : 1672222394:0;cd privatebin
 : 1672222406:0;chmod 777 -R data
@@ -354,12 +343,9 @@ esac
 : 1672222725:0;code privatebin/cfg/conf.php
 : 1672223568:0;docker compose stop privatebin
 : 1672224035:0;docker ocompose up -d
-: 1672224214:0;docker compose restart nginx
-: 1672224309:0;npm start
 : 1672228482:0;cd photoprism
 : 1672228490:0;cd originals
 : 1672228809:0;chmod 777 -R photoprism
-: 1672229244:0;code nginx-conf
 : 1672280875:0;s
 : 1672295213:0;mv ÁªÉØÂÉ•∏ËÄÅÊ≠É¨1688È¶É∂wma/ /mnt/r10/compose/jellyfin/media2
 : 1672295237:0;j alidr__
@@ -382,8 +368,6 @@ esac
 : 1672298357:0;mv op_support/toolkits.service toolkits
 : 1672298395:0;git psuh
 : 1672298422:0;git add toolkits.service
-: 1672298424:0;git commit
-: 1672298439:0;git push
 : 1672299068:0;fallocate -l 4G /swapfile
 : 1672299077:0;chmod 600 /swapfile
 : 1672299084:0;mkswap /swapfile
@@ -399,7 +383,6 @@ esac
 : 1672302843:0;rsync -avzhP ÊÉºÉ©Â£∞ÁÉ£≠ÈÉ∑®‰π¶‰∏É™ÂÉ≠É£ÊÉº¨Â§ßÂÉ•® /mnt/r10/compose/jellyfin/media2
 : 1672302977:0;rsync -avzhP ÁªÉØÂÉ•∏ÈÉø≥‰πÉ∞ÂÉ∞É®ÈÉªÉ¶„ÄÉ∞4KMV+ÈÉø≥‰πÉ∞‰∏É≥ËæÉ±„ÄÉ±ÔºÉ®24ÂÉ∞É®ÈÉªÉ¶404.9GBÔºÉ© /mnt/r10/compose/jellyfin/media2 &
 : 1672302985:0;rsync -avzhP ÊÉºÉ©Â£∞ÁÉ£≠ÈÉ∑®‰π¶‰∏É™ÂÉ≠É£ÊÉº¨Â§ßÂÉ•® /mnt/r10/compose/jellyfin/media2 &
-: 1672303130:0;ps aux
 : 1672303135:0;ps aux | grep mv
 : 1672303151:0;j alidri__
 : 1672303215:0;nohup rsyncls -avhP ÊÉºÉ©Â£∞ÁÉ£≠ÈÉ∑®‰π¶‰∏É™ÂÉ≠É£ÊÉº¨Â§ßÂÉ•® ÁªÉØÂÉ•∏ÈÉø≥‰πÉ∞ÂÉ∞É®ÈÉªÉ¶„ÄÉ∞4KMV+ÈÉø≥‰πÉ∞‰∏É≥ËæÉ±„ÄÉ±ÔºÉ®24ÂÉ∞É®ÈÉªÉ¶404.9GBÔºÉ© /mnt/r10/compose/jellyfin/media2
@@ -466,8 +449,6 @@ esac
 : 1672475370:0;systemctl
 : 1672475375:0;systemctl -h
 : 1672475414:0;systemctl status op
-: 1672475605:0;systemctl restart trojan
-: 1672477027:0;hotp
 : 1672496433:0;rm nohup.out
 : 1672565835:0;code /mnt/r10/compose/docker-compose.yml
 : 1672565931:0;dog
@@ -494,18 +475,14 @@ esac
 : 1672581132:0;ncdu
 : 1672581171:0;ncdu --exclude /mnt
 : 1672584238:0;docker images
-: 1672587085:0;sp
-: 1672587673:0;unsp
 : 1672588674:0;code /etc/docker/daemon.json
 : 1672897299:0;j compo__
-: 1672897304:0;code docker-compose.yml
 : 1672897341:0;docker ps | grep Up
 : 1672897345:0;docker ps | grep Up | wc
 : 1672897349:0;docker ps | grep Up | wc -l
 : 1672897676:0;curl -sL yabs.sh
 : 1672898541:0;lsblk
 : 1672898573:0;neofetch
-: 1672898586:0;clear
 : 1672900763:0;j too__
 : 1672900793:0;git config pull.ff only
 : 1672916908:0;code vite.config.js
@@ -514,14 +491,11 @@ esac
 : 1672917091:0;git reset HEAD
 : 1672917113:0;git rm common/v1/db.js
 : 1672917135:0;git rm common/v1/db.js -f
-: 1672917139:0;git status
 : 1672917162:0;cd common
 : 1672917167:0;code db.js
 : 1672917680:0;code toolkits
 : 1672917698:0;code op_support
-: 1672917974:0;la
 : 1672917989:0;code .env
-: 1672918056:0;code .
 : 1672919716:0;journalctl -u toolkits.service
 : 1672928282:0;cd SteamLibrary
 : 1672928285:0;cd steamapps
@@ -542,11 +516,9 @@ esac
 : 1672930249:0;rsync compose /mnt/r1
 : 1672930271:0;j com
 : 1672930288:0;rsync -avzhP compose /mnt/r1
-: 1672934720:0;j r1
 : 1672934723:0;rm -rf compose
 : 1672936755:0;systemctl status trojan
 : 1672936811:0;journalctl -f -u opsupport
-: 1673001347:0;l
 : 1673180454:0;whoami
 : 1673180462:0;SSH_CONNECTION
 : 1673180463:0;SSH_CONNECTIO
@@ -565,14 +537,12 @@ esac
 : 1673196140:0;mv ÁªÉØÂÉ•∏ËÄÅÊ≠É¨1688È¶É∂wma ÁªÉØÂÉ•∏ÈÉø≥‰πÉ∞ÂÉ∞É®ÈÉªÉ¶„ÄÉ∞4KMV+ÈÉø≥‰πÉ∞‰∏É≥ËæÉ±„ÄÉ±ÔºÉ®24ÂÉ∞É®ÈÉªÉ¶404.9GBÔºÉ© music
 : 1673196150:0;mkdir musicbooks
 : 1673196158:0;mv ÊÉºÉ©Â£∞ÁÉ£≠ÈÉ∑®‰π¶‰∏É™ÂÉ≠É£ÊÉº¨Â§ßÂÉ•® musicbooks
-: 1673196670:0;killall node
 : 1673235486:0;cat /etc/passwd
 : 1673235500:0;ps aux | grep 410591
 : 1673235643:0;ps aux | grep manage.py
 : 1673235914:0;cd /
 : 1673235915:0;fzf
 : 1673235978:0;w
-: 1673236133:0;glances
 : 1673236295:0;ps -aux | grep defunct
 : 1673236308:0;killall defunct
 : 1673236319:0;kill -9 2320421 2320422
@@ -586,25 +556,12 @@ esac
 : 1673236909:0;ps -u 911 x
 : 1673236912:0;ps -u 911 a
 : 1673240133:0;ps aux | grep ssh
-: 1673242525:0;j compose
-: 1673242585:0;systemctl restart docker
-: 1673242670:0;docker compose down
 : 1673242693:0;docker compose restart dnsproxy
-: 1673242696:0;docker compose up -d
-: 1673242707:0;docker ps
-: 1673242785:0;df -h
-: 1673244307:0;ls
-: 1673244484:0;journalctl -u opsupport.service
 : 1673258307:0;j to__
-: 1673258310:0;cd
 : 1673258315:0;cd op_support
 : 1673258331:0;systemctl restart opsupport.service
-: 1673258333:0;cd ..
 : 1673258334:0;cd toolkits
 : 1673258336:0;git pull
-: 1673258349:0;systemctl restart toolkits.service
-: 1673258360:0;systemctl status toolkits.service
-: 1673258673:0;systemctl status opsupport.service
 : 1673258728:0;fallocate -l 8G /swapfile
 : 1673258734:0;chmod 600 /swapfile \
 
@@ -619,307 +576,761 @@ esac
 : 1673258995:0;swapn -s
 : 1673259004:0;swapon -h
 : 1673259026:0;swapon -s
-: 1673259034:0;htop
-: 1673259233:0;exit
-: 1673264892:0;docker ps
-: 1673264894:0;htop
-: 1673274939:0;glances
-: 1673275098:0;systemctl restart trojan
-: 1673275175:0;systemctl status trojan.service
-: 1673275219:0;docker ps
 : 1673275233:0;systemctl restart docker
-: 1673275550:0;docker ps
-: 1673275555:0;docker compose down
 : 1673275571:0;docker compose up d-
-: 1673275573:0;docker compose up -d
-: 1673275588:0;docker ps
-: 1673275603:0;docker compose up -d
-: 1673275609:0;docker ps
 : 1673279171:0;apt update
 : 1673279185:0;apt upgrade
-: 1673279199:0;docker ps
-: 1673279306:0;htop
-: 1673279447:0;code docker-compose.yml
-: 1673279510:0;docker compose up -d
-: 1673316037:0;cd
-: 1673316037:0;ls
 : 1673316041:0;curl 6.ipw.cn
 : 1673316045:0;curl 4.ipw.cn
 : 1673316051:0;ip addr
-: 1673316150:0;curl test.ipw.cn
-: 1673317278:0;j compose
-: 1673317279:0;ls
-: 1673317280:0;code docker-compose.yml
-: 1673318221:0;docker compose up -d
-: 1673318549:0;ls certs
-: 1673318555:0;code nginx-conf
-: 1673318623:0;docker compose up -d
-: 1673318902:0;code nginx-conf
-: 1673319230:0;cd nextcloud
-: 1673319230:0;ls
 : 1673319250:0;code config/config.php
-: 1673319358:0;cd ..
-: 1673319359:0;code docker-compose.yml
-: 1673319426:0;docker compose up -d
-: 1673319850:0;code nextcloud/config/config.php
-: 1673319931:0;docker compose restart nextcloud
-: 1673320094:0;ls
-: 1673320095:0;cd nextcloud
-: 1673320096:0;ls
-: 1673320100:0;cd data
-: 1673320100:0;ls
 : 1673320105:0;cat nextcloud.log
 : 1673320119:0;tail -f nextcloud.log
-: 1673320196:0;cd ..
-: 1673320235:0;docker compose up -d
-: 1673320249:0;docker compose restart nextcloud
 : 1673320389:0;cat nextcloud/data/nextcloud.log| jq .
 : 1673320444:0;cat nextcloud/data/nextcloud.log| jq . | less
 : 1673320478:0;cat nextcloud/data/nextcloud.log| jq . | grep error
-: 1673320489:0;cat nextcloud/data/nextcloud.log| jq . | grep error | less
-: 1673320555:0;docker compose up -d
-: 1673320570:0;code nextcloud/config/config.php
-: 1673320607:0;cat nextcloud/data/nextcloud.log| jq . | grep error | less
-: 1673320642:0;code nextcloud/config/config.php
-: 1673320663:0;docker compose restart nextcloud
 : 1673320694:0;cat nextcloud/data/nextcloud.log| jq . | grep error | less
-: 1673320766:0;docker compose up -d
-: 1673320957:0;code nextcloud/config/config.php
-: 1673320968:0;docker compose up -d
-: 1673321340:0;code docker-compose.yml
-: 1673321362:0;docker compose up -d
-: 1673321415:0;code nextcloud/config/config.php
-: 1673321567:0;docker compose down
-: 1673321584:0;docker compose up -d
-: 1673321700:0;docker compose down
-: 1673321715:0;rm -rf nextcloud
-: 1673321727:0;docker compose up -d
-: 1673321875:0;code nextcloud/config/config.php
-: 1673321894:0;code nextcloud/config
-: 1673322126:0;docker compose up -d
 : 1673322147:0;code nextcloud/config
-: 1673322176:0;docker compose restart nextcloud
-: 1673322189:0;docker compose down
-: 1673322205:0;docker compose up -d
-: 1673322219:0;docker compose down
-: 1673322237:0;docker compose up -d
-: 1673322479:0;docker compose down
-: 1673322494:0;rm -rf nextcloud
-: 1673322503:0;docker compose up -d
-: 1673322514:0;docker compose down
-: 1673322533:0;docker compose up -d
-: 1673322541:0;docker compose down
-: 1673322556:0;docker compose up -d
-: 1673322562:0;docker compose down
-: 1673322589:0;docker compose up -d
 : 1673322635:0;cd nextcloud
-: 1673322635:0;ls
 : 1673322638:0;cd data
-: 1673322638:0;ls
-: 1673322639:0;cd ..
 : 1673322641:0;cd config
-: 1673322641:0;ls
-: 1673322712:0;j compose
-: 1673322835:0;rm -rf nextcloud
-: 1673322911:0;ls
-: 1673322921:0;docker compose up -d
-: 1673323153:0;ls
 : 1673323168:0;tail -f nextcloud/data/nextcloud.log| jq . | less
 : 1673323181:0;tail -f nextcloud/data/nextcloud.log
-: 1673323225:0;code nextcloud/config/config.php
-: 1673323268:0;docker compose restart nextcloud
-: 1673323738:0;ls
 : 1673323740:0;c d..
-: 1673323741:0;ls
-: 1673323743:0;j r10
-: 1673323744:0;ls
 : 1673323746:0;code aliyun-ddns
-: 1673323820:0;cd aliyun-ddns
-: 1673323822:0;npm start
-: 1673323836:0;git status
-: 1673323839:0;git add .
-: 1673323844:0;git commit
-: 1673323853:0;git push
-: 1673324140:0;j compose
 : 1673324157:0;tail -f nextcloud/data/nextcloud.log | jq .
 : 1673324163:0;tail -f nextcloud/data/nextcloud.log | jq . | less
 : 1673325063:0;code nextcloud/config/config.php
-: 1673325118:0;docker compose up -d
 : 1673325130:0;docker compose restart nextcloud
-: 1673325812:0;code docker-compose.yml
-: 1673325853:0;docker compose down
-: 1673325897:0;docker compose up -d
-: 1673325911:0;code nginx-conf
-: 1673325928:0;docker compose up -d
-: 1673329140:0;ls
-: 1673329143:0;ls certs
 : 1673329282:0;snap install core
 : 1673329289:0;snap refresh core
-: 1673329298:0;snap install --classic certbot\
-
-: 1673329361:0;sp
 : 1673329362:0;snap install --classic certbot\
 
-: 1673329386:0;certbot certonly --nginx
 : 1673329415:0;certbot -h
-: 1673329441:0;unsp
-: 1673329442:0;certbot certonly --nginx
-: 1673329607:0;certbot certonly --standalone -d cal.naizi.fun
-: 1673329643:0;sp
 : 1673329645:0;certbot certonly --standalone -d cal.naizi.fun
-: 1673329658:0;unsp
-: 1673329955:0;curl https://get.acme.sh | sh -s email=mingwiki@gmail.com
-: 1673330007:0;sp
 : 1673330008:0;curl https://get.acme.sh | sh -s email=mingwiki@gmail.com
 : 1673330017:0;unmsp
 : 1673330018:0;unsp
-: 1673330032:0;ls
-: 1673330039:0;cd
-: 1673330040:0;ls
-: 1673330105:0;j compose
 : 1673330106:0;cd akn
 : 1673330108:0;cd anki
-: 1673330108:0;ls
-: 1673330110:0;cd ..
-: 1673330110:0;ls
 : 1673330145:0;acme.sh --issue --standalone -d cal.naizi.fun
 : 1673330503:0;ls certs
 : 1673330662:0;certbot certonly --nginx
-: 1673330821:0;code nginx-conf
-: 1673330837:0;code docker-compose.yml
-: 1673331304:0;ls
 : 1673331309:0;mkdir certbot
 : 1673331326:0;mv nginx-conf/acme.config certbot
-: 1673331356:0;code certbot
-: 1673332003:0;docker compose up -d
-: 1673332074:0;ls
-: 1673332081:0;cd certbot
-: 1673332081:0;ls
-: 1673332085:0;cd ..
-: 1673332086:0;cd letsencrypt
-: 1673332087:0;ls
 : 1673332090:0;cd renewal-hooks
-: 1673332090:0;ls
-: 1673332092:0;cd ..
-: 1673332092:0;ls
 : 1673332096:0;cd accounts
-: 1673332096:0;ls
-: 1673332098:0;cd ..
-: 1673332098:0;ls
-: 1673332320:0;cd ..
-: 1673332324:0;docker compose up -d
-: 1673332436:0;code certbot
-: 1673332492:0;docker compose up -d
-: 1673332507:0;code letsencrypt
 : 1673332529:0;docker compose down cerbot
-: 1673332536:0;docker compose down
-: 1673332549:0;ls
-: 1673332554:0;rm -rf certbot letsencrypt
-: 1673332583:0;docker compose up -d
-: 1673332602:0;docker compose down
-: 1673332621:0;docker compose up -d
-: 1673332629:0;docker compose down
-: 1673332643:0;docker compose up -d
-: 1673332703:0;ls
-: 1673332718:0;cd certbot
-: 1673332719:0;ls
-: 1673332745:0;code .
 : 1673332790:0;code ng
-: 1673332797:0;cd ..
-: 1673332803:0;code nginx-conf
-: 1673332896:0;docker compose up -d
-: 1673332945:0;cd letsencrypt
-: 1673332946:0;ls
 : 1673332952:0;openssl dhparam -out ./dhparam.pem 2048
-: 1673332974:0;cd ..
-: 1673332979:0;docker compose up -d
-: 1673333003:0;ls
-: 1673333011:0;cd letsencrypt
-: 1673333012:0;ls
 : 1673333022:0;mv dhparam.pem ssl-dhparam.pem
-: 1673333024:0;cd ..
-: 1673333031:0;docker compose up -d
-: 1673333051:0;code certbot
-: 1673333060:0;cd letsencrypt
-: 1673333062:0;ls
 : 1673333067:0;mv ssl-dhparam.pem dhparam.pem
-: 1673333078:0;cd ..
-: 1673333081:0;docker compose up -d
 : 1673333481:0;docker compose exec certbot
 : 1673333549:0;docker compose exec certbot certonly --webroot --webroot-path "/var/www' -d cal.naizi.fun
 : 1673333552:0;docker compose exec certbot certonly --webroot --webroot-path "/var/www" -d cal.naizi.fun
 : 1673333562:0;docker compose exec -it certbot certonly --webroot --webroot-path "/var/www" -d cal.naizi.fun
 : 1673333568:0;docker compose exec -t certbot certonly --webroot --webroot-path "/var/www" -d cal.naizi.fun
-: 1673333586:0;docker compose exec -t certbot certbot certonly --webroot --webroot-path "/var/www" -d cal.naizi.fun
-: 1673333625:0;code nginx-conf
-: 1673333657:0;docker compose up -d
-: 1673333662:0;docker compose exec -t certbot certbot certonly --webroot --webroot-path "/var/www" -d cal.naizi.fun
-: 1673333710:0;ls
-: 1673333713:0;cd certbot
-: 1673333713:0;ls
-: 1673333715:0;cd ..
-: 1673333715:0;ls
-: 1673333717:0;cd letsencrypt
-: 1673333717:0;ls
-: 1673333736:0;cd ..
 : 1673333743:0;docker compose exec -t certbot certbot certonly --webroot --webroot-path "/var/www/html" -d cal.naizi.fun
 : 1673333757:0;docker compose exec -t certbot certbot certonly --webroot --webroot-path "/var/www" -d cal.naizi.fun
-: 1673333972:0;code nginx-conf
 : 1673334454:0;docker compose exec -t certbot certbot certonly -d cal.naizi.fun --manual --preferred-challenges dns --dry-run
 : 1673334472:0;docker compose exec -t certbot certbot certonly -d cal.naizi.fun
-: 1673334644:0;ls
-: 1673334648:0;cd certbot
-: 1673334649:0;ls
-: 1673334650:0;cd ..
 : 1673334668:0;cd letsencrypt
-: 1673334668:0;ls
-: 1673334674:0;cd ..
-: 1673334674:0;ls
 : 1673334694:0;mv certbot/acme.conf letsencrypt
-: 1673334719:0;code nginx-conf
 : 1673334743:0;code certbot
-: 1673334752:0;code letsencrypt
 : 1673334848:0;rm -rf certbot
-: 1673334852:0;docker compose down
 : 1673334869:0;docker compose up dnsproxy
 : 1673334873:0;docker compose up dnsproxy -d
-: 1673334877:0;docker compose up -d
-: 1673334929:0;code nginx-conf
-: 1673334960:0;docker compose up -d
 : 1673334995:0;cd cert
-: 1673334995:0;ls
 : 1673335001:0;cd certbot
-: 1673335001:0;ls
-: 1673335003:0;cd ..
-: 1673335003:0;ls
 : 1673335122:0;docker compose exec -t certbot certbot certonly --webroot -w /var/www --force-renewal --email mingwiki@gmail.com -d cal.naizi.fun --agree-tos
 : 1673335141:0;docker compose exec -t certbot certbot certonly --webroot -w /var/www --force-renewal --email mingwiki@gmail.com -d calendar.naizi.fun --agree-tos
-: 1673335271:0;docker compose down
 : 1673335292:0;code letsencrypt
-: 1673335427:0;ls
 : 1673335438:0;rm certbot letsencrypt
 : 1673335443:0;rm -rf certbot letsencrypt
-: 1673335444:0;ls
 : 1673335449:0;rm mc
-: 1673335449:0;ls
 : 1673335743:0;mv cal.naizi.fun.* certs
-: 1673335744:0;ls
 : 1673335746:0;cd certs
-: 1673335746:0;ls
 : 1673335747:0;la
-: 1673335755:0;cd ..
-: 1673335759:0;code nginx-conf
-: 1673335785:0;cd ..
 : 1673335791:0;docker composeu pud-
-: 1673335800:0;docker compose up -d
 : 1673337811:0;rm -rf nextcloud
-: 1673337938:0;docker ps
-: 1673337948:0;htop
-: 1673338100:0;docker compose up -d
 : 1673339310:0;l
-: 1673340406:0;htop
-: 1673340427:0;ls
 : 1673346392:0;j zsh
 : 1673346396:0;git status
 : 1673346415:0;git config --global core.editor nvim
-: 1673346418:0;git add .
+: 1673346421:0;git commist
+: 1673352872:0;systemctl status trojan.service
+: 1673352878:0;systemctl status toolkits.service
+: 1673440450:0;docker p
+: 1673441788:0;systemctl restart trojan
+: 1673442531:0;cd ..
+: 1673445875:0;curl test.ipw.cn
+: 1673445912:0;killall vscode
+: 1673445918:0;killall node
+: 1673445996:0;journalctl -u opsupport.service
+: 1673449189:0;nslookup baidu.com
+: 1673449201:0;nslookup google.com
+: 1673449243:0;nslookup twitter.com
+: 1673449263:0;dig +trace google.com
+: 1673449287:0;dig -h
+: 1673449390:0;dig +trace
+: 1673449721:0;systemctl restart aria2.service
+: 1673449722:0;aria2p show
+: 1673484437:0;docker compose down && docker compose up -d
+: 1673484671:0;cd ..ls
+: 1673484689:0;j aliyun
+: 1673488585:0;docke rps
+: 1673494483:0;systemctl status opsupport.service
+: 1673494510:0;systemctl restart toolkits.service
+: 1673501930:0;j r10
+: 1673501932:0;cd aliyun-ddns
+: 1673501933:0;code .
+: 1673502004:0;npm uni node-fetch
+: 1673502023:0;npm i
+: 1673502029:0;git add .
+: 1673502032:0;git commit
+: 1673502039:0;git push
+: 1673502083:0;npm start
+: 1673502108:0;ccd
+: 1673502109:0;cd
+: 1673502112:0;hotp
+: 1673512849:0;glances
+: 1673514064:0;killall glances
+: 1673514070:0;ps aux
+: 1673514087:0;docker ps
+: 1673517100:0;curl http://myip.ipip.net
+: 1673517106:0;curl myip.ipip.net
+: 1673517119:0;curl -s myip.ipip.net
+: 1673517134:0;wget setAppletJumpTrigger
+: 1673517145:0;ping pihole
+: 1673517149:0;ping pi.hole
+: 1673517155:0;ping baidu.com
+: 1673517163:0;ping google.com
+: 1673517166:0;dig google.com
+: 1673517178:0;dig google.com +trace
+: 1673580993:0;j compose
+: 1673598719:0;code docker-compose.yml
+: 1673600345:0;clear
+: 1673600620:0;j r1
+: 1673600624:0;cd /mnt/r1
+: 1673600624:0;ls
+: 1673600981:0;df -h
+: 1673622148:0;j compsoe
+: 1673622455:0;docker compose down
+: 1673622471:0;docker compose up -d
+: 1673622514:0;code nginx-conf
+: 1673622549:0;docker compose restart anki
+: 1673622569:0;docker compose restart nginx
+: 1673625149:0;htop
+: 1673681257:0;zsh -h
+: 1673681260:0;exit
+: 1673681276:0;omz
+: 1673681280:0;sp
+: 1673681283:0;omz update
+: 1673681288:0;unsp
+: 1673681290:0;clera
+: 1673681291:0;clear
+: 1673681300:0;neofetch
+: 1673773614:0;ls
+: 1673773617:0;j compose
+: 1673773618:0;ls
+: 1673773621:0;cd kavita
+: 1673773621:0;ls
+: 1673773625:0;cd comics
+: 1673773626:0;ls
+: 1673773630:0;mv Ê≠¶ÂÉ™ÉøÁßÉ∏Á±É≠ ../books
+: 1673773634:0;cd ..
+: 1673773636:0;cd books
+: 1673773636:0;ls
+: 1673773642:0;cd Ê≠¶ÂÉ™ÉøÁßÉ∏Á±É≠
+: 1673773644:0;ls
+: 1673773648:0;mv * ..
+: 1673773649:0;ls
+: 1673773651:0;cd ..
+: 1673773659:0;rm -rf Ê≠¶ÂÉ™ÉøÁßÉ∏Á±É≠
+: 1673773661:0;ls
+: 1673773664:0;cd ..
+: 1673773664:0;ls
+: 1673773675:0;mv books ...
+: 1673773677:0;ls
+: 1673773679:0;cd ..
+: 1673773679:0;ls
+: 1673773682:0;cd ..
+: 1673773682:0;ls
+: 1673773688:0;j comp__
+: 1673773689:0;code docker-compose.yml
+: 1673773796:0;cd ..
+: 1673773796:0;ls
+: 1673773809:0;code ng
+: 1673773817:0;cd compose
+: 1673773818:0;code nginx-conf
+: 1673773881:0;docker compose up -d
+: 1673774037:0;code nginx-conf
+: 1673774047:0;docker compose up -d
+: 1673774078:0;code nginx-conf
+: 1673774086:0;docker compose up -d
+: 1673774128:0;code nginx-conf
+: 1673774169:0;docker compose up -d
+: 1673774225:0;cd ../books
+: 1673774226:0;ls
+: 1673774229:0;cd ..
+: 1673774230:0;ls
+: 1673774231:0;la
+: 1673774245:0;chown -R 1000:1000 books
+: 1673774388:0;j compo__
+: 1673774389:0;code docker-compose.yml
+: 1673774417:0;docker compose up -d
+: 1673774541:0;cd calibre-web
+: 1673774541:0;ls
+: 1673774543:0;cd ..
+: 1673774544:0;ls
+: 1673774556:0;du -hs kavita
+: 1673774562:0;cd kavita
+: 1673774562:0;ls
+: 1673774564:0;cd comics
+: 1673774565:0;ls
+: 1673774566:0;cd ..
+: 1673774567:0;cd data
+: 1673774567:0;ls
+: 1673774570:0;cd ..
+: 1673774572:0;ls
+: 1673774574:0;cd manga
+: 1673774574:0;ls
+: 1673774575:0;cd ..
+: 1673774580:0;rm -rf kavita
+: 1673774876:0;ls
+: 1673774882:0;la
+: 1673774894:0;cd calibre-web
+: 1673774895:0;ls
+: 1673774898:0;cd ..
+: 1673774900:0;ls
+: 1673774958:0;docker compose down
+: 1673774984:0;rm -rf calibre-web
+: 1673774988:0;docker compose up -d
+: 1673774999:0;docker compose down
+: 1673775015:0;docker compose up -d
+: 1673775037:0;cd calibre-web
+: 1673775038:0;ls
+: 1673775039:0;cd ..
+: 1673775040:0;ls
+: 1673775238:0;docker compose up -d
+: 1673775629:0;code nginx-conf
+: 1673775686:0;docker compose down
+: 1673775711:0;docker compose up -d
+: 1673775720:0;docker ps
+: 1673775747:0;rm -rf calibre-web paperless wallabag nzb
+: 1673775748:0;ls
+: 1673775750:0;cd webdav
+: 1673775751:0;ls
+: 1673775752:0;cd ..
+: 1673775754:0;rm -rf webdav
+: 1673775755:0;ls
+: 1673775762:0;cd ..
+: 1673775763:0;ls
+: 1673775770:0;cd com
+: 1673775771:0;cd compose
+: 1673775772:0;ls
+: 1673775798:0;cd photoprism
+: 1673775798:0;ls
+: 1673775801:0;cd originals
+: 1673775801:0;ls
+: 1673775805:0;cd ..
+: 1673775805:0;ls
+: 1673775807:0;cd storage
+: 1673775807:0;ls
+: 1673775810:0;cd ..
+: 1673775810:0;ls
+: 1673775817:0;cd ..
+: 1673775821:0;docker compose down
+: 1673775856:0;docker compose up -d
+: 1673777815:0;j books
+: 1673777816:0;ls
+: 1673777842:0;j ali__
+: 1673777858:0;mv ‰∏É™ÁÉπæÊÉº¨ÁÉ¥µÂ≠É∞‰π¶ÂÉ∞É®ÈÉªÉ¶* /mnt/r10/books
+: 1673778013:0;j bo__
+: 1673778025:0;mv ‰∏É™ÁÉπæÊÉº¨ÁÉ¥µÂ≠É∞‰π¶ÂÉ∞É®ÈÉªÉ¶*/* .
+: 1673778035:0;find -type d -empty -delete
+: 1673778047:0;ls | wc
+: 1673778055:0;ls | wc -l
+: 1673781689:0;docker ps
+: 1673781691:0;j compose
+: 1673781693:0;docker ps
+: 1673781755:0;df -h
+: 1673782528:0;docker ps
+: 1673783005:0;ls
+: 1673783009:0;htop
+: 1673787429:0;s
+: 1673787433:0;glances
+: 1673787556:0;ls
+: 1673787558:0;code docker-compose.yml
+: 1673787592:0;docker compose up -d
+: 1673788599:0;htop
+: 1673788756:0;lspci -nn
+: 1673788914:0;docker ps
+: 1673789085:0;cd photoprism
+: 1673789086:0;ls
+: 1673789104:0;docker compose up -d
+: 1673789860:0;htop
+: 1673791713:0;docker ps
+: 1673791738:0;docker logs -f jellyfin
+: 1673796222:0;htop
+: 1673797622:0;ls
+: 1673798268:0;cd op_support
+: 1673798270:0;code .
+: 1673799765:0;ls
+: 1673799775:0;code op_support
+: 1673838128:0;docker
+: 1673838131:0;docker ps
+: 1673838137:0;htop
+: 1673839900:0;journalctl -u trojan
+: 1673853524:0;journalctl -u opsupport.service
+: 1673862050:0;ls
+: 1673862051:0;htop
+: 1673862061:0;neofetch
+: 1673862065:0;clera
+: 1673862066:0;clear
+: 1673875888:0;ls
+: 1673878598:0;aria2p show
+: 1673878605:0;j r1
+: 1673878605:0;ls
+: 1673878610:0;cd /mnt/r1
+: 1673878611:0;ls
+: 1673878616:0;cd downloads
+: 1673878617:0;ls
+: 1673878619:0;cd torrents
+: 1673878620:0;ls
+: 1673878641:0;cd ..
+: 1673878642:0;cd
+: 1673878668:0;aria2p add-torrents /mnt/r1/downloads/torrents/*.torr*
+: 1673878680:0;aria2p show
+: 1673878731:0;glances
+: 1673878773:0;df -h
+: 1673878891:0;aria2p show
+: 1673878905:0;glances
+: 1673878932:0;htop
+: 1673878942:0;aria2p show
+: 1673879018:0;aria2p show | grep active
+: 1673879029:0;aria2p show
+: 1673879040:0;aria2p
+: 1673879046:0;aria2p top
+: 1673879059:0;pip install aria2p[tui]
+: 1673879069:0;aria2p call
+: 1673879072:0;aria2p call -h
+: 1673879076:0;aria2p call metho
+: 1673879083:0;aria2p call listmethods
+: 1673879094:0;aria2.getGlobalStat
+: 1673879102:0;aria2p call getGlobalStat
+: 1673879127:0;aria2p show
+: 1673879145:0;glances
+: 1673879189:0;htop
+: 1673879540:0;ls
+: 1673879543:0;docker ps
+: 1673879548:0;aria2p show
+: 1673879909:0;aria2p show | grep active
+: 1673879918:0;aria2p show | grep active | wc
+: 1673879959:0;aria2p show | grep active
+: 1673879977:0;glances
+: 1673880238:0;df -h
+: 1673880262:0;free -m
+: 1673880270:0;swapon -s
+: 1673880289:0;htop
+: 1673880473:0;glances
+: 1673880490:0;ls
+: 1673880493:0;aria2p show | grep active
+: 1673881387:0;htop
+: 1673881413:0;aria2p show
+: 1673881422:0;aria2p show | grep active
+: 1673881560:0;docker ps
+: 1673881738:0;systemctl status trojan
+: 1673881763:0;systemctl restart trojan
+: 1673881775:0;docker ps
+: 1673881846:0;docker inspect nginx
+: 1673881907:0;ls
+: 1673881915:0;code /mnt/r10/trojan/config.json
+: 1673881927:0;systemctl restart trojan
+: 1673881982:0;code /mnt/r10/trojan/config.json
+: 1673881997:0;systemctl status trojan
+: 1673882022:0;systemctl restart trojan
+: 1673882840:0;ls
+: 1673882843:0;git clone git@github.com:mingwiki/mingwiki.github.io.git
+: 1673882851:0;code mingwiki.github.io
+: 1673882896:0;nvm ls
+: 1673882899:0;npm i
+: 1673882905:0;npm run dev
+: 1673884488:0;j compose
+: 1673884494:0;code nginx-conf
+: 1673884581:0;code docker-compose.yml
+: 1673886911:0;docker ocmpose up -d
+: 1673886918:0;docker compose up -d
+: 1673886947:0;docker ocmpose up -d
+: 1673886950:0;docker compose up -d
+: 1673887079:0;code nginx-conf
+: 1673887123:0;docker compose up -d
+: 1673889629:0;aria2p show | grep active
+: 1673889638:0;df -h
+: 1673889897:0;aria2p show | grep active
+: 1673889910:0;glances
+: 1673889963:0;aria2p show
+: 1673920370:0;s
+: 1673920372:0;clera
+: 1673920373:0;clear
+: 1673920374:0;htop
+: 1673933662:0;docker ps
+: 1673933706:0;aria2p show
+: 1673933726:0;clear
+: 1673933727:0;df -h
+: 1673933742:0;aria2p show
+: 1673933755:0;clear
+: 1673933759:0;glances
+: 1673933786:0;ls
+: 1673933794:0;j r10
+: 1673933795:0;ls
+: 1673933797:0;cd aria2
+: 1673933797:0;ls
+: 1673933802:0;code aria2.conf
+: 1673934247:0;aria2p show
+: 1673934300:0;clear
+: 1673934311:0;ps
+: 1673934315:0;ps aux
+: 1673934804:0;ss
+: 1673934805:0;cd
+: 1673934806:0;ss -s
+: 1673934833:0;netstat -i
+: 1673934841:0;netstat -iH
+: 1673934844:0;netstat -ih
+: 1673934847:0;netstat -s
+: 1673934889:0;ifconfig
+: 1673934895:0;ifconfig enth0
+: 1673934900:0;ifconfig eth0
+: 1673934954:0;glances
+: 1673936971:0;df -h
+: 1673954545:0;aria2p show
+: 1673954556:0;aria2p show | grep active
+: 1674262513:0;aria2p show
+: 1674262539:0;ariap call aa
+: 1674262554:0;aria2p call a
+: 1674262568:0;aria2p call listmethods
+: 1674262647:0;aria2p call purgeDownloadResult
+: 1674262655:0;aria2p show
+: 1674262673:0;aria2p
+: 1674262786:0;df -h
+: 1674263084:0;aria2p call listmethods
+: 1674263101:0;aria2p show
+: 1674263469:0;neofetch
+: 1674301494:0;df -h
+: 1674301583:0;aria2p show
+: 1674301616:0;j down
+: 1674301624:0;du ~sh .
+: 1674301639:0;du -si
+: 1674301645:0;du -sh
+: 1674301657:0;cd ..
+: 1674301660:0;ncdu
+: 1674303476:0;aria2p show
+: 1674303511:0;aria2p call listmethods
+: 1674303690:0;j alidrive
+: 1674303692:0;ls
+: 1674303785:0;l
+: 1674303796:0;cd
+: 1674303801:0;df -h
+: 1674369837:0;aria2p show
+: 1674381808:0;df -h
+: 1674381827:0;aria2p call purgeDownloadResult
+: 1674381832:0;aria2p show
+: 1674381945:0;aria2p
+: 1674381955:0;aria2p call listmethods
+: 1674381974:0;aria2p call getPeers
+: 1674382183:0;htop
+: 1674394711:0;df -h
+: 1674394985:0;aria2p show
+: 1674454609:0;df -h
+: 1674454634:0;aria2p call purgeDownloadResult
+: 1674454643:0;aria2p show
+: 1674482631:0;ll
+: 1674482638:0;df -h
+: 1674483021:0;aria2p show
+: 1674484349:0;ll
+: 1674484353:0;htop
+: 1674486615:0;df -h
+: 1674534406:0;aria2p show
+: 1674534447:0;df -h
+: 1674534472:0;j alidrive
+: 1674534475:0;ll
+: 1674534557:0;ls *photo*
+: 1674534569:0;ls *hoto*
+: 1674534611:0;rm -rf Â∞ÉØÊ£É©ËÉ™±ÁÉÆÉ´ËÄÉ•ËØæÁ®É´ÔºÉ®ÁÉÆÉ´ËÄÉ•ËÉ≠£ËÄÄ23‰∏™ÁÉ£≠ÈÉ∑®ËÉ´±ÈÉªÉ§‰ªÉ∏Ë¥πÊÉµÉπÂ≠¶ÔºÉ©
+: 1674534620:0;ls
+: 1674534691:0;rm -rf ÊÉΩÉ£ÂÉ™ÉªÁÉ∫É§Ê∏∏ÊÉ®ÉØ.S01-S08.1080p
+: 1674534722:0;rm -rf ÁÉ±ÉæÂÉ•É´ÂÉ≤É¨ËÉÆ´ËÉ≤Ç
+: 1674534728:0;cd
+: 1674534731:0;df -h
+: 1674534755:0;j alid
+: 1674534758:0;ls
+: 1674534794:0;rm -rf ÁªÉØÂÉ•∏‰∏É∂ÁÉµÉ¨ÊÉ∂ÉßÂ≠¶ÂÉ∞É≠ËÉ±É∑ÁÉ¥µÂΩ±ÁÉ©É®ÉøÉ¨øÔºÉ®Â∑≤ÊÉµ¥ÔºÉ©
+: 1674534829:0;df -h
+: 1674534850:0;aria2p call purgeDownloadResult
+: 1674534857:0;aria2p cal
+: 1674534901:0;aria2p show
+: 1674534945:0;docker ps
+: 1674554001:0;ll
+: 1674554009:0;df -h
+: 1674554531:0;aria2p show
+: 1674736783:0;code mingwiki.github.io
+: 1674736789:0;j compose
+: 1674736791:0;code nginx-conf
+: 1674736799:0;docker compose up -d
+: 1674736961:0;docker compose down
+: 1674737174:0;docker compose up -d
+: 1674737193:0;code nginx-conf
+: 1674737345:0;docker compose up -d
+: 1674737393:0;cd nginx-conf
+: 1674737394:0;ls
+: 1674737600:0;docker compose up -d
+: 1674738024:0;docker image prune -a
+: 1674738171:0;docker compose up -d
+: 1674738800:0;ls
+: 1674738806:0;mv radicale.conf radicale.bk
+: 1674738811:0;ls .bk
+: 1674738814:0;ls *.bk
+: 1674738830:0;ls *.conf
+: 1674738844:0;mv minio.conf minio.bk
+: 1674738854:0;mv outline.conf outline.bk
+: 1674738879:0;cd ..
+: 1674738884:0;docker compose down
+: 1674738987:0;docker compose up -d
+: 1674739014:0;docker image prune -a
+: 1674740651:0;docker compose up -d
+: 1674740658:0;code mingwiki.github.io
+: 1674740662:0;j com__
+: 1674740664:0;code nginx-conf
+: 1674740681:0;ls certs
+: 1674740767:0;docker compose up -d
+: 1674742935:0;cd wordpress
+: 1674742935:0;ks
+: 1674742937:0;ls
+: 1674742946:0;code wp-config.php
+: 1674743159:0;docker compose up -d
+: 1674743881:0;ls
+: 1674743888:0;code redis.php
+: 1674743921:0;ls
+: 1674743986:0;mv redis.php wp-admin
+: 1674743989:0;cd wp-admin
+: 1674743989:0;ls
+: 1674744042:0;rm redis.php
+: 1674744045:0;cd ..
+: 1674744048:0;j com__
+: 1674745044:0;code nginx-conf
+: 1674745076:0;docker compose up -d
+: 1674745357:0;code nginx-conf
+: 1674745382:0;docker compose up -d
+: 1674746124:0;sp
+: 1674746126:0;docker compose up -d
+: 1674746527:0;unsp
+: 1674746529:0;docker compose up -d
+: 1674751783:0;cd mingwiki.github.io
+: 1674751785:0;git pull
+: 1674751791:0;code .
+: 1674751875:0;docker compose up -d
+: 1674751884:0;nvm ls
+: 1674751886:0;n
+: 1674751889:0;npm install hexo-cli -g
+: 1674751922:0;mv wiki.png ..
+: 1674751939:0;rm -rf .git
+: 1674751942:0;mv wiki.png ..
+: 1674751946:0;hexo init
+: 1674751983:0;git init
+: 1674751996:0;git status
+: 1674752000:0;git add .
+: 1674752003:0;git status
+: 1674752009:0;git commit
+: 1674752022:0;git push
+: 1674752061:0;cd ..
+: 1674752070:0;mv mingwiki.github.io ss
+: 1674752094:0;cd ..
+: 1674752094:0;ls
+: 1674752098:0;git clone git@github.com:mingwiki/mingwiki.github.io.git
+: 1674752149:0;docker compose up -d
+: 1674752238:0;cd mingwiki.github.io
+: 1674752239:0;ls
+: 1674752244:0;rm -rf *
+: 1674752246:0;ls
+: 1674752248:0;cd ..
+: 1674752248:0;ls
+: 1674752253:0;mv ss/* mingwiki.github.io
+: 1674752257:0;cd s
+: 1674752258:0;cd ss
+: 1674752259:0;ls
+: 1674752260:0;cd ..
+: 1674752264:0;rm -rf ss
+: 1674752271:0;code mingwiki.github.io
+: 1674752293:0;mv wiki.png mingwiki.github.io
+: 1674752401:0;hexo server
+: 1674753969:0;docker compose donw
+: 1674753972:0;docker compose down
+: 1674754016:0;code nginx-conf
+: 1674754039:0;docker compose up -d
+: 1674756254:0;j
+: 1674756255:0;cd
+: 1674756261:0;git clone https://github.com/crispgm/resume.git
+: 1674756293:0;git clone git@github.com:mingwiki/cv.git
+: 1674756313:0;cp -r resume/path/to/resume/port-hexo
+: 1674756322:0;cp -r resume/path/to/resume/port-hexo cv
+: 1674756331:0;cp -r resume/port-hexo cv
+: 1674756334:0;code cv
+: 1674756357:0;cp -r resume/port-hexo/* cv
+: 1674756375:0;hexo s
+: 1674756380:0;hexo server
+: 1674756421:0;cd ..
+: 1674756421:0;ls
+: 1674756433:0;hexo init hexo-template
+: 1674756505:0;cd hexo-template
+: 1674756505:0;ls
+: 1674756518:0;cp -r * ../cv
+: 1674756520:0;ls
+: 1674756522:0;cd ..
+: 1674756523:0;ls
+: 1674756563:0;cp -r resume/port-hexo cv/themes/hexo-crisp-minimal-theme
+: 1674756611:0;ls
+: 1674756613:0;cd cv
+: 1674756614:0;ls
+: 1674756615:0;hexo s
+: 1674756685:0;cd cv
+: 1674756686:0;ls
+: 1674756689:0;npm i -d hexo-renderer-swig
+: 1674756701:0;hexo s
+: 1674756745:0;npm i
+: 1674756747:0;npm run server
+: 1674756853:0;npm uni hexo-theme-landscape hexo-renderer-ejs
+: 1674756856:0;npm run server
+: 1674756934:0;hexo clean
+: 1674756940:0;npm run server
+: 1674756984:0;npm install hexo-renderer-swig
+: 1674756990:0;npm s
+: 1674756994:0;hexo s
+: 1674757063:0;hexo clean
+: 1674757066:0;hexo s
+: 1674757237:0;npm i
+: 1674757243:0;hexo s
+: 1674757399:0;cd ..
+: 1674757399:0;ls
+: 1674757402:0;cd hexo-template
+: 1674757402:0;ls
+: 1674757411:0;cp -r scaffolds source ../cv
+: 1674757429:0;hexo s
+: 1674757449:0;npm i
+: 1674757453:0;hexo s
+: 1674757488:0;npm i
+: 1674757491:0;hexo s
+: 1674757950:0;aria2p show
+: 1674760039:0;df -h
+: 1674760050:0;mdadm -Ds
+: 1674760052:0;mdadm -D
+: 1674760064:0;mdadm -D /dev/md0
+: 1674760070:0;mdadm -D /dev/md1
+: 1674760079:0;ls
+: 1674760084:0;htop
+: 1674760101:0;aria2p call purgeDownloadResult
+: 1674760105:0;aria2p show
+: 1674760182:0;j certs
+: 1674760193:0;cp naizi.fun.* /mnt/r1/
+: 1674760212:0;j r1
+: 1674760213:0;cd ..
+: 1674760215:0;cd r1
+: 1674760215:0;ls
+: 1674760226:0;chmod 777 naizi.fun.*
+: 1674760227:0;ls
+: 1674760551:0;omv-firstaid
+: 1674760745:0;neofetch
+: 1674760771:0;docker ps
+: 1674760815:0;j com__
+: 1674760818:0;code docker-compose.yml
+: 1674800315:0;df -h
+: 1674800326:0;aria2p call purgeDownloadResult
+: 1674800329:0;aria2p show
+: 1674800340:0;cd /mnt/r1
+: 1674800341:0;la
+: 1674800356:0;mv \!mportant /mnt/r10
+: 1674800358:0;ls
+: 1674800870:0;df -
+: 1674800872:0;df -h
+: 1674800877:0;df help
+: 1674800880:0;df
+: 1674800884:0;du
+: 1674800888:0;du -h
+: 1674800893:0;du -hs
+: 1674800899:0;du -s
+: 1674800904:0;du -s .
+: 1674800913:0;du -h
+: 1674800918:0;du help
+: 1674800924:0;ncdu
+: 1674802376:0;ls
+: 1674802428:0;clear
+: 1674802429:0;df
+: 1674802440:0;j arli__
+: 1674802442:0;j ali
+: 1674802447:0;clear
+: 1674802447:0;ls
+: 1674802462:0;ls *Python*
+: 1674802470:0;ls *Python* | xargs
+: 1674802474:0;ls *Python* | xargs -l
+: 1674802484:0;ls *Python* | xargs -i
+: 1674802488:0;ls *Python* | xargs -L 1
+: 1674802500:0;ls *Python*
+: 1674802526:0;ls | grep *Python*
+: 1674802531:0;ls | grep Python
+: 1674802597:0;ls
+: 1674802600:0;j r1
+: 1674802603:0;j r1/
+: 1674802603:0;ls
+: 1674802609:0;mkdir python
+: 1674802619:0;ls | grep Python | xargs -i {} | mv {} ../python
+: 1674802625:0;ls | grep Python | xargs -I {} | mv {} ../python
+: 1674802677:0;ls | grep Python | xargs -I {} mv {} ../python
+: 1674802899:0;ls | grep python | xargs -I {} mv {} ../python
+: 1674802954:0;ls | grep java | xargs -I {} mv {} ../java
+: 1674802958:0;ls | grep Java | xargs -I {} mv {} ../java
+: 1674802994:0;cd /mnt/r1/java
+: 1674803006:0;ls | grep avascript | xargs -I {} mv {} ../javascript
+: 1674803008:0;ls
+: 1674803016:0;ls | grep avaScript | xargs -I {} mv {} ../javascript
+: 1674803020:0;ls
+: 1674803136:0;j ali__
+: 1674803141:0;ls | grep nginx
+: 1674803145:0;ls | grep Nginx
+: 1674805349:0;cd
+: 1674805351:0;omv-firstaid
+: 1674805377:0;clear
+: 1674805380:0;df -h
+: 1674823254:0;j compo__
+: 1674823254:0;ls
+: 1674823256:0;code docker-compose.yml
+: 1674823282:0;ls
+: 1674823286:0;cd ..
+: 1674823286:0;ls
+: 1674823289:0;cd calibre
+: 1674823289:0;pwd
+: 1674823362:0;j compose
+: 1674823366:0;code nginx-conf
+: 1674823384:0;ls
+: 1674823393:0;docker compose up 0d
+: 1674823396:0;docker compose up -d
+: 1674826657:0;[ ls
+: 1674826659:0;ls
+: 1674826661:0;code nginx-conf
+: 1674826664:0;ls
+: 1674826671:0;mv books.naizi.fun.* certs
+: 1674826673:0;cd certs/
+: 1674826674:0;ls
+: 1674826675:0;la
+: 1674826681:0;cd ..
+: 1674826681:0;ls
+: 1674827927:0;cd .
+: 1674827927:0;ls
+: 1674827930:0;sls
+: 1674827931:0;ls
+: 1674827932:0;claer
+: 1674827934:0;c
+: 1674827935:0;clear
+: 1674827939:0;cd
+: 1674827952:0;code .oh-my-zsh/ohmyzsh-custom
+: 1674828002:0;source .zshrc
+: 1674828007:0;j zsh
+: 1674828010:0;git add .
