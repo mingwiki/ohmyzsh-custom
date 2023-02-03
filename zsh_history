@@ -1334,3 +1334,724 @@ esac
 : 1674828002:0;source .zshrc
 : 1674828007:0;j zsh
 : 1674828010:0;git add .
+: 1674828013:0;git commit
+: 1674828017:0;git push
+: 1674828022:0;j r10
+: 1674828023:0;ls
+: 1674828024:0;ncdu
+: 1674829174:0;ncdu -h
+: 1674829199:0;ncdu books calibre
+: 1674829238:0;du
+: 1674830504:0;ls
+: 1674830507:0;rm -rf books
+: 1674844511:0;j sy__
+: 1674844515:0;j syncthing
+: 1674844515:0;ls
+: 1674844517:0;j com__
+: 1674844518:0;ls
+: 1674844520:0;cd st-sync/
+: 1674844520:0;ls
+: 1674844529:0;rm -rf *
+: 1674845761:0;ls
+: 1674850800:0;cd
+: 1674850801:0;ls
+: 1674850804:0;aria2p shwo
+: 1674850805:0;aria2p show
+: 1674850825:0;aria2p autopurge
+: 1674850834:0;aria2p autoclear
+: 1674850867:0;aria2p autopurge *
+: 1674850876:0;aria2p call purgeDownloadResult
+: 1674850879:0;htop
+: 1674889432:0;docker ps
+: 1674889697:0;j comp
+: 1674889699:0;code docker-compose.yml
+: 1674889755:0;code nginx-conf
+: 1674889797:0;docker compose up -d
+: 1674890427:0;code nginx-conf
+: 1674890443:0;docker compose up -d
+: 1674894580:0;htop
+: 1674895345:0;clear
+: 1674896302:0;docker ps
+: 1674901553:0;aria2p show
+: 1674901560:0;aria2p call purgeDownloadResult
+: 1674901592:0;j alid
+: 1674901592:0;ls
+: 1674901596:0;cd \#calibre/
+: 1674901596:0;ls
+: 1674901599:0;rm -rf *
+: 1674915243:0;docker sp
+: 1674915246:0;docker ps
+: 1674915773:0;j alid__
+: 1674915781:0;ls
+: 1674915789:0;ls | grep Go
+: 1674915825:0;ls | grep Go | xargs mv -t ../Golang
+: 1674915849:0;ls | grep Go | xargs -I{} mv {} ../Golang
+: 1674915926:0;ls | grep Mysql
+: 1674915935:0;ls | grep MySQL
+: 1674915974:0;ls | grep MySQL | xargs -I {} mv {} ../mysql
+: 1674927327:0;j compo__
+: 1674927329:0;code docker-compose.yml
+: 1674927505:0;code immich.env
+: 1674927777:0;code nginx-conf
+: 1674927870:0;docker compose up -d
+: 1674928123:0;docker info
+: 1674928168:0;ls
+: 1674928173:0;code /etc/docker/daemon.json
+: 1674928188:0;docker info
+: 1674928355:0;systemctl restart docker
+: 1674928378:0;docker info
+: 1674928383:0;docker compose down
+: 1674928408:0;docker compose up -d
+: 1674928549:0;sp
+: 1674928550:0;docker compose up -d
+: 1674928627:0;code /mnt/r10/trojan/config.json
+: 1674928639:0;systemctl restart trojan.service
+: 1674928713:0;docker compose up -d
+: 1674928757:0;unsp
+: 1674928760:0;docker compose up -d
+: 1674928810:0;ls
+: 1674928811:0;docker compose up -d
+: 1674928830:0;systemctl restart docker
+: 1674928833:0;docker compose up -d
+: 1674928914:0;code /etc/docker/daemon.json
+: 1674929290:0;sp
+: 1674929290:0;code /etc/docker/daemon.json
+: 1674929295:0;docker compose up -d
+: 1674929416:0;unsp
+: 1674929417:0;docker compose up -d
+: 1674930220:0;code immich.env
+: 1674930236:0;ls
+: 1674930242:0;cd photoprism/originals
+: 1674930252:0;ls
+: 1674930253:0;cd ..
+: 1674930254:0;ls
+: 1674930257:0;cd storage
+: 1674930258:0;ls
+: 1674930261:0;cd ..
+: 1674930261:0;ls
+: 1674930263:0;cd ..
+: 1674930268:0;docker compose up -d
+: 1674930345:0;docker compose down
+: 1674930423:0;docker compose up -d
+: 1674930483:0;docker compose down
+: 1674930552:0;docker compose up -d
+: 1674930636:0;cd photoprism/originals
+: 1674930637:0;ls
+: 1674930640:0;cd 2011
+: 1674930641:0;ls
+: 1674930643:0;cd ..
+: 1674930643:0;ls
+: 1674930645:0;j com__
+: 1674930711:0;cd immich
+: 1674930711:0;ls
+: 1674930713:0;cd upload
+: 1674930714:0;ls
+: 1674930714:0;cd ..
+: 1674930717:0;rm -rf upload
+: 1674930718:0;cd ..
+: 1674930736:0;docker compose up -d
+: 1674931273:0;cd immich
+: 1674931273:0;ls
+: 1674931275:0;cd 66c52f54-a35f-48a0-b4ab-4574df8a08d2
+: 1674931275:0;ls
+: 1674931280:0;cd original
+: 1674931280:0;ls
+: 1674931281:0;cd 09ef8e0a74c726ab563a83b40b7c17f7ed4c9789be6318122090ca141128637b
+: 1674931282:0;ls
+: 1674931283:0;cd ..
+: 1674931284:0;ls
+: 1674931285:0;cd ..
+: 1674931285:0;ls
+: 1674931288:0;cd 2023
+: 1674931288:0;ls
+: 1674931290:0;cd 2023-01-28
+: 1674931290:0;ls
+: 1674931293:0;cd
+: 1674931293:0;la
+: 1674931598:0;rm .zsh_history
+: 1674931635:0;j com__
+: 1674931639:0;docker compose up -d
+: 1675009418:0;docker compose down
+: 1675009428:0;code mingwiki.github.io
+: 1675009446:0;code nginx-conf
+: 1675009479:0;docker compose up -d
+: 1675047723:0;glances
+: 1675052622:0;aria2p shwo
+: 1675052624:0;aria2p show
+: 1675052630:0;aria2p call purgeDownloadResult
+: 1675052631:0;claer
+: 1675052634:0;clear
+: 1675063116:0;docker ps
+: 1675063148:0;docker port
+: 1675063152:0;docker portls
+: 1675063155:0;docker port --help
+: 1675063160:0;docker port list
+: 1675063164:0;docker port -l
+: 1675063170:0;docker ports
+: 1675063175:0;docker
+: 1675063201:0;docker history chenhw2/dnsproxy
+: 1675088976:0;ls
+: 1675088995:0;git clone git@code.aliyun.com:chaac_Group/huafeibao-h5.git
+: 1675088998:0;ls
+: 1675089000:0;code huafeibao-h5
+: 1675089297:0;git clone git@code.aliyun.com:chaac_Group/hfb-mp.git
+: 1675089302:0;code hfb-mp
+: 1675089928:0;neofetch
+: 1675089998:0;lll
+: 1675089999:0;ll
+: 1675089999:0;clear
+: 1675090016:0;docker ps
+: 1675097730:0;clear
+: 1675097731:0;docker ps
+: 1675131379:0;htop
+: 1675225211:0;j com__
+: 1675225214:0;code docker-compose.yml
+: 1675225443:0;docker compose up -d
+: 1675225608:0;sp
+: 1675225610:0;docker compose up -d
+: 1675225625:0;ls
+: 1675225628:0;j com__
+: 1675225632:0;ls
+: 1675225699:0;unsp
+: 1675225700:0;ls
+: 1675225702:0;docker compose up -d
+: 1675225895:0;code wireguard
+: 1675225972:0;docker compose up -d
+: 1675226278:0;code wireguard
+: 1675226444:0;docker compose up -d
+: 1675226451:0;code wireguard
+: 1675226521:0;docker compose up -d
+: 1675226636:0;netstat -tunlp | grep 60000
+: 1675226638:0;netstat -unlp | grep 60000
+: 1675226643:0;netstat -tunlp | grep 60000
+: 1675226646:0;netstat -tunlp
+: 1675226831:0;docker compose up -d
+: 1675226914:0;code wireguard
+: 1675227161:0;docker compose up -d
+: 1675227172:0;code wireguard
+: 1675227240:0;docker compose up -d
+: 1675227246:0;code wireguard
+: 1675227365:0;rm -rf wireguard
+: 1675227367:0;docker compose up -d
+: 1675227374:0;code wireguard
+: 1675227645:0;j com__
+: 1675227647:0;code docker-compose.yml
+: 1675227711:0;docker compose up -d
+: 1675227719:0;code wireguard
+: 1675227773:0;docker compose up -d
+: 1675227904:0;rm -rf wireguard
+: 1675227905:0;docker compose up -d
+: 1675227915:0;rm -rf wireguard
+: 1675227925:0;docker compose up -d
+: 1675227962:0;code wireguard
+: 1675228060:0;docker compose up -d
+: 1675228077:0;rm -rf wireguard
+: 1675228078:0;docker compose up -d
+: 1675228095:0;code wireguard
+: 1675228216:0;docker compose up -d
+: 1675228222:0;code wireguard
+: 1675228517:0;rm -rf wireguard
+: 1675228519:0;docker compose up -d
+: 1675228541:0;code wireguard
+: 1675228655:0;rm -rf wireguard
+: 1675228656:0;docker compose up -d
+: 1675228663:0;code wireguard
+: 1675228968:0;j com__
+: 1675228970:0;code docker-compose.yml
+: 1675229028:0;rm -rf wireguard
+: 1675229036:0;docker compose up -d
+: 1675229055:0;code wireguard
+: 1675229139:0;docker compose up -d
+: 1675229147:0;code wireguard
+: 1675229174:0;ls
+: 1675229245:0;rm -rf wireguard
+: 1675229251:0;docker compose up -d
+: 1675229281:0;rm -rf wireguard
+: 1675229282:0;docker compose up -d
+: 1675229316:0;code wireguard
+: 1675229441:0;docker ps
+: 1675229483:0;docker compose up -d
+: 1675229559:0;docker compose up -djls
+: 1675229701:0;docker compose up -d
+: 1675229704:0;code wireguard
+: 1675229797:0;rm -rf wireguard
+: 1675229804:0;docker compose up -d
+: 1675229811:0;code wireguard
+: 1675230039:0;rm -rf wireguard
+: 1675230041:0;docker compose up -d
+: 1675230081:0;code wireguard
+: 1675230128:0;docker ps
+: 1675230143:0;docker compose up -d
+: 1675230195:0;netstat -tunlp | grep 51820
+: 1675230218:0;docker compose down
+: 1675230238:0;docker compose up 0d
+: 1675230240:0;docker compose up -d
+: 1675230263:0;lsof -i:51820
+: 1675230268:0;lsof -i:
+: 1675230275:0;lsof
+: 1675230280:0;lsof | grep 51820
+: 1675230297:0;docker compose up -d
+: 1675230300:0;code wireguard
+: 1675234579:0;docker ps
+: 1675234608:0;ls
+: 1675234612:0;cd toolkits
+: 1675234616:0;git pull
+: 1675234631:0;code .
+: 1675234709:0;git pull
+: 1675234784:0;cd ..
+: 1675234785:0;cd op_support
+: 1675234785:0;ls
+: 1675234788:0;git pull
+: 1675234802:0;cd
+: 1675234812:0;systemctl restart opsupport.service
+: 1675234820:0;systemctl restart toolkits.service
+: 1675238214:0;code .
+: 1675238246:0;ls
+: 1675238301:0;systemctl restart opsupport.service
+: 1675238309:0;systemctl status opsupport.service
+: 1675238492:0;docker ps
+: 1675238504:0;journalctl -u opsupport.service
+: 1675248980:0;ls
+: 1675248981:0;cd toolkits
+: 1675248983:0;git pull
+: 1675249005:0;cd ..
+: 1675249008:0;cd op_support
+: 1675249010:0;git pull
+: 1675249015:0;cd
+: 1675249019:0;systemctl restart opsupport.service
+: 1675249025:0;systemctl restart toolkits.service
+: 1675249032:0;systemctl status toolkits.service
+: 1675249341:0;journalctl -u opsupport.service
+: 1675249407:0;ls
+: 1675249413:0;j com__
+: 1675249414:0;code wireguard
+: 1675255736:0;glances
+: 1675263872:0;docker ps
+: 1675263880:0;docker inspect nginx
+: 1675265046:0;ls
+: 1675265051:0;code hfb-mp
+: 1675265998:0;journalctl -u opsupport.service
+: 1675266101:0;code op_support
+: 1675267032:0;cd op_support
+: 1675267039:0;systemctl restart opsupport.service
+: 1675267083:0;journalctl -u opsupport.service
+: 1675267131:0;systemctl restart opsupport.service
+: 1675269646:0;npm run dev
+: 1675269848:0;npm install eslint eslint-plugin-react --save-dev
+: 1675269889:0;npm run dev
+: 1675270125:0;npm i -D eslint-plugin-next
+: 1675270139:0;npm uni eslint-plugin-react
+: 1675270188:0;npm run dev
+: 1675270236:0;npm uni node-fetch
+: 1675270326:0;npm uni moment
+: 1675270329:0;npm i dayjs
+: 1675270352:0;rm package
+: 1675270355:0;rm package-lock.json
+: 1675270356:0;npm i
+: 1675270407:0;systemctl restart opsupport.service
+: 1675270438:0;journalctl -u opsupport.service
+: 1675271010:0;cd ..
+: 1675271011:0;ls
+: 1675271013:0;code toolkits
+: 1675271076:0;npm run dev
+: 1675271960:0;systemctl restart opsupport.service
+: 1675271963:0;systemctl restart toolkits.service
+: 1675271979:0;systemctl status opsupport.service
+: 1675271989:0;systemctl status toolkits.service
+: 1675272626:0;journalctl -u opsupport.service
+: 1675272747:0;systemctl restart opsupport.service
+: 1675306277:0;ls
+: 1675306284:0;cd toolkits
+: 1675306285:0;ls
+: 1675306286:0;git pull
+: 1675306313:0;systemctl restart toolkits.service
+: 1675306318:0;git status
+: 1675306319:0;cd ..
+: 1675306322:0;cd op_support
+: 1675306322:0;ls
+: 1675306325:0;git status
+: 1675306326:0;cd
+: 1675306327:0;ls
+: 1675309243:0;code op_support
+: 1675309347:0;systemctl restart opsupport.service
+: 1675309472:0;journalctl -u opsupport.service
+: 1675313250:0;j com__
+: 1675313254:0;code docker-compose.yml
+: 1675313288:0;docker ps
+: 1675313311:0;docker compose up -d
+: 1675313418:0;j com__
+: 1675313419:0;code docker-compose.yml
+: 1675313436:0;docker ps
+: 1675313472:0;docker compose up -d
+: 1675313485:0;ls
+: 1675313684:0;j r10
+: 1675313686:0;ls
+: 1675313688:0;code aliyun-ddns
+: 1675313757:0;npm start
+: 1675314083:0;fetch 4.ipw.cn
+: 1675314089:0;curl 4.ipw.cnb
+: 1675314091:0;curl 4.ipw.cn
+: 1675314279:0;curl www.baidu.com
+: 1675314394:0;npm start
+: 1675316984:0;git status
+: 1675316986:0;git add .
+: 1675316989:0;git commit
+: 1675316994:0;gp
+: 1675316998:0;git push
+: 1675317621:0;l
+: 1675317628:0;clear
+: 1675317630:0;aria2p show
+: 1675317641:0;systemctl restart aria2.service
+: 1675317643:0;aria2p show
+: 1675317655:0;systemctl status aria2.service
+: 1675317695:0;aria2c --enable-rpc --rpc-listen-all --rpc-allow-origin-all --console-log-level=warn --conf-path=/mnt/r10/aria2/aria2.conf
+: 1675317727:0;systemctl restart aria2.service
+: 1675317729:0;systemctl status aria2.service
+: 1675317736:0;aria2p show
+: 1675317745:0;systemctl status aria2.service
+: 1675317822:0;systemctl restart aria2.service
+: 1675317825:0;systemctl status aria2.service
+: 1675317836:0;aria2p show
+: 1675317839:0;clear
+: 1675317848:0;journalctl -u aria2.service
+: 1675317916:0;journalctl -u aria2.service --disk-usage
+: 1675317938:0;journalctl -u aria2.service -f
+: 1675317957:0;journalctl -u aria2.service -f 10
+: 1675317973:0;journalctl -u aria2.service -f -n 20
+: 1675317990:0;clear
+: 1675317993:0;aria2p show
+: 1675317996:0;clear
+: 1675331156:0;ls
+: 1675331162:0;git clone git@github.com:mingwiki/useStore.git
+: 1675331170:0;code .npmrc
+: 1675331200:0;cd useStore
+: 1675331201:0;ls
+: 1675331231:0;nvm ls
+: 1675331278:0;npm login --scope=@OWNER --auth-type=legacy --registry=https://npm.pkg.github.com
+: 1675331291:0;sp
+: 1675331292:0;npm login --scope=@OWNER --auth-type=legacy --registry=https://npm.pkg.github.com
+: 1675331338:0;cd ..
+: 1675331344:0;source .npmrc
+: 1675331348:0;npm login --scope=@OWNER --auth-type=legacy --registry=https://npm.pkg.github.com
+: 1675331394:0;cd useStore
+: 1675331398:0;npm publish
+: 1675331404:0;npm login
+: 1675341813:0;cd
+: 1675341814:0;ls
+: 1675341815:0;clear
+: 1675341816:0;ls
+: 1675341825:0;neofetch
+: 1675341842:0;df -h
+: 1675341855:0;j com__
+: 1675341858:0;docker compose down
+: 1675341881:0;docker compose up -d
+: 1675341941:0;docker ps
+: 1675341963:0;cd ..
+: 1675341964:0;cd aliyun-ddns
+: 1675341966:0;npm start
+: 1675342108:0;nslookup naizi.fun
+: 1675342125:0;nslookup naizi.fun 223.5.5.5
+: 1675342127:0;nslookup naizi.fun
+: 1675342159:0;ls
+: 1675342165:0;j com__
+: 1675342166:0;code docker-compose.yml
+: 1675342195:0;nslookup naizi.fun
+: 1675342312:0;docker compose up -d
+: 1675342354:0;nslookup naizi.fun
+: 1675342428:0;systemctl status toolkits.service
+: 1675342476:0;docker ps
+: 1675344618:0;systemctl restart trojan
+: 1675346916:0;docker ps
+: 1675346923:0;cd ..
+: 1675346924:0;ls
+: 1675346926:0;cd ..
+: 1675346926:0;ls
+: 1675347288:0;j com__
+: 1675347291:0;code docker-compose.yml
+: 1675347350:0;docker compose up -d
+: 1675347979:0;docker compose down
+: 1675348021:0;docker compose up -d
+: 1675348102:0;docker compose down
+: 1675348125:0;docker compose up -d
+: 1675348273:0;ls
+: 1675348324:0;rm -rf wordpress immich* jellyfin
+: 1675348425:0;ls
+: 1675348431:0;cd ..
+: 1675348431:0;ls
+: 1675348615:0;j com__
+: 1675348617:0;docker compose up -d
+: 1675349034:0;rm -rf minio-data qiandao
+: 1675349038:0;docker compose up -d
+: 1675350721:0;cd ..
+: 1675350722:0;ncdu
+: 1675350825:0;cd ..
+: 1675350827:0;j r1
+: 1675350829:0;cd ..
+: 1675350830:0;cd r1
+: 1675350830:0;l.s.
+: 1675350831:0;ls
+: 1675350834:0;cd ..
+: 1675350838:0;cd r10
+: 1675350838:0;ls
+: 1675350839:0;ncdu
+: 1675350848:0;cd ..
+: 1675350849:0;cd r1
+: 1675350849:0;ls
+: 1675350853:0;ncdu
+: 1675350870:0;neofetch
+: 1675353353:0;j
+: 1675353354:0;l
+: 1675354146:0;cd
+: 1675354148:0;docker ps
+: 1675355868:0;j com__
+: 1675355871:0;docker compose down
+: 1675355892:0;docker compose up -d
+: 1675355902:0;docker compose down
+: 1675355919:0;docker compose up -d
+: 1675356355:0;j com__
+: 1675356357:0;code docker-compose.yml
+: 1675398974:0;ls
+: 1675398980:0;mkdir udp
+: 1675398986:0;code udp/
+: 1675399028:0;go
+: 1675399045:0;go build
+: 1675399068:0;go help modules
+: 1675399076:0;go install
+: 1675399115:0;go env
+: 1675399127:0;go env -w GO111MODULE=auto
+: 1675399134:0;go mod init
+: 1675399140:0;go build
+: 1675399154:0;go build index.go
+: 1675399158:0;go run
+: 1675399159:0;go
+: 1675399162:0;go run index.go
+: 1675399210:0;go build
+: 1675399232:0;go install
+: 1675399254:0;go mod init github.com/1lann/udp-forward
+: 1675399263:0;go mod github.com/1lann/udp-forward
+: 1675399271:0;go run index.go
+: 1675399292:0;go install github.com/1lann/udp-forward
+: 1675399310:0;go get github.com/1lann/udp-forward
+: 1675399320:0;go build
+: 1675399328:0;go build index.go
+: 1675399336:0;go build
+: 1675399379:0;go get github.com/1lann/udp-forward
+: 1675399384:0;go install
+: 1675399408:0;go build
+: 1675399471:0;wget https://raw.githubusercontent.com/1lann/udp-forward/master/forward.go
+: 1675399481:0;go build
+: 1675399539:0;go run main.go
+: 1675399553:0;go build main.go
+: 1675399578:0;go run main.go
+: 1675399673:0;go run
+: 1675399678:0;go run src/main.go
+: 1675399680:0;cd src
+: 1675399680:0;ls
+: 1675399683:0;go run src/main.go
+: 1675399688:0;go run main.go
+: 1675399715:0;go get
+: 1675399722:0;go run main.go
+: 1675399740:0;go build main.go
+: 1675399852:0;mv main /mnt/r10
+: 1675399885:0;go build -h
+: 1675399892:0;go help build
+: 1675399957:0;env GOOS=windows GOARCH=amd64 go build main.go
+: 1675399971:0;mv main.exe /mnt/r10
+: 1675400036:0;env GOOS=windows GOARCH=amd64 go build main.go
+: 1675400048:0;mv main.exe /mnt/r10
+: 1675400143:0;env GOOS=windows GOARCH=amd64 go build main.go
+: 1675400145:0;mv main.exe /mnt/r10
+: 1675400150:0;env GOOS=windows GOARCH=amd64 go build main.go
+: 1675400324:0;mv main.exe /mnt/r10
+: 1675406066:0;j com__
+: 1675406067:0;code docker-compose.yml
+: 1675406084:0;ls
+: 1675406087:0;cd wireguard
+: 1675406088:0;ls
+: 1675406089:0;cd config
+: 1675406090:0;ls
+: 1675406098:0;cat peer1/peer1.conf
+: 1675406322:0;sfsf
+: 1675411943:0;ls
+: 1675411944:0;j ali
+: 1675411945:0;ls
+: 1675411966:0;rm -rf 'ã€ƒ°Bç«ƒ¹-BV1MP41137ANã€ƒ±æ¸ƒ·é€ƒ¯æµƒ«è¯ƒµä»ƒ®åƒ¥¥éƒ·¨åƒ¨°åƒ¥¥éƒ·¨-é‚ƒ³æƒ¶¹é¸£(1)'
+: 1675412452:0;ls | grep js
+: 1675412473:0;ls | grep js | xargs -i {} mv {} ../javascript
+: 1675412480:0;ls | grep js | xargs -I{} mv {} ../javascript
+: 1675412486:0;ls | grep js
+: 1675412488:0;ls
+: 1675412499:0;ls | grep JS
+: 1675412515:0;ls | grep JS | xargs -I{} mv {} ../javascript
+: 1675412524:0;ls | grep JS
+: 1675412525:0;ls
+: 1675412542:0;cd ..
+: 1675412542:0;ls
+: 1675412546:0;mv javascript js
+: 1675412547:0;ls
+: 1675412562:0;mv Golang go
+: 1675412563:0;ls
+: 1675412569:0;cd alidrive
+: 1675412570:0;ls
+: 1675412581:0;ls | grep nginx
+: 1675412584:0;ls | grep Nginx
+: 1675412593:0;ls | grep NGIN
+: 1675412603:0;ls | grep Ngi
+: 1675412619:0;ls | grep Ngi |xargs -I{} mv {} ..
+: 1675412620:0;ls
+: 1675412644:0;cd ..
+: 1675412646:0;cd js
+: 1675412647:0;ls
+: 1675412656:0;cd ..
+: 1675412656:0;ls
+: 1675412666:0;cd alidrive
+: 1675412667:0;ls
+: 1675412674:0;ls | grep react
+: 1675412676:0;ls | grep React
+: 1675412689:0;ls | grep React | xargs -I {} mv {} ../js
+: 1675412691:0;ls
+: 1675412704:0;ls | grep type
+: 1675412706:0;ls | grep Type
+: 1675412720:0;ls | grep Type | xargs -I{} mv {} ../js
+: 1675412721:0;ls
+: 1675412749:0;ls | grep Java
+: 1675412761:0;ls | grep Java | xargs -I{} mv {} ../js
+: 1675412764:0;ls
+: 1675412772:0;ls | grep Docker
+: 1675412780:0;ls | grep Docker|kuber
+: 1675412793:0;ls | grep (Docker|kuber)
+: 1675412802:0;ls | grep /docker/
+: 1675412808:0;ls | grep /Docker/
+: 1675412818:0;tldr grep
+: 1675412854:0;ls | grep er
+: 1675412863:0;ls
+: 1675412884:0;cd éƒ§ƒ­ç£ƒ¥åƒ¨ƒ¦äº«\ é©¬Såƒ¥µ\ æƒµƒ¹è‚²136è¯¾\(2.67T\)
+: 1675412885:0;ls
+: 1675412907:0;cd ..
+: 1675412916:0;mv éƒ§ƒ­ç£ƒ¥åƒ¨ƒ¦äº«\ é©¬Såƒ¥µ\ æƒµƒ¹è‚²136è¯¾\(2.67T\) ..
+: 1675412917:0;ls
+: 1675412937:0;ls | grep Python
+: 1675412948:0;ls | grep Python | xargs -I{} mv {} ../python
+: 1675412964:0;ls | grep Spring
+: 1675412975:0;ls | grep Spring | xargs -I{} mv {} ../java
+: 1675412978:0;ls
+: 1675412996:0;cd ..
+: 1675412997:0;ls
+: 1675413000:0;cd alidrive
+: 1675413001:0;cd Bç«ƒ¹ä»ƒ¸è´¹è¯¾ç¨ƒ«åƒ°ƒ¨éƒ»ƒ¦ã€ƒ°68éƒ·¨363GBã€ƒ±
+: 1675413002:0;ls
+: 1675413045:0;rm 08.Bç«ƒ¹-åƒ¬ƒ·å¸ƒ¨å¤§çƒ©©çƒ°ƒ¦ç³»èµµå³¥æƒµƒ¹æƒ®ƒ¨çƒºƒ¤å®ƒ§å®ƒ¹å­¦16è®² 36.Bç«ƒ¹Â·å±€åº§å¼ƒ€åƒ¯¬å¿ƒ€ã€ƒªç¬¬åƒ»ƒ»æ¬ƒå·¥ä¸ƒºéƒ½©åƒ±½ã€ƒ« 26.Bç«ƒ¹-éƒ§ƒ±ç¿èƒ­£-ä¸­åƒ»½åƒ±¨è¾¹â€­â€®åƒ¥¨å®ƒ©â€¬â€¬çƒ®¯åƒ‚ƒ£åƒ­è®² 46.bç«ƒ¹ä»ƒ®éƒ»¶å¼€å§ƒ«çƒºƒ¤æƒ·ƒ¥æƒ«ƒ­vlogæƒ¬ƒ§åƒ­ƒ·ï¼ƒ¨æƒ»´æƒ¶°ä¸­ï¼ƒ© 58.Bç«ƒ¹æ¬ƒä¸ƒ¶ä»£å¿ƒ¥å¤ƒ§é»ƒ±ç§ƒ±æƒª€ï¼ƒºåƒ¨ƒ»æƒ¤ƒ¯ç¼ƒ¶ç¨ƒ«æƒ¬ƒ§åƒ­ƒ·ï¼ƒ¨æƒ»´æƒ¶°ä¸­ï¼ƒ© 65.Bç«ƒ¹éƒ¹ƒ¨å¹³è€å¸ƒ¨çƒºƒ¤è·¨å­¦ç§ƒ±æ€ƒ½ç»´è¯¾
+: 1675413049:0;rm 08.Bç«ƒ¹-åƒ¬ƒ·å¸ƒ¨å¤§çƒ©©çƒ°ƒ¦ç³»èµµå³¥æƒµƒ¹æƒ®ƒ¨çƒºƒ¤å®ƒ§å®ƒ¹å­¦16è®² 36.Bç«ƒ¹Â·å±€åº§å¼ƒ€åƒ¯¬å¿ƒ€ã€ƒªç¬¬åƒ»ƒ»æ¬ƒå·¥ä¸ƒºéƒ½©åƒ±½ã€ƒ« 26.Bç«ƒ¹-éƒ§ƒ±ç¿èƒ­£-ä¸­åƒ»½åƒ±¨è¾¹â€­â€®åƒ¥¨å®ƒ©â€¬â€¬çƒ®¯åƒ‚ƒ£åƒ­è®² 46.bç«ƒ¹ä»ƒ®éƒ»¶å¼€å§ƒ«çƒºƒ¤æƒ·ƒ¥æƒ«ƒ­vlogæƒ¬ƒ§åƒ­ƒ·ï¼ƒ¨æƒ»´æƒ¶°ä¸­ï¼ƒ© 58.Bç«ƒ¹æ¬ƒä¸ƒ¶ä»£å¿ƒ¥å¤ƒ§é»ƒ±ç§ƒ±æƒª€ï¼ƒºåƒ¨ƒ»æƒ¤ƒ¯ç¼ƒ¶ç¨ƒ«æƒ¬ƒ§åƒ­ƒ·ï¼ƒ¨æƒ»´æƒ¶°ä¸­ï¼ƒ© 65.Bç«ƒ¹éƒ¹ƒ¨å¹³è€å¸ƒ¨çƒºƒ¤è·¨å­¦ç§ƒ±æ€ƒ½ç»´è¯¾ -rf
+: 1675413056:0;ls
+: 1675413060:0;mv * ..
+: 1675413062:0;ls
+: 1675413063:0;cd ..
+: 1675413063:0;ls
+: 1675413066:0;rm -rf Bç«ƒ¹ä»ƒ¸è´¹è¯¾ç¨ƒ«åƒ°ƒ¨éƒ»ƒ¦ã€ƒ°68éƒ·¨363GBã€ƒ±
+: 1675413067:0;ls
+: 1675413084:0;ls | grep Dj
+: 1675413095:0;ls | grep Dj | xargs -I{} mv{} ../python
+: 1675413100:0;ls | grep Dj | xargs -I{} mv {} ../python
+: 1675424507:0;docker ps
+: 1675432622:0;code docker-compose.yml
+: 1675437571:0;j ali
+: 1675437572:0;ls
+: 1675437575:0;j aliddns
+: 1675437576:0;ls
+: 1675437580:0;code index.js
+: 1675437651:0;git status
+: 1675437655:0;git add .
+: 1675437658:0;git commit
+: 1675437665:0;git push
+: 1675437676:0;npm start
+: 1675437721:0;ls
+: 1675437722:0;cd ..
+: 1675437723:0;l
+: 1675437728:0;cd ..
+: 1675437728:0;ls
+: 1675437730:0;cd r1
+: 1675437730:0;ls
+: 1675439406:0;cd
+: 1675439407:0;htop
+: 1675439479:0;killall node
+: 1675439496:0;htop
+: 1675440501:0;j com__
+: 1675440502:0;code docker-compose.yml
+: 1675440529:0;docker compose up -d
+: 1675440593:0;lsof -i:100
+: 1675440596:0;lsof -i:1000
+: 1675440601:0;lsof -i:2000
+: 1675440624:0;code docker-compose.yml
+: 1675440634:0;docker compose up -d
+: 1675440659:0;lsof -i:1000
+: 1675440662:0;lsof -i:10000
+: 1675440830:0;docker compose up -d
+: 1675440834:0;lsof -i:10000
+: 1675440942:0;lsof -h
+: 1675440956:0;lsof -i
+: 1675441611:0;ip
+: 1675441613:0;ip addr
+: 1675443653:0;cd
+: 1675443653:0;ls
+: 1675443669:0;go -v
+: 1675443677:0;go version
+: 1675443689:0;go update
+: 1675443701:0;snap
+: 1675443721:0;snap find go
+: 1675443743:0;snap
+: 1675443751:0;snap update
+: 1675443775:0;snap help
+: 1675443794:0;snap install go
+: 1675443801:0;snap refresh
+: 1675443808:0;snap install go
+: 1675443822:0;apt search go
+: 1675443841:0;éƒ¥¸æƒ‚ƒ¥æ±¤åƒªƒ€ç‚¹åƒ¦°ç²ƒ©
+: 1675443864:0;apt search go
+: 1675443871:0;apt search
+: 1675443874:0;apt
+: 1675443894:0;apt search go
+: 1675443958:0;apt search --names-only go
+: 1675444004:0;apt search --names-only go | less
+: 1675444106:0;snap uninstall go
+: 1675444108:0;snap
+: 1675444113:0;snap list
+: 1675444140:0;snap remove certbot core cdog go
+: 1675444150:0;snap remove certbot dog go
+: 1675444157:0;snap list
+: 1675444164:0;snap remove core
+: 1675444169:0;snap remove lsd
+: 1675444173:0;snap remove core
+: 1675444176:0;snap remove core18
+: 1675444179:0;snap remove core20
+: 1675444181:0;snap remove core
+: 1675444185:0;snap list
+: 1675444191:0;snap remove snapd
+: 1675444198:0;apt remove snap
+: 1675444203:0;apt remove snapd
+: 1675444208:0;go
+: 1675444210:0;ls
+: 1675444212:0;cd ..
+: 1675444215:0;go -v
+: 1675444216:0;ls
+: 1675444256:0;rm -rf go useStore udp snap resume mingwiki.github.io hexo-template hfb-mp huafeibao-h5
+: 1675444261:0;ls
+: 1675444270:0;neofetch
+: 1675444361:0;wgethttps://go.dev/dl/go1.20.linux-amd64.tar.gz
+: 1675444363:0;wget https://go.dev/dl/go1.20.linux-amd64.tar.gz
+: 1675444367:0;ls
+: 1675444489:0;ls /usr/local/go*
+: 1675444494:0;ls /usr/local
+: 1675444500:0;go version
+: 1675444526:0;cd /usr/local/go
+: 1675444526:0;ls
+: 1675444530:0;cd bin
+: 1675444530:0;ls
+: 1675444532:0;cd ..
+: 1675444532:0;ls
+: 1675444542:0;cd bin
+: 1675444543:0;ls
+: 1675444548:0;cd
+: 1675444548:0;ls
+: 1675444565:0;code .oh-my-zsh/ohmyzsh-custom
+: 1675444622:0;j ohm
+: 1675444625:0;git add .
