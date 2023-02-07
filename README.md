@@ -1,8 +1,11 @@
 # ohmyzsh-custom
 
 .zshrc
-```
+
+```sh
+export ZSH=$HOME/.oh-my-zsh
 ZSH_CUSTOM=$ZSH/ohmyzsh-custom
+source $ZSH/oh-my-zsh.sh
 ```
 
 ```shell
