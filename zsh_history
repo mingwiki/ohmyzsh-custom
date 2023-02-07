@@ -1389,3 +1389,10 @@ esac
 : 1675757723:0;cd .oh-my-zsh/ohmyzsh-custom/
 : 1675757723:0;ls
 : 1675757727:0;git add .
+: 1675757730:0;git commit
+: 1675757743:0;git push
+: 1675757757:0;git config --global --edit nvim
+: 1675757772:0;git config --global core.editor=nvim
+: 1675757777:0;git config --global core.editor nvim
+: 1675757783:0;git commit
+: 1675757786:0;git add .
