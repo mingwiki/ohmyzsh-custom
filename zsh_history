@@ -1396,3 +1396,18 @@ esac
 : 1675757777:0;git config --global core.editor nvim
 : 1675757783:0;git commit
 : 1675757786:0;git add .
+: 1675757787:0;git commit
+: 1675757794:0;apt install neovim
+: 1675757801:0;git commit
+: 1675757808:0;git push
+: 1675757819:0;git config --global user.name mingwiki
+: 1675757826:0;git config --global user.email mingwiki@gmail.com
+: 1675757829:0;git push
+: 1675757834:0;cd
+: 1675757837:0;la
+: 1675757842:0;glances
+: 1675757884:0;code .oh-my-zsh/ohmyzsh-custom/
+: 1675757999:0;rsync -h
+: 1675758060:0;rsync -h | grep prog
+: 1675758096:0;source .zshrc
+: 1675758110:0;git add .
