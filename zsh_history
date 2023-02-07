@@ -98,7 +98,6 @@ esac
 : 1670839775:0;make
 : 1670839792:0;rm version-check.sh wget-list-systemd op_support toolkits -rf
 : 1670841380:0;rm .p10k.zsh
-: 1670841388:0;rm .zsh_history
 : 1670841401:0;rm lfs.zsh
 : 1670841433:0;code p10k.zsh
 : 1670841525:0;code .zshrc
@@ -112,13 +111,11 @@ esac
 : 1670842223:0;hsfs
 : 1670842327:0;cat .oh-my-zsh/plugins/
 : 1670842331:0;ls .oh-my-zsh/plugins/
-: 1670842409:0;source .zshrc
 : 1670842429:0;_microk8s_kubectl_completion
 : 1670842434:0;j ohmyzsh
 : 1670842577:0;p
 : 1670842597:0;paste
 : 1670842622:0;gc
-: 1670842628:0;gp
 : 1670842640:0;gam
 : 1670842644:0;ga
 : 1670842649:0;gas
@@ -149,17 +146,13 @@ esac
 : 1670899119:0;find . -empty -type d delete
 : 1670899294:0;mv ÂÉªæÁÅµ*/* /mnt/r10/compose/kavita/books
 : 1670899338:0;mv ‰∫∫ÈÇÆ*/* /mnt/r10/compose/kavita/books
-: 1670899647:0;cd downloads
 : 1670899679:0;ncdu /mnt/r1/downloads /mnt/r10/downloads
 : 1670899694:0;du /mnt/r1/downloads
 : 1670899706:0;du -h /mnt/r1/downloads
 : 1670899856:0;du -hs /mnt/r1/downloads
 : 1670899863:0;du -hs /mnt/r10/downloads
-: 1670911171:0;cd kavita
 : 1670911183:0;chown -R root:root books
 : 1670911370:0;chown -R mingwiki:root alidrive
-: 1670911379:0;cd alidrive
-: 1670913390:0;j books
 : 1670913399:0;mv */* .
 : 1670913458:0;find . -empty -type d -delete
 : 1670913557:0;rm */cover.jpg
@@ -177,22 +170,16 @@ esac
 : 1670925727:0;ps aux | grep vscode
 : 1670987767:0;ps aux | grep 25
 : 1670987813:0;lsof -i:25
-: 1670987818:0;lsof
-: 1670987822:0;lsof -h
 : 1670987848:0;lsof -i:25 -V
 : 1670987862:0;ps aux | grep 1485571
 : 1671453541:0;git clone https://github.com/zas023/JdBuyer.git
 : 1671453554:0;cd JdBuyer
 : 1671453598:0;code JdBuyer
-: 1671453852:0;pip3
 : 1671501739:0;python JdBuyerApp.py
 : 1671501745:0;python JdBuyer.py
 : 1671501752:0;python3 JdBuyer.py
 : 1671501782:0;python3 JdBuyerApp.py
 : 1671522316:0;pip3 install -r requirements.txt
-: 1671602894:0;git clone git@github.com:mingwiki/toolkits.git
-: 1671602904:0;git clone git@github.com:mingwiki/op_support.git
-: 1671694502:0;git clone git@code.aliyun.com:chaac_Group/huafeibao-h5.git
 : 1671694514:0;cd huafeibao-h5
 : 1671694519:0;code yuehuibao
 : 1671694535:0;n 12
@@ -201,7 +188,6 @@ esac
 : 1671694796:0;echo $NVMW_NPM_MIRROR
 : 1671694844:0;code .oh-my-zsh/ohmyzsh-custom/linux.zsh
 : 1671694938:0;npm set registry https://registry.npmmirror.com
-: 1671694957:0;rm package-lock.json
 : 1671694960:0;rm -rf node_modules
 : 1671710442:0;mailq
 : 1671710594:0;nslookup 10.10.10.10
@@ -209,18 +195,13 @@ esac
 : 1671710611:0;dig 10.10.10.1
 : 1671726448:0;docker compose restart outline
 : 1671726541:0;code nginx-conf/outline.conf
-: 1671726917:0;aria2p call
 : 1671726923:0;aria2p call met
-: 1671726929:0;aria2p call listmethods
 : 1671726989:0;aria2p call pauseAll"
 : 1671727001:0;aria2p call pauseAll
-: 1671727020:0;aria2p
 : 1671727025:0;aria2p rm
 : 1671727029:0;aria2p rm --all
-: 1671727357:0;j alidrive
 : 1671727406:0;mv Ê≠¶ÂÉ™ÉøÁßÉ∏Á±É≠ /mnt/r10/compose/kavita/
 : 1671727467:0;chown -R root:root Ê≠¶ÂÉ™ÉøÁßÉ∏Á±É≠
-: 1671727473:0;cd books
 : 1671727491:0;chown -R root:root kavita
 : 1671727566:0;j kav__
 : 1671727584:0;mv Ê≠¶ÂÉ™ÉøÁßÉ∏Á±É≠ comics
@@ -229,28 +210,20 @@ esac
 : 1671727769:0;find . -type d -empty -delete
 : 1671727772:0;find . -type d -empty
 : 1671727939:0;j comics
-: 1671727947:0;cd Ê≠¶ÂÉ™ÉøÁßÉ∏Á±É≠
-: 1671728292:0;node -v
 : 1671986575:0;aria2p add-magnet
 : 1671986586:0;aria2p add-magnets magnet:?xt=urn:btih:ed9a5b51521c36fe570eae024efa94c1dcde78f3&dn=avav55.xyz%40nyoshin-n2243&tr=http://sukebei.tracker.wf:8888/announce&tr=http://torrentzilla.org/announce.php&tr=http://kinorun.com/announce.php&tr=http://siambit.com/announce.php&tr=https://tracker.jiesen.life:8443/announce&tr=http://bt.ali213.net:8000/announce&tr=http://tracker.ali213.net:8080/announce&tr=http://bt.3dmgame.com:2710/announce&tr=http://tracker.skyts.cn:6969/announce&tr=udp://156.234.201.18:80/announce&tr=udp://tracker1.bt.moack.co.kr:80/announce&tr=http://119.28.71.45:8080/announce&tr=udp://chouchou.top:8080/announce&tr=http://212.6.3.67/announce&tr=http://fxtt.ru/announce&tr=udp://172.105.235.127:6969/announce&tr=http://171.104.226.25:6969/announce&tr=http://open.tracker.ink:6969/announce&tr=udp://laze.cc:6969/announce&tr=http://tracker.baltracker.net:3390/announce&tr=https://torrents.linuxmint.com/announce.php&tr=http://data-bg.net/announce.php&tr=https://tr.highstar.shop/announce&tr=udp://tracker.filemail.com:6969/announce&tr=udp://52.58.128.163:6969/announce&tr=udp://185.21.216.185:6969/announce&tr=udp://tracker.0x.tf:6969/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://opentrackr.org:1337/announce&tr=http://93.158.213.92:1337/announce&tr=http://alltorrents.net/bt/announce.php&tr=http://torrent.unix-ag.uni-kl.de/announce&tr=http://tracker.gcvchp.com:2710/announce&tr=https://tr.abir.ga/announce&tr=http://bt.beatrice-raws.org/announce&tr=https://tracker1.520.jp/announce&tr=udp://v2.iperson.xyz:6969/announce&tr=http://www.thegeeks.bz:3210/announce&tr=https://tracker.lilithraws.cf/announce&tr=udp://74.120.175.165:6969/announce&tr=https://tracker.lilithraws.org/announce&tr=http://www.all4nothin.net/announce.php&tr=http://torrentsmd.com:8080/announce&tr=udp://147.78.245.128:6969/announce&tr=http://torrent.mp3quran.net/announce.php&tr=udp://960303.xyz:6969/announce&tr=udp://smtp-relay.odysseylabel.com.au:6969/announce&tr=udp://167.172.199.173:6969/announce&tr=http://tracker.gbitt.info/announce&tr=http://xbtrutor.com:2710/announce&tr=http://www.thetradersden.org/forums/tracker/announce.php&tr=http://beertracker.ml/announce&tr=https://tracker.foreverpirates.co/announce&tr=http://btx.anifilm.tv/announce.php&tr=udp://178.170.48.154:1337/announce&tr=https://tracker.kuroy.me/announce&tr=https://tr.fuckbitcoin.xyz/announce&tr=http://tracker.minglong.org:8080/announce&tr=http://bt2.54new.com:8080/announce&tr=http://www.tvnihon.com:6969/announce&tr=http://masters-tb.com/announce.php&tr=https://tr.burnabyhighstar.com/announce&tr=udp://184.105.151.166:6969/announce&tr=udp://explodie.org:6969/announce&tr=http://www.xwt-classics.net/announce.php&tr=http://tracker.anirena.com/announce&tr=udp://www.torrent.eu.org:451/announce&tr=udp://91.216.110.52:451/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=http://bt.zlofenix.org:81/announce&tr=udp://176.31.250.174:6969/announce&tr=udp://tamas3.ynh.fr:6969/announce&tr=http://xtremewrestlingtorrents.net/announce.php&tr=udp://rep-art.ynh.fr:6969/announce&tr=udp://135.125.106.92:6969/announce&tr=udp://37.59.48.81:6969/announce&tr=http://concen.org:6969/announce&tr=udp://tracker.tricitytorrents.com:2710/announce&tr=http://1337.abcvg.info/announce&tr=udp://tracker.dler.com:6969/announce&tr=udp://ben.kerbertools.xyz:6969/announce&tr=udp://5.196.93.20:6969/announce&tr=http://vps02.net.orel.ru/announce&tr=http://95.107.48.115/announce&tr=http://datascene.net/announce.php&tr=http://tracker.nucozer-tracker.ml:2710/announce&tr=udp://bt.oiyo.tk:6969/announce&tr=http://34.94.213.23:2710/announce&tr=http://btracker.top:11451/announce&tr=udp://epider.me:6969/announce&tr=udp://51.68.174.87:6969/announce&tr=http://tracker.torrentleech.org:2710/announce&tr=https://tracker.expli.top/announce&tr=http://open.touki.ru/announce.php&tr=http://tracker.frozen-layer.net:6969/announce&tr=http://tracker.frozen-layer.com:6969/announce&tr=udp://194.53.137.231:6969/announce&tr=udp://tracker.publictracker.xyz:6969/announce&tr=http://tracker.electro-torrent.pl/announce&tr=udp://anidex.moe:6969/announce&tr=http://www.theplace.bz:2910/announce&tr=http://tracker.theempire.bz:3110/announce&tr=http://torrent.arjlover.net:2710/announce&tr=udp://run.publictracker.xyz:6969/announce&tr=http://bt-tracker.gamexp.ru:2710/announce&tr=udp://193.37.214.12:6969/announce&tr=udp://216.146.25.92:1337/announce&tr=udp://open.demonii.com:1337/announce&tr=udp://tracker.altrosky.nl:6969/announce&tr=udp://185.134.22.3:6969/announce&tr=udp://65.21.91.32:6969/announce&tr=udp://zecircle.xyz:6969/announce&tr=udp://black-bird.ynh.fr:6969/announce&tr=udp://82.65.115.10:6969/announce&tr=udp://sugoi.pomf.se:80/announce&tr=udp://65.108.63.133:80/announce&tr=udp://tracker.pomf.se:80/announce&tr=http://nyaa.tracker.wf:7777/announce&tr=udp://thouvenin.cloud:6969/announce&tr=udp://5.196.89.204:6969/announce&tr=udp://tracker.leech.ie:1337/announce&tr=udp://135.181.197.114:1337/announce&tr=http://tracker.fdn.fr:6969/announce&tr=http://baibako.tv/announce&tr=udp://p4p.arenabg.com:1337/announce&tr=udp://94.243.222.100:6969/announce&tr=udp://new-line.net:6969/announce&tr=udp://psyco.fr:6969/announce&tr=udp://37.187.95.112:6969/announce&tr=udp://htz3.noho.st:6969/announce&tr=udp://95.216.74.39:6969/announce&tr=udp://tracker.breizh.pm:6969/announce&tr=http://torrent.resonatingmedia.com:6969/announce&tr=udp://209.126.11.233:6969/announce&tr=udp://torrents.artixlinux.org:6969/announce&tr=http://www.legittorrents.info/announce.php&tr=udp://185.102.219.163:6969/announce&tr=udp://uploads.gamecoast.net:6969/announce&tr=udp://199.217.118.72:6969/announce&tr=udp://bubu.mapfactor.com:6969/announce&tr=udp://tracker.srv00.com:6969/announce&tr=udp://6ahddutb1ucc3cp.ru:6969/announce&tr=udp://89.36.216.8:6969/announce&tr=http://bt.firebit.org:2710/announce&tr=http://freerainbowtables.com:6969/announce&tr=http://www.freerainbowtables.com:6969/announce&tr=http://tracker.etree.org:6969/announce&tr=http://hdreactor.org:2710/announce&tr=http://107.152.127.9:6969/announce&tr=http://torrenttracker.nwc.acsalaska.net:6969/announce&tr=http://tracker.mywaifu.best:6969/announce&tr=http://95.217.167.10:6969/announce&tr=udp://tracker.theoks.net:6969/announce&tr=udp://209.141.59.16:6969/announce&tr=udp://denis.stalker.upeer.me:1337/announce&tr=udp://bt.ktrackers.com:6666/announce&tr=udp://213.108.129.160:6969/announce&tr=udp://mts.tvbit.co:6969/announce&tr=http://music-torrent.net:2710/announce&tr=http://tracker.files.fm:6969/announce&tr=http://incine.ru:6969/announce&tr=http://159.69.65.157:6969/announce&tr=http://144.76.118.107:6969/announce&tr=udp://vibe.sleepyinternetfun.xyz:1738/announce&tr=udp://149.28.47.87:1738/announce&tr=http://tracker3.dler.org:2710/announce&tr=udp://tracker2.dler.org:80/announce&tr=udp://tracker.open-internet.nl:6969/announce&tr=udp://93.104.214.40:6969/announce&tr=udp://tracker.monitorit4.me:6969/announce&tr=wss://peertube.cpy.re:443/tracker/socket&tr=http://tracker.xdvdz.com:2710/announce&tr=udp://148.251.53.72:6969/announce&tr=udp://fe.dealclub.de:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://208.83.20.20:6969/announce&tr=udp://tracker.tcp.exchange:6969/announce&tr=https://tracker.torrentsnows.com/announce&tr=http://bluebird-hd.org/announce.php&tr=http://deviloid.net:6969/announce&tr=udp://66.94.100.216:6969/announce&tr=http://torrents.hikarinokiseki.com:6969/announce&tr=udp://88.80.28.7:6969/announce&tr=http://tracker.kali.org:6969/announce&tr=udp://tracker.ddunlimited.net:6969/announce&tr=udp://107.189.11.230:6969/announce&tr=udp://tracker.jonaslsa.com:6969/announce&tr=udp://158.39.77.211:6969/announce&tr=https://torrent.ubuntu.com/announce&tr=udp://tracker.moeking.me:6969/announce&tr=http://open.nyaatorrents.info:6544/announce&tr=http://tracker.tasvideos.org:6969/announce&tr=http://irrenhaus.dyndns.dk/announce.php&tr=https://tr.bangumi.moe:9696/announce&tr=udp://88.99.2.212:6969/announce&tr=udp://fh2.cmp-gaming.com:6969/announce&tr=udp://212.83.181.109:6969/announce&tr=http://163.172.209.40/announce&tr=http://www.megatorrents.kg/announce.php&tr=udp://tracker.btsync.gq:6969/announce&tr=udp://qg.lorzl.gq:6969/announce&tr=http://blackz.ro/announce.php&tr=http://fosstorrents.com:6969/announce&tr=udp://185.106.94.80:6969/announce&tr=udp://tracker2.dler.com:80/announce&tr=http://uatracker.net/announce.php&tr=udp://openbittorrent.com:80/announce&tr=http://atrack.pow7.com/announce&tr=http://t1.pow7.com/announce&tr=http://t2.pow7.com/announce&tr=udp://qtstm32fan.ru:6969/announce&tr=http://announce.partis.si/announce&tr=http://mixfiend.com:6969/announce&tr=http://tracker.linkomanija.org:2710/announce&tr=http://mvgforumtracker.mvgroup.org/tracker.php/announce&tr=http://mvgroup.org:2710/announce&tr=udp://tracker.coppersurfer.tk:80/announce&tr=udp://pow7.com:80/announce&tr=http://45.154.253.6/announce&tr=http://secure.pow7.com/announce&tr=http://tracker.pow7.com/announce&tr=udp://public.publictracker.xyz:6969/announce&tr=http://milliontorrent.pl/announce.php&tr=udp://www.mvgroup.org:2710/announce&tr=udp://195.154.237.90:6666/announce&tr=udp://5.188.6.45:6969/announce&tr=http://www.thevault.bz:2810/announce&tr=https://opentracker.i2p.rocks/announce&tr=udp://aarsen.me:6969/announce&tr=udp://tracker.openbittorrent.com:80/announce&tr=http://tracker.gigatorrents.ws:2710/announce&tr=http://tracker.tambovnet.org/announce.php&tr=udp://movies.zsw.ca:6969/announce&tr=udp://198.100.149.66:6969/announce&tr=http://tracker.torrenty.org:6969/announce&tr=http://big-boss-tracker.net/announce.php&tr=http://bithq.org/announce.php&tr=udp://41.79.68.156:6969/announce&tr=http://bttracker.debian.org:6969/announce&tr=http://www.tribalmixes.com/announce.php&tr=udp://tracker.auctor.tv:6969/announce&tr=udp://51.158.144.42:6969/announce&tr=http://torrents-nn.cn:2710/announce&tr=http://bt-club.ws/announce&tr=http://tehconnection.eu:2790/announce&tr=udp://tracker.tallpenguin.org:15750/announce&tr=udp://tracker.fatkhoala.org:13790/announce&tr=udp://sanincode.com:6969/announce&tr=http://t.acg.rip:6699/announce&tr=http://share.camoe.cn:8080/announce&tr=http://51.81.200.170:6699/announce&tr=http://tracker.torrentbytes.net/announce.php&tr=udp://moonburrow.club:6969/announce&tr=http://proaudiotorrents.org/announce.php&tr=http://all4nothin.net/announce.php&tr=https://t.btcland.xyz/announce&tr=http://tracker3.ctix.cn:8080/announce&tr=https://tracker.nanoha.org/announce&tr=http://tracker1.itzmx.com:8080/announce
 : 1671986606:0;aria2p add-magnets 'magnet:?xt=urn:btih:ed9a5b51521c36fe570eae024efa94c1dcde78f3&dn=avav55.xyz%40nyoshin-n2243&tr=http://sukebei.tracker.wf:8888/announce&tr=http://torrentzilla.org/announce.php&tr=http://kinorun.com/announce.php&tr=http://siambit.com/announce.php&tr=https://tracker.jiesen.life:8443/announce&tr=http://bt.ali213.net:8000/announce&tr=http://tracker.ali213.net:8080/announce&tr=http://bt.3dmgame.com:2710/announce&tr=http://tracker.skyts.cn:6969/announce&tr=udp://156.234.201.18:80/announce&tr=udp://tracker1.bt.moack.co.kr:80/announce&tr=http://119.28.71.45:8080/announce&tr=udp://chouchou.top:8080/announce&tr=http://212.6.3.67/announce&tr=http://fxtt.ru/announce&tr=udp://172.105.235.127:6969/announce&tr=http://171.104.226.25:6969/announce&tr=http://open.tracker.ink:6969/announce&tr=udp://laze.cc:6969/announce&tr=http://tracker.baltracker.net:3390/announce&tr=https://torrents.linuxmint.com/announce.php&tr=http://data-bg.net/announce.php&tr=https://tr.highstar.shop/announce&tr=udp://tracker.filemail.com:6969/announce&tr=udp://52.58.128.163:6969/announce&tr=udp://185.21.216.185:6969/announce&tr=udp://tracker.0x.tf:6969/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://opentrackr.org:1337/announce&tr=http://93.158.213.92:1337/announce&tr=http://alltorrents.net/bt/announce.php&tr=http://torrent.unix-ag.uni-kl.de/announce&tr=http://tracker.gcvchp.com:2710/announce&tr=https://tr.abir.ga/announce&tr=http://bt.beatrice-raws.org/announce&tr=https://tracker1.520.jp/announce&tr=udp://v2.iperson.xyz:6969/announce&tr=http://www.thegeeks.bz:3210/announce&tr=https://tracker.lilithraws.cf/announce&tr=udp://74.120.175.165:6969/announce&tr=https://tracker.lilithraws.org/announce&tr=http://www.all4nothin.net/announce.php&tr=http://torrentsmd.com:8080/announce&tr=udp://147.78.245.128:6969/announce&tr=http://torrent.mp3quran.net/announce.php&tr=udp://960303.xyz:6969/announce&tr=udp://smtp-relay.odysseylabel.com.au:6969/announce&tr=udp://167.172.199.173:6969/announce&tr=http://tracker.gbitt.info/announce&tr=http://xbtrutor.com:2710/announce&tr=http://www.thetradersden.org/forums/tracker/announce.php&tr=http://beertracker.ml/announce&tr=https://tracker.foreverpirates.co/announce&tr=http://btx.anifilm.tv/announce.php&tr=udp://178.170.48.154:1337/announce&tr=https://tracker.kuroy.me/announce&tr=https://tr.fuckbitcoin.xyz/announce&tr=http://tracker.minglong.org:8080/announce&tr=http://bt2.54new.com:8080/announce&tr=http://www.tvnihon.com:6969/announce&tr=http://masters-tb.com/announce.php&tr=https://tr.burnabyhighstar.com/announce&tr=udp://184.105.151.166:6969/announce&tr=udp://explodie.org:6969/announce&tr=http://www.xwt-classics.net/announce.php&tr=http://tracker.anirena.com/announce&tr=udp://www.torrent.eu.org:451/announce&tr=udp://91.216.110.52:451/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=http://bt.zlofenix.org:81/announce&tr=udp://176.31.250.174:6969/announce&tr=udp://tamas3.ynh.fr:6969/announce&tr=http://xtremewrestlingtorrents.net/announce.php&tr=udp://rep-art.ynh.fr:6969/announce&tr=udp://135.125.106.92:6969/announce&tr=udp://37.59.48.81:6969/announce&tr=http://concen.org:6969/announce&tr=udp://tracker.tricitytorrents.com:2710/announce&tr=http://1337.abcvg.info/announce&tr=udp://tracker.dler.com:6969/announce&tr=udp://ben.kerbertools.xyz:6969/announce&tr=udp://5.196.93.20:6969/announce&tr=http://vps02.net.orel.ru/announce&tr=http://95.107.48.115/announce&tr=http://datascene.net/announce.php&tr=http://tracker.nucozer-tracker.ml:2710/announce&tr=udp://bt.oiyo.tk:6969/announce&tr=http://34.94.213.23:2710/announce&tr=http://btracker.top:11451/announce&tr=udp://epider.me:6969/announce&tr=udp://51.68.174.87:6969/announce&tr=http://tracker.torrentleech.org:2710/announce&tr=https://tracker.expli.top/announce&tr=http://open.touki.ru/announce.php&tr=http://tracker.frozen-layer.net:6969/announce&tr=http://tracker.frozen-layer.com:6969/announce&tr=udp://194.53.137.231:6969/announce&tr=udp://tracker.publictracker.xyz:6969/announce&tr=http://tracker.electro-torrent.pl/announce&tr=udp://anidex.moe:6969/announce&tr=http://www.theplace.bz:2910/announce&tr=http://tracker.theempire.bz:3110/announce&tr=http://torrent.arjlover.net:2710/announce&tr=udp://run.publictracker.xyz:6969/announce&tr=http://bt-tracker.gamexp.ru:2710/announce&tr=udp://193.37.214.12:6969/announce&tr=udp://216.146.25.92:1337/announce&tr=udp://open.demonii.com:1337/announce&tr=udp://tracker.altrosky.nl:6969/announce&tr=udp://185.134.22.3:6969/announce&tr=udp://65.21.91.32:6969/announce&tr=udp://zecircle.xyz:6969/announce&tr=udp://black-bird.ynh.fr:6969/announce&tr=udp://82.65.115.10:6969/announce&tr=udp://sugoi.pomf.se:80/announce&tr=udp://65.108.63.133:80/announce&tr=udp://tracker.pomf.se:80/announce&tr=http://nyaa.tracker.wf:7777/announce&tr=udp://thouvenin.cloud:6969/announce&tr=udp://5.196.89.204:6969/announce&tr=udp://tracker.leech.ie:1337/announce&tr=udp://135.181.197.114:1337/announce&tr=http://tracker.fdn.fr:6969/announce&tr=http://baibako.tv/announce&tr=udp://p4p.arenabg.com:1337/announce&tr=udp://94.243.222.100:6969/announce&tr=udp://new-line.net:6969/announce&tr=udp://psyco.fr:6969/announce&tr=udp://37.187.95.112:6969/announce&tr=udp://htz3.noho.st:6969/announce&tr=udp://95.216.74.39:6969/announce&tr=udp://tracker.breizh.pm:6969/announce&tr=http://torrent.resonatingmedia.com:6969/announce&tr=udp://209.126.11.233:6969/announce&tr=udp://torrents.artixlinux.org:6969/announce&tr=http://www.legittorrents.info/announce.php&tr=udp://185.102.219.163:6969/announce&tr=udp://uploads.gamecoast.net:6969/announce&tr=udp://199.217.118.72:6969/announce&tr=udp://bubu.mapfactor.com:6969/announce&tr=udp://tracker.srv00.com:6969/announce&tr=udp://6ahddutb1ucc3cp.ru:6969/announce&tr=udp://89.36.216.8:6969/announce&tr=http://bt.firebit.org:2710/announce&tr=http://freerainbowtables.com:6969/announce&tr=http://www.freerainbowtables.com:6969/announce&tr=http://tracker.etree.org:6969/announce&tr=http://hdreactor.org:2710/announce&tr=http://107.152.127.9:6969/announce&tr=http://torrenttracker.nwc.acsalaska.net:6969/announce&tr=http://tracker.mywaifu.best:6969/announce&tr=http://95.217.167.10:6969/announce&tr=udp://tracker.theoks.net:6969/announce&tr=udp://209.141.59.16:6969/announce&tr=udp://denis.stalker.upeer.me:1337/announce&tr=udp://bt.ktrackers.com:6666/announce&tr=udp://213.108.129.160:6969/announce&tr=udp://mts.tvbit.co:6969/announce&tr=http://music-torrent.net:2710/announce&tr=http://tracker.files.fm:6969/announce&tr=http://incine.ru:6969/announce&tr=http://159.69.65.157:6969/announce&tr=http://144.76.118.107:6969/announce&tr=udp://vibe.sleepyinternetfun.xyz:1738/announce&tr=udp://149.28.47.87:1738/announce&tr=http://tracker3.dler.org:2710/announce&tr=udp://tracker2.dler.org:80/announce&tr=udp://tracker.open-internet.nl:6969/announce&tr=udp://93.104.214.40:6969/announce&tr=udp://tracker.monitorit4.me:6969/announce&tr=wss://peertube.cpy.re:443/tracker/socket&tr=http://tracker.xdvdz.com:2710/announce&tr=udp://148.251.53.72:6969/announce&tr=udp://fe.dealclub.de:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=udp://208.83.20.20:6969/announce&tr=udp://tracker.tcp.exchange:6969/announce&tr=https://tracker.torrentsnows.com/announce&tr=http://bluebird-hd.org/announce.php&tr=http://deviloid.net:6969/announce&tr=udp://66.94.100.216:6969/announce&tr=http://torrents.hikarinokiseki.com:6969/announce&tr=udp://88.80.28.7:6969/announce&tr=http://tracker.kali.org:6969/announce&tr=udp://tracker.ddunlimited.net:6969/announce&tr=udp://107.189.11.230:6969/announce&tr=udp://tracker.jonaslsa.com:6969/announce&tr=udp://158.39.77.211:6969/announce&tr=https://torrent.ubuntu.com/announce&tr=udp://tracker.moeking.me:6969/announce&tr=http://open.nyaatorrents.info:6544/announce&tr=http://tracker.tasvideos.org:6969/announce&tr=http://irrenhaus.dyndns.dk/announce.php&tr=https://tr.bangumi.moe:9696/announce&tr=udp://88.99.2.212:6969/announce&tr=udp://fh2.cmp-gaming.com:6969/announce&tr=udp://212.83.181.109:6969/announce&tr=http://163.172.209.40/announce&tr=http://www.megatorrents.kg/announce.php&tr=udp://tracker.btsync.gq:6969/announce&tr=udp://qg.lorzl.gq:6969/announce&tr=http://blackz.ro/announce.php&tr=http://fosstorrents.com:6969/announce&tr=udp://185.106.94.80:6969/announce&tr=udp://tracker2.dler.com:80/announce&tr=http://uatracker.net/announce.php&tr=udp://openbittorrent.com:80/announce&tr=http://atrack.pow7.com/announce&tr=http://t1.pow7.com/announce&tr=http://t2.pow7.com/announce&tr=udp://qtstm32fan.ru:6969/announce&tr=http://announce.partis.si/announce&tr=http://mixfiend.com:6969/announce&tr=http://tracker.linkomanija.org:2710/announce&tr=http://mvgforumtracker.mvgroup.org/tracker.php/announce&tr=http://mvgroup.org:2710/announce&tr=udp://tracker.coppersurfer.tk:80/announce&tr=udp://pow7.com:80/announce&tr=http://45.154.253.6/announce&tr=http://secure.pow7.com/announce&tr=http://tracker.pow7.com/announce&tr=udp://public.publictracker.xyz:6969/announce&tr=http://milliontorrent.pl/announce.php&tr=udp://www.mvgroup.org:2710/announce&tr=udp://195.154.237.90:6666/announce&tr=udp://5.188.6.45:6969/announce&tr=http://www.thevault.bz:2810/announce&tr=https://opentracker.i2p.rocks/announce&tr=udp://aarsen.me:6969/announce&tr=udp://tracker.openbittorrent.com:80/announce&tr=http://tracker.gigatorrents.ws:2710/announce&tr=http://tracker.tambovnet.org/announce.php&tr=udp://movies.zsw.ca:6969/announce&tr=udp://198.100.149.66:6969/announce&tr=http://tracker.torrenty.org:6969/announce&tr=http://big-boss-tracker.net/announce.php&tr=http://bithq.org/announce.php&tr=udp://41.79.68.156:6969/announce&tr=http://bttracker.debian.org:6969/announce&tr=http://www.tribalmixes.com/announce.php&tr=udp://tracker.auctor.tv:6969/announce&tr=udp://51.158.144.42:6969/announce&tr=http://torrents-nn.cn:2710/announce&tr=http://bt-club.ws/announce&tr=http://tehconnection.eu:2790/announce&tr=udp://tracker.tallpenguin.org:15750/announce&tr=udp://tracker.fatkhoala.org:13790/announce&tr=udp://sanincode.com:6969/announce&tr=http://t.acg.rip:6699/announce&tr=http://share.camoe.cn:8080/announce&tr=http://51.81.200.170:6699/announce&tr=http://tracker.torrentbytes.net/announce.php&tr=udp://moonburrow.club:6969/announce&tr=http://proaudiotorrents.org/announce.php&tr=http://all4nothin.net/announce.php&tr=https://t.btcland.xyz/announce&tr=http://tracker3.ctix.cn:8080/announce&tr=https://tracker.nanoha.org/announce&tr=http://tracker1.itzmx.com:8080/announce'
 : 1671986640:0;aria2p add-magnets 'magnet:?xt=urn:btih:2b7651e44d193dfe6c8cbb3240dbd798624759cc&dn=avav55.xyz%40H4610-ori1803&tr=http://sukebei.tracker.wf:8888/announce&tr=http://www.zone-torrent.net/announce.php&tr=http://siambit.com/announce.php&tr=http://tracker.ali213.net:8000/announce&tr=http://bt.3dmgame.com:2710/announce&tr=http://bt.ali213.net:8080/announce&tr=http://tracker.skyts.cn:6969/announce&tr=udp://tracker1.bt.moack.co.kr:80/announce&tr=http://119.28.71.45:8080/announce&tr=udp://chouchou.top:8080/announce&tr=udp://tracker.skyts.net:6969/announce&tr=udp://171.104.111.30:6969/announce&tr=http://tracker.baltracker.net:3390/announce&tr=http://tracker.dler.org:6969/announce&tr=http://data-bg.net/announce.php&tr=udp://laze.cc:6969/announce&tr=udp://172.105.235.127:6969/announce&tr=http://torrentzilla.org/announce&tr=https://tr.highstar.shop/announce&tr=http://tracker.theempire.bz:3110/announce&tr=http://torrents.linuxmint.com/announce.php&tr=http://fxtt.ru/announce&tr=http://212.6.3.67/announce&tr=udp://tracker.tiny-vps.com:6969/announce&tr=udp://89.237.1.42:6969/announce&tr=udp://tracker.filemail.com:6969/announce&tr=udp://52.58.128.163:6969/announce&tr=udp://tracker.0x.tf:6969/announce&tr=udp://185.21.216.185:6969/announce&tr=http://torrent.unix-ag.uni-kl.de/announce&tr=udp://74.120.175.165:6969/announce&tr=udp://v2.iperson.xyz:6969/announce&tr=https://tracker.lilithraws.cf/announce&tr=http://btx.anifilm.tv/announce.php&tr=https://tr.abir.ga/announce&tr=udp://opentrackr.org:1337/announce&tr=udp://50.116.14.248:6969/announce&tr=http://tracker.gcvchp.com:2710/announce&tr=udp://147.78.245.128:6969/announce&tr=udp://960303.xyz:6969/announce&tr=https://tracker.expli.top/announce&tr=udp://167.172.199.173:6969/announce&tr=udp://smtp-relay.odysseylabel.com.au:6969/announce&tr=http://torrentsmd.com:8080/announce&tr=http://xbtrutor.com:2710/announce&tr=http://www.xwt-classics.net/announce.php&tr=udp://178.170.48.154:1337/announce&tr=http://www.thegeeks.bz:3210/announce&tr=http://all4nothin.net/announce.php&tr=udp://tracker.zemoj.com:6969/announce&tr=http://xtremewrestlingtorrents.net/announce.php&tr=http://tracker.tricitytorrents.com:2710/announce&tr=http://torrent.mp3quran.net/announce.php&tr=http://60-fps.org/bt/announce.php&tr=https://tracker.foreverpirates.co/announce&tr=udp://explodie.org:6969/announce&tr=udp://184.105.151.166:6969/announce&tr=http://www.tvnihon.com:6969/announce&tr=udp://rep-art.ynh.fr:6969/announce&tr=udp://135.125.106.92:6969/announce&tr=udp://uploads.gamecoast.net:6969/announce&tr=udp://www.torrent.eu.org:451/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://91.216.110.52:451/announce&tr=http://bt.zlofenix.org:81/announce&tr=http://tracker.minglong.org:8080/announce&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://u4.trakx.crim.ist:1337/announce&tr=udp://155.248.196.36:1337/announce&tr=http://1337.abcvg.info/announce&tr=http://tracker.anirena.com/announce&tr=http://hdreactor.org:2710/announce&tr=udp://ben.kerbertools.xyz:6969/announce&tr=udp://5.196.93.20:6969/announce&tr=https://tracker.nanoha.org/announce&tr=http://datascene.net/announce.php&tr=http://nyaa.tracker.wf:7777/announce&tr=http://vps02.net.orel.ru/announce&tr=https://tracker.lilithraws.org/announce&tr=udp://concen.org:6969/announce&tr=udp://37.59.48.81:6969/announce&tr=http://tracker1.itzmx.com:8080/announce&tr=https://tracker.kuroy.me/announce&tr=udp://51.68.174.87:6969/announce&tr=udp://epider.me:6969/announce&tr=http://www.bit-hdtv.com:2710/announce&tr=https://tr.fuckbitcoin.xyz/announce&tr=udp://195.154.237.90:6666/announce&tr=udp://tracker.gbitt.info:80/announce&tr=udp://bt.ktrackers.com:6666/announce&tr=http://bt-tracker.gamexp.ru:2710/announce&tr=http://www.all4nothin.net/announce.php&tr=https://t.btcland.xyz/announce&tr=http://open.touki.ru/announce&tr=udp://212.83.181.109:6969/announce&tr=http://finbytes.org/announce.php&tr=http://34.94.213.23:2710/announce&tr=http://bt.beatrice-raws.org/announce&tr=http://tracker.torrentleech.org:2710/announce&tr=udp://tracker.btsync.gq:6969/announce&tr=http://93.158.213.92:1337/announce&tr=udp://tracker.publictracker.xyz:6969/announce&tr=http://www.thetradersden.org/forums/tracker/announce.php&tr=udp://admin.videoenpoche.info:6969/announce&tr=http://tracker.breizh.pm:6969/announce&tr=http://tracker.frozen-layer.com:6969/announce&tr=http://tracker.frozen-layer.net:6969/announce&tr=http://open.nyaatorrents.info:6544/announce&tr=udp://194.53.137.231:6969/announce&tr=http://torrent.arjlover.net:2710/announce&tr=udp://193.37.214.12:6969/announce&tr=udp://run.publictracker.xyz:6969/announce&tr=udp://tamas3.ynh.fr:6969/announce&tr=udp://176.31.250.174:6969/announce&tr=udp://5.196.89.204:6969/announce&tr=udp://thouvenin.cloud:6969/announce&tr=http://tracker.fdn.fr:6969/announce&tr=udp://black-bird.ynh.fr:6969/announce&tr=udp://82.65.115.10:6969/announce&tr=http://masters-tb.com/announce.php&tr=http://anidex.moe:6969/announce&tr=udp://95.216.74.39:6969/announce&tr=udp://htz3.noho.st:6969/announce&tr=udp://37.187.95.112:6969/announce&tr=udp://psyco.fr:6969/announce&tr=http://alltorrents.net/bt/announce.php&tr=udp://tracker.leech.ie:1337/announce&tr=udp://135.181.197.114:1337/announce&tr=http://torrent.resonatingmedia.com:6969/announce&tr=udp://torrents.artixlinux.org:6969/announce&tr=udp://209.126.11.233:6969/announce&tr=udp://tracker.theoks.net:6969/announce&tr=udp://209.141.59.16:6969/announce&tr=udp://tracker.altrosky.nl:6969/announce&tr=udp://185.134.22.3:6969/announce&tr=http://www.legittorrents.info/announce.php&tr=udp://199.217.118.72:6969/announce&tr=udp://bubu.mapfactor.com:6969/announce&tr=udp://65.108.63.133:80/announce&tr=udp://sugoi.pomf.se:80/announce&tr=udp://tracker.pomf.se:80/announce&tr=udp://65.21.91.32:6969/announce&tr=udp://zecircle.xyz:6969/announce&tr=udp://6ahddutb1ucc3cp.ru:6969/announce&tr=udp://89.36.216.8:6969/announce&tr=http://www.freerainbowtables.com:6969/announce&tr=http://freerainbowtables.com:6969/announce&tr=https://tr.burnabyhighstar.com/announce&tr=udp://mail.zasaonsk.ga:6969/announce&tr=udp://138.3.249.47:6969/announce&tr=http://tracker.etree.org:6969/announce&tr=http://95.217.167.10:6969/announce&tr=http://tracker.mywaifu.best:6969/announce&tr=udp://tracker.monitorit4.me:6969/announce&tr=udp://93.104.214.40:6969/announce&tr=http://tracker.electro-torrent.pl/announce&tr=http://tracker.tasvideos.org:6969/announce&tr=udp://torrentclub.space:6969/announce&tr=udp://vibe.sleepyinternetfun.xyz:1738/announce&tr=udp://149.28.47.87:1738/announce&tr=udp://run-2.publictracker.xyz:6969/announce&tr=udp://tracker.open-internet.nl:6969/announce&tr=udp://107.175.221.194:6969/announce&tr=wss://peertube.cpy.re:443/tracker/socket&tr=udp://46.138.242.240:6969/announce&tr=udp://astrr.ru:6969/announce&tr=udp://tracker.tcp.exchange:6969/announce&tr=udp://exodus.desync.com:6969/announce&tr=https://torrent.ubuntu.com/announce&tr=http://bluebird-hd.org/announce.php&tr=http://deviloid.net:6969/announce&tr=http://www.worldboxingvideoarchive.com/announce.php&tr=udp://66.94.100.216:6969/announce&tr=http://www.tribalmixes.com/announce.php&tr=http://torrents.hikarinokiseki.com:6969/announce&tr=https://tracker1.520.jp/announce&tr=udp://tracker.jonaslsa.com:6969/announce&tr=udp://158.39.77.211:6969/announce&tr=udp://167.99.185.219:6969/announce&tr=udp://216.146.25.92:1337/announce&tr=http://blackz.ro/announce.php&tr=udp://moonburrow.club:6969/announce&tr=udp://openbittorrent.com:80/announce&tr=http://uatracker.net/announce.php&tr=http://milliontorrent.pl/announce.php&tr=http://irrenhaus.dyndns.dk/announce.php&tr=https://tr.abiir.top/announce&tr=http://bt-club.ws/announce&tr=http://bt.firebit.org:2710/announce&tr=udp://bt.oiyo.tk:6969/announce&tr=http://btracker.top:11451/announce&tr=http://www.megatorrents.kg/announce.php&tr=udp://qg.lorzl.gq:6969/announce&tr=http://announce.partis.si/announce&tr=http://tracker.nucozer-tracker.ml:2710/announce&tr=udp://35.227.12.84:6969/announce&tr=http://music-torrent.net:2710/announce&tr=http://144.76.118.107:6969/announce&tr=http://mixfiend.com/announce.php&tr=udp://185.106.94.80:6969/announce&tr=udp://qtstm32fan.ru:6969/announce&tr=http://www.theplace.bz:2910/announce&tr=udp://pow7.com:80/announce&tr=http://tracker.files.fm:6969/announce&tr=http://159.69.65.157:6969/announce&tr=udp://denis.stalker.upeer.me:1337/announce&tr=http://tracker.pow7.com/announce&tr=udp://tracker.openbittorrent.com:80/announce&tr=http://tracker3.ctix.cn:8080/announce&tr=http://atrack.pow7.com/announce&tr=http://tracker.linkomanija.org:2710/announce&tr=udp://keke.re:6969/announce&tr=http://mvgforumtracker.mvgroup.org/tracker.php/announce&tr=udp://tracker.dler.com:6969/announce&tr=http://217.30.10.18:6969/announce&tr=udp://fe.dealclub.de:6969/announce&tr=udp://tracker2.dler.org:80/announce&tr=udp://tracker2.dler.com:80/announce&tr=udp://aarsen.me:6969/announce&tr=udp://51.15.79.209:6969/announce&tr=http://www.thevault.bz:2810/announce&tr=http://tracker.trancetraffic.com/announce.php&tr=http://t1.pow7.com/announce&tr=http://163.172.209.40/announce&tr=udp://45.154.253.8:6969/announce&tr=http://secure.pow7.com/announce&tr=udp://5.188.6.45:6969/announce&tr=udp://public.publictracker.xyz:6969/announce&tr=udp://148.251.53.72:6969/announce&tr=udp://www.mvgroup.org:2710/announce&tr=https://opentracker.i2p.rocks/announce&tr=udp://88.99.2.212:6969/announce&tr=udp://fh2.cmp-gaming.com:6969/announce&tr=udp://51.158.144.42:6969/announce&tr=udp://tracker.auctor.tv:6969/announce&tr=http://widemus.de:6969/announce&tr=http://185.216.178.49:6969/announce&tr=udp://198.100.149.66:6969/announce&tr=udp://movies.zsw.ca:6969/announce&tr=udp://134.122.65.89:6969/announce&tr=http://tracker.tambovnet.org/announce.php&tr=http://tracker.torrenty.org:6969/announce&tr=http://bithq.org/announce.php&tr=http://big-boss-tracker.net/announce.php&tr=http://torrents-nn.cn:2710/announce&tr=http://tehconnection.eu:2790/announce&tr=udp://sanincode.com:6969/announce&tr=udp://95.31.11.224:6969/announce&tr=udp://41.79.68.156:6969/announce&tr=udp://176.123.1.180:6969/announce&tr=udp://open.free-tracker.ga:6969/announce&tr=http://bttracker.debian.org:6969/announce&tr=http://tracker3.dler.org:2710/announce&tr=udp://185.181.60.155:80/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.tallpenguin.org:15770/announce&tr=http://mvgroup.org:2710/announce&tr=udp://tracker.moeking.me:6969/announce&tr=https://tracker.torrentsnows.com/announce&tr=udp://tracker.srv00.com:6969/announce&tr=udp://tracker.coppersurfer.tk:80/announce&tr=udp://89.208.105.58:6969/announce&tr=udp://tracker.fatkhoala.org:13720/announce&tr=udp://new-line.net:6969/announce&tr=udp://94.243.222.100:6969/announce&tr=http://51.81.200.170:6699/announce&tr=http://share.camoe.cn:8080/announce&tr=http://t.acg.rip:6699/announce&tr=http://tracker.torrentbytes.net/announce.php&tr=http://tracker.nighthawk.pw:4201/announce&tr=udp://107.189.11.230:6969/announce&tr=http://proaudiotorrents.org/announce.php'
-: 1671986654:0;aria2p top
 : 1671986951:0;aria2p add-torrents /mnt/r1/*.torr*
 : 1672018717:0;echo $SSH_CONNECTION
 : 1672019247:0;mv ‰∏É™ÁÉπæÊÉº¨ÁÉ¥µÂ≠É∞‰π¶ÂÉ∞É®ÈÉªÉ¶5*/* /mnt/r10/compose/kavita/books
-: 1672024582:0;systemctl restart trojan.service
-: 1672026121:0;n
-: 1672026195:0;apt
 : 1672026202:0;apt list
 : 1672026212:0;conda
 : 1672031321:0;aria2p call forcePauseAll
-: 1672031339:0;aria2p call purgeDownloadResult
 : 1672037519:0;ls -F
 : 1672037531:0;apt install lsd
 : 1672037540:0;snap install lsd
 : 1672037565:0;lsd
-: 1672121487:0;nvm ls
 : 1672122771:0;git remote .
 : 1672122777:0;git rm vite.config.js
 : 1672130643:0;~qqq0;40;36M0;40;36
@@ -292,7 +265,6 @@ esac
 : 1672208195:0;curl -H 'accept: application/dns-json' 'https://dns.naizi.fun:200/dns-query?name=baidu.com&type=A'
 : 1672208210:0;curl -H 'accept: application/dns-json' 'https://dns.alidns.com/dns-query?name=baidu.com&type=A'
 : 1672208234:0;dog dog -H @https://dns.google/dns-query google.com
-: 1672208586:0;docker ocmpose up -d
 : 1672209992:0;cd gitea
 : 1672210278:0;docker compose restart gitea
 : 1672213549:0;docker compose stop nginx
@@ -302,7 +274,6 @@ esac
 : 1672216974:0;wget https://raw.githubusercontent.com/PrivateBin/PrivateBin/master/cfg/conf.sample.php
 : 1672216983:0;mv conf.sample.php conf.php
 : 1672216986:0;code conf.php
-: 1672217176:0;cd .
 : 1672217412:0;...
 : 1672217553:0;al
 : 1672217576:0;chown -R www:www privatebin
@@ -333,7 +304,6 @@ esac
 : 1672220790:0;code privatebin
 : 1672221033:0;codde docker-compose.yml
 : 1672221066:0;rm -rf privatebin/data
-: 1672221271:0;docker compose up 0d
 : 1672221500:0;docker compose restart privatebin
 : 1672222251:0;a
 : 1672222394:0;cd privatebin
@@ -343,10 +313,7 @@ esac
 : 1672222725:0;code privatebin/cfg/conf.php
 : 1672223568:0;docker compose stop privatebin
 : 1672224035:0;docker ocompose up -d
-: 1672228482:0;cd photoprism
-: 1672228490:0;cd originals
 : 1672228809:0;chmod 777 -R photoprism
-: 1672280875:0;s
 : 1672295213:0;mv ÁªÉØÂÉ•∏ËÄÅÊ≠É¨1688È¶É∂wma/ /mnt/r10/compose/jellyfin/media2
 : 1672295237:0;j alidr__
 : 1672295248:0;mv ÁªÉØÂÉ•∏ÈÉø≥‰πÉ∞ÂÉ∞É®ÈÉªÉ¶„ÄÉ∞4KMV+ÈÉø≥‰πÉ∞‰∏É≥ËæÉ±„ÄÉ±ÔºÉ®24ÂÉ∞É®ÈÉªÉ¶404.9GBÔºÉ© /mnt/r10/compose/jellyfin/media2
@@ -356,9 +323,7 @@ esac
 : 1672297483:0;ls /usr/bin/npm
 : 1672297560:0;npm ---prefix
 : 1672297567:0;npm --prefix
-: 1672297588:0;pwd
 : 1672297681:0;systemctl enable toolkits
-: 1672297691:0;systemctl start toolkits.service
 : 1672297712:0;npm start --prefix=/root/toolkits
 : 1672297782:0;systemctl daemon-reload
 : 1672297816:0;systemctl enable opsupport
@@ -423,7 +388,6 @@ esac
 : 1672309264:0;lsof -i:6379
 : 1672309275:0;redis-cli
 : 1672309284:0;redis-cli -h 10.0.0.4
-: 1672310088:0;clera
 : 1672310176:0;cat docker-compose.yml| grep dnsproxy
 : 1672310184:0;cat docker-compose.yml| grep args
 : 1672310186:0;cat docker-compose.yml| grep arg
@@ -445,7 +409,6 @@ esac
 : 1672392263:0;rm -rf ÊÉºÉ©Â£∞ÁÉ£≠ÈÉ∑®‰π¶‰∏É™ÂÉ≠É£ÊÉº¨Â§ßÂÉ•®/ ÁªÉØÂÉ•∏ÈÉø≥‰πÉ∞ÂÉ∞É®ÈÉªÉ¶„ÄÉ∞4KMV+ÈÉø≥‰πÉ∞‰∏É≥ËæÉ±„ÄÉ±ÔºÉ®24ÂÉ∞É®ÈÉªÉ¶404.9GBÔºÉ©
 : 1672475023:0;find -type d -empty .
 : 1672475024:0;find -type d -empty
-: 1672475344:0;code /mnt/r10/trojan/config.json
 : 1672475370:0;systemctl
 : 1672475375:0;systemctl -h
 : 1672475414:0;systemctl status op
@@ -457,10 +420,7 @@ esac
 : 1672565984:0;dog -H @https://dns.alidns.com/dns-query google.com
 : 1672565991:0;dog -H @https://dns.pub/dns-query google.com
 : 1672566041:0;dog -H @https://unfiltered.adguard-dns.com/dns-query google.com
-: 1672578025:0;j ali__
 : 1672578027:0;mv ‰∏É™ÁÉπæÊÉº¨ÁÉ¥µÂ≠É∞‰π¶ÂÉ∞É®ÈÉªÉ¶*/* /mnt/r10/compose/kavita/books
-: 1672578585:0;find -type d -empty -delete
-: 1672578649:0;j comp__
 : 1672580919:0;docker logs
 : 1672580924:0;docker logs --help
 : 1672580931:0;docker logs --details
@@ -470,19 +430,14 @@ esac
 : 1672581027:0;docker compose logs
 : 1672581030:0;docker compose
 : 1672581073:0;docker inspect dnsproxy
-: 1672581110:0;j
 : 1672581116:0;cd /var/log/docker
-: 1672581132:0;ncdu
 : 1672581171:0;ncdu --exclude /mnt
 : 1672584238:0;docker images
-: 1672588674:0;code /etc/docker/daemon.json
-: 1672897299:0;j compo__
 : 1672897341:0;docker ps | grep Up
 : 1672897345:0;docker ps | grep Up | wc
 : 1672897349:0;docker ps | grep Up | wc -l
 : 1672897676:0;curl -sL yabs.sh
 : 1672898541:0;lsblk
-: 1672898573:0;neofetch
 : 1672900763:0;j too__
 : 1672900793:0;git config pull.ff only
 : 1672916908:0;code vite.config.js
@@ -493,8 +448,6 @@ esac
 : 1672917135:0;git rm common/v1/db.js -f
 : 1672917162:0;cd common
 : 1672917167:0;code db.js
-: 1672917680:0;code toolkits
-: 1672917698:0;code op_support
 : 1672917989:0;code .env
 : 1672919716:0;journalctl -u toolkits.service
 : 1672928282:0;cd SteamLibrary
@@ -507,31 +460,21 @@ esac
 : 1672928591:0;rsync -azvhP r10 r1
 : 1672929223:0;rm -rf r10
 : 1672929239:0;umount r10
-: 1672929446:0;docker compose donw
-: 1672929559:0;ll
 : 1672930217:0;..
-: 1672930227:0;cd r1
 : 1672930235:0;sl
-: 1672930242:0;cd r10
 : 1672930249:0;rsync compose /mnt/r1
-: 1672930271:0;j com
 : 1672930288:0;rsync -avzhP compose /mnt/r1
 : 1672934723:0;rm -rf compose
-: 1672936755:0;systemctl status trojan
 : 1672936811:0;journalctl -f -u opsupport
 : 1673180454:0;whoami
 : 1673180462:0;SSH_CONNECTION
 : 1673180463:0;SSH_CONNECTIO
 : 1673180476:0;echo $SSH_CLIENT
 : 1673180517:0;ss | grep ssh
-: 1673180523:0;ss
 : 1673180529:0;ss | grep -i ssh
 : 1673180536:0;last -a | grep -i still
 : 1673180570:0;netstat -tnpa | grep 'ESTABLISHED.*sshd'
 : 1673180625:0;ps auxwww | grep sshd: | grep -v grep
-: 1673189008:0;docker
-: 1673189016:0;docker info
-: 1673196106:0;j com__
 : 1673196117:0;j media2
 : 1673196122:0;mkdir music
 : 1673196140:0;mv ÁªÉØÂÉ•∏ËÄÅÊ≠É¨1688È¶É∂wma ÁªÉØÂÉ•∏ÈÉø≥‰πÉ∞ÂÉ∞É®ÈÉªÉ¶„ÄÉ∞4KMV+ÈÉø≥‰πÉ∞‰∏É≥ËæÉ±„ÄÉ±ÔºÉ®24ÂÉ∞É®ÈÉªÉ¶404.9GBÔºÉ© music
@@ -558,10 +501,6 @@ esac
 : 1673240133:0;ps aux | grep ssh
 : 1673242693:0;docker compose restart dnsproxy
 : 1673258307:0;j to__
-: 1673258315:0;cd op_support
-: 1673258331:0;systemctl restart opsupport.service
-: 1673258334:0;cd toolkits
-: 1673258336:0;git pull
 : 1673258728:0;fallocate -l 8G /swapfile
 : 1673258734:0;chmod 600 /swapfile \
 
@@ -570,19 +509,14 @@ esac
 : 1673258872:0;code /etc/sysctl.conf
 : 1673258883:0;sysctl -p
 : 1673258890:0;tp
-: 1673258955:0;free -m
 : 1673258957:0;free
 : 1673258962:0;free -h
 : 1673258995:0;swapn -s
 : 1673259004:0;swapon -h
-: 1673259026:0;swapon -s
-: 1673275233:0;systemctl restart docker
 : 1673275571:0;docker compose up d-
 : 1673279171:0;apt update
 : 1673279185:0;apt upgrade
 : 1673316041:0;curl 6.ipw.cn
-: 1673316045:0;curl 4.ipw.cn
-: 1673316051:0;ip addr
 : 1673319250:0;code config/config.php
 : 1673320105:0;cat nextcloud.log
 : 1673320119:0;tail -f nextcloud.log
@@ -592,12 +526,9 @@ esac
 : 1673320694:0;cat nextcloud/data/nextcloud.log| jq . | grep error | less
 : 1673322147:0;code nextcloud/config
 : 1673322635:0;cd nextcloud
-: 1673322638:0;cd data
-: 1673322641:0;cd config
 : 1673323168:0;tail -f nextcloud/data/nextcloud.log| jq . | less
 : 1673323181:0;tail -f nextcloud/data/nextcloud.log
 : 1673323740:0;c d..
-: 1673323746:0;code aliyun-ddns
 : 1673324157:0;tail -f nextcloud/data/nextcloud.log | jq .
 : 1673324163:0;tail -f nextcloud/data/nextcloud.log | jq . | less
 : 1673325063:0;code nextcloud/config/config.php
@@ -610,18 +541,15 @@ esac
 : 1673329645:0;certbot certonly --standalone -d cal.naizi.fun
 : 1673330008:0;curl https://get.acme.sh | sh -s email=mingwiki@gmail.com
 : 1673330017:0;unmsp
-: 1673330018:0;unsp
 : 1673330106:0;cd akn
 : 1673330108:0;cd anki
 : 1673330145:0;acme.sh --issue --standalone -d cal.naizi.fun
-: 1673330503:0;ls certs
 : 1673330662:0;certbot certonly --nginx
 : 1673331309:0;mkdir certbot
 : 1673331326:0;mv nginx-conf/acme.config certbot
 : 1673332090:0;cd renewal-hooks
 : 1673332096:0;cd accounts
 : 1673332529:0;docker compose down cerbot
-: 1673332790:0;code ng
 : 1673332952:0;openssl dhparam -out ./dhparam.pem 2048
 : 1673333022:0;mv dhparam.pem ssl-dhparam.pem
 : 1673333067:0;mv ssl-dhparam.pem dhparam.pem
@@ -650,53 +578,27 @@ esac
 : 1673335449:0;rm mc
 : 1673335743:0;mv cal.naizi.fun.* certs
 : 1673335746:0;cd certs
-: 1673335747:0;la
 : 1673335791:0;docker composeu pud-
 : 1673337811:0;rm -rf nextcloud
-: 1673339310:0;l
-: 1673346392:0;j zsh
-: 1673346396:0;git status
 : 1673346415:0;git config --global core.editor nvim
 : 1673346421:0;git commist
 : 1673352872:0;systemctl status trojan.service
-: 1673352878:0;systemctl status toolkits.service
 : 1673440450:0;docker p
-: 1673441788:0;systemctl restart trojan
-: 1673442531:0;cd ..
 : 1673445875:0;curl test.ipw.cn
 : 1673445912:0;killall vscode
-: 1673445918:0;killall node
-: 1673445996:0;journalctl -u opsupport.service
 : 1673449189:0;nslookup baidu.com
 : 1673449201:0;nslookup google.com
 : 1673449243:0;nslookup twitter.com
 : 1673449263:0;dig +trace google.com
 : 1673449287:0;dig -h
 : 1673449390:0;dig +trace
-: 1673449721:0;systemctl restart aria2.service
-: 1673449722:0;aria2p show
 : 1673484437:0;docker compose down && docker compose up -d
 : 1673484671:0;cd ..ls
 : 1673484689:0;j aliyun
 : 1673488585:0;docke rps
-: 1673494483:0;systemctl status opsupport.service
-: 1673494510:0;systemctl restart toolkits.service
-: 1673501930:0;j r10
-: 1673501932:0;cd aliyun-ddns
-: 1673501933:0;code .
-: 1673502004:0;npm uni node-fetch
-: 1673502023:0;npm i
-: 1673502029:0;git add .
-: 1673502032:0;git commit
-: 1673502039:0;git push
-: 1673502083:0;npm start
 : 1673502108:0;ccd
-: 1673502109:0;cd
 : 1673502112:0;hotp
-: 1673512849:0;glances
 : 1673514064:0;killall glances
-: 1673514070:0;ps aux
-: 1673514087:0;docker ps
 : 1673517100:0;curl http://myip.ipip.net
 : 1673517106:0;curl myip.ipip.net
 : 1673517119:0;curl -s myip.ipip.net
@@ -707,292 +609,66 @@ esac
 : 1673517163:0;ping google.com
 : 1673517166:0;dig google.com
 : 1673517178:0;dig google.com +trace
-: 1673580993:0;j compose
-: 1673598719:0;code docker-compose.yml
-: 1673600345:0;clear
-: 1673600620:0;j r1
-: 1673600624:0;cd /mnt/r1
-: 1673600624:0;ls
-: 1673600981:0;df -h
 : 1673622148:0;j compsoe
-: 1673622455:0;docker compose down
-: 1673622471:0;docker compose up -d
-: 1673622514:0;code nginx-conf
 : 1673622549:0;docker compose restart anki
 : 1673622569:0;docker compose restart nginx
-: 1673625149:0;htop
 : 1673681257:0;zsh -h
 : 1673681260:0;exit
 : 1673681276:0;omz
-: 1673681280:0;sp
 : 1673681283:0;omz update
-: 1673681288:0;unsp
-: 1673681290:0;clera
-: 1673681291:0;clear
-: 1673681300:0;neofetch
-: 1673773614:0;ls
-: 1673773617:0;j compose
-: 1673773618:0;ls
-: 1673773621:0;cd kavita
-: 1673773621:0;ls
-: 1673773625:0;cd comics
-: 1673773626:0;ls
 : 1673773630:0;mv Ê≠¶ÂÉ™ÉøÁßÉ∏Á±É≠ ../books
-: 1673773634:0;cd ..
 : 1673773636:0;cd books
-: 1673773636:0;ls
 : 1673773642:0;cd Ê≠¶ÂÉ™ÉøÁßÉ∏Á±É≠
-: 1673773644:0;ls
-: 1673773648:0;mv * ..
-: 1673773649:0;ls
-: 1673773651:0;cd ..
 : 1673773659:0;rm -rf Ê≠¶ÂÉ™ÉøÁßÉ∏Á±É≠
-: 1673773661:0;ls
-: 1673773664:0;cd ..
-: 1673773664:0;ls
 : 1673773675:0;mv books ...
-: 1673773677:0;ls
-: 1673773679:0;cd ..
-: 1673773679:0;ls
-: 1673773682:0;cd ..
-: 1673773682:0;ls
 : 1673773688:0;j comp__
-: 1673773689:0;code docker-compose.yml
-: 1673773796:0;cd ..
-: 1673773796:0;ls
 : 1673773809:0;code ng
-: 1673773817:0;cd compose
-: 1673773818:0;code nginx-conf
-: 1673773881:0;docker compose up -d
-: 1673774037:0;code nginx-conf
-: 1673774047:0;docker compose up -d
-: 1673774078:0;code nginx-conf
-: 1673774086:0;docker compose up -d
-: 1673774128:0;code nginx-conf
-: 1673774169:0;docker compose up -d
 : 1673774225:0;cd ../books
-: 1673774226:0;ls
-: 1673774229:0;cd ..
-: 1673774230:0;ls
-: 1673774231:0;la
 : 1673774245:0;chown -R 1000:1000 books
-: 1673774388:0;j compo__
-: 1673774389:0;code docker-compose.yml
-: 1673774417:0;docker compose up -d
-: 1673774541:0;cd calibre-web
-: 1673774541:0;ls
-: 1673774543:0;cd ..
-: 1673774544:0;ls
 : 1673774556:0;du -hs kavita
 : 1673774562:0;cd kavita
-: 1673774562:0;ls
 : 1673774564:0;cd comics
-: 1673774565:0;ls
-: 1673774566:0;cd ..
 : 1673774567:0;cd data
-: 1673774567:0;ls
-: 1673774570:0;cd ..
-: 1673774572:0;ls
 : 1673774574:0;cd manga
-: 1673774574:0;ls
-: 1673774575:0;cd ..
 : 1673774580:0;rm -rf kavita
-: 1673774876:0;ls
-: 1673774882:0;la
-: 1673774894:0;cd calibre-web
-: 1673774895:0;ls
-: 1673774898:0;cd ..
-: 1673774900:0;ls
-: 1673774958:0;docker compose down
 : 1673774984:0;rm -rf calibre-web
-: 1673774988:0;docker compose up -d
-: 1673774999:0;docker compose down
-: 1673775015:0;docker compose up -d
 : 1673775037:0;cd calibre-web
-: 1673775038:0;ls
-: 1673775039:0;cd ..
-: 1673775040:0;ls
-: 1673775238:0;docker compose up -d
-: 1673775629:0;code nginx-conf
-: 1673775686:0;docker compose down
-: 1673775711:0;docker compose up -d
-: 1673775720:0;docker ps
 : 1673775747:0;rm -rf calibre-web paperless wallabag nzb
-: 1673775748:0;ls
 : 1673775750:0;cd webdav
-: 1673775751:0;ls
-: 1673775752:0;cd ..
 : 1673775754:0;rm -rf webdav
-: 1673775755:0;ls
-: 1673775762:0;cd ..
-: 1673775763:0;ls
 : 1673775770:0;cd com
 : 1673775771:0;cd compose
-: 1673775772:0;ls
-: 1673775798:0;cd photoprism
-: 1673775798:0;ls
 : 1673775801:0;cd originals
-: 1673775801:0;ls
-: 1673775805:0;cd ..
-: 1673775805:0;ls
-: 1673775807:0;cd storage
-: 1673775807:0;ls
-: 1673775810:0;cd ..
-: 1673775810:0;ls
-: 1673775817:0;cd ..
-: 1673775821:0;docker compose down
-: 1673775856:0;docker compose up -d
 : 1673777815:0;j books
-: 1673777816:0;ls
-: 1673777842:0;j ali__
 : 1673777858:0;mv ‰∏É™ÁÉπæÊÉº¨ÁÉ¥µÂ≠É∞‰π¶ÂÉ∞É®ÈÉªÉ¶* /mnt/r10/books
 : 1673778013:0;j bo__
 : 1673778025:0;mv ‰∏É™ÁÉπæÊÉº¨ÁÉ¥µÂ≠É∞‰π¶ÂÉ∞É®ÈÉªÉ¶*/* .
 : 1673778035:0;find -type d -empty -delete
 : 1673778047:0;ls | wc
 : 1673778055:0;ls | wc -l
-: 1673781689:0;docker ps
-: 1673781691:0;j compose
-: 1673781693:0;docker ps
-: 1673781755:0;df -h
-: 1673782528:0;docker ps
-: 1673783005:0;ls
-: 1673783009:0;htop
-: 1673787429:0;s
-: 1673787433:0;glances
-: 1673787556:0;ls
-: 1673787558:0;code docker-compose.yml
-: 1673787592:0;docker compose up -d
-: 1673788599:0;htop
 : 1673788756:0;lspci -nn
-: 1673788914:0;docker ps
 : 1673789085:0;cd photoprism
-: 1673789086:0;ls
-: 1673789104:0;docker compose up -d
-: 1673789860:0;htop
-: 1673791713:0;docker ps
 : 1673791738:0;docker logs -f jellyfin
-: 1673796222:0;htop
-: 1673797622:0;ls
-: 1673798268:0;cd op_support
-: 1673798270:0;code .
-: 1673799765:0;ls
-: 1673799775:0;code op_support
-: 1673838128:0;docker
-: 1673838131:0;docker ps
-: 1673838137:0;htop
 : 1673839900:0;journalctl -u trojan
-: 1673853524:0;journalctl -u opsupport.service
-: 1673862050:0;ls
-: 1673862051:0;htop
-: 1673862061:0;neofetch
-: 1673862065:0;clera
-: 1673862066:0;clear
-: 1673875888:0;ls
-: 1673878598:0;aria2p show
-: 1673878605:0;j r1
-: 1673878605:0;ls
-: 1673878610:0;cd /mnt/r1
-: 1673878611:0;ls
-: 1673878616:0;cd downloads
-: 1673878617:0;ls
 : 1673878619:0;cd torrents
-: 1673878620:0;ls
-: 1673878641:0;cd ..
-: 1673878642:0;cd
 : 1673878668:0;aria2p add-torrents /mnt/r1/downloads/torrents/*.torr*
-: 1673878680:0;aria2p show
-: 1673878731:0;glances
-: 1673878773:0;df -h
-: 1673878891:0;aria2p show
-: 1673878905:0;glances
-: 1673878932:0;htop
-: 1673878942:0;aria2p show
-: 1673879018:0;aria2p show | grep active
-: 1673879029:0;aria2p show
-: 1673879040:0;aria2p
 : 1673879046:0;aria2p top
 : 1673879059:0;pip install aria2p[tui]
 : 1673879069:0;aria2p call
 : 1673879072:0;aria2p call -h
 : 1673879076:0;aria2p call metho
-: 1673879083:0;aria2p call listmethods
 : 1673879094:0;aria2.getGlobalStat
 : 1673879102:0;aria2p call getGlobalStat
-: 1673879127:0;aria2p show
-: 1673879145:0;glances
-: 1673879189:0;htop
-: 1673879540:0;ls
-: 1673879543:0;docker ps
-: 1673879548:0;aria2p show
-: 1673879909:0;aria2p show | grep active
 : 1673879918:0;aria2p show | grep active | wc
-: 1673879959:0;aria2p show | grep active
-: 1673879977:0;glances
-: 1673880238:0;df -h
 : 1673880262:0;free -m
 : 1673880270:0;swapon -s
-: 1673880289:0;htop
-: 1673880473:0;glances
-: 1673880490:0;ls
-: 1673880493:0;aria2p show | grep active
-: 1673881387:0;htop
-: 1673881413:0;aria2p show
-: 1673881422:0;aria2p show | grep active
-: 1673881560:0;docker ps
-: 1673881738:0;systemctl status trojan
-: 1673881763:0;systemctl restart trojan
-: 1673881775:0;docker ps
-: 1673881846:0;docker inspect nginx
-: 1673881907:0;ls
-: 1673881915:0;code /mnt/r10/trojan/config.json
-: 1673881927:0;systemctl restart trojan
-: 1673881982:0;code /mnt/r10/trojan/config.json
 : 1673881997:0;systemctl status trojan
-: 1673882022:0;systemctl restart trojan
-: 1673882840:0;ls
-: 1673882843:0;git clone git@github.com:mingwiki/mingwiki.github.io.git
-: 1673882851:0;code mingwiki.github.io
-: 1673882896:0;nvm ls
-: 1673882899:0;npm i
-: 1673882905:0;npm run dev
-: 1673884488:0;j compose
-: 1673884494:0;code nginx-conf
-: 1673884581:0;code docker-compose.yml
-: 1673886911:0;docker ocmpose up -d
-: 1673886918:0;docker compose up -d
 : 1673886947:0;docker ocmpose up -d
-: 1673886950:0;docker compose up -d
-: 1673887079:0;code nginx-conf
-: 1673887123:0;docker compose up -d
-: 1673889629:0;aria2p show | grep active
-: 1673889638:0;df -h
-: 1673889897:0;aria2p show | grep active
-: 1673889910:0;glances
-: 1673889963:0;aria2p show
 : 1673920370:0;s
 : 1673920372:0;clera
-: 1673920373:0;clear
-: 1673920374:0;htop
-: 1673933662:0;docker ps
-: 1673933706:0;aria2p show
-: 1673933726:0;clear
-: 1673933727:0;df -h
-: 1673933742:0;aria2p show
-: 1673933755:0;clear
-: 1673933759:0;glances
-: 1673933786:0;ls
-: 1673933794:0;j r10
-: 1673933795:0;ls
-: 1673933797:0;cd aria2
-: 1673933797:0;ls
-: 1673933802:0;code aria2.conf
-: 1673934247:0;aria2p show
-: 1673934300:0;clear
 : 1673934311:0;ps
 : 1673934315:0;ps aux
 : 1673934804:0;ss
-: 1673934805:0;cd
 : 1673934806:0;ss -s
 : 1673934833:0;netstat -i
 : 1673934841:0;netstat -iH
@@ -1001,174 +677,54 @@ esac
 : 1673934889:0;ifconfig
 : 1673934895:0;ifconfig enth0
 : 1673934900:0;ifconfig eth0
-: 1673934954:0;glances
-: 1673936971:0;df -h
-: 1673954545:0;aria2p show
 : 1673954556:0;aria2p show | grep active
-: 1674262513:0;aria2p show
 : 1674262539:0;ariap call aa
 : 1674262554:0;aria2p call a
-: 1674262568:0;aria2p call listmethods
-: 1674262647:0;aria2p call purgeDownloadResult
-: 1674262655:0;aria2p show
-: 1674262673:0;aria2p
-: 1674262786:0;df -h
-: 1674263084:0;aria2p call listmethods
-: 1674263101:0;aria2p show
-: 1674263469:0;neofetch
-: 1674301494:0;df -h
-: 1674301583:0;aria2p show
 : 1674301616:0;j down
 : 1674301624:0;du ~sh .
 : 1674301639:0;du -si
 : 1674301645:0;du -sh
-: 1674301657:0;cd ..
-: 1674301660:0;ncdu
-: 1674303476:0;aria2p show
-: 1674303511:0;aria2p call listmethods
-: 1674303690:0;j alidrive
-: 1674303692:0;ls
-: 1674303785:0;l
-: 1674303796:0;cd
-: 1674303801:0;df -h
-: 1674369837:0;aria2p show
-: 1674381808:0;df -h
-: 1674381827:0;aria2p call purgeDownloadResult
-: 1674381832:0;aria2p show
 : 1674381945:0;aria2p
 : 1674381955:0;aria2p call listmethods
 : 1674381974:0;aria2p call getPeers
-: 1674382183:0;htop
-: 1674394711:0;df -h
-: 1674394985:0;aria2p show
-: 1674454609:0;df -h
-: 1674454634:0;aria2p call purgeDownloadResult
-: 1674454643:0;aria2p show
-: 1674482631:0;ll
-: 1674482638:0;df -h
-: 1674483021:0;aria2p show
-: 1674484349:0;ll
-: 1674484353:0;htop
-: 1674486615:0;df -h
-: 1674534406:0;aria2p show
-: 1674534447:0;df -h
 : 1674534472:0;j alidrive
-: 1674534475:0;ll
 : 1674534557:0;ls *photo*
 : 1674534569:0;ls *hoto*
 : 1674534611:0;rm -rf Â∞ÉØÊ£É©ËÉ™±ÁÉÆÉ´ËÄÉ•ËØæÁ®É´ÔºÉ®ÁÉÆÉ´ËÄÉ•ËÉ≠£ËÄÄ23‰∏™ÁÉ£≠ÈÉ∑®ËÉ´±ÈÉªÉ§‰ªÉ∏Ë¥πÊÉµÉπÂ≠¶ÔºÉ©
-: 1674534620:0;ls
 : 1674534691:0;rm -rf ÊÉΩÉ£ÂÉ™ÉªÁÉ∫É§Ê∏∏ÊÉ®ÉØ.S01-S08.1080p
 : 1674534722:0;rm -rf ÁÉ±ÉæÂÉ•É´ÂÉ≤É¨ËÉÆ´ËÉ≤Ç
-: 1674534728:0;cd
-: 1674534731:0;df -h
-: 1674534755:0;j alid
-: 1674534758:0;ls
 : 1674534794:0;rm -rf ÁªÉØÂÉ•∏‰∏É∂ÁÉµÉ¨ÊÉ∂ÉßÂ≠¶ÂÉ∞É≠ËÉ±É∑ÁÉ¥µÂΩ±ÁÉ©É®ÉøÉ¨øÔºÉ®Â∑≤ÊÉµ¥ÔºÉ©
-: 1674534829:0;df -h
-: 1674534850:0;aria2p call purgeDownloadResult
 : 1674534857:0;aria2p cal
-: 1674534901:0;aria2p show
-: 1674534945:0;docker ps
-: 1674554001:0;ll
-: 1674554009:0;df -h
-: 1674554531:0;aria2p show
-: 1674736783:0;code mingwiki.github.io
-: 1674736789:0;j compose
-: 1674736791:0;code nginx-conf
-: 1674736799:0;docker compose up -d
-: 1674736961:0;docker compose down
-: 1674737174:0;docker compose up -d
-: 1674737193:0;code nginx-conf
-: 1674737345:0;docker compose up -d
 : 1674737393:0;cd nginx-conf
-: 1674737394:0;ls
-: 1674737600:0;docker compose up -d
-: 1674738024:0;docker image prune -a
-: 1674738171:0;docker compose up -d
-: 1674738800:0;ls
 : 1674738806:0;mv radicale.conf radicale.bk
 : 1674738811:0;ls .bk
 : 1674738814:0;ls *.bk
 : 1674738830:0;ls *.conf
 : 1674738844:0;mv minio.conf minio.bk
 : 1674738854:0;mv outline.conf outline.bk
-: 1674738879:0;cd ..
-: 1674738884:0;docker compose down
-: 1674738987:0;docker compose up -d
 : 1674739014:0;docker image prune -a
-: 1674740651:0;docker compose up -d
-: 1674740658:0;code mingwiki.github.io
-: 1674740662:0;j com__
-: 1674740664:0;code nginx-conf
 : 1674740681:0;ls certs
-: 1674740767:0;docker compose up -d
 : 1674742935:0;cd wordpress
 : 1674742935:0;ks
-: 1674742937:0;ls
 : 1674742946:0;code wp-config.php
-: 1674743159:0;docker compose up -d
-: 1674743881:0;ls
 : 1674743888:0;code redis.php
-: 1674743921:0;ls
 : 1674743986:0;mv redis.php wp-admin
 : 1674743989:0;cd wp-admin
-: 1674743989:0;ls
 : 1674744042:0;rm redis.php
-: 1674744045:0;cd ..
-: 1674744048:0;j com__
-: 1674745044:0;code nginx-conf
-: 1674745076:0;docker compose up -d
-: 1674745357:0;code nginx-conf
-: 1674745382:0;docker compose up -d
-: 1674746124:0;sp
-: 1674746126:0;docker compose up -d
-: 1674746527:0;unsp
-: 1674746529:0;docker compose up -d
-: 1674751783:0;cd mingwiki.github.io
-: 1674751785:0;git pull
-: 1674751791:0;code .
-: 1674751875:0;docker compose up -d
-: 1674751884:0;nvm ls
-: 1674751886:0;n
 : 1674751889:0;npm install hexo-cli -g
-: 1674751922:0;mv wiki.png ..
 : 1674751939:0;rm -rf .git
 : 1674751942:0;mv wiki.png ..
 : 1674751946:0;hexo init
 : 1674751983:0;git init
-: 1674751996:0;git status
-: 1674752000:0;git add .
-: 1674752003:0;git status
-: 1674752009:0;git commit
-: 1674752022:0;git push
-: 1674752061:0;cd ..
 : 1674752070:0;mv mingwiki.github.io ss
-: 1674752094:0;cd ..
-: 1674752094:0;ls
 : 1674752098:0;git clone git@github.com:mingwiki/mingwiki.github.io.git
-: 1674752149:0;docker compose up -d
 : 1674752238:0;cd mingwiki.github.io
-: 1674752239:0;ls
-: 1674752244:0;rm -rf *
-: 1674752246:0;ls
-: 1674752248:0;cd ..
-: 1674752248:0;ls
 : 1674752253:0;mv ss/* mingwiki.github.io
 : 1674752257:0;cd s
 : 1674752258:0;cd ss
-: 1674752259:0;ls
-: 1674752260:0;cd ..
 : 1674752264:0;rm -rf ss
-: 1674752271:0;code mingwiki.github.io
 : 1674752293:0;mv wiki.png mingwiki.github.io
-: 1674752401:0;hexo server
 : 1674753969:0;docker compose donw
-: 1674753972:0;docker compose down
-: 1674754016:0;code nginx-conf
-: 1674754039:0;docker compose up -d
-: 1674756254:0;j
-: 1674756255:0;cd
 : 1674756261:0;git clone https://github.com/crispgm/resume.git
 : 1674756293:0;git clone git@github.com:mingwiki/cv.git
 : 1674756313:0;cp -r resume/path/to/resume/port-hexo
@@ -1176,110 +732,44 @@ esac
 : 1674756331:0;cp -r resume/port-hexo cv
 : 1674756334:0;code cv
 : 1674756357:0;cp -r resume/port-hexo/* cv
-: 1674756375:0;hexo s
 : 1674756380:0;hexo server
-: 1674756421:0;cd ..
-: 1674756421:0;ls
 : 1674756433:0;hexo init hexo-template
-: 1674756505:0;cd hexo-template
-: 1674756505:0;ls
 : 1674756518:0;cp -r * ../cv
-: 1674756520:0;ls
-: 1674756522:0;cd ..
-: 1674756523:0;ls
 : 1674756563:0;cp -r resume/port-hexo cv/themes/hexo-crisp-minimal-theme
-: 1674756611:0;ls
-: 1674756613:0;cd cv
-: 1674756614:0;ls
-: 1674756615:0;hexo s
 : 1674756685:0;cd cv
-: 1674756686:0;ls
 : 1674756689:0;npm i -d hexo-renderer-swig
-: 1674756701:0;hexo s
-: 1674756745:0;npm i
-: 1674756747:0;npm run server
 : 1674756853:0;npm uni hexo-theme-landscape hexo-renderer-ejs
-: 1674756856:0;npm run server
-: 1674756934:0;hexo clean
 : 1674756940:0;npm run server
 : 1674756984:0;npm install hexo-renderer-swig
 : 1674756990:0;npm s
-: 1674756994:0;hexo s
 : 1674757063:0;hexo clean
-: 1674757066:0;hexo s
-: 1674757237:0;npm i
-: 1674757243:0;hexo s
-: 1674757399:0;cd ..
-: 1674757399:0;ls
 : 1674757402:0;cd hexo-template
-: 1674757402:0;ls
 : 1674757411:0;cp -r scaffolds source ../cv
-: 1674757429:0;hexo s
-: 1674757449:0;npm i
-: 1674757453:0;hexo s
-: 1674757488:0;npm i
 : 1674757491:0;hexo s
-: 1674757950:0;aria2p show
-: 1674760039:0;df -h
 : 1674760050:0;mdadm -Ds
 : 1674760052:0;mdadm -D
 : 1674760064:0;mdadm -D /dev/md0
 : 1674760070:0;mdadm -D /dev/md1
-: 1674760079:0;ls
-: 1674760084:0;htop
-: 1674760101:0;aria2p call purgeDownloadResult
-: 1674760105:0;aria2p show
 : 1674760182:0;j certs
 : 1674760193:0;cp naizi.fun.* /mnt/r1/
-: 1674760212:0;j r1
-: 1674760213:0;cd ..
-: 1674760215:0;cd r1
-: 1674760215:0;ls
 : 1674760226:0;chmod 777 naizi.fun.*
-: 1674760227:0;ls
-: 1674760551:0;omv-firstaid
-: 1674760745:0;neofetch
-: 1674760771:0;docker ps
-: 1674760815:0;j com__
-: 1674760818:0;code docker-compose.yml
-: 1674800315:0;df -h
-: 1674800326:0;aria2p call purgeDownloadResult
-: 1674800329:0;aria2p show
-: 1674800340:0;cd /mnt/r1
-: 1674800341:0;la
 : 1674800356:0;mv \!mportant /mnt/r10
-: 1674800358:0;ls
 : 1674800870:0;df -
-: 1674800872:0;df -h
 : 1674800877:0;df help
-: 1674800880:0;df
-: 1674800884:0;du
-: 1674800888:0;du -h
 : 1674800893:0;du -hs
 : 1674800899:0;du -s
 : 1674800904:0;du -s .
 : 1674800913:0;du -h
 : 1674800918:0;du help
-: 1674800924:0;ncdu
-: 1674802376:0;ls
-: 1674802428:0;clear
 : 1674802429:0;df
 : 1674802440:0;j arli__
-: 1674802442:0;j ali
-: 1674802447:0;clear
-: 1674802447:0;ls
-: 1674802462:0;ls *Python*
 : 1674802470:0;ls *Python* | xargs
 : 1674802474:0;ls *Python* | xargs -l
 : 1674802484:0;ls *Python* | xargs -i
 : 1674802488:0;ls *Python* | xargs -L 1
 : 1674802500:0;ls *Python*
 : 1674802526:0;ls | grep *Python*
-: 1674802531:0;ls | grep Python
-: 1674802597:0;ls
-: 1674802600:0;j r1
 : 1674802603:0;j r1/
-: 1674802603:0;ls
 : 1674802609:0;mkdir python
 : 1674802619:0;ls | grep Python | xargs -i {} | mv {} ../python
 : 1674802625:0;ls | grep Python | xargs -I {} | mv {} ../python
@@ -1289,100 +779,33 @@ esac
 : 1674802958:0;ls | grep Java | xargs -I {} mv {} ../java
 : 1674802994:0;cd /mnt/r1/java
 : 1674803006:0;ls | grep avascript | xargs -I {} mv {} ../javascript
-: 1674803008:0;ls
 : 1674803016:0;ls | grep avaScript | xargs -I {} mv {} ../javascript
-: 1674803020:0;ls
 : 1674803136:0;j ali__
-: 1674803141:0;ls | grep nginx
-: 1674803145:0;ls | grep Nginx
-: 1674805349:0;cd
 : 1674805351:0;omv-firstaid
-: 1674805377:0;clear
-: 1674805380:0;df -h
-: 1674823254:0;j compo__
-: 1674823254:0;ls
-: 1674823256:0;code docker-compose.yml
-: 1674823282:0;ls
-: 1674823286:0;cd ..
-: 1674823286:0;ls
 : 1674823289:0;cd calibre
-: 1674823289:0;pwd
-: 1674823362:0;j compose
-: 1674823366:0;code nginx-conf
-: 1674823384:0;ls
-: 1674823393:0;docker compose up 0d
-: 1674823396:0;docker compose up -d
 : 1674826657:0;[ ls
-: 1674826659:0;ls
-: 1674826661:0;code nginx-conf
-: 1674826664:0;ls
 : 1674826671:0;mv books.naizi.fun.* certs
 : 1674826673:0;cd certs/
-: 1674826674:0;ls
-: 1674826675:0;la
-: 1674826681:0;cd ..
-: 1674826681:0;ls
 : 1674827927:0;cd .
-: 1674827927:0;ls
 : 1674827930:0;sls
-: 1674827931:0;ls
-: 1674827932:0;claer
 : 1674827934:0;c
-: 1674827935:0;clear
-: 1674827939:0;cd
-: 1674827952:0;code .oh-my-zsh/ohmyzsh-custom
-: 1674828002:0;source .zshrc
 : 1674828007:0;j zsh
-: 1674828010:0;git add .
-: 1674828013:0;git commit
-: 1674828017:0;git push
-: 1674828022:0;j r10
-: 1674828023:0;ls
-: 1674828024:0;ncdu
 : 1674829174:0;ncdu -h
 : 1674829199:0;ncdu books calibre
 : 1674829238:0;du
-: 1674830504:0;ls
 : 1674830507:0;rm -rf books
 : 1674844511:0;j sy__
 : 1674844515:0;j syncthing
-: 1674844515:0;ls
-: 1674844517:0;j com__
-: 1674844518:0;ls
 : 1674844520:0;cd st-sync/
-: 1674844520:0;ls
-: 1674844529:0;rm -rf *
-: 1674845761:0;ls
-: 1674850800:0;cd
-: 1674850801:0;ls
-: 1674850804:0;aria2p shwo
-: 1674850805:0;aria2p show
 : 1674850825:0;aria2p autopurge
 : 1674850834:0;aria2p autoclear
 : 1674850867:0;aria2p autopurge *
-: 1674850876:0;aria2p call purgeDownloadResult
-: 1674850879:0;htop
-: 1674889432:0;docker ps
 : 1674889697:0;j comp
-: 1674889699:0;code docker-compose.yml
-: 1674889755:0;code nginx-conf
-: 1674889797:0;docker compose up -d
-: 1674890427:0;code nginx-conf
-: 1674890443:0;docker compose up -d
-: 1674894580:0;htop
-: 1674895345:0;clear
-: 1674896302:0;docker ps
-: 1674901553:0;aria2p show
-: 1674901560:0;aria2p call purgeDownloadResult
 : 1674901592:0;j alid
-: 1674901592:0;ls
 : 1674901596:0;cd \#calibre/
-: 1674901596:0;ls
 : 1674901599:0;rm -rf *
 : 1674915243:0;docker sp
-: 1674915246:0;docker ps
 : 1674915773:0;j alid__
-: 1674915781:0;ls
 : 1674915789:0;ls | grep Go
 : 1674915825:0;ls | grep Go | xargs mv -t ../Golang
 : 1674915849:0;ls | grep Go | xargs -I{} mv {} ../Golang
@@ -1390,98 +813,27 @@ esac
 : 1674915935:0;ls | grep MySQL
 : 1674915974:0;ls | grep MySQL | xargs -I {} mv {} ../mysql
 : 1674927327:0;j compo__
-: 1674927329:0;code docker-compose.yml
-: 1674927505:0;code immich.env
-: 1674927777:0;code nginx-conf
-: 1674927870:0;docker compose up -d
-: 1674928123:0;docker info
-: 1674928168:0;ls
-: 1674928173:0;code /etc/docker/daemon.json
-: 1674928188:0;docker info
-: 1674928355:0;systemctl restart docker
 : 1674928378:0;docker info
-: 1674928383:0;docker compose down
-: 1674928408:0;docker compose up -d
-: 1674928549:0;sp
-: 1674928550:0;docker compose up -d
 : 1674928627:0;code /mnt/r10/trojan/config.json
 : 1674928639:0;systemctl restart trojan.service
-: 1674928713:0;docker compose up -d
-: 1674928757:0;unsp
-: 1674928760:0;docker compose up -d
-: 1674928810:0;ls
-: 1674928811:0;docker compose up -d
-: 1674928830:0;systemctl restart docker
-: 1674928833:0;docker compose up -d
-: 1674928914:0;code /etc/docker/daemon.json
-: 1674929290:0;sp
 : 1674929290:0;code /etc/docker/daemon.json
-: 1674929295:0;docker compose up -d
-: 1674929416:0;unsp
-: 1674929417:0;docker compose up -d
 : 1674930220:0;code immich.env
-: 1674930236:0;ls
-: 1674930242:0;cd photoprism/originals
-: 1674930252:0;ls
-: 1674930253:0;cd ..
-: 1674930254:0;ls
 : 1674930257:0;cd storage
-: 1674930258:0;ls
-: 1674930261:0;cd ..
-: 1674930261:0;ls
-: 1674930263:0;cd ..
-: 1674930268:0;docker compose up -d
-: 1674930345:0;docker compose down
-: 1674930423:0;docker compose up -d
-: 1674930483:0;docker compose down
-: 1674930552:0;docker compose up -d
 : 1674930636:0;cd photoprism/originals
-: 1674930637:0;ls
 : 1674930640:0;cd 2011
-: 1674930641:0;ls
-: 1674930643:0;cd ..
-: 1674930643:0;ls
-: 1674930645:0;j com__
-: 1674930711:0;cd immich
-: 1674930711:0;ls
 : 1674930713:0;cd upload
-: 1674930714:0;ls
-: 1674930714:0;cd ..
 : 1674930717:0;rm -rf upload
-: 1674930718:0;cd ..
-: 1674930736:0;docker compose up -d
 : 1674931273:0;cd immich
-: 1674931273:0;ls
 : 1674931275:0;cd 66c52f54-a35f-48a0-b4ab-4574df8a08d2
-: 1674931275:0;ls
 : 1674931280:0;cd original
-: 1674931280:0;ls
 : 1674931281:0;cd 09ef8e0a74c726ab563a83b40b7c17f7ed4c9789be6318122090ca141128637b
-: 1674931282:0;ls
-: 1674931283:0;cd ..
-: 1674931284:0;ls
-: 1674931285:0;cd ..
-: 1674931285:0;ls
 : 1674931288:0;cd 2023
-: 1674931288:0;ls
 : 1674931290:0;cd 2023-01-28
-: 1674931290:0;ls
-: 1674931293:0;cd
-: 1674931293:0;la
 : 1674931598:0;rm .zsh_history
-: 1674931635:0;j com__
-: 1674931639:0;docker compose up -d
-: 1675009418:0;docker compose down
 : 1675009428:0;code mingwiki.github.io
-: 1675009446:0;code nginx-conf
-: 1675009479:0;docker compose up -d
-: 1675047723:0;glances
 : 1675052622:0;aria2p shwo
-: 1675052624:0;aria2p show
 : 1675052630:0;aria2p call purgeDownloadResult
 : 1675052631:0;claer
-: 1675052634:0;clear
-: 1675063116:0;docker ps
 : 1675063148:0;docker port
 : 1675063152:0;docker portls
 : 1675063155:0;docker port --help
@@ -1490,433 +842,127 @@ esac
 : 1675063170:0;docker ports
 : 1675063175:0;docker
 : 1675063201:0;docker history chenhw2/dnsproxy
-: 1675088976:0;ls
 : 1675088995:0;git clone git@code.aliyun.com:chaac_Group/huafeibao-h5.git
-: 1675088998:0;ls
 : 1675089000:0;code huafeibao-h5
 : 1675089297:0;git clone git@code.aliyun.com:chaac_Group/hfb-mp.git
-: 1675089302:0;code hfb-mp
-: 1675089928:0;neofetch
 : 1675089998:0;lll
-: 1675089999:0;ll
-: 1675089999:0;clear
-: 1675090016:0;docker ps
-: 1675097730:0;clear
-: 1675097731:0;docker ps
-: 1675131379:0;htop
-: 1675225211:0;j com__
-: 1675225214:0;code docker-compose.yml
-: 1675225443:0;docker compose up -d
-: 1675225608:0;sp
-: 1675225610:0;docker compose up -d
-: 1675225625:0;ls
-: 1675225628:0;j com__
-: 1675225632:0;ls
 : 1675225699:0;unsp
-: 1675225700:0;ls
-: 1675225702:0;docker compose up -d
-: 1675225895:0;code wireguard
-: 1675225972:0;docker compose up -d
-: 1675226278:0;code wireguard
-: 1675226444:0;docker compose up -d
-: 1675226451:0;code wireguard
-: 1675226521:0;docker compose up -d
-: 1675226636:0;netstat -tunlp | grep 60000
 : 1675226638:0;netstat -unlp | grep 60000
 : 1675226643:0;netstat -tunlp | grep 60000
 : 1675226646:0;netstat -tunlp
-: 1675226831:0;docker compose up -d
-: 1675226914:0;code wireguard
-: 1675227161:0;docker compose up -d
-: 1675227172:0;code wireguard
-: 1675227240:0;docker compose up -d
-: 1675227246:0;code wireguard
-: 1675227365:0;rm -rf wireguard
-: 1675227367:0;docker compose up -d
-: 1675227374:0;code wireguard
-: 1675227645:0;j com__
-: 1675227647:0;code docker-compose.yml
-: 1675227711:0;docker compose up -d
-: 1675227719:0;code wireguard
-: 1675227773:0;docker compose up -d
-: 1675227904:0;rm -rf wireguard
-: 1675227905:0;docker compose up -d
-: 1675227915:0;rm -rf wireguard
-: 1675227925:0;docker compose up -d
-: 1675227962:0;code wireguard
-: 1675228060:0;docker compose up -d
-: 1675228077:0;rm -rf wireguard
-: 1675228078:0;docker compose up -d
-: 1675228095:0;code wireguard
-: 1675228216:0;docker compose up -d
-: 1675228222:0;code wireguard
-: 1675228517:0;rm -rf wireguard
-: 1675228519:0;docker compose up -d
-: 1675228541:0;code wireguard
-: 1675228655:0;rm -rf wireguard
-: 1675228656:0;docker compose up -d
-: 1675228663:0;code wireguard
-: 1675228968:0;j com__
-: 1675228970:0;code docker-compose.yml
-: 1675229028:0;rm -rf wireguard
-: 1675229036:0;docker compose up -d
-: 1675229055:0;code wireguard
-: 1675229139:0;docker compose up -d
-: 1675229147:0;code wireguard
-: 1675229174:0;ls
-: 1675229245:0;rm -rf wireguard
-: 1675229251:0;docker compose up -d
-: 1675229281:0;rm -rf wireguard
-: 1675229282:0;docker compose up -d
-: 1675229316:0;code wireguard
-: 1675229441:0;docker ps
-: 1675229483:0;docker compose up -d
 : 1675229559:0;docker compose up -djls
-: 1675229701:0;docker compose up -d
-: 1675229704:0;code wireguard
-: 1675229797:0;rm -rf wireguard
-: 1675229804:0;docker compose up -d
-: 1675229811:0;code wireguard
 : 1675230039:0;rm -rf wireguard
-: 1675230041:0;docker compose up -d
-: 1675230081:0;code wireguard
-: 1675230128:0;docker ps
-: 1675230143:0;docker compose up -d
 : 1675230195:0;netstat -tunlp | grep 51820
-: 1675230218:0;docker compose down
 : 1675230238:0;docker compose up 0d
-: 1675230240:0;docker compose up -d
 : 1675230263:0;lsof -i:51820
 : 1675230268:0;lsof -i:
 : 1675230275:0;lsof
 : 1675230280:0;lsof | grep 51820
-: 1675230297:0;docker compose up -d
-: 1675230300:0;code wireguard
-: 1675234579:0;docker ps
-: 1675234608:0;ls
-: 1675234612:0;cd toolkits
-: 1675234616:0;git pull
-: 1675234631:0;code .
-: 1675234709:0;git pull
-: 1675234784:0;cd ..
-: 1675234785:0;cd op_support
-: 1675234785:0;ls
-: 1675234788:0;git pull
-: 1675234802:0;cd
-: 1675234812:0;systemctl restart opsupport.service
-: 1675234820:0;systemctl restart toolkits.service
-: 1675238214:0;code .
-: 1675238246:0;ls
-: 1675238301:0;systemctl restart opsupport.service
-: 1675238309:0;systemctl status opsupport.service
-: 1675238492:0;docker ps
-: 1675238504:0;journalctl -u opsupport.service
-: 1675248980:0;ls
-: 1675248981:0;cd toolkits
-: 1675248983:0;git pull
-: 1675249005:0;cd ..
-: 1675249008:0;cd op_support
-: 1675249010:0;git pull
-: 1675249015:0;cd
-: 1675249019:0;systemctl restart opsupport.service
-: 1675249025:0;systemctl restart toolkits.service
-: 1675249032:0;systemctl status toolkits.service
-: 1675249341:0;journalctl -u opsupport.service
-: 1675249407:0;ls
-: 1675249413:0;j com__
 : 1675249414:0;code wireguard
 : 1675255736:0;glances
-: 1675263872:0;docker ps
 : 1675263880:0;docker inspect nginx
-: 1675265046:0;ls
 : 1675265051:0;code hfb-mp
-: 1675265998:0;journalctl -u opsupport.service
-: 1675266101:0;code op_support
-: 1675267032:0;cd op_support
-: 1675267039:0;systemctl restart opsupport.service
-: 1675267083:0;journalctl -u opsupport.service
-: 1675267131:0;systemctl restart opsupport.service
-: 1675269646:0;npm run dev
 : 1675269848:0;npm install eslint eslint-plugin-react --save-dev
-: 1675269889:0;npm run dev
 : 1675270125:0;npm i -D eslint-plugin-next
 : 1675270139:0;npm uni eslint-plugin-react
-: 1675270188:0;npm run dev
 : 1675270236:0;npm uni node-fetch
 : 1675270326:0;npm uni moment
 : 1675270329:0;npm i dayjs
 : 1675270352:0;rm package
 : 1675270355:0;rm package-lock.json
-: 1675270356:0;npm i
-: 1675270407:0;systemctl restart opsupport.service
-: 1675270438:0;journalctl -u opsupport.service
-: 1675271010:0;cd ..
-: 1675271011:0;ls
 : 1675271013:0;code toolkits
-: 1675271076:0;npm run dev
-: 1675271960:0;systemctl restart opsupport.service
-: 1675271963:0;systemctl restart toolkits.service
 : 1675271979:0;systemctl status opsupport.service
-: 1675271989:0;systemctl status toolkits.service
-: 1675272626:0;journalctl -u opsupport.service
-: 1675272747:0;systemctl restart opsupport.service
-: 1675306277:0;ls
-: 1675306284:0;cd toolkits
-: 1675306285:0;ls
 : 1675306286:0;git pull
 : 1675306313:0;systemctl restart toolkits.service
-: 1675306318:0;git status
-: 1675306319:0;cd ..
-: 1675306322:0;cd op_support
-: 1675306322:0;ls
-: 1675306325:0;git status
-: 1675306326:0;cd
-: 1675306327:0;ls
 : 1675309243:0;code op_support
 : 1675309347:0;systemctl restart opsupport.service
 : 1675309472:0;journalctl -u opsupport.service
-: 1675313250:0;j com__
-: 1675313254:0;code docker-compose.yml
-: 1675313288:0;docker ps
-: 1675313311:0;docker compose up -d
-: 1675313418:0;j com__
-: 1675313419:0;code docker-compose.yml
-: 1675313436:0;docker ps
-: 1675313472:0;docker compose up -d
-: 1675313485:0;ls
 : 1675313684:0;j r10
-: 1675313686:0;ls
 : 1675313688:0;code aliyun-ddns
-: 1675313757:0;npm start
 : 1675314083:0;fetch 4.ipw.cn
 : 1675314089:0;curl 4.ipw.cnb
 : 1675314091:0;curl 4.ipw.cn
 : 1675314279:0;curl www.baidu.com
-: 1675314394:0;npm start
-: 1675316984:0;git status
-: 1675316986:0;git add .
-: 1675316989:0;git commit
 : 1675316994:0;gp
-: 1675316998:0;git push
-: 1675317621:0;l
-: 1675317628:0;clear
-: 1675317630:0;aria2p show
-: 1675317641:0;systemctl restart aria2.service
-: 1675317643:0;aria2p show
-: 1675317655:0;systemctl status aria2.service
 : 1675317695:0;aria2c --enable-rpc --rpc-listen-all --rpc-allow-origin-all --console-log-level=warn --conf-path=/mnt/r10/aria2/aria2.conf
-: 1675317727:0;systemctl restart aria2.service
-: 1675317729:0;systemctl status aria2.service
-: 1675317736:0;aria2p show
-: 1675317745:0;systemctl status aria2.service
 : 1675317822:0;systemctl restart aria2.service
 : 1675317825:0;systemctl status aria2.service
-: 1675317836:0;aria2p show
-: 1675317839:0;clear
 : 1675317848:0;journalctl -u aria2.service
 : 1675317916:0;journalctl -u aria2.service --disk-usage
 : 1675317938:0;journalctl -u aria2.service -f
 : 1675317957:0;journalctl -u aria2.service -f 10
 : 1675317973:0;journalctl -u aria2.service -f -n 20
-: 1675317990:0;clear
 : 1675317993:0;aria2p show
-: 1675317996:0;clear
-: 1675331156:0;ls
 : 1675331162:0;git clone git@github.com:mingwiki/useStore.git
 : 1675331170:0;code .npmrc
-: 1675331200:0;cd useStore
-: 1675331201:0;ls
 : 1675331231:0;nvm ls
-: 1675331278:0;npm login --scope=@OWNER --auth-type=legacy --registry=https://npm.pkg.github.com
 : 1675331291:0;sp
-: 1675331292:0;npm login --scope=@OWNER --auth-type=legacy --registry=https://npm.pkg.github.com
-: 1675331338:0;cd ..
 : 1675331344:0;source .npmrc
 : 1675331348:0;npm login --scope=@OWNER --auth-type=legacy --registry=https://npm.pkg.github.com
 : 1675331394:0;cd useStore
 : 1675331398:0;npm publish
 : 1675331404:0;npm login
-: 1675341813:0;cd
-: 1675341814:0;ls
 : 1675341815:0;clear
-: 1675341816:0;ls
-: 1675341825:0;neofetch
-: 1675341842:0;df -h
-: 1675341855:0;j com__
-: 1675341858:0;docker compose down
-: 1675341881:0;docker compose up -d
-: 1675341941:0;docker ps
-: 1675341963:0;cd ..
 : 1675341964:0;cd aliyun-ddns
-: 1675341966:0;npm start
-: 1675342108:0;nslookup naizi.fun
 : 1675342125:0;nslookup naizi.fun 223.5.5.5
-: 1675342127:0;nslookup naizi.fun
-: 1675342159:0;ls
-: 1675342165:0;j com__
-: 1675342166:0;code docker-compose.yml
-: 1675342195:0;nslookup naizi.fun
-: 1675342312:0;docker compose up -d
 : 1675342354:0;nslookup naizi.fun
-: 1675342428:0;systemctl status toolkits.service
-: 1675342476:0;docker ps
-: 1675344618:0;systemctl restart trojan
-: 1675346916:0;docker ps
-: 1675346923:0;cd ..
-: 1675346924:0;ls
-: 1675346926:0;cd ..
-: 1675346926:0;ls
-: 1675347288:0;j com__
-: 1675347291:0;code docker-compose.yml
-: 1675347350:0;docker compose up -d
-: 1675347979:0;docker compose down
-: 1675348021:0;docker compose up -d
-: 1675348102:0;docker compose down
-: 1675348125:0;docker compose up -d
-: 1675348273:0;ls
 : 1675348324:0;rm -rf wordpress immich* jellyfin
-: 1675348425:0;ls
-: 1675348431:0;cd ..
-: 1675348431:0;ls
-: 1675348615:0;j com__
-: 1675348617:0;docker compose up -d
 : 1675349034:0;rm -rf minio-data qiandao
-: 1675349038:0;docker compose up -d
-: 1675350721:0;cd ..
-: 1675350722:0;ncdu
-: 1675350825:0;cd ..
 : 1675350827:0;j r1
-: 1675350829:0;cd ..
-: 1675350830:0;cd r1
 : 1675350830:0;l.s.
-: 1675350831:0;ls
-: 1675350834:0;cd ..
-: 1675350838:0;cd r10
-: 1675350838:0;ls
-: 1675350839:0;ncdu
-: 1675350848:0;cd ..
-: 1675350849:0;cd r1
-: 1675350849:0;ls
 : 1675350853:0;ncdu
-: 1675350870:0;neofetch
-: 1675353353:0;j
-: 1675353354:0;l
-: 1675354146:0;cd
-: 1675354148:0;docker ps
-: 1675355868:0;j com__
-: 1675355871:0;docker compose down
-: 1675355892:0;docker compose up -d
-: 1675355902:0;docker compose down
-: 1675355919:0;docker compose up -d
-: 1675356355:0;j com__
-: 1675356357:0;code docker-compose.yml
-: 1675398974:0;ls
 : 1675398980:0;mkdir udp
 : 1675398986:0;code udp/
-: 1675399028:0;go
-: 1675399045:0;go build
 : 1675399068:0;go help modules
-: 1675399076:0;go install
 : 1675399115:0;go env
 : 1675399127:0;go env -w GO111MODULE=auto
 : 1675399134:0;go mod init
-: 1675399140:0;go build
-: 1675399154:0;go build index.go
-: 1675399158:0;go run
-: 1675399159:0;go
-: 1675399162:0;go run index.go
-: 1675399210:0;go build
-: 1675399232:0;go install
 : 1675399254:0;go mod init github.com/1lann/udp-forward
 : 1675399263:0;go mod github.com/1lann/udp-forward
 : 1675399271:0;go run index.go
 : 1675399292:0;go install github.com/1lann/udp-forward
-: 1675399310:0;go get github.com/1lann/udp-forward
-: 1675399320:0;go build
 : 1675399328:0;go build index.go
-: 1675399336:0;go build
 : 1675399379:0;go get github.com/1lann/udp-forward
 : 1675399384:0;go install
-: 1675399408:0;go build
 : 1675399471:0;wget https://raw.githubusercontent.com/1lann/udp-forward/master/forward.go
 : 1675399481:0;go build
-: 1675399539:0;go run main.go
-: 1675399553:0;go build main.go
-: 1675399578:0;go run main.go
 : 1675399673:0;go run
-: 1675399678:0;go run src/main.go
 : 1675399680:0;cd src
-: 1675399680:0;ls
 : 1675399683:0;go run src/main.go
-: 1675399688:0;go run main.go
 : 1675399715:0;go get
 : 1675399722:0;go run main.go
 : 1675399740:0;go build main.go
 : 1675399852:0;mv main /mnt/r10
 : 1675399885:0;go build -h
 : 1675399892:0;go help build
-: 1675399957:0;env GOOS=windows GOARCH=amd64 go build main.go
-: 1675399971:0;mv main.exe /mnt/r10
-: 1675400036:0;env GOOS=windows GOARCH=amd64 go build main.go
-: 1675400048:0;mv main.exe /mnt/r10
-: 1675400143:0;env GOOS=windows GOARCH=amd64 go build main.go
-: 1675400145:0;mv main.exe /mnt/r10
 : 1675400150:0;env GOOS=windows GOARCH=amd64 go build main.go
 : 1675400324:0;mv main.exe /mnt/r10
-: 1675406066:0;j com__
-: 1675406067:0;code docker-compose.yml
-: 1675406084:0;ls
 : 1675406087:0;cd wireguard
-: 1675406088:0;ls
 : 1675406089:0;cd config
-: 1675406090:0;ls
 : 1675406098:0;cat peer1/peer1.conf
 : 1675406322:0;sfsf
-: 1675411943:0;ls
-: 1675411944:0;j ali
-: 1675411945:0;ls
 : 1675411966:0;rm -rf '„ÄÉ∞BÁ´Éπ-BV1MP41137AN„ÄÉ±Ê∏É∑ÈÄÉØÊµÉ´ËØÉµ‰ªÉÆÂÉ••ÈÉ∑®ÂÉ®∞ÂÉ••ÈÉ∑®-ÈÇÉ≥ÊÉ∂πÈ∏£(1)'
-: 1675412452:0;ls | grep js
 : 1675412473:0;ls | grep js | xargs -i {} mv {} ../javascript
 : 1675412480:0;ls | grep js | xargs -I{} mv {} ../javascript
 : 1675412486:0;ls | grep js
-: 1675412488:0;ls
-: 1675412499:0;ls | grep JS
 : 1675412515:0;ls | grep JS | xargs -I{} mv {} ../javascript
 : 1675412524:0;ls | grep JS
-: 1675412525:0;ls
-: 1675412542:0;cd ..
-: 1675412542:0;ls
 : 1675412546:0;mv javascript js
-: 1675412547:0;ls
 : 1675412562:0;mv Golang go
-: 1675412563:0;ls
-: 1675412569:0;cd alidrive
-: 1675412570:0;ls
 : 1675412581:0;ls | grep nginx
 : 1675412584:0;ls | grep Nginx
 : 1675412593:0;ls | grep NGIN
 : 1675412603:0;ls | grep Ngi
 : 1675412619:0;ls | grep Ngi |xargs -I{} mv {} ..
-: 1675412620:0;ls
-: 1675412644:0;cd ..
 : 1675412646:0;cd js
-: 1675412647:0;ls
-: 1675412656:0;cd ..
-: 1675412656:0;ls
-: 1675412666:0;cd alidrive
-: 1675412667:0;ls
 : 1675412674:0;ls | grep react
 : 1675412676:0;ls | grep React
 : 1675412689:0;ls | grep React | xargs -I {} mv {} ../js
-: 1675412691:0;ls
 : 1675412704:0;ls | grep type
 : 1675412706:0;ls | grep Type
 : 1675412720:0;ls | grep Type | xargs -I{} mv {} ../js
-: 1675412721:0;ls
 : 1675412749:0;ls | grep Java
 : 1675412761:0;ls | grep Java | xargs -I{} mv {} ../js
-: 1675412764:0;ls
 : 1675412772:0;ls | grep Docker
 : 1675412780:0;ls | grep Docker|kuber
 : 1675412793:0;ls | grep (Docker|kuber)
@@ -1924,89 +970,44 @@ esac
 : 1675412808:0;ls | grep /Docker/
 : 1675412818:0;tldr grep
 : 1675412854:0;ls | grep er
-: 1675412863:0;ls
 : 1675412884:0;cd ÈÉßÉ≠Á£É•ÂÉ®É¶‰∫´\ È©¨SÂÉ•µ\ ÊÉµÉπËÇ≤136ËØæ\(2.67T\)
-: 1675412885:0;ls
-: 1675412907:0;cd ..
 : 1675412916:0;mv ÈÉßÉ≠Á£É•ÂÉ®É¶‰∫´\ È©¨SÂÉ•µ\ ÊÉµÉπËÇ≤136ËØæ\(2.67T\) ..
-: 1675412917:0;ls
 : 1675412937:0;ls | grep Python
 : 1675412948:0;ls | grep Python | xargs -I{} mv {} ../python
 : 1675412964:0;ls | grep Spring
 : 1675412975:0;ls | grep Spring | xargs -I{} mv {} ../java
-: 1675412978:0;ls
-: 1675412996:0;cd ..
-: 1675412997:0;ls
 : 1675413000:0;cd alidrive
 : 1675413001:0;cd BÁ´Éπ‰ªÉ∏Ë¥πËØæÁ®É´ÂÉ∞É®ÈÉªÉ¶„ÄÉ∞68ÈÉ∑®363GB„ÄÉ±
-: 1675413002:0;ls
 : 1675413045:0;rm 08.BÁ´Éπ-ÂÉ¨É∑Â∏É®Â§ßÁÉ©©ÁÉ∞É¶Á≥ªËµµÂ≥•ÊÉµÉπÊÉÆÉ®ÁÉ∫É§ÂÆÉßÂÆÉπÂ≠¶16ËÆ≤ 36.BÁ´Éπ¬∑Â±ÄÂ∫ßÂºÉÄÂÉØ¨ÂøÉÄ„ÄÉ™Á¨¨ÂÉªÉªÊ¨ÉÅÂ∑•‰∏É∫ÈÉΩ©ÂÉ±Ω„ÄÉ´ 26.BÁ´Éπ-ÈÉßÉ±ÁÅøËÉ≠£-‰∏≠ÂÉªΩÂÉ±®Ëæπ‚Ä≠‚ÄÆÂÉ•®ÂÆÉ©‚Ä¨‚Ä¨ÁÉÆØÂÉÇÉ£ÂÉ≠ÅËÆ≤ 46.bÁ´Éπ‰ªÉÆÈÉª∂ÂºÄÂßÉ´ÁÉ∫É§ÊÉ∑É•ÊÉ´É≠vlogÊÉ¨ÉßÂÉ≠É∑ÔºÉ®ÊÉª¥ÊÉ∂∞‰∏≠ÔºÉ© 58.BÁ´ÉπÊ¨ÉÅ‰∏É∂‰ª£ÂøÉ•Â§ÉßÈªÉ±ÁßÉ±ÊÉ™ÄÔºÉ∫ÂÉ®ÉªÊÉ§ÉØÁºÉ∂Á®É´ÊÉ¨ÉßÂÉ≠É∑ÔºÉ®ÊÉª¥ÊÉ∂∞‰∏≠ÔºÉ© 65.BÁ´ÉπÈÉπÉ®Âπ≥ËÄÅÂ∏É®ÁÉ∫É§Ë∑®Â≠¶ÁßÉ±ÊÄÉΩÁª¥ËØæ
 : 1675413049:0;rm 08.BÁ´Éπ-ÂÉ¨É∑Â∏É®Â§ßÁÉ©©ÁÉ∞É¶Á≥ªËµµÂ≥•ÊÉµÉπÊÉÆÉ®ÁÉ∫É§ÂÆÉßÂÆÉπÂ≠¶16ËÆ≤ 36.BÁ´Éπ¬∑Â±ÄÂ∫ßÂºÉÄÂÉØ¨ÂøÉÄ„ÄÉ™Á¨¨ÂÉªÉªÊ¨ÉÅÂ∑•‰∏É∫ÈÉΩ©ÂÉ±Ω„ÄÉ´ 26.BÁ´Éπ-ÈÉßÉ±ÁÅøËÉ≠£-‰∏≠ÂÉªΩÂÉ±®Ëæπ‚Ä≠‚ÄÆÂÉ•®ÂÆÉ©‚Ä¨‚Ä¨ÁÉÆØÂÉÇÉ£ÂÉ≠ÅËÆ≤ 46.bÁ´Éπ‰ªÉÆÈÉª∂ÂºÄÂßÉ´ÁÉ∫É§ÊÉ∑É•ÊÉ´É≠vlogÊÉ¨ÉßÂÉ≠É∑ÔºÉ®ÊÉª¥ÊÉ∂∞‰∏≠ÔºÉ© 58.BÁ´ÉπÊ¨ÉÅ‰∏É∂‰ª£ÂøÉ•Â§ÉßÈªÉ±ÁßÉ±ÊÉ™ÄÔºÉ∫ÂÉ®ÉªÊÉ§ÉØÁºÉ∂Á®É´ÊÉ¨ÉßÂÉ≠É∑ÔºÉ®ÊÉª¥ÊÉ∂∞‰∏≠ÔºÉ© 65.BÁ´ÉπÈÉπÉ®Âπ≥ËÄÅÂ∏É®ÁÉ∫É§Ë∑®Â≠¶ÁßÉ±ÊÄÉΩÁª¥ËØæ -rf
-: 1675413056:0;ls
 : 1675413060:0;mv * ..
-: 1675413062:0;ls
-: 1675413063:0;cd ..
-: 1675413063:0;ls
 : 1675413066:0;rm -rf BÁ´Éπ‰ªÉ∏Ë¥πËØæÁ®É´ÂÉ∞É®ÈÉªÉ¶„ÄÉ∞68ÈÉ∑®363GB„ÄÉ±
-: 1675413067:0;ls
 : 1675413084:0;ls | grep Dj
 : 1675413095:0;ls | grep Dj | xargs -I{} mv{} ../python
 : 1675413100:0;ls | grep Dj | xargs -I{} mv {} ../python
-: 1675424507:0;docker ps
-: 1675432622:0;code docker-compose.yml
 : 1675437571:0;j ali
-: 1675437572:0;ls
 : 1675437575:0;j aliddns
-: 1675437576:0;ls
 : 1675437580:0;code index.js
 : 1675437651:0;git status
-: 1675437655:0;git add .
 : 1675437658:0;git commit
 : 1675437665:0;git push
-: 1675437676:0;npm start
-: 1675437721:0;ls
-: 1675437722:0;cd ..
-: 1675437723:0;l
-: 1675437728:0;cd ..
-: 1675437728:0;ls
 : 1675437730:0;cd r1
-: 1675437730:0;ls
-: 1675439406:0;cd
-: 1675439407:0;htop
 : 1675439479:0;killall node
-: 1675439496:0;htop
-: 1675440501:0;j com__
-: 1675440502:0;code docker-compose.yml
-: 1675440529:0;docker compose up -d
 : 1675440593:0;lsof -i:100
-: 1675440596:0;lsof -i:1000
 : 1675440601:0;lsof -i:2000
-: 1675440624:0;code docker-compose.yml
-: 1675440634:0;docker compose up -d
 : 1675440659:0;lsof -i:1000
-: 1675440662:0;lsof -i:10000
-: 1675440830:0;docker compose up -d
 : 1675440834:0;lsof -i:10000
 : 1675440942:0;lsof -h
 : 1675440956:0;lsof -i
 : 1675441611:0;ip
 : 1675441613:0;ip addr
-: 1675443653:0;cd
-: 1675443653:0;ls
-: 1675443669:0;go -v
-: 1675443677:0;go version
 : 1675443689:0;go update
-: 1675443701:0;snap
 : 1675443721:0;snap find go
-: 1675443743:0;snap
 : 1675443751:0;snap update
 : 1675443775:0;snap help
-: 1675443794:0;snap install go
 : 1675443801:0;snap refresh
 : 1675443808:0;snap install go
-: 1675443822:0;apt search go
 : 1675443841:0;ÈÉ•∏ÊÉÇÉ•Ê±§ÂÉ™ÉÄÁÇπÂÉ¶∞Á≤É©
-: 1675443864:0;apt search go
 : 1675443871:0;apt search
 : 1675443874:0;apt
 : 1675443894:0;apt search go
@@ -2014,13 +1015,9 @@ esac
 : 1675444004:0;apt search --names-only go | less
 : 1675444106:0;snap uninstall go
 : 1675444108:0;snap
-: 1675444113:0;snap list
 : 1675444140:0;snap remove certbot core cdog go
 : 1675444150:0;snap remove certbot dog go
-: 1675444157:0;snap list
-: 1675444164:0;snap remove core
 : 1675444169:0;snap remove lsd
-: 1675444173:0;snap remove core
 : 1675444176:0;snap remove core18
 : 1675444179:0;snap remove core20
 : 1675444181:0;snap remove core
@@ -2029,29 +1026,366 @@ esac
 : 1675444198:0;apt remove snap
 : 1675444203:0;apt remove snapd
 : 1675444208:0;go
-: 1675444210:0;ls
-: 1675444212:0;cd ..
 : 1675444215:0;go -v
-: 1675444216:0;ls
 : 1675444256:0;rm -rf go useStore udp snap resume mingwiki.github.io hexo-template hfb-mp huafeibao-h5
-: 1675444261:0;ls
 : 1675444270:0;neofetch
 : 1675444361:0;wgethttps://go.dev/dl/go1.20.linux-amd64.tar.gz
 : 1675444363:0;wget https://go.dev/dl/go1.20.linux-amd64.tar.gz
-: 1675444367:0;ls
 : 1675444489:0;ls /usr/local/go*
 : 1675444494:0;ls /usr/local
 : 1675444500:0;go version
 : 1675444526:0;cd /usr/local/go
-: 1675444526:0;ls
-: 1675444530:0;cd bin
-: 1675444530:0;ls
-: 1675444532:0;cd ..
-: 1675444532:0;ls
 : 1675444542:0;cd bin
-: 1675444543:0;ls
-: 1675444548:0;cd
-: 1675444548:0;ls
-: 1675444565:0;code .oh-my-zsh/ohmyzsh-custom
 : 1675444622:0;j ohm
 : 1675444625:0;git add .
+: 1675612119:0;git clone git@github.com:mingwiki/toolkits.git
+: 1675612131:0;cd toolkits
+: 1675612147:0;git clone git@github.com:mingwiki/op_support.git
+: 1675612156:0;np mi
+: 1675612211:0;npm i -g n
+: 1675612243:0;n 18
+: 1675612263:0;n
+: 1675612268:0;n -v
+: 1675612276:0;n -h
+: 1675612285:0;n lts
+: 1675612291:0;node =v
+: 1675612295:0;npm
+: 1675612297:0;npm 0v
+: 1675612300:0;npm -v
+: 1675612328:0;apt install autojump
+: 1675612336:0;node -v
+: 1675612344:0;cd l
+: 1675612353:0;cd aliyun-ddns/
+: 1675612359:0;mv op_support toolkits ..
+: 1675612379:0;cd toolkits/
+: 1675612398:0;cd op_support
+: 1675612538:0;npm run dev
+: 1675612615:0;code .
+: 1675612679:0;code .oh-my-zsh/ohmyzsh-custom
+: 1675612712:0;npm i
+: 1675612739:0;cp toolkits.service /etc/systemd/system
+: 1675612743:0;cd op_support/
+: 1675612751:0;cp opsupport.service /etc/systemd/system
+: 1675612758:0;systemctl enable toolkits.service
+: 1675612762:0;systemctl enable opsupport.service
+: 1675612770:0;systemctl start opsupport.service
+: 1675612774:0;systemctl start toolkits.service
+: 1675612794:0;systemctl status toolkits.service
+: 1675612825:0;crontab -l
+: 1675612957:0;la
+: 1675612968:0;source .zshrc
+: 1675613485:0;j compse
+: 1675613490:0;j comm
+: 1675613491:0;j com
+: 1675613496:0;cd /mnt/r10/compose/
+: 1675613498:0;j
+: 1675613503:0;j compose
+: 1675613530:0;mv vaultwarden vaultwarden-bk
+: 1675613659:0;rm -rf vaultwarden
+: 1675613663:0;mv vaultwarden-bk vaultwarden
+: 1675613669:0;code docker-compose.yml
+: 1675613680:0;code nginx-conf
+: 1675684291:0;npm start
+: 1675684299:0;j com__
+: 1675684308:0;systemctl restart docker
+: 1675684821:0;docker ps
+: 1675685440:0;docker compose down
+: 1675685476:0;docker compose up -d
+: 1675685523:0;systemctl restart trojan
+: 1675688123:0;ll
+: 1675689413:0;htop
+: 1675689421:0;df -h
+: 1675689432:0;l
+: 1675689445:0;cd downloads
+: 1675689455:0;rm -rf *.torrent
+: 1675689474:0;rm 0rf dsvr-1181* kiwvr-438*
+: 1675689480:0;rm -rf sivr-243*
+: 1675689502:0;rm -rf kiwvr-438
+: 1675689737:0;cd
+: 1675689742:0;cd /mnt/r1
+: 1675689743:0;cd ..
+: 1675689745:0;cd r10
+: 1675689745:0;;ls
+: 1675689749:0;cd aria2
+: 1675689756:0;vi aria2.service
+: 1675689780:0;pwd
+: 1675689786:0;vi aria2.conf
+: 1675689863:0;code aria2.
+: 1675689871:0;code aria2.conf
+: 1675689901:0;ls
+: 1675689906:0;code aria2.service
+: 1675689927:0;cp aria2.service /etc/systemd/system
+: 1675689934:0;systemctl enable aria2.service
+: 1675689945:0;systemctl start aria2.service
+: 1675689958:0;pip3 install aria2p
+: 1675689969:0;apt search aria2p
+: 1675689979:0;apt install python3
+: 1675689982:0;pip3
+: 1675689986:0;pip
+: 1675689989:0;python3
+: 1675690010:0;python3 -m
+: 1675690034:0;pt-get install python3-pip
+: 1675690037:0;apt-get install python3-pip
+: 1675690043:0;pip
+: 1675690055:0;pip install aria2p
+: 1675690075:0;aria2p show
+: 1675690083:0;systemctl status aria2c
+: 1675690085:0;systemctl status aria2.service
+: 1675690099:0;cd /mnt/r10/aria2
+: 1675690099:0;ls
+: 1675690116:0;journalctl -u aria2.service
+: 1675690127:0;apt install aria2
+: 1675690137:0;systemctl restart aria2.service
+: 1675690150:0;systemctl status aria2.service
+: 1675690162:0;aria2p show
+: 1675690166:0;aria2p top
+: 1675690176:0;pip install aria2p[tui]
+: 1675690218:0;pip install 'aria2p[tui]'
+: 1675690297:0;aria2p top
+: 1675690304:0;df -h
+: 1675690323:0;code /etc/systemd/journald.conf
+: 1675690349:0;systemctl restart journald
+: 1675690363:0;systemctl restart systemd-journald
+: 1675691770:0;cd ..
+: 1675691770:0;ls
+: 1675691783:0;cd ..
+: 1675691784:0;ls
+: 1675691787:0;cd r2
+: 1675691791:0;r1
+: 1675691791:0;ls
+: 1675691795:0;cd
+: 1675691796:0;la
+: 1675692142:0;j comp
+: 1675692143:0;ls
+: 1675692339:0;code bitwarden.env
+: 1675692614:0;code ng
+: 1675692624:0;j com__
+: 1675692625:0;code nginx-conf
+: 1675692651:0;docker compose up -d
+: 1675692781:0;docker compose down
+: 1675692816:0;docker compose up -d
+: 1675692940:0;docker logs --tail 1000 -f 2423d42e3a4668246d743340a8f6ef6dbfab930e6e9e7da4aea3771f97931de1
+: 1675692942:0;ls
+: 1675692945:0;cd bitwarden
+: 1675692945:0;ls
+: 1675692947:0;cd ..
+: 1675692947:0;ls
+: 1675692968:0;docker compose up -d
+: 1675693111:0;cd bitwarden
+: 1675693114:0;cd data
+: 1675693115:0;ls
+: 1675693116:0;cd ..
+: 1675693117:0;lcd
+: 1675693118:0;cd ..
+: 1675693119:0;ls
+: 1675693190:0;docker compose up -d
+: 1675693236:0;ls
+: 1675693237:0;cd bitwarden
+: 1675693238:0;ls
+: 1675693239:0;cd data
+: 1675693239:0;;s
+: 1675693241:0;l
+: 1675693242:0;cd ..
+: 1675693243:0;cd log
+: 1675693243:0;ls
+: 1675693244:0;l
+: 1675693245:0;cd ..
+: 1675693246:0;ls
+: 1675693247:0;cd
+: 1675693326:0;j com__
+: 1675693330:0;docker compose up -d
+: 1675693575:0;ls
+: 1675693577:0;cd bitwarden/log
+: 1675693577:0;ls
+: 1675693608:0;docker compose up -d
+: 1675693782:0;cd
+: 1675693782:0;ls
+: 1675693785:0;j com__
+: 1675693785:0;ls
+: 1675693790:0;code daemon.json
+: 1675693797:0;code /etc/docker/daemon.json
+: 1675693813:0;cp /etc/docker/daemon.json .
+: 1675693814:0;ls
+: 1675694186:0;sp
+: 1675694187:0;ls
+: 1675694191:0;docker compose up -d
+: 1675694787:0;code /mnt/r10/trojan/config.json
+: 1675694824:0;unsp
+: 1675694826:0;docker compose up -d
+: 1675694836:0;lsd
+: 1675694837:0;cd ..
+: 1675694839:0;ls
+: 1675694843:0;docker compose up -d
+: 1675695380:0;cd
+: 1675695385:0;code /etc/docker/daemon.json
+: 1675695806:0;docker login git.naizi.fun:200
+: 1675695836:0;docker images
+: 1675695853:0;docker tag
+: 1675695885:0;docker tag lscr.io/linuxserver/calibre-web:latest git.naizi.fun:200/linuxserver/calibre-web:latest
+: 1675695903:0;docker push git.naizi.fun:200/linuxserver/calibre-web:latest
+: 1675695915:0;docker push git.naizi.fun:200/linuxserver/calibre-web
+: 1675695961:0;docker tag lscr.io/linuxserver/calibre-web:latest git.naizi.fun:100/linuxserver/calibre-web:latest
+: 1675695968:0;docker push git.naizi.fun:100/linuxserver/calibre-web
+: 1675695973:0;docker push git.naizi.fun:200/linuxserver/calibre-web
+: 1675695984:0;docker ps
+: 1675695987:0;docker imagews
+: 1675695989:0;docker images
+: 1675695999:0;docker image rm git.naizi.fun:100/linuxserver/calibre-web
+: 1675696008:0;docker push git.naizi.fun:200/linuxserver/calibre-web
+: 1675696051:0;docker push git.naizi.fun:200/mingwiki/calibre-web:latest
+: 1675696076:0;docker tag lscr.io/linuxserver/calibre-web:latest git.naizi.fun:200/mingwiki/calibre-web:latest
+: 1675696087:0;docker push git.naizi.fun:200/mingwiki/calibre-web:latest
+: 1675696139:0;docker images
+: 1675696149:0;docker image rm git.naizi.fun:100/linuxserver/calibre-web git.naizi.fun:200/mingwiki/calibre-web
+: 1675696156:0;docker images
+: 1675696160:0;docker image rm git.naizi.fun:200/mingwiki/calibre-web
+: 1675696173:0;docker image rm git.naizi.fun:200/linuxserver/calibre-web
+: 1675696180:0;docker images
+: 1675696235:0;docker push git.naizi.fun:200/mingwiki/calibre-web:latest
+: 1675696262:0;docker image rm git.naizi.fun:200/mingwiki/calibre-web
+: 1675696270:0;docker image rm git.naizi.fun:200/mingwiki/calibre-web:
+: 1675696274:0;docker image rm git.naizi.fun:200/mingwiki/calibre-web:<none>
+: 1675696278:0;docker image rm git.naizi.fun:200/mingwiki/calibre-web\
+: 1675696281:0;docker images
+: 1675696315:0;docker tag lscr.io/linuxserver/calibre-web:latest git.naizi.fun:200/mingwiki/calibre-web:latest
+: 1675696318:0;docker images
+: 1675696326:0;docker push git.naizi.fun:200/mingwiki/calibre-web:latest
+: 1675696402:0;docker tag linuxserver/wireguard:alpine git.naizi.fun:200/mingwiki/wireguard:alpine
+: 1675696414:0;docker push git.naizi.fun:200/mingwiki/wireguard:alpine
+: 1675696439:0;docker images
+: 1675696476:0;docker tag photoprism/photoprism:220901-bullseye git.naizi.fun:200/mingwiki/photoprism:220901-bullseye
+: 1675696493:0;docker push git.naizi.fun:200/mingwiki/photoprism:220901-bullseye
+: 1675696632:0;docker images
+: 1675697476:0;ls
+: 1675697521:0;docker tag linuxserver/wireguard:alpine git.naizi.fun:200/linuxserver/wireguard:alpine
+: 1675697531:0;docker push git.naizi.fun:200/linuxserver/wireguard:alpine
+: 1675697583:0;docker tag lscr.io/linuxserver/calibre-web:latest git.naizi.fun:200/linuxserver/calibre-web:latest
+: 1675697592:0;docker push git.naizi.fun:200/linuxserver/calibre-web:latest
+: 1675697668:0;docker tag photoprism/photoprism:220901-bullseye git.naizi.fun:200/photoprism/photoprism:220901-bullseye
+: 1675697687:0;docker push git.naizi.fun:200/photoprism/photoprism:220901-bullseye
+: 1675698799:0;docker images
+: 1675698826:0;docker tag bitwarden/self-host:beta git.naizi.fun:200/bitwarden/self-host:beta
+: 1675698849:0;docker push git.naizi.fun:200/bitwarden/self-host:beta
+: 1675700151:0;cd
+: 1675700158:0;j r10
+: 1675700158:0;ls
+: 1675700167:0;rm -rf downloads
+: 1675702372:0;j r1
+: 1675702374:0;cd ..
+: 1675702375:0;cd r1
+: 1675702376:0;ls
+: 1675702379:0;cd downloads
+: 1675702379:0;ls
+: 1675702385:0;cd completed
+: 1675702385:0;ls
+: 1675702392:0;ls | head -n 10
+: 1675702476:0;ls | head -n 10 | xargs -I{} mv {} /mnt/r10/VR/20230207
+: 1675703571:0;apt install progress
+: 1675703577:0;progress -v
+: 1675703580:0;progress -mw
+: 1675703718:0;ls
+: 1675703720:0;df -h
+: 1675703742:0;progress -mw
+: 1675734336:0;ls
+: 1675734337:0;la
+: 1675734348:0;cd .ssh
+: 1675734348:0;ls
+: 1675734350:0;vi authorized_keys
+: 1675734442:0;ls
+: 1675734443:0;cd aliyun-ddns
+: 1675734445:0;npm start
+: 1675734450:0;ls
+: 1675734531:0;cd ..
+: 1675734536:0;ls
+: 1675734537:0;j com
+: 1675734538:0;ls
+: 1675734540:0;code wireguard
+: 1675735396:0;crontab -l
+: 1675735487:0;crontab -e
+: 1675741808:0;nslookup pi.hole
+: 1675741815:0;vi /etc/resolv.conf
+: 1675741862:0;nslookup pi.hole 10.0.10.0
+: 1675741952:0;nslookup pi.hole
+: 1675741964:0;vi /etc/resolv
+: 1675741966:0;vi /etc/resolv.conf
+: 1675741973:0;nslookup pi.hole
+: 1675742011:0;vi /etc/docker/daemon.json
+: 1675742060:0;systemctl restart docker
+: 1675742128:0;docker ps
+: 1675742133:0;j comp__
+: 1675742137:0;docker compose down
+: 1675742141:0;j compose
+: 1675742145:0;docker compose down
+: 1675742171:0;docker compose up -d
+: 1675742212:0;docker ps
+: 1675746117:0;clear
+: 1675746119:0;ls
+: 1675746135:0;cd bitwarden
+: 1675746135:0;ls
+: 1675746136:0;cd data
+: 1675746136:0;ls
+: 1675746138:0;cd ..
+: 1675746138:0;ls
+: 1675746139:0;cd .
+: 1675746139:0;sl
+: 1675746140:0;cd
+: 1675746141:0;ls
+: 1675746144:0;j com__
+: 1675746144:0;ls
+: 1675746145:0;cd bitwarden
+: 1675746148:0;cd log
+: 1675746148:0;ls
+: 1675746150:0;cd
+: 1675746151:0;ls
+: 1675748278:0;journalctl -u opsupport.service
+: 1675749667:0;curl api64.ipify.org
+: 1675749683:0;curl 6.ipw.cn
+: 1675749686:0;ip addr
+: 1675749714:0;curl ipw.cn
+: 1675749723:0;curl test.ipw.cn
+: 1675757357:0;ls
+: 1675757359:0;df -j
+: 1675757361:0;df -hj
+: 1675757362:0;df -h
+: 1675757385:0;j r1
+: 1675757385:0;ls
+: 1675757386:0;cd ...
+: 1675757390:0;cd /mnt/r1
+: 1675757391:0;ls
+: 1675757401:0;cd ..
+: 1675757403:0;cd r10
+: 1675757403:0;ls
+: 1675757406:0;cd VR
+: 1675757406:0;ls
+: 1675757421:0;mkdir 20230221
+: 1675757426:0;j down
+: 1675757428:0;ls
+: 1675757430:0;cd completed
+: 1675757430:0;ls
+: 1675757432:0;clear
+: 1675757440:0;ls | head -n 10
+: 1675757444:0;clear
+: 1675757477:0;ls | head -n 10 | xargs -I{} rsync -rv {} /mnt/r10/VR/20230221
+: 1675757505:0;rsync -h
+: 1675757541:0;rsync -h | grep delete
+: 1675757599:0;ls | head -n 10 | xargs -I{} rsync -r --remove-source-files {} /mnt/r10/VR/20230221 &
+: 1675757601:0;htop
+: 1675757604:0;glance
+: 1675757606:0;glances
+: 1675757611:0;ps aux
+: 1675757617:0;ps aux | grep rsync
+: 1675757622:0;top
+: 1675757628:0;apt install htop
+: 1675757631:0;htop
+: 1675757658:0;apt install glances
+: 1675757669:0;apt remove htop
+: 1675757677:0;cd
+: 1675757686:0;code .oh-my-zsh/ohmyzsh-custom/
+: 1675757708:0;source .zshrc
+: 1675757712:0;j ohm
+: 1675757712:0;ls
+: 1675757715:0;j ohmyzsh
+: 1675757716:0;ls
+: 1675757723:0;cd .oh-my-zsh/ohmyzsh-custom/
+: 1675757723:0;ls
+: 1675757727:0;git add .
