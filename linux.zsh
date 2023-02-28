@@ -40,9 +40,6 @@ alias ytc='yt-dlp --proxy socks5://10.10.10.10:10800 --cookies=/root/cookie.txt 
 alias yt='yt-dlp --proxy socks5://10.10.10.10:10800 --verbose --no-check-certificates'
 alias cl='clear'
 alias top='glances'
-alias du='ncdu'
-alias mv='rsync -rv --progress --remove-source-files'
-alias cp='rsync -rv --progress '
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
