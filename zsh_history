@@ -2067,3 +2067,372 @@ esac
 : 1677590037:0;cs
 : 1677590038:0;cd
 : 1677590052:0;code .oh-my-zsh/ohmyzsh-custom
+: 1677590120:0;source .zshrc
+: 1677594215:0;æƒ©ƒ­
+: 1677594217:0;ls
+: 1677594221:0;cd /mnt/r10
+: 1677594221:0;la
+: 1677594229:0;chown -R mingwiki:1000 kavita
+: 1677595554:0;l
+: 1677596568:0;df 0h
+: 1677596570:0;df -h
+: 1677596594:0;top
+: 1677596826:0;j com
+: 1677596828:0;code docker-compose.yml
+: 1677596976:0;cd kavita/
+: 1677596977:0;ls
+: 1677596981:0;l
+: 1677597453:0;ls
+: 1677597455:0;code appsettings.json
+: 1677598768:0;cd themes/
+: 1677598769:0;ls
+: 1677598781:0;code test-theme-123.css
+: 1677601389:0;cd
+: 1677601392:0;cd /mnt/r10
+: 1677601392:0;ls
+: 1677601396:0;la
+: 1677601399:0;cd kavita/
+: 1677601400:0;la
+: 1677601405:0;cd 20230301/
+: 1677601407:0;la
+: 1677601624:0;..
+: 1677601626:0;ls
+: 1677601627:0;la
+: 1677601629:0;cd ..
+: 1677601630:0;la
+: 1677601637:0;chmod 777 kavita
+: 1677601643:0;chmod -R 777 kavita
+: 1677601657:0;la
+: 1677601660:0;cd kavita/
+: 1677601660:0;ls
+: 1677601740:0;rm -rf 20230301
+: 1677634655:0;cd /mnt/r10
+: 1677634657:0;cd kavita
+: 1677634657:0;ls
+: 1677634660:0;la
+: 1677634671:0;cd 20230302
+: 1677634672:0;ls
+: 1677635162:0;cd
+: 1677635164:0;ls
+: 1677635169:0;j r10
+: 1677635170:0;ls
+: 1677635180:0;cd trojan
+: 1677635180:0;ls
+: 1677635193:0;mv config.json ../trojan.json
+: 1677635195:0;ls
+: 1677635196:0;cd ..
+: 1677635197:0;ls
+: 1677635200:0;rm -rf trojan
+: 1677635200:0;ls
+: 1677635205:0;cd
+: 1677635213:0;code /etc/systemd/
+: 1677635273:0;code /mnt/r10/trojan.json
+: 1677635294:0;systemctl restart trojan
+: 1677635301:0;systemctl daemon-reload
+: 1677635302:0;systemctl restart trojan
+: 1677635522:0;nslookup trojan-lite.com
+: 1677635533:0;nslookup ty1.trojan-lite.com
+: 1677635546:0;nslookup ty1.trojan-lite.com 127.0.0.1
+: 1677635561:0;nslookup ty1.trojan-lite.com 10.0.10.0
+: 1677635715:0;j com
+: 1677635718:0;code docker-compose.yml
+: 1677635983:0;docker compose up -d
+: 1677636348:0;systemctl restart trojan
+: 1677636521:0;curl google.com
+: 1677636524:0;sp
+: 1677636524:0;curl google.com
+: 1677636541:0;systemctl restart trojan
+: 1677636545:0;curl google.com
+: 1677636572:0;systemctl restart trojan
+: 1677636576:0;curl google.com
+: 1677636593:0;systemctl restart trojan
+: 1677636606:0;curl baidu.com
+: 1677636628:0;ping baidu.com
+: 1677636631:0;unsp
+: 1677636631:0;ping baidu.com
+: 1677636720:0;ping google.com
+: 1677636745:0;sp
+: 1677636746:0;ping google.com
+: 1677636773:0;curl baidu.com
+: 1677636778:0;curl google.com
+: 1677636934:0;systemctl stop trojan
+: 1677636943:0;pm2 ls
+: 1677639111:0;ls
+: 1677639118:0;code daemon.json
+: 1677639163:0;code /etc/docker/daemon.json
+: 1677639198:0;cp daemon.json /etc/docker
+: 1677639900:0;docker compose down
+: 1677639959:0;systemctl restart docker
+: 1677639991:0;docker compose up -d
+: 1677640045:0;code /etc/docker/daemon.json
+: 1677640090:0;systemctl restart docker
+: 1677640098:0;docker compose up -d
+: 1677641455:0;ping dns64ç«¯åƒ¯£
+: 1677641469:0;ping6 fd01:3200:3200::2
+: 1677641476:0;nslookup baidu.com fd01:3200:3200::2
+: 1677641569:0;nslookup -h
+: 1677641576:0;tldr nslookup
+: 1677641624:0;nslookup -port=53 baidu.com fd01:3200:3200::2
+: 1677641732:0;nslookup
+: 1677641763:0;nslookup baidu.com
+: 1677641774:0;vi /etc/resolv.conf
+: 1677641779:0;nslookup baidu.com
+: 1677641801:0;nslookup baidu.com 10.0.10.0
+: 1677641818:0;nslookup baidu.com \
+Name: baidu.com
+: 1677641825:0;nslookup baidu.com 10.0.0.10\
+Name: baidu.com
+: 1677641885:0;nslookup baidu.com 233.5.5.5\
+Name: baidu.com
+: 1677641920:0;nslookup baidu.com @233.5.5.5\
+Name: baidu.com
+: 1677641932:0;nslookup @233.5.5.5\
+Name: baidu.com
+: 1677641963:0;nslookup baidu.com 223.5.5.5\
+Name: baidu.com
+: 1677641969:0;nslookup baidu.com 10.0.10.0\
+Name: baidu.com
+: 1677641996:0;ping 10.0.10.0
+: 1677641999:0;nslookup baidu.com 10.0.10.0\
+Name: baidu.com
+: 1677642043:0;docker compose up -d
+: 1677642139:0;nslookup baidu.com 10.0.10.0\
+Name: baidu.com
+: 1677642152:0;nslookup baidu.com 10.0.0.10\
+Name: baidu.com
+: 1677642190:0;nslookup baidu.com 223.5.5.5\
+Name: baidu.com
+: 1677642215:0;nslookup baidu.com
+: 1677642225:0;nslookup baidu.com 223.5.5.5
+: 1677642229:0;nslookup baidu.com 10.0.0.10
+: 1677642402:0;j com__
+: 1677642406:0;docker compose up -d
+: 1677642543:0;nslookup baidu.com 10.0.10.0
+: 1677642547:0;nslookup baidu.com 10.0.0.10
+: 1677642555:0;nslookup baidu.com fd01:3200:3200::2
+: 1677642645:0;code /etc/resolv.conf
+: 1677642727:0;nslookup baidu.com
+: 1677642792:0;ip addr
+: 1677643391:0;docker compose up -d
+: 1677643440:0;nslookup naizi.fun fd01:3200:3200::10
+: 1677643456:0;code /etc/resolv.conf
+: 1677643479:0;nslookup baa.com
+: 1677644513:0;code /etc/resolv.conf
+: 1677644544:0;nslookup baa.com
+: 1677644934:0;pm2 ls
+: 1677644938:0;pm2 logs op
+: 1677644944:0;ls
+: 1677644945:0;cd ..
+: 1677644945:0;ls
+: 1677644947:0;cd
+: 1677644948:0;ls
+: 1677644950:0;cd op_support
+: 1677644954:0;pm2 restart pm2.json
+: 1677644973:0;pm2 log op
+: 1677645041:0;code .
+: 1677645704:0;ls
+: 1677645714:0;code /etc/resolv.conf
+: 1677645806:0;pm2 stop pm2.json
+: 1677645812:0;npm run dev
+: 1677645835:0;code op_support
+: 1677645942:0;np i
+: 1677645944:0;np mi
+: 1677645946:0;npm i
+: 1677645952:0;npm run dev
+: 1677646010:0;ping benefit.jujienet.com
+: 1677646031:0;nslookup benefit.jujienet.com/
+: 1677646035:0;nslookup benefit.jujienet.com
+: 1677646039:0;ping benefit.jujienet.com
+: 1677646118:0;code /etc/resolv.conf
+: 1677646173:0;cd op_support
+: 1677646178:0;npm run build
+: 1677646238:0;pm2 start pm2.json
+: 1677646319:0;j com
+: 1677646323:0;code docker-compose.yml
+: 1677646379:0;code /etc/resolv.conf
+: 1677646667:0;nslookup baidu.com fd01:3200:3200::10
+: 1677647148:0;systemctl restart trojan
+: 1677648194:0;docker compose up -d
+: 1677648211:0;docker compose down
+: 1677648262:0;docker compose up -d
+: 1677650213:0;systemctl status trojan
+: 1677650290:0;systemctl restart trojan
+: 1677650957:0;ls
+: 1677650958:0;cd
+: 1677650958:0;ls
+: 1677650965:0;cp op_support/pm2.json aliyun-ddns
+: 1677650969:0;code aliyun-ddns
+: 1677651114:0;crontab -l
+: 1677651256:0;pm2 start pm2.json
+: 1677651267:0;pm2 logs aliyun-ddns
+: 1677651287:0;pm2 stop aliyun-ddns
+: 1677651421:0;pm2 start pm2.json
+: 1677651425:0;pm2 logs aliyun-ddns
+: 1677651487:0;pm2 del aliyun-ddns
+: 1677651490:0;ls
+: 1677651491:0;cd
+: 1677651495:0;cd aliyun-ddns
+: 1677651495:0;pwd
+: 1677651505:0;crontab -e
+: 1677651696:0;crontab -l
+: 1677651701:0;npm start --prefix /root/aliyun-ddns
+: 1677651717:0;code aliyun-ddns/
+: 1677681893:0;j com
+: 1677681895:0;code nginx-conf
+: 1677681972:0;cd .
+: 1677681974:0;cd ..
+: 1677681977:0;docker compose up -d
+: 1677685420:0;ã€‚ã€‚
+: 1677685422:0;..
+: 1677685422:0;ls
+: 1677685435:0;jj
+: 1677685451:0;cd
+: 1677685452:0;cd aliyun-ddns
+: 1677685454:0;npm start
+: 1677685474:0;ls /usr/bin/npm
+: 1677685482:0;/usr/bin/npm -h
+: 1677685483:0;/usr/bin/npm -v
+: 1677685485:0;/usr/bin/npm -V
+: 1677685491:0;n
+: 1677685498:0;/usr/bin/npm -V
+: 1677685504:0;/usr/bin/npm -v
+: 1677685509:0;npm -v
+: 1677685514:0;which npm
+: 1677685524:0;apt remove npm
+: 1677685534:0;ls /usr/bin/npm
+: 1677685536:0;n
+: 1677685541:0;ls /usr/bin/npm
+: 1677685562:0;ls -s /usr/local/bin/npm /usr/bin/npm
+: 1677685573:0;ln -s /usr/local/bin/npm /usr/bin/npm
+: 1677685580:0;/usr/bin/npm -v
+: 1677685596:0;cd
+: 1677685597:0;pm2 ls
+: 1677689792:0;j com
+: 1677689799:0;docker compose up -d\
+: 1677689800:0;docker compose up -d
+: 1677689810:0;docker compose restart nginx
+: 1677690478:0;ls /usr/bin/node
+: 1677690486:0;/usr/bin/node -v
+: 1677690496:0;apt remove nodejs
+: 1677690508:0;/usr/bin/node -v
+: 1677690523:0;ln -s /usr/local/bin/node /usr/bin/node
+: 1677690526:0;/usr/bin/node -v
+: 1677690533:0;cd
+: 1677690534:0;cd aliyun-ddns
+: 1677690537:0;npm start
+: 1677720721:0;l
+: 1677720723:0;j com
+: 1677720725:0;code docker-compose.yml
+: 1677721012:0;docker compose up -d
+: 1677721046:0;cd /mnt
+: 1677721046:0;ls
+: 1677721048:0;cd aliyundrive
+: 1677721050:0;ls
+: 1677721305:0;nslookup baidu.com
+: 1677721311:0;nslookup alidrive.com
+: 1677721328:0;nslookup aliyundrive.com
+: 1677721463:0;docker run aliyundrive-webdav nslookup baidu.com
+: 1677721476:0;docker run -it aliyundrive-webdav nslookup baidu.com
+: 1677721490:0;docker run messense/aliyundrive-webdav nslookup baidu.com
+: 1677721584:0;j com
+: 1677721587:0;docker compose down
+: 1677721648:0;systemctl restart docker
+: 1677721673:0;docker compose up -d
+: 1677721837:0;nslookup websv.aliyundrive.com
+: 1677721846:0;nslookup websv.aliyundrive.com 223.5.5.5
+: 1677721853:0;nslookup websv.aliyundrive.com 119.29.29.29
+: 1677721866:0;nslookup websv.aliyundrive.com 8.8.8,8
+: 1677721868:0;nslookup websv.aliyundrive.com 8.8.8.8
+: 1677722153:0;docker compose up -d
+: 1677722248:0;cd //mnt/
+: 1677722248:0;ls
+: 1677722251:0;cd aliyundrive
+: 1677722251:0;ls
+: 1677722259:0;la
+: 1677722283:0;ls
+: 1677722321:0;ll
+: 1677722367:0;j com
+: 1677722369:0;code nginx-conf
+: 1677722426:0;docker compose up -d
+: 1677722468:0;j aliyuhn
+: 1677722470:0;cd
+: 1677722473:0;cd /mnt
+: 1677722474:0;ls
+: 1677722475:0;cd aliyundrive
+: 1677722476:0;ls
+: 1677722548:0;ll
+: 1677722782:0;ls
+: 1677722788:0;j com
+: 1677722791:0;docker compose up -d
+: 1677722839:0;j mnt
+: 1677722839:0;ls
+: 1677722840:0;cd aliyundrive
+: 1677722841:0;ls
+: 1677722844:0;rm refresh_token
+: 1677722845:0;ls
+: 1677722847:0;la
+: 1677722848:0;..
+: 1677722848:0;ls
+: 1677722850:0;pwd
+: 1677722851:0;ls
+: 1677722852:0;l
+: 1677722921:0;ls
+: 1677722922:0;cd aliyundrive
+: 1677722923:0;ls
+: 1677722939:0;cd 20230304
+: 1677722939:0;ls
+: 1677722942:0;cd ..
+: 1677722942:0;ls
+: 1677722944:0;..
+: 1677722944:0;ls
+: 1677722948:0;cd r10
+: 1677722949:0;ls
+: 1677722955:0;cd compose
+: 1677722955:0;ls
+: 1677722964:0;..
+: 1677722964:0;ls
+: 1677722973:0;cd kavita
+: 1677722973:0;ls
+: 1677722985:0;j driv
+: 1677722986:0;ls
+: 1677722989:0;..
+: 1677722989:0;ls
+: 1677722991:0;cd ..
+: 1677722991:0;ls
+: 1677722992:0;cd aliyundrive
+: 1677722993:0;ls
+: 1677723000:0;du -si 20230305
+: 1677723004:0;du -h
+: 1677723012:0;du --help
+: 1677723037:0;du -as 20230305
+: 1677723043:0;du -s 20230305
+: 1677723135:0;du -sh 20230305
+: 1677723148:0;ls
+: 1677723155:0;rsync -h
+: 1677723158:0;ls
+: 1677723163:0;tldr rsync
+: 1677723314:0;run-help rsync
+: 1677723356:0;rsync -azvhP /mnt/aliyundrive/20230305 /mnt/r10/kavita --log-file=/root/20230305.log
+: 1677723377:0;rsync -azvhP /mnt/aliyundrive/20230305 /mnt/r10/kavita --log-file=/root/20230305.log &
+: 1677723388:0;top
+: 1677723411:0;ps aux | grep rsync
+: 1677723490:0;nohup rsync -azvhP /mnt/aliyundrive/20230305 /mnt/r10/kavita --log-file=/root/20230305.log &
+: 1677723493:0;jobs
+: 1677723502:0;top
+: 1677723593:0;ls
+: 1677723602:0;tail -f 20230305.log
+: 1677723617:0;tldr tail
+: 1677723637:0;tail --follow 20230305.log
+: 1677723810:0;clear
+: 1677723817:0;tail -n 20 -f 20230305.log
+: 1677723900:0;ls
+: 1677723905:0;cat nohup.out
+: 1677724169:0;clear
+: 1677724171:0;ls
+: 1677724185:0;code .oh-my-zsh/ohmyzsh-custom
+: 1677724464:0;ps aux | grep rsync
+: 1677725206:0;ls
+: 1677725209:0;source .zshrc
+: 1677725215:0;lll
+: 1677725216:0;l
+: 1677725218:0;yt
