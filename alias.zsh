@@ -3,9 +3,9 @@ alias unsp='unset all_proxy'
 alias ytc='yt-dlp --proxy socks5://10.10.10.10:10800 --cookies=/root/cookie.txt --verbose --no-check-certificates'
 alias yt='yt-dlp --proxy socks5://10.10.10.10:10800 --verbose --no-check-certificates'
 alias cl='clear'
-alias top='glances'
+alias gl='glances'
 alias nsync='rsynclog'
-alias nohup='nohuplog'
+alias lohup='nohuplog'
 
 # Function to run rsync with logging
 rsynclog() {
