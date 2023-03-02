@@ -6,6 +6,7 @@ alias cl='clear'
 alias gl='glances'
 alias nsync='rsynclog'
 alias lohup='nohuplog'
+alias cat='batcat'
 
 # Function to run rsync with logging
 rsynclog() {

@@ -1868,3 +1868,29 @@ Name: baidu.com
 : 1677730233:0;tail -F rsync.log
 : 1677730491:0;git status
 : 1677730494:0;git add .
+: 1677730521:0;tail -F rsync.log
+: 1677730529:0;ls
+: 1677730539:0;source .zshrc
+: 1677730769:0;bat
+: 1677730775:0;apt install bar
+: 1677730779:0;apt install bat
+: 1677730786:0;apt remove bar
+: 1677730790:0;bar
+: 1677730792:0;bat
+: 1677730796:0;cat
+: 1677730890:0;apt install bat
+: 1677730891:0;bar
+: 1677730893:0;bat
+: 1677730901:0;ls /usr/bin/bar
+: 1677730903:0;ls /usr/bin/bat
+: 1677730910:0;ls /usr/local/bin/bat
+: 1677730929:0;batbat
+: 1677730950:0;ls /usr/bin/batcat
+: 1677730953:0;batcat
+: 1677730956:0;ls
+: 1677730965:0;batcat op_support/README.md
+: 1677731046:0;apt install ctop
+: 1677731067:0;apt-get install docker-ctop
+: 1677731131:0;wget https://github.com/bcicen/ctop/releases/download/v0.7.7/ctop-0.7.7-linux-amd64 -O /usr/local/bin/ctop
+: 1677731149:0;sp
+: 1677731150:0;wget https://github.com/bcicen/ctop/releases/download/v0.7.7/ctop-0.7.7-linux-amd64 -O /usr/local/bin/ctop
