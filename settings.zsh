@@ -1,5 +1,3 @@
-HISTSIZE=2000
-SAVEHIST=2000
 setopt BANG_HIST              # Treat the '!' character specially during expansion.
 setopt EXTENDED_HISTORY       # Write the history file in the ":start:elapsed;command" format.
 setopt INC_APPEND_HISTORY     # Write to the history file immediately, not when the shell exits.
