@@ -18,3 +18,4 @@ export MANPATH="/usr/local/man:$MANPATH"
 export LANG=en_US.UTF-8
 export ARCHFLAGS="-arch x86_64"
 export HISTFILE="$ZSH_CUSTOM/zsh_history"
+export ZSHZ_CASE=smart
