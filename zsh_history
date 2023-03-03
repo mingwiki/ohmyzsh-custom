@@ -1987,3 +1987,100 @@ Name: baidu.com
 : 1677813767:0;git submodule add https://github.com/zsh-users/zsh-syntax-highlighting.git plugins/zsh-syntax-highlighting
 : 1677813785:0;cd
 : 1677813786:0;source .zshrc
+: 1677813846:0;ls
+: 1677813857:0;ll
+: 1677813862:0;cat rsync.log
+: 1677813867:0;cl
+: 1677813871:0;l
+: 1677813887:0;ls
+: 1677813889:0;clear
+: 1677813892:0;tail rsync.log -F
+: 1677813931:0;tldr less
+: 1677813972:0;tldr tail
+: 1677813978:0;tldr more
+: 1677813991:0;tldr zsh
+: 1677813994:0;cl
+: 1677814000:0;less rsync.log
+: 1677814061:0;tail -f rsync.log| less
+: 1677814152:0;tail -h
+: 1677814156:0;tail --help
+: 1677814164:0;tail -F rsync.log -10
+: 1677814171:0;tail -F -10 rsync.log
+: 1677814178:0;tail -F -n10 rsync.log
+: 1677814214:0;clear
+: 1677814228:0;tail -F rsync.log| tail -n 20 | cat
+: 1677814241:0;tail -F rsync.log| tail -n 20
+: 1677814254:0;tail -F rsync.log| les
+: 1677814255:0;tail -F rsync.log| less
+: 1677814295:0;tail -F rsync.log| cat
+: 1677814341:0;cl
+: 1677814351:0;watch tail -n 10 rsync.log| cat
+: 1677814363:0;watch tail -n 10 rsync.log
+: 1677814370:0;watch tail -n 10 rsync.log | less
+: 1677814382:0;qqq
+: 1677814385:0;watch tail -n 10 rsync.log
+: 1677814457:0;l
+: 1677814461:0;ll
+: 1677814529:0;watch tail -n 10 rsync.log
+: 1677814553:0;ps aux
+: 1677814558:0;ps aux | grep rsync
+: 1677814607:0;nsync /mnt/aliyundrive/20230307 /mnt/r10/kavita
+: 1677814656:0;cd /mnt/r10
+: 1677814657:0;ls
+: 1677814659:0;cd kavita
+: 1677814659:0;ls
+: 1677814662:0;cd 20230307
+: 1677814663:0;ls
+: 1677814664:0;..
+: 1677814665:0;ls
+: 1677814668:0;cd
+: 1677814668:0;ls
+: 1677814673:0;ll
+: 1677814690:0;ps axu | rg rsync
+: 1677814725:0;nsync -azvhP /mnt/aliyundrive/20230307 /mnt/r10/kavita
+: 1677814745:0;cl
+: 1677814922:0;tldr watch
+: 1677814969:0;l
+: 1677814975:0;gl
+: 1677815563:0;nsync -azvhP /mnt/aliyundrive/20230307 /mnt/r10/kavita
+: 1677815573:0;watch tail -n 10 rsync.log
+: 1677815592:0;cl
+: 1677815600:0;top
+: 1677815659:0;lls
+: 1677815659:0;l
+: 1677815660:0;ls
+: 1677815664:0;rm rsync.log
+: 1677815664:0;ls
+: 1677815676:0;df -h
+: 1677815690:0;nsync -azvhP /mnt/aliyundrive/20230308 /mnt/r10/kavita
+: 1677815715:0;ls
+: 1677815721:0;z /mnt
+: 1677815721:0;ls
+: 1677815722:0;z
+: 1677815725:0;source .zshrc
+: 1677815728:0;z
+: 1677815733:0;cd /mnt/
+: 1677815733:0;ls
+: 1677815738:0;cd r10
+: 1677815738:0;sl
+: 1677815740:0;ls
+: 1677815742:0;cd kavita/
+: 1677815745:0;cd 20230307/
+: 1677815745:0;ls
+: 1677815847:0;watch tail -n 10 rsync.log
+: 1677815855:0;cd
+: 1677815857:0;ls
+: 1677815858:0;l
+: 1677815883:0;source .zshrc
+: 1677815911:0;ll
+: 1677816297:0;ls
+: 1677816299:0;code .zshrc
+: 1677816382:0;code .oh-my-zsh/ohmyzsh-custom
+: 1677816424:0;la
+: 1677816434:0;chmod a+x .zshrc
+: 1677816761:0;code .oh-my-zsh
+: 1677816848:0;source .zshrc
+: 1677816860:0;cd
+: 1677816892:0;ls
+: 1677816899:0;which zsh
+: 1677816907:0;where zsh
