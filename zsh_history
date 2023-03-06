@@ -1,0 +1,96 @@
+: 1678037524:0;systemctl restart trojan docker
+: 1678037535:0;cd
+: 1678037541:0;pm2 startup
+: 1678037546:0;pm2 ls
+: 1678037556:0;cd /mnt/r10
+: 1678037557:0;ls
+: 1678037568:0;pm2 start op_support/pm2.json
+: 1678037573:0;cd op_support/
+: 1678037580:0;pm2 start pm2.json
+: 1678037582:0;cd ..
+: 1678037583:0;cd toolkits/
+: 1678037586:0;pm2 start pm2.json
+: 1678037588:0;cd ..
+: 1678037592:0;cd
+: 1678037612:0;docker ps
+: 1678037620:0;cd /mnt/r10
+: 1678037622:0;cd compose/
+: 1678037628:0;docker compose up -d
+: 1678037639:0;cd
+: 1678037639:0;ls
+: 1678037641:0;rm *
+: 1678037643:0;ls
+: 1678037668:0;mount -t davfs http://dav.naizi.fun:100 /mnt/aliyundrive
+: 1678037681:0;mkdir /mnt/aliyundrive
+: 1678037689:0;docker compose down
+: 1678037713:0;docker compose up -d
+: 1678037765:0;systemctl stop systemd-resolved.service
+: 1678037770:0;systemctl disalbe systemd-resolved.service
+: 1678037774:0;systemctl disable systemd-resolved.service
+: 1678037777:0;docker compose up -d
+: 1678037795:0;mount -t davfs http://dav.naizi.fun:100 /mnt/aliyundrive
+: 1678037880:0;nsync -avzhP /mnt/aliyundrive/20230310 /mnt/r10/kavita
+: 1678037887:0;tail -F rsync.log
+: 1678037902:0;cd
+: 1678037910:0;nslookup baidu.com
+: 1678037917:0;apt install net-tools
+: 1678037920:0;nslookup baidu.com
+: 1678037944:0;apt install dnsutils
+: 1678037968:0;apt install bind9-dnsutils
+: 1678037976:0;apt update
+: 1678037979:0;s
+: 1678037986:0;stion... Done\
+6 packages can be u
+: 1678037988:0;tion... Done\
+6 packages can be u
+: 1678038011:0;apt install dnsutils
+: 1678038018:0;cd
+: 1678038024:0;apt install fzf
+: 1678038053:0;apt install dnsutils
+: 1678038062:0;apt autoremove
+: 1678038072:0;apt install dnsutils
+: 1678038100:0;dig
+: 1678038123:0;apt s have not yet been created\
+or been moved out of Incoming.
+: 1678038129:0;apt install bind-utils
+: 1678038132:0;apt install bind9-utils
+: 1678038142:0;nslookup baidu.com
+: 1678038150:0;apt install dnsutils
+: 1678038165:0;apt install bind9-libs
+: 1678038169:0;apt install dnsutils
+: 1678038180:0;apt install bind9-libs
+: 1678038188:0;apt install bind9-dnsutils
+: 1678038190:0;apt install dnsutils
+: 1678038212:0;apt remove bind9-dnsutils
+: 1678038232:0;apt remove bind9-utils bind9-libs:amd64 bind9-host
+: 1678038284:0;apt install bind9-hosst
+: 1678038288:0;apt install bind9
+: 1678038302:0;apt install dnsutils
+: 1678038306:0;nslookup baidu.com
+: 1678038315:0;nslookup baidu.com 10.0.10.0
+: 1678038322:0;code /etc/resolv.conf
+: 1678038345:0;tail -F rsync.log
+: 1678038355:0;ps aux | grep rsync
+: 1678038361:0;nsync -avzhP /mnt/aliyundrive/20230310 /mnt/r10/kavita
+: 1678038368:0;ps aux | grep rsync
+: 1678038378:0;docker logs -f aliyundrive-webdav
+: 1678066127:0;wget -h
+: 1678066160:0;z com
+: 1678066179:0;podman ps
+: 1678066222:0;cd
+: 1678066223:0;tail -F rsync.log
+: 1678066234:0;ps aux | grep rsync
+: 1678066258:0;cd /mnt/aliyundrive/20230310/ã€ƒ°çƒ´µå­ƒ°ä¹¦ä¸ƒ³éƒ‚ƒ¸ã€ƒ±53åƒ°ƒ¨éƒ»ƒ¦2.4T/
+: 1678066259:0;ls
+: 1678066262:0;cd
+: 1678066268:0;nsync -avzhP /mnt/aliyundrive/20230310 /mnt/r10/kavita
+: 1678066719:0;tail -F rsync.log
+: 1678067315:0;df -h
+: 1678067337:0;cl
+: 1678068677:0;z com
+: 1678068681:0;code docker-compose.yml
+: 1678069552:0;cd
+: 1678069562:0;watch tail -F rsync.log
+: 1678069574:0;nsync -avzhP /mnt/aliyundrive/20230310 /mnt/r10/kavita
+: 1678069582:0;code .oh-my-zsh/ohmyzsh-custom
+: 1678069591:0;code .zshrc

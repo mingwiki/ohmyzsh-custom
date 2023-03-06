@@ -8,6 +8,5 @@ alias nsync='rsynclog'
 alias cat='batcat'
 # Function to run rsync with logging
 rsynclog() {
-  nohup rsync "$@" >rsync.log 2>&1 &
-  tail -f rsync.log
+  nohup rsync "$@" > ~/rsync.log 2>&1 &
 }
