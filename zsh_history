@@ -684,3 +684,13 @@ or been moved out of Incoming.
 : 1678704559:0;code .oh-my-zsh/ohmyzsh-custom/alias.zsh
 : 1678704776:0;sz
 : 1678704785:0;sc
+: 1678704810:0;git config --global user.name mingwiki
+: 1678704817:0;git config --global user.email mingwiki@gmail.com
+: 1678704835:0;ls
+: 1678704840:0;cd .oh-my-zsh/ohmyzsh-custom/
+: 1678704844:0;git push origin master
+: 1678704851:0;git push
+: 1678704868:0;ls
+: 1678704872:0;mv -h
+: 1678704876:0;mv --help
+: 1678704918:0;sz

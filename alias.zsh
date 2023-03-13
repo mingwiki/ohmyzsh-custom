@@ -6,6 +6,7 @@ alias cl='clear'
 alias gl='glances'
 alias nsync='hup rsync'
 alias sz='source ~/.zshrc'
+alias mv='mv -iuv'
 hup() {
   nohup "$@" &>>"$1".log &
   tail -F "$1".log
