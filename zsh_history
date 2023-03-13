@@ -694,3 +694,92 @@ or been moved out of Incoming.
 : 1678704872:0;mv -h
 : 1678704876:0;mv --help
 : 1678704918:0;sz
+: 1678704974:0;cd
+: 1678704974:0;gla
+: 1678704978:0;glances
+: 1678718806:0;ls
+: 1678718811:0;cd /mnt/r1
+: 1678718811:0;ls
+: 1678718813:0;cd WebDevSimplified
+: 1678718814:0;ls
+: 1678718827:0;code playlist.txt
+: 1678718934:0;yt --yes-playlist --download-archive archive.txt --batch-file playlist.txt -o "%(playlist_index)s/%(title)s.%(ext)s"
+: 1678718949:0;ls
+: 1678718954:0;pip
+: 1678718958:0;python -v
+: 1678718967:0;apt install python-pip3
+: 1678718972:0;apt install python3-pip
+: 1678718982:0;pip install yt-dlp
+: 1678719147:0;yt --yes-playlist --download-archive archive.txt --batch-file playlist.txt -o "%(playlist_index)s/%(title)s.%(ext)s"
+: 1678719157:0;ls
+: 1678719163:0;tail -F yt-dlp.log
+: 1678719165:0;ls
+: 1678719167:0;cd 1
+: 1678719168:0;ls
+: 1678719170:0;cd ..
+: 1678719170:0;ls
+: 1678719200:0;kill 985294
+: 1678719203:0;rm yt-dlp.log
+: 1678719205:0;ls
+: 1678719220:0;find . -type d -delete
+: 1678719223:0;find . -type d -delete -f
+: 1678719232:0;find . -type d -delete r
+: 1678719234:0;find . -type d -delete -r
+: 1678719259:0;ls
+: 1678719272:0;rm -rf 1 2 3 4 5 archive.txt
+: 1678719375:0;yt --yes-playlist --download-archive archive.txt --batch-file playlist.txt -o "%(playlist)s/%(title)s.%(ext)s"
+: 1678719378:0;ls
+: 1678719395:0;watch tail -F yt-dlp.log
+: 1678719404:0;watch tail -n 20 yt-dlp.log
+: 1678719417:0;watch tail -n 30 yt-dlp.log
+: 1678720274:0;z compose
+: 1678720277:0;code docker-compose.yml
+: 1678720295:0;docker compose up -d
+: 1678720363:0;ls
+: 1678720379:0;docker compose up -d
+: 1678720507:0;docker run -i messense/aliyundrive-webdav aliyundrive-webdav qr login
+: 1678720520:0;docker run -i messense/aliyundrive-webdav:main aliyundrive-webdav qr login
+: 1678720687:0;docker compose up -d
+: 1678720707:0;cd /mnt
+: 1678720708:0;ls
+: 1678720709:0;cd alist/
+: 1678720710:0;ls
+: 1678720711:0;cd ..
+: 1678720714:0;rm -rf alist
+: 1678720717:0;mkdir aliyun
+: 1678720718:0;ls
+: 1678720737:0;mount -t davfs http://localhost:8080 /mnt/aliyun
+: 1678720741:0;ls
+: 1678720742:0;cd aliyun/
+: 1678720743:0;ls
+: 1678720765:0;nsync -rvhP /mnt/alist/aliyun/ã€ƒ°imooc-464ã€ƒ±Kubernetes\ åƒ¥¥éƒ·¨åƒ¨°è¿ƒ»éƒ¸¶å®ƒ¾æƒ¨ƒ¸ï¼ƒ¬ç³»ç»ƒ¿æ€§æƒ®ƒ¬æƒ¯ƒ\ K8s\ çƒ´ƒ¿äº§å®ƒ¾è·µ /mnt/r1
+: 1678720780:0;nsync -rvhP /mnt/aliyun/ã€ƒ°imooc-464ã€ƒ±Kubernetes\ åƒ¥¥éƒ·¨åƒ¨°è¿ƒ»éƒ¸¶å®ƒ¾æƒ¨ƒ¸ï¼ƒ¬ç³»ç»ƒ¿æ€§æƒ®ƒ¬æƒ¯ƒ\ K8s\ çƒ´ƒ¿äº§å®ƒ¾è·µ /mnt/r1
+: 1678720799:0;ls
+: 1678720837:0;killall rsync
+: 1678720841:0;rm rsync.log
+: 1678720843:0;cd
+: 1678720848:0;code .oh-my-zsh/ohmyzsh-custom/alias.zsh
+: 1678720908:0;sz
+: 1678720910:0;ls
+: 1678720914:0;cd aliyun/
+: 1678720917:0;z aliyun
+: 1678720918:0;ls
+: 1678720923:0;nsync -rvhP /mnt/aliyun/ã€ƒ°imooc-464ã€ƒ±Kubernetes\ åƒ¥¥éƒ·¨åƒ¨°è¿ƒ»éƒ¸¶å®ƒ¾æƒ¨ƒ¸ï¼ƒ¬ç³»ç»ƒ¿æ€§æƒ®ƒ¬æƒ¯ƒ\ K8s\ çƒ´ƒ¿äº§å®ƒ¾è·µ /mnt/r1
+: 1678720953:0;sz
+: 1678720962:0;cd
+: 1678720963:0;ls
+: 1678720972:0;tail -F rsync.log
+: 1678720976:0;ls
+: 1678720987:0;less fudpes.log
+: 1678720990:0;ls
+: 1678720992:0;rm fudpes.log
+: 1678720993:0;ls
+: 1678720999:0;less kavita
+: 1678721001:0;less kavita.log
+: 1678721011:0;ls
+: 1678721012:0;rm kavita
+: 1678721015:0;rm kavita.log
+: 1678721015:0;ls
+: 1678721020:0;less rsync.log
+: 1678721032:0;ls
+: 1678721246:0;sz
