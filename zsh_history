@@ -938,3 +938,38 @@ or been moved out of Incoming.
 : 1678783183:0;la
 : 1678783188:0;df -h
 : 1678783667:0;code .oh-my-zsh/ohmyzsh-custom/
+: 1678783801:0;ls
+: 1678783823:0;nsync -rvztchP /mnt/aliyun/ã€ƒ°imooc-480ã€ƒ±Javaé«ƒ¸çº§éƒ½ƒ‚è¯ƒµçªåƒ»´è¯¾\ ,æƒ°ƒ¾å®ƒºJavaä¸­é«ƒ¸çº§éƒ½ƒ‚è¯ƒµçƒºƒ¤å¿ƒ¥è€ƒ£ç‚¹ /mnt/r1
+: 1678784166:0;code .oh-my-zsh/ohmyzsh-custom/
+: 1678786385:0;docker push ghcr.io mingwiki/anki-sync-server:latest
+: 1678786398:0;docker push ghcr.io/mingwiki/anki-sync-server:latest
+: 1678786412:0;docker images
+: 1678786444:0;docker tag mingwiki/anki-sync-server ghcr.io/mingwiki/anki-sync-server:latest
+: 1678786450:0;docker tag mingwiki/anki-sync-server:v1.2 ghcr.io/mingwiki/anki-sync-server:latest
+: 1678786456:0;docker push ghcr.io/mingwiki/anki-sync-server:latest
+: 1678786552:0;sz
+: 1678786567:0;docker push ghcr.io/mingwiki/anki-sync-server:latest
+: 1678786628:0;sz
+: 1678786633:0;echo $CR_PAT | docker login ghcr.io -u mingwiki --password-stdin
+: 1678786638:0;docker push ghcr.io/mingwiki/anki-sync-server:latest
+: 1678786661:0;ls
+: 1678786663:0;la
+: 1678786664:0;ls
+: 1678786671:0;docker tag mingwiki/anki-sync-server:v1.2 ghcr.io/mingwiki/anki-sync-server:v1.2
+: 1678786678:0;docker push ghcr.io/mingwiki/anki-sync-server:v1.2
+: 1678788256:0;nsync -rvztchP /mnt/aliyun/ã€ƒ°imooc-480ã€ƒ±Javaé«ƒ¸çº§éƒ½ƒ‚è¯ƒµçªåƒ»´è¯¾\ ,æƒ°ƒ¾å®ƒºJavaä¸­é«ƒ¸çº§éƒ½ƒ‚è¯ƒµçƒºƒ¤å¿ƒ¥è€ƒ£ç‚¹ /mnt/r1
+: 1678789544:0;cd
+: 1678789545:0;sz
+: 1678789551:0;yt
+: 1678789917:0;sz
+: 1678789919:0;yt
+: 1678790077:0;sz
+: 1678790082:0;yt
+: 1678790094:0;sz
+: 1678790108:0;yt
+: 1678790154:0;sz
+: 1678790172:0;curl google.com
+: 1678790174:0;sp
+: 1678790175:0;curl google.com
+: 1678790177:0;unsp
+: 1678790293:0;p
