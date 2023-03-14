@@ -836,3 +836,105 @@ or been moved out of Incoming.
 : 1678759795:0;cd
 : 1678759797:0;code .oh-my-zsh/ohmyzsh-custom/alias.zsh
 : 1678759847:0;sz
+: 1678765926:0;journalctl -u trojan -f
+: 1678766216:0;sp
+: 1678766240:0;ping google.com
+: 1678766259:0;curl google.com
+: 1678766294:0;curl github.com
+: 1678766418:0;z compose
+: 1678766421:0;code wireguard
+: 1678766589:0;curl google.com
+: 1678767522:0;..
+: 1678767532:0;code trojan/client.json
+: 1678767791:0;systemctl status trojan
+: 1678767798:0;journalctl -u trojan -f
+: 1678767860:0;sp
+: 1678767864:0;curl google.com
+: 1678767934:0;z compose
+: 1678767936:0;docker compose up -d
+: 1678768009:0;ls
+: 1678768009:0;sss
+: 1678768009:0;ls
+: 1678768015:0;rm -rf wireguard
+: 1678768017:0;docker compose up -d
+: 1678768037:0;code wi
+: 1678768047:0;code wireguard
+: 1678768057:0;ls
+: 1678768069:0;docker compose up -d
+: 1678768084:0;ls
+: 1678768090:0;code wireguard
+: 1678768537:0;z compose
+: 1678768539:0;rm -rf wireguard
+: 1678768542:0;docker compose up -d
+: 1678768555:0;code wireguard
+: 1678768562:0;ls
+: 1678768568:0;docker compose up -d
+: 1678768581:0;ls
+: 1678768593:0;docker compose up -d
+: 1678768625:0;code wireguard
+: 1678768706:0;docker compose up -d
+: 1678780055:0;ls
+: 1678780056:0;gl
+: 1678780071:0;nsync -rvhP /mnt/aliyun/ã€ƒ°imooc-464ã€ƒ±Kubernetes\ åƒ¥¥éƒ·¨åƒ¨°è¿ƒ»éƒ¸¶å®ƒ¾æƒ¨ƒ¸ï¼ƒ¬ç³»ç»ƒ¿æ€§æƒ®ƒ¬æƒ¯ƒ\ K8s\ çƒ´ƒ¿äº§å®ƒ¾è·µ /mnt/r1
+: 1678781243:0;rsync -h
+: 1678781324:0;tldr rsync
+: 1678781331:0;apt install tldr
+: 1678781335:0;sp
+: 1678781337:0;tldr -u
+: 1678781349:0;unsp
+: 1678781355:0;tldr rsync
+: 1678781535:0;nsync -avzhP /mnt/aliyun/ã€ƒ°imooc-464ã€ƒ±Kubernetes\ åƒ¥¥éƒ·¨åƒ¨°è¿ƒ»éƒ¸¶å®ƒ¾æƒ¨ƒ¸ï¼ƒ¬ç³»ç»ƒ¿æ€§æƒ®ƒ¬æƒ¯ƒ\ K8s\ çƒ´ƒ¿äº§å®ƒ¾è·µ /mnt/r1
+: 1678781803:0;ps aux | grep rsync
+: 1678781806:0;kill rsync
+: 1678781815:0;killall rsync
+: 1678781817:0;kill rsync
+: 1678781818:0;killall rsync
+: 1678781819:0;ps aux | grep rsync
+: 1678781822:0;ls
+: 1678781835:0;killall rsync
+: 1678781838:0;ps aux | grep rsync
+: 1678781857:0;nsync -rvztuchP /mnt/aliyun/ã€ƒ°imooc-464ã€ƒ±Kubernetes\ åƒ¥¥éƒ·¨åƒ¨°è¿ƒ»éƒ¸¶å®ƒ¾æƒ¨ƒ¸ï¼ƒ¬ç³»ç»ƒ¿æ€§æƒ®ƒ¬æƒ¯ƒ\ K8s\ çƒ´ƒ¿äº§å®ƒ¾è·µ /mnt/r1
+: 1678781909:0;ps aux | grep rsync
+: 1678781911:0;ls
+: 1678781958:0;wt rsync.log
+: 1678782144:0;ps aux | grep core
+: 1678782246:0;docker ps --filter "ancestor=coredns/coredns"
+: 1678782249:0;docker ps
+: 1678782259:0;docker ps --filter "ancestor=coredns/coredns" --format "{{.ID}} {{.Command}}"
+: 1678782263:0;docker ps --format "{{.ID}} {{.Command}}" | grep "/usr/bin/coredns"
+: 1678782336:0;ls
+: 1678782345:0;lsof -i:53
+: 1678782356:0;lsof -i
+: 1678782374:0;gl
+: 1678782642:0;nsync -rvztchP /mnt/aliyun/ã€ƒ°imooc-464ã€ƒ±Kubernetes\ åƒ¥¥éƒ·¨åƒ¨°è¿ƒ»éƒ¸¶å®ƒ¾æƒ¨ƒ¸ï¼ƒ¬ç³»ç»ƒ¿æ€§æƒ®ƒ¬æƒ¯ƒ\ K8s\ çƒ´ƒ¿äº§å®ƒ¾è·µ /mnt/r1
+: 1678782648:0;wt rsync.log
+: 1678782706:0;pm2
+: 1678782708:0;ls
+: 1678782710:0;pm2 ls
+: 1678782716:0;pm2 log
+: 1678782790:0;cl
+: 1678782794:0;pstree
+: 1678782797:0;pstree -h
+: 1678782858:0;ls
+: 1678782861:0;tldr pstree
+: 1678782867:0;ls
+: 1678782938:0;ps aux | grep core
+: 1678782952:0;pstree -p 1382557
+: 1678782966:0;pstree -p 1382368
+: 1678783011:0;code /mnt/r10/compose/daemon.json
+: 1678783026:0;cat /etc/docker/daemon.json
+: 1678783035:0;ll /etc/docker
+: 1678783083:0;ln -sf /mnt/r10/compose/daemon.json /etc/docker/daemon.json
+: 1678783086:0;ll /etc/docker
+: 1678783099:0;cat /etc/docker/daemon.json
+: 1678783147:0;cd
+: 1678783147:0;ls
+: 1678783148:0;ll
+: 1678783150:0;la
+: 1678783166:0;rm .zsh_history
+: 1678783167:0;ls
+: 1678783168:0;la
+: 1678783182:0;rm .bash*
+: 1678783183:0;la
+: 1678783188:0;df -h
+: 1678783667:0;code .oh-my-zsh/ohmyzsh-custom/

@@ -1,4 +1,4 @@
-export PATH=$HOME/bin:/usr/local/bin:/usr/local/go/bin:$PATH
+export PATH=$DENO_INSTALL/bin:$HOME/bin:/usr/local/bin:/usr/local/go/bin:$PATH
 export NVM_DIR="$HOME/.nvm"
 export NODEJS_ORG_MIRROR=https://npmmirror.com/mirrors/node/
 export NODIST_NODE_MIRROR=https://npmmirror.com/mirrors/node/
@@ -16,3 +16,4 @@ export HISTFILE="$ZSH_CUSTOM/zsh_history"
 export HISTSIZE=2000
 export SAVEHIST=2000
 export ZSHZ_CASE=smart
+export DENO_INSTALL="$HOME/.deno"
