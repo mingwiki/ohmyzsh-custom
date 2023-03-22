@@ -9,7 +9,7 @@ alias yt='download_youtube'
 alias ytf='download_youtube_homepage'
 alias wt='watch tail -n 20'
 alias setPip='pip config set global.index-url https://mirrors.ustc.edu.cn/pypi/web/simple'
-alias sd='python3 launch.py --ckpt-dir=/mnt/r1/ckpt --xformers --listen --enable-insecure-extension-access'
+alias sd='python3 launch.py --ckpt-dir=/mnt/r1/ckpt --listen --opt-split-attention'
 hup() {
   if [[ $# -eq 0 ]]; then
     echo "Error: 'nohup' requires at least one argument."
