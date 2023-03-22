@@ -973,3 +973,582 @@ or been moved out of Incoming.
 : 1678790175:0;curl google.com
 : 1678790177:0;unsp
 : 1678790293:0;p
+: 1678790629:0;sz
+: 1678790931:0;awk '!a[$0]++' zsh_history > zsh_history_new
+: 1678790940:0;cd .oh-my-zsh/ohmyzsh-custom/
+: 1678790942:0;awk '!a[$0]++' zsh_history > zsh_history_new
+: 1678790983:0;sz
+: 1678791043:0;yt
+: 1678791142:0;nsync -rvztchP /mnt/aliyun/„ÄÉ∞imooc-582„ÄÉ±ËΩªÊÉΩæÂÉ••ÈÉ∑®Â§ßÊÉµ∞ÊÉ≠Æ\ ‰∏ÄÁ´ÉπÂºÉØÂÆÉ¨ÊÉ®É∞ÊÉÄ∏ÂøÉ£ËÉ£ΩÂÉ™ÉªÊÉæÉ§Âª∫ /mnt/r1
+: 1678793437:0;ps aux | grep rsync
+: 1678793443:0;wt rsync.log
+: 1678803621:0;z r1
+: 1678803622:0;ls
+: 1678803623:0;cd ..
+: 1678803628:0;cd r1
+: 1678803628:0;ls
+: 1678803696:0;nsync -rvztchP /mnt/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/aliyun/„ÄÉ∞imooc-480„ÄÉ±JavaÈ´É∏Á∫ßÈÉΩÉÇËØÉµÁ™ÅÂÉª¥ËØæ\ ,ÊÉ∞ÉæÂÆÉ∫Java‰∏≠È´É∏Á∫ßÈÉΩÉÇËØÉµÁÉ∫É§ÂøÉ•ËÄÉ£ÁÇπ /mnt/aliyun/„ÄÉ∞imooc-582„ÄÉ±ËΩªÊÉΩæÂÉ••ÈÉ∑®Â§ßÊÉµ∞ÊÉ≠Æ\ ‰∏ÄÁ´ÉπÂºÉØÂÆÉ¨ÊÉ®É∞ÊÉÄ∏ÂøÉ£ËÉ£ΩÂÉ™ÉªÊÉæÉ§Âª∫ /mnt/aliyun/lost+found /mnt/aliyun/NieR:Automata\ Ver1.1aÔºÉ®ÂÉ±®ÂÉ•≠23ÁÇπÔºÉ© /mnt/aliyun/„ÄÉ∞ÂÉ≤ÉµÊ≥ÉÅÂ≠¶ÈÉπÉÇ„ÄÉ±P4ÔºÉ∫PythonÂÉø∫ÁÉÅÄÂÉ••ÈÉ∑®ÂÆÉæÊÉ®É∏ÁÉØ≠\(PythonÂÉø∫ÁÉÅÄ+È´É∏Á∫ß\) /mnt/aliyun/ÂøÉ§ÁÉ¥ÉøÂÉ∞∏ÂºÉµÂÉ™Éª\(2022\)\ 4K /mnt/aliyun/Ê≠¶‰æÉÄÂ∞ÉØËØ¥ÂÉ∞É®ÈÉªÉ¶ÔºÉ®1912ÈÉ£®ÔºÉ© /mnt/aliyun/ËÉ´±ËØ≠Â≠¶‰πÉÄ‰π¶Á±É≠ /mnt/r1
+: 1678803715:0;cd
+: 1678803715:0;gl
+: 1678812070:0;ls
+: 1678812114:0;cd /mnt/r10/kavita/
+: 1678812115:0;ls
+: 1678812127:0;mkdir 20230315
+: 1678812130:0;cd 20230315/
+: 1678812131:0;ls
+: 1678812133:0;wget https://apuntespme.cl/biblio/AXLER_LINEARALGEBRA.pdf
+: 1678812173:0;mkdir AXLER
+: 1678812177:0;mv AXLER_LINEARALGEBRA.pdf AXLER
+: 1678812179:0;ls
+: 1678812181:0;cd
+: 1678812181:0;ls
+: 1678855457:0;nmap -sS -sV -T4 -A -v -Pn
+: 1678855462:0;apt install nmap
+: 1678855470:0;apt install nmap 10.10.10.10
+: 1678855482:0;nmap -sS -sV -T4 -A -v -Pn 10.10.10.10
+: 1678855649:0;journalctl -u networking.service
+: 1678855901:0;nmap -sV --script=ssh-auth-methods 10.10.10.10
+: 1678856063:0;apt install wireshark
+: 1678856089:0;tldr wireshare
+: 1678856091:0;tldr wireshark
+: 1678856095:0;dp
+: 1678856097:0;s
+: 1678856098:0;sp
+: 1678856101:0;tldr -u
+: 1678856109:0;tldr wireshark
+: 1678856112:0;uns[
+: 1678856114:0;unsp
+: 1678856118:0;wireshark -h
+: 1678856147:0;wireshark -I
+: 1678856157:0;wireshark
+: 1678856235:0;wireshark -H
+: 1678856244:0;wireshark -Y
+: 1678856305:0;tshark
+: 1678856312:0;wireshark -i enth0
+: 1678856315:0;wireshark -i eth0
+: 1678856324:0;ip addr
+: 1678856365:0;ip addrls
+: 1678856365:0;ls
+: 1678856373:0;apt remove wireshark
+: 1678856401:0;apt install tshark
+: 1678856408:0;tshark
+: 1678856613:0;iptables
+: 1678856615:0;iptables -h
+: 1678856622:0;iptables -h -v
+: 1678856636:0;tldr iptables
+: 1678856675:0;iptabiiptables -vnL
+: 1678856678:0;iptables -vnL
+: 1678856757:0;tldr iptables
+: 1678856822:0;rg 'iptables' /var/log/syslog
+: 1678856824:0;grep 'iptables' /var/log/syslog
+: 1678856836:0;iptables-save
+: 1678857105:0;apt install rg
+: 1678857109:0;apt install ripgrep
+: 1678857133:0;apt autoremove
+: 1678857153:0;ls
+: 1678857159:0;yt
+: 1678857161:0;ls
+: 1678857166:0;nsync -rvztchP /mnt/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/aliyun/„ÄÉ∞imooc-480„ÄÉ±JavaÈ´É∏Á∫ßÈÉΩÉÇËØÉµÁ™ÅÂÉª¥ËØæ\ ,ÊÉ∞ÉæÂÆÉ∫Java‰∏≠È´É∏Á∫ßÈÉΩÉÇËØÉµÁÉ∫É§ÂøÉ•ËÄÉ£ÁÇπ /mnt/aliyun/„ÄÉ∞imooc-582„ÄÉ±ËΩªÊÉΩæÂÉ••ÈÉ∑®Â§ßÊÉµ∞ÊÉ≠Æ\ ‰∏ÄÁ´ÉπÂºÉØÂÆÉ¨ÊÉ®É∞ÊÉÄ∏ÂøÉ£ËÉ£ΩÂÉ™ÉªÊÉæÉ§Âª∫ /mnt/aliyun/lost+found /mnt/aliyun/NieR:Automata\ Ver1.1aÔºÉ®ÂÉ±®ÂÉ•≠23ÁÇπÔºÉ© /mnt/aliyun/„ÄÉ∞ÂÉ≤ÉµÊ≥ÉÅÂ≠¶ÈÉπÉÇ„ÄÉ±P4ÔºÉ∫PythonÂÉø∫ÁÉÅÄÂÉ••ÈÉ∑®ÂÆÉæÊÉ®É∏ÁÉØ≠\(PythonÂÉø∫ÁÉÅÄ+È´É∏Á∫ß\) /mnt/aliyun/ÂøÉ§ÁÉ¥ÉøÂÉ∞∏ÂºÉµÂÉ™Éª\(2022\)\ 4K /mnt/aliyun/Ê≠¶‰æÉÄÂ∞ÉØËØ¥ÂÉ∞É®ÈÉªÉ¶ÔºÉ®1912ÈÉ£®ÔºÉ© /mnt/aliyun/ËÉ´±ËØ≠Â≠¶‰πÉÄ‰π¶Á±É≠ /mnt/r1
+: 1678857174:0;ps aux | grep rsync
+: 1678857180:0;ls
+: 1678857184:0;wt rsync.log
+: 1678862080:0;ps aux | grep rsync
+: 1678862083:0;wt rsync.log
+: 1678863531:0;cl
+: 1678863532:0;ls
+: 1678863538:0;git clone git@github.com:mingwiki/gpt.git
+: 1678863544:0;fuck
+: 1678863547:0;apt install thefuck
+: 1678863553:0;fuck
+: 1678863586:0;apt remove thefuck
+: 1678863589:0;ls
+: 1678863600:0;code gpt
+: 1678863695:0;cd
+: 1678863699:0;code .oh-my-zsh/ohmyzsh-custom/alias.zsh
+: 1678863722:0;code .zshrc
+: 1678863732:0;sz
+: 1678863741:0;pip install thefuck
+: 1678863745:0;fuck
+: 1678863749:0;sz
+: 1678863752:0;fuck
+: 1678863771:0;sz
+: 1678863776:0;fuck
+: 1678863787:0;dz
+: 1678863788:0;sz
+: 1678863915:0;npm -v
+: 1678863922:0;npm init
+: 1678863982:0;ls
+: 1678863986:0;rm package.json
+: 1678863987:0;cd gpt/
+: 1678863988:0;ls
+: 1678863991:0;npm init -y
+: 1678864067:0;npm i -g nodemon
+: 1678864080:0;npm start
+: 1678865322:0;cat text| app.js
+: 1678865328:0;cat text|./ app.js
+: 1678865332:0;cat text| ./app.js
+: 1678865338:0;chmod a+x app.js
+: 1678865339:0;cat text| ./app.js
+: 1678866037:0;hello | ./app.js
+: 1678866044:0;'hello' | ./app.js
+: 1678866066:0;\hello | ./app.js
+: 1678866719:0;cat text| ./app.js
+: 1678866758:0;g
+: 1678866761:0;npx g
+: 1678866787:0;t
+: 1678866800:0;npx t
+: 1678866819:0;cat text| ./app.js
+: 1678866830:0;cat text.txt| ./app.js
+: 1678867318:0;./app.js text.txt
+: 1678869155:0;npm install ora
+: 1678869174:0;npm install --save inquirer
+: 1678869189:0;ls
+: 1678869225:0;cat text.txt| ./app.js
+: 1678869518:0;npm i commander
+: 1678869530:0;cat text.txt| ./app.js
+: 1678869651:0;./app.js --help
+: 1678869680:0;npx eslint init
+: 1678869730:0;ls
+: 1678869876:0;npm i chalk
+: 1678869888:0;./app.js --help
+: 1678869900:0;npm i chalk
+: 1678869904:0;./app.js --help
+: 1678869913:0;cat text.txt| ./app.js
+: 1678871252:0;cl
+: 1678871252:0;cd
+: 1678871253:0;ls
+: 1678871257:0;wt rsync.log
+: 1678871266:0;ps aux | grep rsync
+: 1678871289:0;nsync -rvztchP /mnt/aliyun/NieR:Automata\ Ver1.1aÔºÉ®ÂÉ±®ÂÉ•≠23ÁÇπÔºÉ© /mnt/r1
+: 1678871309:0;wt rsync.log
+: 1678871312:0;ps aux | grep rsync
+: 1678871319:0;cl
+: 1678871322:0;ps aux | grep rsync
+: 1678871324:0;cl
+: 1678871325:0;ls
+: 1678871328:0;wt rsync.log
+: 1678873616:0;ps aux | grep rsync
+: 1678873619:0;cl
+: 1678873620:0;ps aux | grep rsync
+: 1678873623:0;cl
+: 1678873625:0;wt rsync.log
+: 1678873628:0;tail -f yt-dlp.log
+: 1678873632:0;ls
+: 1678873633:0;rm yt-dlp.log
+: 1678873641:0;rm rsync.log zsh_history_new
+: 1678873642:0;ls
+: 1678873646:0;ps aux | grep rsync
+: 1678873655:0;ls
+: 1678873657:0;ps aux | grep rsync
+: 1678873659:0;cl
+: 1678873661:0;gl
+: 1678873693:0;cd
+: 1678873693:0;ls
+: 1678873762:0;cd /mnt/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ/
+: 1678873763:0;ls
+: 1678877003:0;cd
+: 1678877036:0;code autoblock.js
+: 1678877189:0;node autoblock.js
+: 1678878144:0;lsof -i
+: 1678878149:0;lsof -i:
+: 1678878215:0;node autoblock.js
+: 1678881557:0;cd
+: 1678881564:0;ps aux | grep rsync
+: 1678881570:0;wt rsync.log
+: 1678881574:0;ls
+: 1678881615:0;nsync -rvztchP /mnt/aliyun/NieR:Automata\ Ver1.1aÔºÉ®ÂÉ±®ÂÉ•≠23ÁÇπÔºÉ© /mnt/r1
+: 1678882117:0;wt rsync.log
+: 1678882120:0;ls
+: 1678882122:0;code autoblock.js
+: 1678882161:0;node autoblock.js
+: 1678882818:0;tldr iptables
+: 1678882824:0;iptables -vnL
+: 1678882864:0;ping 114.250.47.193
+: 1678883045:0;sudo iptables -L INPUT
+: 1678883055:0;sudo iptables -L INPUT -v
+: 1678883059:0;sudo iptables -L OUTPUT
+: 1678883065:0;sudo iptables -L
+: 1678883148:0;iptables -P INPUT DROP
+: 1678883150:0;sudo iptables -L
+: 1678883158:0;iptables -L
+: 1678883165:0;iptables -L -v -n
+: 1678883179:0;iptables -P DROP
+: 1678883193:0;iptables -nvL
+: 1678883245:0;iptables-save > iptables
+: 1678883252:0;code iptables
+: 1678883258:0;iptables -F
+: 1678884882:0;code iptables
+: 1678884983:0;iptables-restore < iptables
+: 1678884992:0;iptables -nvL
+: 1678885010:0;ls
+: 1678885012:0;rm autoblock.js
+: 1678885012:0;ls
+: 1678885017:0;cd /mnt/aliyun/
+: 1678885018:0;cd ..
+: 1678885023:0;z ddns
+: 1678885025:0;npm start
+: 1678885086:0;npm -v
+: 1678885089:0;npm start
+: 1678885102:0;ping google.com
+: 1678885110:0;ping baidu.com
+: 1678885191:0;iptables-restore < ~/iptables
+: 1678885194:0;ping baidu.com
+: 1678885205:0;iptables-restore < ~/iptables
+: 1678885208:0;ping baidu.com
+: 1678885298:0;code /etc/resolv.conf
+: 1678885311:0;ping baidu.com
+: 1678885329:0;iptables -F
+: 1678885355:0;ls
+: 1678885357:0;npm start
+: 1678885398:0;iptables -nvL
+: 1678885472:0;ping baidu.com
+: 1678885476:0;npm start
+: 1678885483:0;iptables -nvL
+: 1678885776:0;iptables -Fls
+: 1678885825:0;iptables-save > iptables
+: 1678885827:0;ls
+: 1678885828:0;cd
+: 1678885830:0;iptables-save > iptables
+: 1678885831:0;cd
+: 1678888409:0;nsync -rvztchP /mnt/aliyun/NieR:Automata\ Ver1.1aÔºÉ®ÂÉ±®ÂÉ•≠23ÁÇπÔºÉ© /mnt/r1
+: 1678888458:0;ls
+: 1678888459:0;gl
+: 1678888652:0;lsof -i -P -n | awk '$4 == "LISTEN" {print $2}' | xargs pstree -p
+: 1678888715:0;lsof -i -P -n
+: 1678888741:0;lsof -i -P -n | awk '$4 == "LISTEN" {print $2}'
+: 1678888867:0;sudo lsof -i -P -n | awk '$4 == "LISTEN" {print $9}' | awk -F: '{print $NF}' | sort -n | uniq | xargs -I{} sudo lsof -i :{} | awk '{print $2}' | xargs pstree -p\
+
+: 1678889075:0;l
+: 1678889081:0;cd /mnt/r1
+: 1678889081:0;ls
+: 1678889083:0;la
+: 1678889180:0;chown mingwiki:1000 -R 'ÂøÉ§ÁÉ¥ÉøÂÉ∞∏ÂºÉµÂÉ™Éª(2022) 4K' '„ÄÉ∞ÂÉ≤ÉµÊ≥ÉÅÂ≠¶ÈÉπÉÇ„ÄÉ±P4ÔºÉ∫PythonÂÉø∫ÁÉÅÄÂÉ••ÈÉ∑®ÂÆÉæÊÉ®É∏ÁÉØ≠(PythonÂÉø∫ÁÉÅÄ+È´É∏Á∫ß)' 'NieR:Automata Ver1.1aÔºÉ®ÂÉ±®ÂÉ•≠23ÁÇπÔºÉ©'
+: 1678889196:0;rm -rf alist
+: 1678889326:0;chown mingwiki:1000 -R asmr downloads *„ÄÉ∞imooc-* K40_flash Nier* python sshd_config Win_exe
+: 1678889339:0;chown mingwiki:1000 -R asmr downloads *„ÄÉ∞imooc-* K40_flash *Nier* python sshd_config Win_exe
+: 1678889346:0;chown mingwiki:1000 -R asmr downloads *„ÄÉ∞imooc-* K40_flash *NieR* python sshd_config Win_exe
+: 1678889350:0;ll
+: 1678889353:0;l
+: 1678889384:0;chown mingwiki:1000 -R ËÉ´±ËØ≠Â≠¶‰πÉÄ‰π¶Á±É≠
+: 1678889435:0;nslookup baidu.com
+: 1678889441:0;nslookup xvideos.com
+: 1678892530:0;z compose
+: 1678892547:0;rm -rf fluentd etc-pihole
+: 1678892576:0;docker compose up -d
+: 1678894755:0;cd
+: 1678894759:0;apt install fail2ban
+: 1678894777:0;tldr fail2ban
+: 1678894783:0;fail2ban -h
+: 1678894787:0;fail2ban
+: 1678894818:0;systemctl enable fail2ban
+: 1678894826:0;systemctl restart fail2ban
+: 1678894834:0;journalctl -u fail2ban.service -f
+: 1678894905:0;apt-get install build-essential fakeroot debhelper libfile-fcntllock-perl
+: 1678894968:0;apt remove fail2ban
+: 1678894991:0;git clone https://github.com/OpenMediaVault-Plugin-Developers/openmediavault-fail2ban.git
+: 1678895006:0;fakeroot debian/rules clean binary
+: 1678895035:0;..
+: 1678895035:0;ls
+: 1678895042:0;dpkg -i openmediavault-fail2ban
+: 1678895046:0;dpkg -i openmediavault-fail2ban_6.0.3_all.deb
+: 1678895061:0;apt install whois
+: 1678895069:0;apt --fix-broken install
+: 1678895129:0;dpkg -i openmediavault-fail2ban_6.0.3_all.deb
+: 1678895535:0;z compose
+: 1678895537:0;code docker-compose.yml
+: 1678895546:0;code /mnt/r10/compose/daemon.json
+: 1678895572:0;systemctl restart docker
+: 1678895637:0;docker info
+: 1678895714:0;truncate -s 0 /var/lib/containerd/**/*.log*
+: 1678895771:0;truncate -s 0 /var/lib/docker/**/*.log*
+: 1678895805:0;truncate -s 0 /var/lib/docker/containers/**/*.log*
+: 1678895808:0;ls
+: 1678895822:0;syslog
+: 1678895893:0;cd /var/log
+: 1678895893:0;ls
+: 1678895919:0;cd journal/
+: 1678895919:0;ls
+: 1678895921:0;cd ..
+: 1678895922:0;ls
+: 1678895932:0;cat daemon.log
+: 1678895954:0;cat daemon.log | rg gitea
+: 1678895956:0;cat daemon.log | rg git
+: 1678895963:0;fzf
+: 1678895970:0;ls
+: 1678895977:0;cat syslog
+: 1678895986:0;cat syslog | rg git
+: 1678895989:0;cat syslog | rg gitea
+: 1678895991:0;ls
+: 1678896037:0;z compose
+: 1678896042:0;docker compose up -d
+: 1678896071:0;ping baidu.com
+: 1678896078:0;docker compose down
+: 1678896106:0;docker compose up -d
+: 1678896125:0;ping baidu.com
+: 1678896134:0;nslookup xvideos.com
+: 1678896139:0;ping baidu.com
+: 1678896146:0;ping qq.com
+: 1678896156:0;nslookup baidu.com
+: 1678896193:0;nslookup baidu.com 10.0.0.10
+: 1678896201:0;nslookup baidu.com 10.0.10.0
+: 1678896214:0;code /etc/resolv.conf
+: 1678896224:0;ping qq.com
+: 1678896238:0;cd
+: 1678896240:0;truncate -s 0 /var/lib/docker/containers/**/*.log*
+: 1678896246:0;cd /var/log
+: 1678896247:0;ls
+: 1678896254:0;ll
+: 1678896286:0;cat syslog | rg gitea
+: 1678896314:0;cat syslog | rg git
+: 1678896322:0;ll
+: 1678896344:0;cat daemon.log | rg git
+: 1678896348:0;cat daemon.log | rg gitea
+: 1678896417:0;cd
+: 1678896419:0;]ll
+: 1678896420:0;ll
+: 1678896438:0;dpkg -i openmediavault-fail2ban_6.0.3_all.deb
+: 1678896532:0;ping baidu.com
+: 1678896554:0;systemctl restart trojan
+: 1678896629:0;cd /opt/
+: 1678896630:0;ls
+: 1678896631:0;cd containerd/
+: 1678896632:0;ls
+: 1678896634:0;cd lib/
+: 1678896634:0;ls
+: 1678896637:0;cd
+: 1678896637:0;ls
+: 1678896639:0;cd /var/log/
+: 1678896640:0;ls
+: 1678896976:0;code /etc/docker/daemon.json
+: 1678897003:0;rsyslogd -h
+: 1678897013:0;rsyslogd -dn
+: 1678897058:0;ps auxww | grep rsyslog
+: 1678897095:0;lsof -i:1111
+: 1678897129:0;systemctl restart docker
+: 1678897159:0;systemctl status docker
+: 1678897164:0;docker info
+: 1678897172:0;z compose
+: 1678897177:0;docker compose down
+: 1678897198:0;docker compose up -d
+: 1678897206:0;truncate -s 0 /var/lib/docker/containers/**/*.log*
+: 1678897208:0;cd /var/log/
+: 1678897209:0;ls
+: 1678897218:0;ll
+: 1678897236:0;less daemon.log
+: 1678897263:0;cat daemon.log | rg gitea
+: 1678897287:0;cat syslog | rg gitea
+: 1678897401:0;code /etc/docker/daemon.json
+: 1678897419:0;systemctl restart docker trojan
+: 1678897540:0;z compose
+: 1678897543:0;docker compose down
+: 1678897576:0;docker compose up -d
+: 1678897697:0;cd /var/lib/docker/containers/
+: 1678897701:0;cd 4ed732b5ddc9150793e01f4d830ec4235654b5a7bc4a6982b68d7bfee72a5907
+: 1678897703:0;ls
+: 1678897710:0;pwd
+: 1678897792:0;ping baidu.com
+: 1678897822:0;ping git.naizi.fun
+: 1678897827:0;nslookup git.naizi.fun
+: 1678897852:0;ip addr
+: 1678897888:0;cd
+: 1678897888:0;ls
+: 1678897934:0;z
+: 1678898065:0;z ddns
+: 1678898066:0;npm start
+: 1678898114:0;cd
+: 1678898244:0;nslookup naizi.fun
+: 1678898250:0;nslookup git.naizi.fun
+: 1678898276:0;code /etc/rsyslog.
+: 1678898292:0;code /etc/resolv.conf
+: 1678898688:0;fail2ban-client -i
+: 1678898711:0;fail2ban-client
+: 1678898731:0;fail2ban-client status
+: 1678898797:0;code /etc/fail2ban/
+: 1678900281:0;nsync -rvztchP /mnt/aliyun/* /mnt/r1
+: 1678900296:0;gl
+: 1678902368:0;yt
+: 1678902369:0;ls
+: 1678902374:0;cd /mnt/r1
+: 1678902375:0;ls
+: 1678902382:0;cd asmr
+: 1678902388:0;la
+: 1678902388:0;ls
+: 1678902390:0;ll
+: 1678902411:0;code playlist.txt
+: 1678902426:0;yt playlist.txt
+: 1678902440:0;ls
+: 1678902442:0;rm yt-dlp.log
+: 1678902446:0;ytf playlist.txt
+: 1678902463:0;code ~/.oh-my-zsh/ohmyzsh-custom/alias.zsh
+: 1678902477:0;code ~/.oh-my-zsh/ohmyzsh-custom/function.zsh
+: 1678902509:0;sz
+: 1678902513:0;ytf playlist.txt
+: 1678902536:0;sz
+: 1678902541:0;ytf playlist.txt
+: 1678902574:0;code ~/.oh-my-zsh/ohmyzsh-custom/alias.zsh
+: 1678902578:0;sz
+: 1678902596:0;ytf playlist.txt
+: 1678902620:0;sz
+: 1678902639:0;ytf playlist.txt
+: 1678902729:0;sz
+: 1678902762:0;ytf playlist.txt
+: 1678902820:0;sz
+: 1678902887:0;ytf playlist.txt
+: 1678902979:0;sz
+: 1678903099:0;ytf playlist.txt
+: 1678903158:0;sz
+: 1678903182:0;z asmr
+: 1678903190:0;ytf playlist.txt
+: 1678903222:0;z asmr
+: 1678903250:0;cd /mnt/r1/asmr
+: 1678903251:0;ls
+: 1678903270:0;wt yt-dlp.log
+: 1678903317:0;sz
+: 1678903329:0;killall yt-dlp
+: 1678903337:0;ps aux | yt
+: 1678903343:0;ps aux | grep yt
+: 1678903352:0;ytf playlist.txt
+: 1678903396:0;ls
+: 1678903399:0;less yt-dlp.log
+: 1678903407:0;tail -f yt-dlp.log
+: 1678903553:0;killall yt-dlp
+: 1678903556:0;ytf playlist.txt
+: 1678930872:0;cd
+: 1678931334:0;cd /mnt/r10
+: 1678931335:0;ls
+: 1678931349:0;cd compose/
+: 1678931349:0;ls
+: 1678931353:0;cd photoprism/
+: 1678931353:0;ls
+: 1678931362:0;cd originals/
+: 1678931362:0;ls
+: 1678931420:0;cd
+: 1678931428:0;fdupes -h
+: 1678931488:0;fdupes -rdp1I -l ~/fdupes.log .
+: 1678931497:0;gl
+: 1678931504:0;ls
+: 1678931506:0;cd ..
+: 1678931506:0;ls
+: 1678931509:0;cd /mnt/r1
+: 1678931509:0;ls
+: 1678931513:0;fzf
+: 1678931594:0;cl
+: 1678931603:0;cd ../r10/compose/photoprism/
+: 1678931603:0;ls
+: 1678931605:0;cd storage/
+: 1678931605:0;ls
+: 1678931608:0;..
+: 1678931609:0;ls
+: 1678931612:0;cd import/
+: 1678931612:0;ls
+: 1678931613:0;cd
+: 1678931623:0;cd /mnt/r10/compose/st-sync/
+: 1678931623:0;ls
+: 1678931710:0;cd
+: 1678931710:0;ls
+: 1678931716:0;wt rsync.log
+: 1678931728:0;ls
+: 1678931731:0;nsync -rvztchP /mnt/aliyun/* /mnt/r1
+: 1678931735:0;l
+: 1678931736:0;ls
+: 1678931737:0;ll
+: 1678934263:0;z compose
+: 1678934349:0;code docker-compose.yml
+: 1678938641:0;la
+: 1678938646:0;cd
+: 1678938646:0;ls
+: 1678938650:0;cd /mnt/r10
+: 1678938650:0;ls
+: 1678938653:0;cd vps/
+: 1678938653:0;ls
+: 1678938658:0;code nginx.conf
+: 1678938770:0;ssh root@8.222.138.130
+: 1678938871:0;cd
+: 1678938875:0;cat .ssh/id_rsa.pub
+: 1678938905:0;ssh root@8.222.138.130
+: 1678939212:0;ls
+: 1678939213:0;cd ..
+: 1678939214:0;ls
+: 1678939220:0;cd trojan/
+: 1678939220:0;ls
+: 1678939226:0;code server.json
+: 1678939237:0;ls
+: 1678939265:0;scp 4fm.top_other/* root@8.222.138.130:~
+: 1678939302:0;..
+: 1678939302:0;ls
+: 1678939305:0;cd vps/
+: 1678939306:0;ls
+: 1678939308:0;code nginx.conf
+: 1678939354:0;ls
+: 1678939358:0;unzip 4fm.top_other.zip
+: 1678939362:0;scp 4fm.top_other/* root@8.222.138.130:~
+: 1678939778:0;systemctl restart trojan
+: 1678939784:0;journalctl -u trojan -f
+: 1678940050:0;ls
+: 1678940051:0;..
+: 1678940053:0;cd trojan/
+: 1678940053:0;ls
+: 1678940058:0;code client.json
+: 1678940082:0;code server.json
+: 1678940975:0;ls
+: 1678940977:0;..
+: 1678940980:0;cd /mnt/r10
+: 1678940980:0;ls
+: 1678940982:0;..
+: 1678940984:0;cd r1
+: 1678940984:0;ls
+: 1678940992:0;cd Telegram
+: 1678940992:0;ls
+: 1678940995:0;..
+: 1678940995:0;l
+: 1678940999:0;cd asmr/
+: 1678941002:0;cd
+: 1678941003:0;ls
+: 1678941010:0;ps aux | grep yt
+: 1678941017:0;ps aux | grep rsync
+: 1678941029:0;s
+: 1678941030:0;ls
+: 1678941037:0;wt rsync.log
+: 1678941045:0;nsync -rvztchP /mnt/aliyun/* /mnt/r1
+: 1678941049:0;ls
+: 1678941051:0;z asmr
+: 1678941702:0;z compose
+: 1678941982:0;cl
+: 1678941984:0;ls
+: 1678941992:0;cd ..
+: 1678941993:0;ls
+: 1678942003:0;cd
+: 1678942010:0;code .sshrc
+: 1678942021:0;code .zshrc
+: 1678942396:0;apt install fish
+: 1678942408:0;cat /etc/shells
+: 1678942414:0;chsh -s /usr/bin/fish
+: 1678945665:0;echo $SHELL
+: 1678945673:0;chsh -s /usr/bin/fish
+: 1678956779:0;git clone -b v1.52.0 --depth 1 --shallow-submodules https://github.com/grpc/grpc
+: 1678956806:0;sp
+: 1678956807:0;git clone -b v1.52.0 --depth 1 --shallow-submodules https://github.com/grpc/grpc
+: 1678956827:0;cd grpc/examples/node
+: 1678956828:0;ls
+: 1678956833:0;npm i
+: 1678956844:0;cd dynamic_codegen/
+: 1678956845:0;ls
+: 1678956853:0;node greeter_server.js
+: 1678956992:0;code greeter_server.js
+: 1678957001:0;ls
+: 1678957136:0;node greeter_server.js
+: 1678958586:0;cc
+: 1678958587:0;cd
+: 1678958593:0;cd /mnt/r1/WebDevSimplified/
+: 1678958594:0;ls
+: 1678958599:0;ytf playlist.txt
+: 1678958642:0;ls
+: 1678958729:0;code yt-dlp.log
+: 1678960356:0;n ls
+: 1678960360:0;n rm 18
+: 1678960363:0;n ls
+: 1678960374:0;cd
+: 1678960379:0;code .config/fish
+: 1678961034:0;gl
+: 1679494232:0;ls
+: 1679494239:0;code .oh-my-zsh/ohmyzsh-custom/
