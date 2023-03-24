@@ -1,29 +1,19 @@
 : 1678037524:0;systemctl restart trojan docker
-: 1678037541:0;pm2 startup
-: 1678037546:0;pm2 ls
 : 1678037568:0;pm2 start op_support/pm2.json
 : 1678037573:0;cd op_support/
 : 1678037583:0;cd toolkits/
 : 1678037586:0;pm2 start pm2.json
-: 1678037588:0;cd ..
-: 1678037620:0;cd /mnt/r10
-: 1678037622:0;cd compose/
-: 1678037641:0;rm *
 : 1678037681:0;mkdir /mnt/aliyundrive
-: 1678037689:0;docker compose down
 : 1678037765:0;systemctl stop systemd-resolved.service
 : 1678037770:0;systemctl disalbe systemd-resolved.service
 : 1678037774:0;systemctl disable systemd-resolved.service
-: 1678037777:0;docker compose up -d
 : 1678037795:0;mount -t davfs http://dav.naizi.fun:100 /mnt/aliyundrive
 : 1678037917:0;apt install net-tools
 : 1678037976:0;apt update
-: 1678037979:0;s
 : 1678037986:0;stion... Done\
 6 packages can be u
 : 1678037988:0;tion... Done\
 6 packages can be u
-: 1678038062:0;apt autoremove
 : 1678038100:0;dig
 : 1678038123:0;apt s have not yet been created\
 or been moved out of Incoming.
@@ -35,30 +25,14 @@ or been moved out of Incoming.
 : 1678038232:0;apt remove bind9-utils bind9-libs:amd64 bind9-host
 : 1678038284:0;apt install bind9-hosst
 : 1678038288:0;apt install bind9
-: 1678038302:0;apt install dnsutils
-: 1678038306:0;nslookup baidu.com
-: 1678038315:0;nslookup baidu.com 10.0.10.0
-: 1678038322:0;code /etc/resolv.conf
 : 1678038378:0;docker logs -f aliyundrive-webdav
 : 1678066127:0;wget -h
 : 1678066179:0;podman ps
-: 1678066234:0;ps aux | grep rsync
 : 1678066258:0;cd /mnt/aliyundrive/20230310/„ÄÉ∞ÁÉ¥µÂ≠É∞‰π¶‰∏É≥ÈÉÇÉ∏„ÄÉ±53ÂÉ∞É®ÈÉªÉ¶2.4T/
-: 1678066719:0;tail -F rsync.log
-: 1678067315:0;df -h
-: 1678067337:0;cl
 : 1678068677:0;z com
-: 1678068681:0;code docker-compose.yml
 : 1678069562:0;watch tail -F rsync.log
 : 1678069574:0;nsync -avzhP /mnt/aliyundrive/20230310 /mnt/r10/kavita
-: 1678069582:0;code .oh-my-zsh/ohmyzsh-custom
-: 1678069591:0;code .zshrc
 : 1678560081:0;apt install fzf
-: 1678560085:0;source $HOME/.zshrc
-: 1678560087:0;cd
-: 1678560087:0;ls
-: 1678560088:0;pwd
-: 1678560091:0;docker ps
 : 1678560555:0;mkswap /dev/sdg
 : 1678560567:0;lsblk
 : 1678560593:0;vi /etc/fstab
@@ -72,487 +46,153 @@ or been moved out of Incoming.
 : 1678560784:0;swapon /dev/sdg
 : 1678560792:0;swapon -s
 : 1678560801:0;apt install glances
-: 1678560808:0;gl
 : 1678562124:0;time
-: 1678562127:0;date
 : 1678562156:0;z op
-: 1678562157:0;ls
-: 1678562160:0;cd
-: 1678562162:0;z
-: 1678562164:0;ls
-: 1678562164:0;cl
 : 1678562166:0;gp
-: 1678562167:0;gl
 : 1678562240:0;vi /etc/localtime
 : 1678562304:0;ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 : 1678562308:0;date
 : 1678562322:0;timedatectl
-: 1678562354:0;pm2 ls
 : 1678562357:0;pm2 -hj
 : 1678562375:0;pm2 restart
 : 1678562378:0;pm2 restart all
 : 1678562389:0;pm2 startup
 : 1678562404:0;systemctl status pm2-root.service
-: 1678597883:0;systemctl status trojan
-: 1678597939:0;systemctl restart trojan
-: 1678597951:0;ls
-: 1678597969:0;vi /mnt/r10/trojan.json
-: 1678597976:0;systemctl restart trojan
-: 1678598010:0;vi /mnt/r10/trojan.json
-: 1678598018:0;systemctl restart trojan
-: 1678598068:0;ip addr
 : 1678598386:0;apt remove nodejs
-: 1678598414:0;crontab -e
 : 1678598635:0;cd /bin/node
 : 1678598639:0;cd /bin
 : 1678598649:0;mv node node-bak
-: 1678598673:0;ls
 : 1678598682:0;mv node-bak node
-: 1678598683:0;cd
 : 1678598685:0;cd /usr/bin/
 : 1678598687:0;ls node
-: 1678598696:0;cd
 : 1678598709:0;ln -sf /usr/local/bin/node /usr/bin/node
-: 1678598712:0;crontab -e
-: 1678619636:0;vi /mnt/r10/trojan.json
-: 1678619653:0;systemctl restart trojan
-: 1678620018:0;journalctl -u trojan -f
-: 1678620070:0;vi /mnt/r10/trojan.json
-: 1678620077:0;systemctl restart trojan
-: 1678620079:0;journalctl -u trojan -f
-: 1678620147:0;vi /mnt/r10/trojan.json
-: 1678620154:0;journalctl -u trojan -f
-: 1678620158:0;systemctl restart trojan
-: 1678620159:0;journalctl -u trojan -f
-: 1678620481:0;vi /etc/resolv.conf
 : 1678620506:0;ping 10.0.10.0
-: 1678620513:0;nslookup baidu.com 10.0.10.0
-: 1678620521:0;apt install dnsutils
 : 1678620559:0;vi /etc/resolv.conf
 : 1678620567:0;apt install dnsutils
-: 1678620575:0;nslookup baidu.com 10.0.10.0
 : 1678620597:0;docker inspect dnsproxy
 : 1678620604:0;docker inspect pihole
-: 1678620621:0;cd
-: 1678620622:0;ls
-: 1678620677:0;vi /mnt/r10/trojan.json
-: 1678620688:0;systemctl restart trojan
-: 1678620690:0;journalctl -u trojan -f
-: 1678620904:0;vi /mnt/r10/trojan.json
-: 1678620915:0;systemctl restart trojan
-: 1678620988:0;vi /mnt/r10/trojan.json
-: 1678620993:0;systemctl restart trojan
-: 1678621133:0;ls
-: 1678621133:0;gl
 : 1678623584:0;sls
-: 1678623584:0;ls
 : 1678623590:0;apt install fdups
-: 1678623605:0;apt install fdupes
-: 1678623612:0;ls
 : 1678623621:0;apt install npm
 : 1678623627:0;apt install fdupes
-: 1678623631:0;npm -v
 : 1678623637:0;which npm
 : 1678623642:0;where npm
 : 1678623650:0;cnpm
-: 1678623659:0;ls
-: 1678623664:0;cd /mnt/r1
-: 1678623665:0;ls
 : 1678623675:0;fdups -h
-: 1678623677:0;fdupes -h
 : 1678623727:0;fdupes -rdm .
 : 1678623770:0;fdupes -rd -l=~/fdupes.log .
-: 1678623779:0;cd
 : 1678623789:0;touch fdupes.log
 : 1678623794:0;fdupes -rd -l=~/fdupes.log /mnt/r1
 : 1678623820:0;fdupes -rd -l ~/fdupes.log /mnt/r1
-: 1678623830:0;ls
-: 1678623835:0;tail -F fdupes.log
-: 1678623857:0;ps aux | grep fdupes
-: 1678623868:0;gl
 : 1678624169:0;fdupes -rdp1 -l ~/fdupes.log /mnt/r1
-: 1678624844:0;l
-: 1678624846:0;ll
-: 1678624854:0;z compose
-: 1678624855:0;ls
-: 1678624860:0;cd /mnt/r10/
-: 1678624860:0;ls
-: 1678624865:0;cd compose/
-: 1678624865:0;ls
-: 1678624867:0;cd kavita/
-: 1678624867:0;ls
-: 1678624869:0;cd ..
-: 1678625050:0;cd /mnt/r10/compose/
-: 1678625051:0;ls
-: 1678625055:0;code docker-compose.yml
-: 1678625137:0;rsync -avzhP kavita ~
-: 1678625158:0;gl
-: 1678626930:0;cd /mnt
-: 1678626931:0;ls
 : 1678626934:0;mkdir /aliyun
 : 1678626939:0;cd al
-: 1678626953:0;mkdir aliyun
-: 1678626956:0;cd aliyun/
 : 1678626987:0;cd /
 : 1678626988:0;cdl
-: 1678626989:0;ls
 : 1678626993:0;rm -r aliyun
-: 1678626994:0;cd
 : 1678627006:0;rsync -avzhP kavita ~
-: 1678627021:0;cd
-: 1678627021:0;ls
 : 1678627026:0;cd /mnt/r10/compose/
-: 1678627028:0;docker compose up -d
-: 1678627082:0;...
-: 1678627083:0;cd aliyun/
-: 1678627084:0;ls
-: 1678627086:0;pwd
-: 1678627086:0;ls
-: 1678627221:0;cd /mnt
-: 1678627222:0;ls
-: 1678627225:0;cd aliyun/
-: 1678627225:0;ls
 : 1678627226:0;ccd ..
-: 1678627229:0;..
-: 1678627231:0;rm -rf aliyun
-: 1678627237:0;ls
-: 1678627237:0;la
-: 1678627239:0;cd aliyun/
-: 1678627239:0;ls
-: 1678627553:0;cd
 : 1678627564:0;rsync -avzhP kavita /mnt/r10/compose
 : 1678627584:0;crontab -e
 : 1678627619:0;crontab -l
 : 1678627850:0;fdupes -rdp1I -l ~/fdupes.log /mnt/r1
-: 1678627913:0;vi /mnt/r10/trojan.json
-: 1678627922:0;systemctl restart trojan
-: 1678628224:0;code /mnt/r10/trojan.json
-: 1678628236:0;systemctl restart trojan
-: 1678628302:0;code /mnt/r10/trojan.json
-: 1678628305:0;systemctl restart trojan
-: 1678628416:0;systemctl status trojan
-: 1678628421:0;systemctl restart trojan
-: 1678628507:0;cd /mnt/r10/alist/
-: 1678628508:0;ls
-: 1678628689:0;..
 : 1678628696:0;mv alist /mnt/r1
-: 1678628702:0;cd compose/
-: 1678628704:0;docker compose up -d
-: 1678629363:0;ls
 : 1678629367:0;cd /mnt/r10/alist/
 : 1678629369:0;cd /mnt/r1/alist/
-: 1678629370:0;ls
 : 1678629384:0;cd temp/
-: 1678629385:0;ls
-: 1678629387:0;cd ..
-: 1678629672:0;ls
-: 1678629674:0;cd
-: 1678629677:0;cd /mnt
-: 1678629677:0;ls
-: 1678629681:0;cd aliyun/
-: 1678629681:0;ls
 : 1678629682:0;cd..
-: 1678629684:0;cd ..
-: 1678629701:0;mount -t davfs http://alist.naizi.fun:100/aliyun /mnt/aliyun
 : 1678629714:0;apt install davfs2
 : 1678629726:0;mount -t davfs http://alist.naizi.fun:100/aliyun /mnt/aliyun
-: 1678629745:0;mount -t davfs http://alist.naizi.fun:100 /mnt/aliyun
 : 1678629828:0;cd r1/alist
-: 1678629829:0;ls
 : 1678629834:0;code config.json
-: 1678629867:0;cd /mnt
-: 1678629871:0;mount -t davfs http://alist.naizi.fun:100 /mnt/aliyun
 : 1678630210:0;cd r10/compose/
-: 1678630211:0;docker compose up -d
 : 1678630228:0;...
 : 1678630232:0;mount -t davfs http://alist.naizi.fun:100 /mnt/aliyun
-: 1678630247:0;mount -t davfs http://localhost /mnt/aliyun
 : 1678630265:0;mount -t davfs http://localhost:5244 /mnt/aliyun
 : 1678630272:0;mount -t davfs http://localhost /mnt/aliyun
 : 1678630323:0;mount -t davfs http://localhost:5244/dav /mnt/aliyun
-: 1678630327:0;ls
-: 1678630328:0;cd aliyun/
-: 1678630328:0;ls
-: 1678630331:0;cd aliyun/
-: 1678630331:0;ls
-: 1678630335:0;cd ..
-: 1678630335:0;ls
-: 1678630339:0;cd ..
-: 1678630345:0;umount aliyun
-: 1678630350:0;ls
-: 1678630351:0;cd aliyun/
-: 1678630352:0;ls
-: 1678630353:0;cd ..
-: 1678630353:0;ls
 : 1678630357:0;rm -rf aliyun
-: 1678630358:0;ls
 : 1678630365:0;mkdir alist
 : 1678630369:0;mount -t davfs http://localhost:5244/dav /mnt/alist
-: 1678630385:0;ls
-: 1678630386:0;cd alist/
-: 1678630387:0;ls
-: 1678630389:0;cd aliyun/
-: 1678630389:0;ls
-: 1678630430:0;cd
-: 1678630433:0;ls
 : 1678630438:0;tail -F fdupes.log
-: 1678630451:0;ls
 : 1678630452:0;rm fdupes.log
-: 1678630453:0;ls
-: 1678630461:0;journalctl -u trojan -f
-: 1678630534:0;systemctl stop trojan
-: 1678630736:0;cd /mnt/r10
-: 1678630737:0;ls
-: 1678630738:0;cd compose/
-: 1678630738:0;ls
 : 1678630741:0;cd esdata/
-: 1678630742:0;ls
-: 1678630750:0;..
 : 1678630755:0;rm -rf esdata
-: 1678630762:0;docker compose up -d
-: 1678631094:0;docker compose down
 : 1678631126:0;z co
-: 1678631128:0;code nginx-conf
-: 1678631176:0;docker compose up -d
-: 1678631445:0;cd /mnt/
-: 1678631445:0;ls
-: 1678631447:0;cd alist/
-: 1678631447:0;ls
-: 1678631449:0;cd aliyun/
-: 1678631449:0;ls
-: 1678631455:0;cd
-: 1678631455:0;la
-: 1678631460:0;cd
-: 1678631461:0;ls
-: 1678631467:0;df -h
-: 1678631488:0;ls
 : 1678631491:0;cd /mnt/alist/
-: 1678631492:0;ls
-: 1678631493:0;cd aliyun/
-: 1678631494:0;ls
 : 1678631520:0;nsync -avzhP „ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/r1
-: 1678631522:0;cd
-: 1678631527:0;code .oh-my-zsh/ohmyzsh-custom
-: 1678631583:0;cd
-: 1678631584:0;ls
-: 1678631588:0;tail -F rsync.log
-: 1678631607:0;z alist
-: 1678631609:0;ls
 : 1678631622:0;nsync -rvzhP „ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/r1
-: 1678631625:0;cd
-: 1678631628:0;tail -F rsync.log
 : 1678631649:0;z alist
-: 1678631650:0;ls
 : 1678631658:0;cd „ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ/
-: 1678631659:0;ls
 : 1678631662:0;cd Á¨¨02Á´ÉÄ\ ËØæÂÉ©É≠ÂÉßÉ¶Â§Éß‰πÉ´ÈÉÅπÁÉªÆÂÉßÉ¶Â§Éß/
-: 1678631662:0;ls
-: 1678631664:0;cd
-: 1678631695:0;nsync -rvhP /mnt/alist/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/r1
-: 1678631697:0;tail -F rsync.log
 : 1678631826:0;alist
-: 1678631827:0;ls
-: 1678631835:0;ps aux | grep fdupes
-: 1678631845:0;systemctl restart trojan
-: 0:0;
-: 1678631955:0;systemctl restart trojan
-: 1678631973:0;journalctl -u trojan -f
+: 1679576858:0;
 : 1678632471:0;systemctl stop trojan
-: 1678633063:0;systemctl restart trojan
-: 1678633117:0;journalctl -u trojan -f
-: 1678633691:0;ping 8.222.138.130
-: 1678633881:0;ssh root@8.222.138.130
-: 1678634526:0;ssh-keygen -f "/root/.ssh/known_hosts" -R "8.222.138.130"
-: 1678634528:0;ssh root@8.222.138.130
-: 1678635396:0;scp /mnt/r10/4fm.top_other.zip root@8.222.138.130:~
-: 1678635623:0;ssh root@8.222.138.130
-: 1678636138:0;ls
 : 1678636140:0;vi /mnt/r10/trojan.json
 : 1678636152:0;apt install neovim
-: 1678636217:0;cd /mnt/r10
-: 1678636218:0;ls
 : 1678636223:0;mv trojan.json ss.json
-: 1678636279:0;systemctl restart trojan
 : 1678636453:0;ping 4fm.top
-: 1678636740:0;cd
 : 1678636741:0;gfl
-: 1678636742:0;gl
-: 1678636812:0;ssh root@8.222.138.130
-: 1678636826:0;ls
-: 1678636834:0;cat .ssh/id_rsa.pub
-: 1678636845:0;code .oh-my-zsh/ohmyzsh-custom
 : 1678636878:0;source $HOME/.zshrc
-: 1678636886:0;cat .ssh/id_rsa.pub
-: 1678636888:0;cat
-: 1678636895:0;source .zshrc
 : 1678636899:0;cat
-: 1678636924:0;cat .ssh/id_rsa.pub
-: 1678636969:0;ssh root@8.222.138.130
-: 1678637116:0;ssh root@8.222.138.130 -p 33
 : 1678637170:0;cd /mnt/r10/ssh/
-: 1678637171:0;ls
 : 1678637173:0;cd omv\ ssh/
 : 1678637174:0;l;s
 : 1678637176:0;rm *
-: 1678637178:0;cd
 : 1678637192:0;cp .ssh/* /mnt/r10/ssh/omv\ ssh
-: 1678637198:0;ssh root@8.222.138.130 -p 33
-: 1678637212:0;ls
-: 1678637213:0;cd .ssh/
-: 1678637214:0;ls
-: 1678637220:0;rm known_hosts*
-: 1678637221:0;cd ..
-: 1678637224:0;ssh root@8.222.138.130 -p 33
 : 1678637326:0;ssh root@8.222.138.130 -p 22
-: 1678637329:0;ssh root@8.222.138.130 -p 33
-: 1678637657:0;ssh root@8.222.138.130
 : 1678637695:0;rm .ssh/known_hosts
-: 1678637696:0;ssh root@8.222.138.130
 : 1678637751:0;ping 8.222.138.130
-: 1678637754:0;ssh root@8.222.138.130
-: 1678637761:0;cd .ssh/
-: 1678637762:0;ls
-: 1678637769:0;ssh root@8.222.138.130 -p 33
-: 1678637772:0;ssh root@8.222.138.130
-: 1678637796:0;ssh-keygen -f "/root/.ssh/known_hosts" -R "8.222.138.130"
-: 1678637798:0;ssh root@8.222.138.130
-: 1678637867:0;cd /mnt/r10/
 : 1678637868:0;wget http://tinyurl.com/vps2arch
-: 1678637878:0;ssh root@8.222.138.130
-: 1678637976:0;ls
 : 1678638148:0;mkdir vps2arch
 : 1678638155:0;mkdir vps
 : 1678638165:0;mv vps2arch 4fm.top_other.zip vps
-: 1678638166:0;ls
-: 1678638456:0;ssh root@8.222.138.130
 : 1678638462:0;ssh-keygen -f "/root/.ssh/known_hosts" -R "8.222.138.130"
-: 1678638463:0;ssh root@8.222.138.130
-: 1678638592:0;cd vps/
-: 1678638592:0;ls
 : 1678638598:0;scp /mnt/r10/4fm.top_other.zip root@8.222.138.130:~
 : 1678638611:0;scp 4fm.top_other.zip root@8.222.138.130:~
-: 1678638885:0;..
-: 1678638887:0;cd
-: 1678638891:0;cat .ssh/id_rsa.pub
 : 1678638911:0;cat /mnt/r10/ssh/jujie\ ssh/id_rsa.pub
-: 1678638944:0;ssh root@8.222.138.130
-: 1678638947:0;ssh root@8.222.138.130 -p 33
 : 1678639107:0;ssh -p 33 root@8.222.138.130
-: 1678639170:0;ssh root@8.222.138.130 -p 33
 : 1678639257:0;ssh root@8.222.138.130 -p 66
 : 1678639368:0;ssh root@8.222.138.130 -p 33
-: 1678639688:0;ls
-: 1678639689:0;la
-: 1678639698:0;ssh root@4fm.top -p 33
-: 1678643369:0;ls
 : 1678643373:0;cd /mnt/r10/
-: 1678643373:0;ls
 : 1678643378:0;mkdir trojan
 : 1678643391:0;mv ss.json trojan.json trojan
-: 1678643392:0;ls
-: 1678643397:0;cd trojan/
-: 1678643398:0;ls
 : 1678643403:0;vi trojan.json
 : 1678643447:0;ssh root@4fm.top -p 33
 : 1678643488:0;ssh root@4fm.top
-: 1678643530:0;ls
-: 1678643533:0;cd /mnt/r10/trojan/
-: 1678643534:0;ls
-: 1678643536:0;code .
 : 1678644741:0;cd /mnt/r10/trojan/
-: 1678644742:0;ls
 : 1678644757:0;mv trojan.json client.json
 : 1678644778:0;code /etc/systemd/system/multi-user.target.wants/trojan.service
-: 1678644790:0;systemctl restart trojan
 : 1678644795:0;systemctl daemon-reload
-: 1678644796:0;systemctl restart trojan
-: 1678644909:0;cd ..
-: 1678644909:0;ls
 : 1678644919:0;cp vps/4fm.top_other.zip trojan
-: 1678644921:0;cd trojan/
-: 1678644924:0;unzip 4fm.top_other.zip
 : 1678644929:0;apt install unzip
-: 1678644933:0;unzip 4fm.top_other.zip
-: 1678645053:0;systemctl restart trojan
-: 1678645088:0;cd
-: 1678645098:0;code .oh-my-zsh/ohmyzsh-custom/alias.zsh
 : 1678645121:0;source .zshrc
 : 1678645125:0;sjp
-: 1678645126:0;sp
-: 1678645133:0;curl google.com
-: 1678645154:0;systemctl status trojan
-: 1678645161:0;curl google.com
 : 1678645174:0;curl https://google.com
-: 1678645187:0;ping google.com
 : 1678645531:0;which node
 : 1678645538:0;/usr/bin/node -v
-: 1678645542:0;/usr/bin/npm -v
 : 1678645555:0;ln -sf /usr/local/bin/npm /usr/bin/npm
 : 1678645558:0;/usr/bin/npm -v
-: 1678676914:0;ls
-: 1678677011:0;cd /mnt/r10/kavita/
-: 1678677013:0;ls
-: 1678677021:0;cd 20230308/
-: 1678677021:0;ls
 : 1678677025:0;cd 20230311/
-: 1678677026:0;ls
-: 1678677028:0;cd ..
 : 1678677034:0;mv ÁªÉπÂπ¥ËΩª‰∫∫ÁÉ∫É§ÂøÉÄÂÉ±É™.pdf /mnt/r10/kavita/2023008
-: 1678677215:0;ls
-: 1678677228:0;cd kavita/
-: 1678677228:0;ls
-: 1678677237:0;cd /mnt/r10/kavita/
-: 1678677238:0;ls
 : 1678677256:0;mv 2023008/* 20230308
-: 1678677259:0;ls
 : 1678677273:0;mv 202300 ÁªÉπÂπ¥ËΩª‰∫∫ÁÉ∫É§ÂøÉÄÂÉ±É™.pdf
 : 1678677279:0;mv 2023008 ÁªÉπÂπ¥ËΩª‰∫∫ÁÉ∫É§ÂøÉÄÂÉ±É™.pdf
-: 1678677279:0;ls
 : 1678677289:0;mv ÁªÉπÂπ¥ËΩª‰∫∫ÁÉ∫É§ÂøÉÄÂÉ±É™.pdf 20230308
 : 1678677314:0;cd 20230308/
-: 1678677314:0;ls
-: 1678677427:0;cd ..
-: 1678677428:0;ls
-: 1678677434:0;la
-: 1678677447:0;chown mingwiki:1000 -R *
-: 1678677452:0;ls
-: 1678677457:0;la
 : 1678677613:0;mkdir 20230313
 : 1678677624:0;cp 20230308/ÁªÉπÂπ¥ËΩª‰∫∫ÁÉ∫É§ÂøÉÄÂÉ±É™.pdf 20230313
-: 1678677627:0;la
-: 1678677631:0;chown mingwiki:1000 -R *
-: 1678677715:0;cd 20230313/
-: 1678677716:0;ls
-: 1678677718:0;wget http://www.magicflu.com/mfservice/html/book/list/%E7%A8%BB%E7%9B%9B%E5%92%8C%E5%A4%AB/%E7%A8%BB%E7%9B%9B%E5%92%8C%E5%A4%AB%E7%BB%99%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%9A%84%E5%BF%A0%E5%91%8A_13022919.pdf
 : 1678677769:0;z 0313
-: 1678677771:0;sp
 : 1678677774:0;http://www.magicflu.com/mfservice/html/book/list/%E7%A8%BB%E7%9B%9B%E5%92%8C%E5%A4%AB/%E7%A8%BB%E7%9B%9B%E5%92%8C%E5%A4%AB%E7%BB%99%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%9A%84%E5%BF%A0%E5%91%8A_13022919.pdf
 : 1678677777:0;wget http://www.magicflu.com/mfservice/html/book/list/%E7%A8%BB%E7%9B%9B%E5%92%8C%E5%A4%AB/%E7%A8%BB%E7%9B%9B%E5%92%8C%E5%A4%AB%E7%BB%99%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%9A%84%E5%BF%A0%E5%91%8A_13022919.pdf
-: 1678677782:0;ls
 : 1678677788:0;rm Á®ªÁÉªÉªÂÉ≤É¨Â§´ÁªÉπÂπ¥ËΩª‰∫∫ÁÉ∫É§ÂøÉÄÂÉ±É™_13022919.pdf.1
-: 1678677788:0;ls
-: 1678677815:0;z 0308
-: 1678677815:0;ls
-: 1678677818:0;rm ÁªÉπÂπ¥ËΩª‰∫∫ÁÉ∫É§ÂøÉÄÂÉ±É™.pdf
-: 1678677819:0;cd ..
-: 1678677820:0;ls
 : 1678678092:0;open Á®ªÁÉªÉªÂÉ≤É¨Â§´ÁªÉπÂπ¥ËΩª‰∫∫ÁÉ∫É§ÂøÉÄÂÉ±É™_13022919.pdf
-: 1678678201:0;code .
-: 1678678768:0;ls
 : 1678678782:0;mkdir ÁªÉπÂπ¥ËΩª‰∫∫ÁÉ∫É§ÂøÉÄÂÉ±É™
 : 1678678789:0;mv *.pdf ÁªÉπÂπ¥ËΩª‰∫∫ÁÉ∫É§ÂøÉÄÂÉ±É™
-: 1678678790:0;ls
 : 1678678793:0;chown mingwiki:1000 -R *
-: 1678678794:0;cd
-: 1678678892:0;ls
-: 1678678895:0;cd /mnt/r10/kavita/
-: 1678678896:0;ls
 : 1678678899:0;cd 0228
-: 1678678900:0;ls
 : 1678678904:0;cd 20230228/
-: 1678678904:0;ls
-: 1678678906:0;..
-: 1678678906:0;ls
 : 1678678912:0;code .
 : 1678678954:0;find . -type f --deps 1
 : 1678678958:0;find . -type f --depths 1
@@ -564,444 +204,159 @@ or been moved out of Incoming.
 : 1678679007:0;find . -depth 1 -type 1
 : 1678679010:0;find . -depth 1 -type f
 : 1678679089:0;find . -maxdepth 1 -type f
-: 1678679095:0;find . -maxdepth 2 -type f
 : 1678679140:0;find . -maxdepth 2 -type f | xargs -I{} mv {} 20230313
 : 1678679150:0;find . -maxdepth 2 -type
 : 1678679154:0;find . -maxdepth 2 -type f
 : 1678679163:0;cd 0313
-: 1678679166:0;cd 20230313/
-: 1678679166:0;ls
 : 1678679186:0;mkdir append
 : 1678679208:0;lsfind . -maxdepth 1 -type f | xargs -I{} mv {} append
 : 1678679217:0;find . -maxdepth 1 -type f | xargs -I{} mv {} append
-: 1678679218:0;ls
-: 1678679220:0;cd
 : 1678679255:0;z 0308
-: 1678679256:0;cd ..
 : 1678679259:0;cd 20230313/
-: 1678679259:0;ls
 : 1678679262:0;cd ÁªÉπÂπ¥ËΩª‰∫∫ÁÉ∫É§ÂøÉÄÂÉ±É™/
-: 1678679263:0;ls
 : 1678679267:0;rm ÁªÉπÂπ¥ËΩª‰∫∫ÁÉ∫É§ÂøÉÄÂÉ±É™.pdf
-: 1678679268:0;ls
-: 1678679268:0;cd
-: 1678687686:0;systemctl status trojan
-: 1678687698:0;sp
-: 1678687701:0;curl google.com
-: 1678687705:0;unsp
-: 1678688046:0;curl -v https://rsshub.app/juejin/category/ai
 : 1678688063:0;curl 4.ipw.cn
-: 1678688072:0;sp
 : 1678688073:0;curl -v https://rsshub.app/juejin/category/ai
-: 1678688081:0;unsp
-: 1678688550:0;ls
-: 1678688552:0;z compose
-: 1678688553:0;ls
 : 1678688557:0;cd freshrss/
-: 1678688558:0;ls
 : 1678688564:0;code config.php
-: 1678688677:0;ls
-: 1678688691:0;cd
 : 1678689361:0;code /mnt/r10/trojan.json
 : 1678689375:0;code /mnt/r10/trojan/client.json
-: 1678689410:0;systemctl restart trojan
-: 1678689413:0;systemctl status trojan
-: 1678689497:0;systemctl restart trojan
-: 1678689498:0;systemctl status trojan
 : 1678689685:0;z compsoe
-: 1678689685:0;ls
 : 1678689690:0;cd /mnt/r10/compose
-: 1678689691:0;ls
-: 1678689696:0;rm -rf freshrss
-: 1678689704:0;docker compose up -d
 : 1678689801:0;rm -rf freshrss
-: 1678689802:0;docker compose up -d
-: 1678689962:0;systemctl restart trojan
-: 1678690020:0;sp
-: 1678690022:0;ping google.com
-: 1678690103:0;curl google.com
-: 1678690297:0;unsp
-: 1678697753:0;ls
-: 1678697766:0;gl
 : 1678697818:0;ps
 : 1678697820:0;ps aux | grep fdupes
 : 1678697827:0;elast
-: 1678697828:0;docker ps
-: 1678697889:0;cd /mnt/
-: 1678697890:0;ls
 : 1678697893:0;cd alist/aliyun/
-: 1678697894:0;ls
 : 1678697904:0;mv „ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/r1
-: 1678697932:0;nsync -rvhP /mnt/alist/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/r1
-: 1678697939:0;ps aux | grep rsync
-: 1678697943:0;cd
-: 1678697945:0;tail -F rsync.log
-: 1678698002:0;ps aux | grep rsync
-: 1678698004:0;docker ps
 : 1678698133:0;lls
 : 1678698134:0;cd .ssh/
-: 1678698135:0;ls
 : 1678698138:0;rm known_hosts*
-: 1678698139:0;ls
-: 1678698140:0;..
-: 1678698140:0;ls
 : 1678698184:0;cd /mnt/
 : 1678698189:0;umount aliyun
-: 1678698191:0;ls
 : 1678698198:0;umount alist
-: 1678698230:0;cd
 : 1678698234:0;z comp
-: 1678698236:0;code docker-compose.yml
 : 1678698240:0;code nginx-conf
-: 1678698397:0;docker compose up -d
 : 1678698854:0;docker container prune
 : 1678698862:0;docker image prune -a
 : 1678698873:0;docker volume prune
-: 1678698977:0;..
-: 1678698978:0;ls
 : 1678698979:0;cd aliyun-ddns/
-: 1678698980:0;ls
 : 1678698983:0;code data.js
 : 1678698997:0;code index.js
-: 1678699037:0;npm start
-: 1678700687:0;..
-: 1678700687:0;ls
-: 1678700689:0;cd vps/
-: 1678700689:0;ls
-: 1678700694:0;code nginx.conf
-: 1678700855:0;..
-: 1678700857:0;cd trojan/
-: 1678700859:0;code client.json
-: 1678700872:0;systemctl restart trojan
-: 1678704032:0;..
 : 1678704033:0;cd kavita/
 : 1678704077:0;nohup fdupes -rdp1I /mnt/r1 &> ~/fudpes.log &
-: 1678704082:0;gl
-: 1678704124:0;ls
 : 1678704153:0;nohup fdupes -rdp1I . &> ~/kavita.log &
-: 1678704155:0;gl
-: 1678704557:0;ls
-: 1678704559:0;code .oh-my-zsh/ohmyzsh-custom/alias.zsh
-: 1678704776:0;sz
 : 1678704785:0;sc
 : 1678704810:0;git config --global user.name mingwiki
 : 1678704817:0;git config --global user.email mingwiki@gmail.com
-: 1678704835:0;ls
-: 1678704840:0;cd .oh-my-zsh/ohmyzsh-custom/
 : 1678704844:0;git push origin master
 : 1678704851:0;git push
-: 1678704868:0;ls
 : 1678704872:0;mv -h
 : 1678704876:0;mv --help
-: 1678704918:0;sz
-: 1678704974:0;cd
 : 1678704974:0;gla
 : 1678704978:0;glances
-: 1678718806:0;ls
-: 1678718811:0;cd /mnt/r1
-: 1678718811:0;ls
-: 1678718813:0;cd WebDevSimplified
-: 1678718814:0;ls
-: 1678718827:0;code playlist.txt
-: 1678718934:0;yt --yes-playlist --download-archive archive.txt --batch-file playlist.txt -o "%(playlist_index)s/%(title)s.%(ext)s"
-: 1678718949:0;ls
 : 1678718954:0;pip
 : 1678718958:0;python -v
 : 1678718967:0;apt install python-pip3
 : 1678718972:0;apt install python3-pip
 : 1678718982:0;pip install yt-dlp
 : 1678719147:0;yt --yes-playlist --download-archive archive.txt --batch-file playlist.txt -o "%(playlist_index)s/%(title)s.%(ext)s"
-: 1678719157:0;ls
 : 1678719163:0;tail -F yt-dlp.log
-: 1678719165:0;ls
 : 1678719167:0;cd 1
-: 1678719168:0;ls
-: 1678719170:0;cd ..
-: 1678719170:0;ls
 : 1678719200:0;kill 985294
-: 1678719203:0;rm yt-dlp.log
-: 1678719205:0;ls
 : 1678719220:0;find . -type d -delete
 : 1678719223:0;find . -type d -delete -f
 : 1678719232:0;find . -type d -delete r
 : 1678719234:0;find . -type d -delete -r
-: 1678719259:0;ls
 : 1678719272:0;rm -rf 1 2 3 4 5 archive.txt
 : 1678719375:0;yt --yes-playlist --download-archive archive.txt --batch-file playlist.txt -o "%(playlist)s/%(title)s.%(ext)s"
-: 1678719378:0;ls
 : 1678719395:0;watch tail -F yt-dlp.log
 : 1678719404:0;watch tail -n 20 yt-dlp.log
 : 1678719417:0;watch tail -n 30 yt-dlp.log
-: 1678720274:0;z compose
-: 1678720277:0;code docker-compose.yml
-: 1678720295:0;docker compose up -d
-: 1678720363:0;ls
-: 1678720379:0;docker compose up -d
 : 1678720507:0;docker run -i messense/aliyundrive-webdav aliyundrive-webdav qr login
 : 1678720520:0;docker run -i messense/aliyundrive-webdav:main aliyundrive-webdav qr login
-: 1678720687:0;docker compose up -d
 : 1678720707:0;cd /mnt
-: 1678720708:0;ls
 : 1678720709:0;cd alist/
-: 1678720710:0;ls
-: 1678720711:0;cd ..
-: 1678720714:0;rm -rf alist
 : 1678720717:0;mkdir aliyun
-: 1678720718:0;ls
 : 1678720737:0;mount -t davfs http://localhost:8080 /mnt/aliyun
-: 1678720741:0;ls
-: 1678720742:0;cd aliyun/
-: 1678720743:0;ls
 : 1678720765:0;nsync -rvhP /mnt/alist/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/r1
-: 1678720780:0;nsync -rvhP /mnt/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/r1
-: 1678720799:0;ls
-: 1678720837:0;killall rsync
 : 1678720841:0;rm rsync.log
-: 1678720843:0;cd
-: 1678720848:0;code .oh-my-zsh/ohmyzsh-custom/alias.zsh
-: 1678720908:0;sz
-: 1678720910:0;ls
 : 1678720914:0;cd aliyun/
 : 1678720917:0;z aliyun
-: 1678720918:0;ls
-: 1678720923:0;nsync -rvhP /mnt/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/r1
-: 1678720953:0;sz
-: 1678720962:0;cd
-: 1678720963:0;ls
-: 1678720972:0;tail -F rsync.log
-: 1678720976:0;ls
 : 1678720987:0;less fudpes.log
-: 1678720990:0;ls
 : 1678720992:0;rm fudpes.log
-: 1678720993:0;ls
 : 1678720999:0;less kavita
 : 1678721001:0;less kavita.log
-: 1678721011:0;ls
 : 1678721012:0;rm kavita
 : 1678721015:0;rm kavita.log
-: 1678721015:0;ls
 : 1678721020:0;less rsync.log
-: 1678721032:0;ls
-: 1678721246:0;sz
-: 1678721271:0;ls
 : 1678721280:0;gal
-: 1678721282:0;gl
-: 1678721297:0;ps aux | grep yt
-: 1678721307:0;gl
-: 1678722209:0;cd
-: 1678722211:0;ls
 : 1678722213:0;cat rsync.log
-: 1678722231:0;nsync -rvhP /mnt/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/r1
-: 1678722240:0;ls
-: 1678722245:0;gl
-: 1678722618:0;nsync -rvhP /mnt/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/r1
-: 1678722635:0;gl
 : 1678722674:0;tail -F rsync.log
-: 1678722679:0;ls
 : 1678722700:0;cd /mnt/r1/
 : 1678722704:0;cd WebDevSimplified
-: 1678722706:0;ls
 : 1678722715:0;wt archive.txt
-: 1678722732:0;ls
-: 1678722741:0;wt yt-dlp.log
-: 1678723882:0;ls
-: 1678723895:0;tail -f yt-dlp.log
-: 1678723901:0;ls
-: 1678723909:0;cd
-: 1678723913:0;nsync -rvhP /mnt/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/r1
-: 1678723919:0;gl
-: 1678724080:0;ls
-: 1678724081:0;cd
-: 1678724081:0;ls
-: 1678724773:0;wt rsync.log
-: 1678724872:0;ps aux | grep yt
-: 1678724878:0;ps aux | grep yt-dlp
-: 1678724889:0;ps aux | grep rsync
-: 1678724893:0;ls
-: 1678724901:0;cd
-: 1678724902:0;ll
-: 1678724908:0;gl
-: 1678759208:0;ls
-: 1678759211:0;nsync -rvhP /mnt/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/r1
 : 1678759226:0;ps aux | grep yt-dlp
-: 1678759228:0;ls
-: 1678759236:0;cd /mnt/r1/WebDevSimplified/
-: 1678759237:0;ls
-: 1678759630:0;yt
-: 1678759637:0;ls
 : 1678759641:0;yt-dlp -h
 : 1678759684:0;yt-dlp --list-extractors
 : 1678759695:0;yt-dlp --list-extractors | less
-: 1678759793:0;ls
-: 1678759795:0;cd
-: 1678759797:0;code .oh-my-zsh/ohmyzsh-custom/alias.zsh
-: 1678759847:0;sz
-: 1678765926:0;journalctl -u trojan -f
-: 1678766216:0;sp
-: 1678766240:0;ping google.com
-: 1678766259:0;curl google.com
 : 1678766294:0;curl github.com
-: 1678766418:0;z compose
-: 1678766421:0;code wireguard
-: 1678766589:0;curl google.com
-: 1678767522:0;..
 : 1678767532:0;code trojan/client.json
 : 1678767791:0;systemctl status trojan
-: 1678767798:0;journalctl -u trojan -f
-: 1678767860:0;sp
-: 1678767864:0;curl google.com
-: 1678767934:0;z compose
-: 1678767936:0;docker compose up -d
-: 1678768009:0;ls
 : 1678768009:0;sss
-: 1678768009:0;ls
-: 1678768015:0;rm -rf wireguard
-: 1678768017:0;docker compose up -d
 : 1678768037:0;code wi
-: 1678768047:0;code wireguard
-: 1678768057:0;ls
-: 1678768069:0;docker compose up -d
-: 1678768084:0;ls
-: 1678768090:0;code wireguard
-: 1678768537:0;z compose
 : 1678768539:0;rm -rf wireguard
-: 1678768542:0;docker compose up -d
-: 1678768555:0;code wireguard
-: 1678768562:0;ls
-: 1678768568:0;docker compose up -d
-: 1678768581:0;ls
-: 1678768593:0;docker compose up -d
 : 1678768625:0;code wireguard
-: 1678768706:0;docker compose up -d
-: 1678780055:0;ls
-: 1678780056:0;gl
 : 1678780071:0;nsync -rvhP /mnt/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/r1
 : 1678781243:0;rsync -h
-: 1678781324:0;tldr rsync
 : 1678781331:0;apt install tldr
-: 1678781335:0;sp
-: 1678781337:0;tldr -u
-: 1678781349:0;unsp
 : 1678781355:0;tldr rsync
 : 1678781535:0;nsync -avzhP /mnt/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/r1
-: 1678781803:0;ps aux | grep rsync
-: 1678781806:0;kill rsync
-: 1678781815:0;killall rsync
 : 1678781817:0;kill rsync
-: 1678781818:0;killall rsync
-: 1678781819:0;ps aux | grep rsync
-: 1678781822:0;ls
 : 1678781835:0;killall rsync
-: 1678781838:0;ps aux | grep rsync
 : 1678781857:0;nsync -rvztuchP /mnt/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/r1
-: 1678781909:0;ps aux | grep rsync
-: 1678781911:0;ls
-: 1678781958:0;wt rsync.log
-: 1678782144:0;ps aux | grep core
 : 1678782246:0;docker ps --filter "ancestor=coredns/coredns"
 : 1678782249:0;docker ps
 : 1678782259:0;docker ps --filter "ancestor=coredns/coredns" --format "{{.ID}} {{.Command}}"
 : 1678782263:0;docker ps --format "{{.ID}} {{.Command}}" | grep "/usr/bin/coredns"
-: 1678782336:0;ls
 : 1678782345:0;lsof -i:53
-: 1678782356:0;lsof -i
-: 1678782374:0;gl
 : 1678782642:0;nsync -rvztchP /mnt/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/r1
-: 1678782648:0;wt rsync.log
 : 1678782706:0;pm2
-: 1678782708:0;ls
 : 1678782710:0;pm2 ls
 : 1678782716:0;pm2 log
-: 1678782790:0;cl
 : 1678782794:0;pstree
 : 1678782797:0;pstree -h
-: 1678782858:0;ls
 : 1678782861:0;tldr pstree
-: 1678782867:0;ls
 : 1678782938:0;ps aux | grep core
 : 1678782952:0;pstree -p 1382557
 : 1678782966:0;pstree -p 1382368
-: 1678783011:0;code /mnt/r10/compose/daemon.json
-: 1678783026:0;cat /etc/docker/daemon.json
-: 1678783035:0;ll /etc/docker
 : 1678783083:0;ln -sf /mnt/r10/compose/daemon.json /etc/docker/daemon.json
 : 1678783086:0;ll /etc/docker
 : 1678783099:0;cat /etc/docker/daemon.json
-: 1678783147:0;cd
-: 1678783147:0;ls
-: 1678783148:0;ll
-: 1678783150:0;la
 : 1678783166:0;rm .zsh_history
-: 1678783167:0;ls
-: 1678783168:0;la
 : 1678783182:0;rm .bash*
-: 1678783183:0;la
 : 1678783188:0;df -h
-: 1678783667:0;code .oh-my-zsh/ohmyzsh-custom/
-: 1678783801:0;ls
-: 1678783823:0;nsync -rvztchP /mnt/aliyun/„ÄÉ∞imooc-480„ÄÉ±JavaÈ´É∏Á∫ßÈÉΩÉÇËØÉµÁ™ÅÂÉª¥ËØæ\ ,ÊÉ∞ÉæÂÆÉ∫Java‰∏≠È´É∏Á∫ßÈÉΩÉÇËØÉµÁÉ∫É§ÂøÉ•ËÄÉ£ÁÇπ /mnt/r1
-: 1678784166:0;code .oh-my-zsh/ohmyzsh-custom/
 : 1678786385:0;docker push ghcr.io mingwiki/anki-sync-server:latest
-: 1678786398:0;docker push ghcr.io/mingwiki/anki-sync-server:latest
 : 1678786412:0;docker images
 : 1678786444:0;docker tag mingwiki/anki-sync-server ghcr.io/mingwiki/anki-sync-server:latest
 : 1678786450:0;docker tag mingwiki/anki-sync-server:v1.2 ghcr.io/mingwiki/anki-sync-server:latest
-: 1678786456:0;docker push ghcr.io/mingwiki/anki-sync-server:latest
-: 1678786552:0;sz
-: 1678786567:0;docker push ghcr.io/mingwiki/anki-sync-server:latest
-: 1678786628:0;sz
 : 1678786633:0;echo $CR_PAT | docker login ghcr.io -u mingwiki --password-stdin
 : 1678786638:0;docker push ghcr.io/mingwiki/anki-sync-server:latest
-: 1678786661:0;ls
-: 1678786663:0;la
-: 1678786664:0;ls
 : 1678786671:0;docker tag mingwiki/anki-sync-server:v1.2 ghcr.io/mingwiki/anki-sync-server:v1.2
 : 1678786678:0;docker push ghcr.io/mingwiki/anki-sync-server:v1.2
 : 1678788256:0;nsync -rvztchP /mnt/aliyun/„ÄÉ∞imooc-480„ÄÉ±JavaÈ´É∏Á∫ßÈÉΩÉÇËØÉµÁ™ÅÂÉª¥ËØæ\ ,ÊÉ∞ÉæÂÆÉ∫Java‰∏≠È´É∏Á∫ßÈÉΩÉÇËØÉµÁÉ∫É§ÂøÉ•ËÄÉ£ÁÇπ /mnt/r1
-: 1678789544:0;cd
-: 1678789545:0;sz
-: 1678789551:0;yt
-: 1678789917:0;sz
-: 1678789919:0;yt
-: 1678790077:0;sz
-: 1678790082:0;yt
-: 1678790094:0;sz
-: 1678790108:0;yt
-: 1678790154:0;sz
-: 1678790172:0;curl google.com
-: 1678790174:0;sp
 : 1678790175:0;curl google.com
-: 1678790177:0;unsp
 : 1678790293:0;p
-: 1678790629:0;sz
-: 1678790931:0;awk '!a[$0]++' zsh_history > zsh_history_new
 : 1678790940:0;cd .oh-my-zsh/ohmyzsh-custom/
 : 1678790942:0;awk '!a[$0]++' zsh_history > zsh_history_new
-: 1678790983:0;sz
-: 1678791043:0;yt
 : 1678791142:0;nsync -rvztchP /mnt/aliyun/„ÄÉ∞imooc-582„ÄÉ±ËΩªÊÉΩæÂÉ••ÈÉ∑®Â§ßÊÉµ∞ÊÉ≠Æ\ ‰∏ÄÁ´ÉπÂºÉØÂÆÉ¨ÊÉ®É∞ÊÉÄ∏ÂøÉ£ËÉ£ΩÂÉ™ÉªÊÉæÉ§Âª∫ /mnt/r1
-: 1678793437:0;ps aux | grep rsync
-: 1678793443:0;wt rsync.log
 : 1678803621:0;z r1
-: 1678803622:0;ls
-: 1678803623:0;cd ..
-: 1678803628:0;cd r1
-: 1678803628:0;ls
-: 1678803696:0;nsync -rvztchP /mnt/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/aliyun/„ÄÉ∞imooc-480„ÄÉ±JavaÈ´É∏Á∫ßÈÉΩÉÇËØÉµÁ™ÅÂÉª¥ËØæ\ ,ÊÉ∞ÉæÂÆÉ∫Java‰∏≠È´É∏Á∫ßÈÉΩÉÇËØÉµÁÉ∫É§ÂøÉ•ËÄÉ£ÁÇπ /mnt/aliyun/„ÄÉ∞imooc-582„ÄÉ±ËΩªÊÉΩæÂÉ••ÈÉ∑®Â§ßÊÉµ∞ÊÉ≠Æ\ ‰∏ÄÁ´ÉπÂºÉØÂÆÉ¨ÊÉ®É∞ÊÉÄ∏ÂøÉ£ËÉ£ΩÂÉ™ÉªÊÉæÉ§Âª∫ /mnt/aliyun/lost+found /mnt/aliyun/NieR:Automata\ Ver1.1aÔºÉ®ÂÉ±®ÂÉ•≠23ÁÇπÔºÉ© /mnt/aliyun/„ÄÉ∞ÂÉ≤ÉµÊ≥ÉÅÂ≠¶ÈÉπÉÇ„ÄÉ±P4ÔºÉ∫PythonÂÉø∫ÁÉÅÄÂÉ••ÈÉ∑®ÂÆÉæÊÉ®É∏ÁÉØ≠\(PythonÂÉø∫ÁÉÅÄ+È´É∏Á∫ß\) /mnt/aliyun/ÂøÉ§ÁÉ¥ÉøÂÉ∞∏ÂºÉµÂÉ™Éª\(2022\)\ 4K /mnt/aliyun/Ê≠¶‰æÉÄÂ∞ÉØËØ¥ÂÉ∞É®ÈÉªÉ¶ÔºÉ®1912ÈÉ£®ÔºÉ© /mnt/aliyun/ËÉ´±ËØ≠Â≠¶‰πÉÄ‰π¶Á±É≠ /mnt/r1
-: 1678803715:0;cd
-: 1678803715:0;gl
-: 1678812070:0;ls
 : 1678812114:0;cd /mnt/r10/kavita/
-: 1678812115:0;ls
 : 1678812127:0;mkdir 20230315
 : 1678812130:0;cd 20230315/
-: 1678812131:0;ls
 : 1678812133:0;wget https://apuntespme.cl/biblio/AXLER_LINEARALGEBRA.pdf
 : 1678812173:0;mkdir AXLER
 : 1678812177:0;mv AXLER_LINEARALGEBRA.pdf AXLER
-: 1678812179:0;ls
-: 1678812181:0;cd
-: 1678812181:0;ls
 : 1678855457:0;nmap -sS -sV -T4 -A -v -Pn
 : 1678855462:0;apt install nmap
 : 1678855470:0;apt install nmap 10.10.10.10
@@ -1010,155 +365,67 @@ or been moved out of Incoming.
 : 1678855901:0;nmap -sV --script=ssh-auth-methods 10.10.10.10
 : 1678856063:0;apt install wireshark
 : 1678856089:0;tldr wireshare
-: 1678856091:0;tldr wireshark
 : 1678856095:0;dp
-: 1678856097:0;s
-: 1678856098:0;sp
 : 1678856101:0;tldr -u
 : 1678856109:0;tldr wireshark
 : 1678856112:0;uns[
-: 1678856114:0;unsp
 : 1678856118:0;wireshark -h
 : 1678856147:0;wireshark -I
 : 1678856157:0;wireshark
 : 1678856235:0;wireshark -H
 : 1678856244:0;wireshark -Y
-: 1678856305:0;tshark
 : 1678856312:0;wireshark -i enth0
 : 1678856315:0;wireshark -i eth0
-: 1678856324:0;ip addr
 : 1678856365:0;ip addrls
-: 1678856365:0;ls
 : 1678856373:0;apt remove wireshark
 : 1678856401:0;apt install tshark
 : 1678856408:0;tshark
 : 1678856613:0;iptables
 : 1678856615:0;iptables -h
 : 1678856622:0;iptables -h -v
-: 1678856636:0;tldr iptables
 : 1678856675:0;iptabiiptables -vnL
-: 1678856678:0;iptables -vnL
-: 1678856757:0;tldr iptables
 : 1678856822:0;rg 'iptables' /var/log/syslog
 : 1678856824:0;grep 'iptables' /var/log/syslog
 : 1678856836:0;iptables-save
 : 1678857105:0;apt install rg
 : 1678857109:0;apt install ripgrep
 : 1678857133:0;apt autoremove
-: 1678857153:0;ls
-: 1678857159:0;yt
-: 1678857161:0;ls
 : 1678857166:0;nsync -rvztchP /mnt/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ /mnt/aliyun/„ÄÉ∞imooc-480„ÄÉ±JavaÈ´É∏Á∫ßÈÉΩÉÇËØÉµÁ™ÅÂÉª¥ËØæ\ ,ÊÉ∞ÉæÂÆÉ∫Java‰∏≠È´É∏Á∫ßÈÉΩÉÇËØÉµÁÉ∫É§ÂøÉ•ËÄÉ£ÁÇπ /mnt/aliyun/„ÄÉ∞imooc-582„ÄÉ±ËΩªÊÉΩæÂÉ••ÈÉ∑®Â§ßÊÉµ∞ÊÉ≠Æ\ ‰∏ÄÁ´ÉπÂºÉØÂÆÉ¨ÊÉ®É∞ÊÉÄ∏ÂøÉ£ËÉ£ΩÂÉ™ÉªÊÉæÉ§Âª∫ /mnt/aliyun/lost+found /mnt/aliyun/NieR:Automata\ Ver1.1aÔºÉ®ÂÉ±®ÂÉ•≠23ÁÇπÔºÉ© /mnt/aliyun/„ÄÉ∞ÂÉ≤ÉµÊ≥ÉÅÂ≠¶ÈÉπÉÇ„ÄÉ±P4ÔºÉ∫PythonÂÉø∫ÁÉÅÄÂÉ••ÈÉ∑®ÂÆÉæÊÉ®É∏ÁÉØ≠\(PythonÂÉø∫ÁÉÅÄ+È´É∏Á∫ß\) /mnt/aliyun/ÂøÉ§ÁÉ¥ÉøÂÉ∞∏ÂºÉµÂÉ™Éª\(2022\)\ 4K /mnt/aliyun/Ê≠¶‰æÉÄÂ∞ÉØËØ¥ÂÉ∞É®ÈÉªÉ¶ÔºÉ®1912ÈÉ£®ÔºÉ© /mnt/aliyun/ËÉ´±ËØ≠Â≠¶‰πÉÄ‰π¶Á±É≠ /mnt/r1
-: 1678857174:0;ps aux | grep rsync
-: 1678857180:0;ls
-: 1678857184:0;wt rsync.log
-: 1678862080:0;ps aux | grep rsync
-: 1678862083:0;wt rsync.log
-: 1678863531:0;cl
-: 1678863532:0;ls
 : 1678863538:0;git clone git@github.com:mingwiki/gpt.git
-: 1678863544:0;fuck
 : 1678863547:0;apt install thefuck
-: 1678863553:0;fuck
 : 1678863586:0;apt remove thefuck
-: 1678863589:0;ls
 : 1678863600:0;code gpt
-: 1678863695:0;cd
 : 1678863699:0;code .oh-my-zsh/ohmyzsh-custom/alias.zsh
-: 1678863722:0;code .zshrc
-: 1678863732:0;sz
 : 1678863741:0;pip install thefuck
-: 1678863745:0;fuck
-: 1678863749:0;sz
-: 1678863752:0;fuck
-: 1678863771:0;sz
 : 1678863776:0;fuck
-: 1678863787:0;dz
-: 1678863788:0;sz
-: 1678863915:0;npm -v
 : 1678863922:0;npm init
-: 1678863982:0;ls
 : 1678863986:0;rm package.json
 : 1678863987:0;cd gpt/
-: 1678863988:0;ls
 : 1678863991:0;npm init -y
 : 1678864067:0;npm i -g nodemon
-: 1678864080:0;npm start
 : 1678865322:0;cat text| app.js
 : 1678865328:0;cat text|./ app.js
-: 1678865332:0;cat text| ./app.js
 : 1678865338:0;chmod a+x app.js
-: 1678865339:0;cat text| ./app.js
 : 1678866037:0;hello | ./app.js
 : 1678866044:0;'hello' | ./app.js
 : 1678866066:0;\hello | ./app.js
-: 1678866719:0;cat text| ./app.js
 : 1678866758:0;g
 : 1678866761:0;npx g
 : 1678866787:0;t
 : 1678866800:0;npx t
 : 1678866819:0;cat text| ./app.js
-: 1678866830:0;cat text.txt| ./app.js
 : 1678867318:0;./app.js text.txt
 : 1678869155:0;npm install ora
 : 1678869174:0;npm install --save inquirer
-: 1678869189:0;ls
-: 1678869225:0;cat text.txt| ./app.js
 : 1678869518:0;npm i commander
-: 1678869530:0;cat text.txt| ./app.js
-: 1678869651:0;./app.js --help
 : 1678869680:0;npx eslint init
-: 1678869730:0;ls
-: 1678869876:0;npm i chalk
-: 1678869888:0;./app.js --help
 : 1678869900:0;npm i chalk
 : 1678869904:0;./app.js --help
 : 1678869913:0;cat text.txt| ./app.js
-: 1678871252:0;cl
-: 1678871252:0;cd
-: 1678871253:0;ls
-: 1678871257:0;wt rsync.log
-: 1678871266:0;ps aux | grep rsync
-: 1678871289:0;nsync -rvztchP /mnt/aliyun/NieR:Automata\ Ver1.1aÔºÉ®ÂÉ±®ÂÉ•≠23ÁÇπÔºÉ© /mnt/r1
-: 1678871309:0;wt rsync.log
-: 1678871312:0;ps aux | grep rsync
-: 1678871319:0;cl
-: 1678871322:0;ps aux | grep rsync
-: 1678871324:0;cl
-: 1678871325:0;ls
-: 1678871328:0;wt rsync.log
-: 1678873616:0;ps aux | grep rsync
-: 1678873619:0;cl
-: 1678873620:0;ps aux | grep rsync
-: 1678873623:0;cl
-: 1678873625:0;wt rsync.log
-: 1678873628:0;tail -f yt-dlp.log
-: 1678873632:0;ls
-: 1678873633:0;rm yt-dlp.log
 : 1678873641:0;rm rsync.log zsh_history_new
-: 1678873642:0;ls
-: 1678873646:0;ps aux | grep rsync
-: 1678873655:0;ls
-: 1678873657:0;ps aux | grep rsync
-: 1678873659:0;cl
-: 1678873661:0;gl
-: 1678873693:0;cd
-: 1678873693:0;ls
 : 1678873762:0;cd /mnt/aliyun/„ÄÉ∞imooc-464„ÄÉ±Kubernetes\ ÂÉ••ÈÉ∑®ÂÉ®∞ËøÉªÈÉ∏∂ÂÆÉæÊÉ®É∏ÔºÉ¨Á≥ªÁªÉøÊÄßÊÉÆÉ¨ÊÉØÉÅ\ K8s\ ÁÉ¥Éø‰∫ßÂÆÉæË∑µ/
-: 1678873763:0;ls
-: 1678877003:0;cd
-: 1678877036:0;code autoblock.js
-: 1678877189:0;node autoblock.js
 : 1678878144:0;lsof -i
 : 1678878149:0;lsof -i:
-: 1678878215:0;node autoblock.js
-: 1678881557:0;cd
-: 1678881564:0;ps aux | grep rsync
-: 1678881570:0;wt rsync.log
-: 1678881574:0;ls
-: 1678881615:0;nsync -rvztchP /mnt/aliyun/NieR:Automata\ Ver1.1aÔºÉ®ÂÉ±®ÂÉ•≠23ÁÇπÔºÉ© /mnt/r1
-: 1678882117:0;wt rsync.log
-: 1678882120:0;ls
 : 1678882122:0;code autoblock.js
 : 1678882161:0;node autoblock.js
 : 1678882818:0;tldr iptables
@@ -1167,75 +434,35 @@ or been moved out of Incoming.
 : 1678883045:0;sudo iptables -L INPUT
 : 1678883055:0;sudo iptables -L INPUT -v
 : 1678883059:0;sudo iptables -L OUTPUT
-: 1678883065:0;sudo iptables -L
 : 1678883148:0;iptables -P INPUT DROP
 : 1678883150:0;sudo iptables -L
 : 1678883158:0;iptables -L
 : 1678883165:0;iptables -L -v -n
 : 1678883179:0;iptables -P DROP
-: 1678883193:0;iptables -nvL
-: 1678883245:0;iptables-save > iptables
-: 1678883252:0;code iptables
-: 1678883258:0;iptables -F
 : 1678884882:0;code iptables
 : 1678884983:0;iptables-restore < iptables
-: 1678884992:0;iptables -nvL
-: 1678885010:0;ls
 : 1678885012:0;rm autoblock.js
-: 1678885012:0;ls
 : 1678885017:0;cd /mnt/aliyun/
-: 1678885018:0;cd ..
-: 1678885023:0;z ddns
-: 1678885025:0;npm start
 : 1678885086:0;npm -v
-: 1678885089:0;npm start
 : 1678885102:0;ping google.com
-: 1678885110:0;ping baidu.com
-: 1678885191:0;iptables-restore < ~/iptables
-: 1678885194:0;ping baidu.com
 : 1678885205:0;iptables-restore < ~/iptables
-: 1678885208:0;ping baidu.com
-: 1678885298:0;code /etc/resolv.conf
-: 1678885311:0;ping baidu.com
 : 1678885329:0;iptables -F
-: 1678885355:0;ls
-: 1678885357:0;npm start
-: 1678885398:0;iptables -nvL
-: 1678885472:0;ping baidu.com
-: 1678885476:0;npm start
 : 1678885483:0;iptables -nvL
 : 1678885776:0;iptables -Fls
-: 1678885825:0;iptables-save > iptables
-: 1678885827:0;ls
-: 1678885828:0;cd
 : 1678885830:0;iptables-save > iptables
-: 1678885831:0;cd
 : 1678888409:0;nsync -rvztchP /mnt/aliyun/NieR:Automata\ Ver1.1aÔºÉ®ÂÉ±®ÂÉ•≠23ÁÇπÔºÉ© /mnt/r1
-: 1678888458:0;ls
-: 1678888459:0;gl
 : 1678888652:0;lsof -i -P -n | awk '$4 == "LISTEN" {print $2}' | xargs pstree -p
 : 1678888715:0;lsof -i -P -n
 : 1678888741:0;lsof -i -P -n | awk '$4 == "LISTEN" {print $2}'
 : 1678888867:0;sudo lsof -i -P -n | awk '$4 == "LISTEN" {print $9}' | awk -F: '{print $NF}' | sort -n | uniq | xargs -I{} sudo lsof -i :{} | awk '{print $2}' | xargs pstree -p\
 
-: 1678889075:0;l
-: 1678889081:0;cd /mnt/r1
-: 1678889081:0;ls
-: 1678889083:0;la
 : 1678889180:0;chown mingwiki:1000 -R 'ÂøÉ§ÁÉ¥ÉøÂÉ∞∏ÂºÉµÂÉ™Éª(2022) 4K' '„ÄÉ∞ÂÉ≤ÉµÊ≥ÉÅÂ≠¶ÈÉπÉÇ„ÄÉ±P4ÔºÉ∫PythonÂÉø∫ÁÉÅÄÂÉ••ÈÉ∑®ÂÆÉæÊÉ®É∏ÁÉØ≠(PythonÂÉø∫ÁÉÅÄ+È´É∏Á∫ß)' 'NieR:Automata Ver1.1aÔºÉ®ÂÉ±®ÂÉ•≠23ÁÇπÔºÉ©'
 : 1678889196:0;rm -rf alist
 : 1678889326:0;chown mingwiki:1000 -R asmr downloads *„ÄÉ∞imooc-* K40_flash Nier* python sshd_config Win_exe
 : 1678889339:0;chown mingwiki:1000 -R asmr downloads *„ÄÉ∞imooc-* K40_flash *Nier* python sshd_config Win_exe
 : 1678889346:0;chown mingwiki:1000 -R asmr downloads *„ÄÉ∞imooc-* K40_flash *NieR* python sshd_config Win_exe
-: 1678889350:0;ll
-: 1678889353:0;l
 : 1678889384:0;chown mingwiki:1000 -R ËÉ´±ËØ≠Â≠¶‰πÉÄ‰π¶Á±É≠
-: 1678889435:0;nslookup baidu.com
-: 1678889441:0;nslookup xvideos.com
-: 1678892530:0;z compose
 : 1678892547:0;rm -rf fluentd etc-pihole
-: 1678892576:0;docker compose up -d
-: 1678894755:0;cd
 : 1678894759:0;apt install fail2ban
 : 1678894777:0;tldr fail2ban
 : 1678894783:0;fail2ban -h
@@ -1247,79 +474,29 @@ or been moved out of Incoming.
 : 1678894968:0;apt remove fail2ban
 : 1678894991:0;git clone https://github.com/OpenMediaVault-Plugin-Developers/openmediavault-fail2ban.git
 : 1678895006:0;fakeroot debian/rules clean binary
-: 1678895035:0;..
-: 1678895035:0;ls
 : 1678895042:0;dpkg -i openmediavault-fail2ban
-: 1678895046:0;dpkg -i openmediavault-fail2ban_6.0.3_all.deb
 : 1678895061:0;apt install whois
 : 1678895069:0;apt --fix-broken install
-: 1678895129:0;dpkg -i openmediavault-fail2ban_6.0.3_all.deb
-: 1678895535:0;z compose
-: 1678895537:0;code docker-compose.yml
 : 1678895546:0;code /mnt/r10/compose/daemon.json
-: 1678895572:0;systemctl restart docker
-: 1678895637:0;docker info
 : 1678895714:0;truncate -s 0 /var/lib/containerd/**/*.log*
 : 1678895771:0;truncate -s 0 /var/lib/docker/**/*.log*
-: 1678895805:0;truncate -s 0 /var/lib/docker/containers/**/*.log*
-: 1678895808:0;ls
 : 1678895822:0;syslog
-: 1678895893:0;cd /var/log
-: 1678895893:0;ls
 : 1678895919:0;cd journal/
-: 1678895919:0;ls
-: 1678895921:0;cd ..
-: 1678895922:0;ls
 : 1678895932:0;cat daemon.log
-: 1678895954:0;cat daemon.log | rg gitea
-: 1678895956:0;cat daemon.log | rg git
-: 1678895963:0;fzf
-: 1678895970:0;ls
 : 1678895977:0;cat syslog
-: 1678895986:0;cat syslog | rg git
-: 1678895989:0;cat syslog | rg gitea
-: 1678895991:0;ls
-: 1678896037:0;z compose
-: 1678896042:0;docker compose up -d
-: 1678896071:0;ping baidu.com
-: 1678896078:0;docker compose down
-: 1678896106:0;docker compose up -d
-: 1678896125:0;ping baidu.com
 : 1678896134:0;nslookup xvideos.com
-: 1678896139:0;ping baidu.com
-: 1678896146:0;ping qq.com
 : 1678896156:0;nslookup baidu.com
 : 1678896193:0;nslookup baidu.com 10.0.0.10
 : 1678896201:0;nslookup baidu.com 10.0.10.0
-: 1678896214:0;code /etc/resolv.conf
 : 1678896224:0;ping qq.com
-: 1678896238:0;cd
-: 1678896240:0;truncate -s 0 /var/lib/docker/containers/**/*.log*
 : 1678896246:0;cd /var/log
-: 1678896247:0;ls
-: 1678896254:0;ll
-: 1678896286:0;cat syslog | rg gitea
 : 1678896314:0;cat syslog | rg git
-: 1678896322:0;ll
 : 1678896344:0;cat daemon.log | rg git
-: 1678896348:0;cat daemon.log | rg gitea
-: 1678896417:0;cd
 : 1678896419:0;]ll
-: 1678896420:0;ll
 : 1678896438:0;dpkg -i openmediavault-fail2ban_6.0.3_all.deb
-: 1678896532:0;ping baidu.com
-: 1678896554:0;systemctl restart trojan
 : 1678896629:0;cd /opt/
-: 1678896630:0;ls
 : 1678896631:0;cd containerd/
-: 1678896632:0;ls
 : 1678896634:0;cd lib/
-: 1678896634:0;ls
-: 1678896637:0;cd
-: 1678896637:0;ls
-: 1678896639:0;cd /var/log/
-: 1678896640:0;ls
-: 1678896976:0;code /etc/docker/daemon.json
 : 1678897003:0;rsyslogd -h
 : 1678897013:0;rsyslogd -dn
 : 1678897058:0;ps auxww | grep rsyslog
@@ -1327,35 +504,24 @@ or been moved out of Incoming.
 : 1678897129:0;systemctl restart docker
 : 1678897159:0;systemctl status docker
 : 1678897164:0;docker info
-: 1678897172:0;z compose
-: 1678897177:0;docker compose down
-: 1678897198:0;docker compose up -d
 : 1678897206:0;truncate -s 0 /var/lib/docker/containers/**/*.log*
 : 1678897208:0;cd /var/log/
-: 1678897209:0;ls
-: 1678897218:0;ll
 : 1678897236:0;less daemon.log
 : 1678897263:0;cat daemon.log | rg gitea
 : 1678897287:0;cat syslog | rg gitea
 : 1678897401:0;code /etc/docker/daemon.json
 : 1678897419:0;systemctl restart docker trojan
-: 1678897540:0;z compose
 : 1678897543:0;docker compose down
 : 1678897576:0;docker compose up -d
 : 1678897697:0;cd /var/lib/docker/containers/
 : 1678897701:0;cd 4ed732b5ddc9150793e01f4d830ec4235654b5a7bc4a6982b68d7bfee72a5907
-: 1678897703:0;ls
 : 1678897710:0;pwd
 : 1678897792:0;ping baidu.com
 : 1678897822:0;ping git.naizi.fun
-: 1678897827:0;nslookup git.naizi.fun
 : 1678897852:0;ip addr
-: 1678897888:0;cd
-: 1678897888:0;ls
 : 1678897934:0;z
 : 1678898065:0;z ddns
 : 1678898066:0;npm start
-: 1678898114:0;cd
 : 1678898244:0;nslookup naizi.fun
 : 1678898250:0;nslookup git.naizi.fun
 : 1678898276:0;code /etc/rsyslog.
@@ -1364,223 +530,232 @@ or been moved out of Incoming.
 : 1678898711:0;fail2ban-client
 : 1678898731:0;fail2ban-client status
 : 1678898797:0;code /etc/fail2ban/
-: 1678900281:0;nsync -rvztchP /mnt/aliyun/* /mnt/r1
-: 1678900296:0;gl
 : 1678902368:0;yt
-: 1678902369:0;ls
-: 1678902374:0;cd /mnt/r1
-: 1678902375:0;ls
 : 1678902382:0;cd asmr
-: 1678902388:0;la
-: 1678902388:0;ls
-: 1678902390:0;ll
 : 1678902411:0;code playlist.txt
 : 1678902426:0;yt playlist.txt
-: 1678902440:0;ls
 : 1678902442:0;rm yt-dlp.log
-: 1678902446:0;ytf playlist.txt
-: 1678902463:0;code ~/.oh-my-zsh/ohmyzsh-custom/alias.zsh
 : 1678902477:0;code ~/.oh-my-zsh/ohmyzsh-custom/function.zsh
-: 1678902509:0;sz
-: 1678902513:0;ytf playlist.txt
-: 1678902536:0;sz
-: 1678902541:0;ytf playlist.txt
 : 1678902574:0;code ~/.oh-my-zsh/ohmyzsh-custom/alias.zsh
-: 1678902578:0;sz
-: 1678902596:0;ytf playlist.txt
-: 1678902620:0;sz
-: 1678902639:0;ytf playlist.txt
-: 1678902729:0;sz
-: 1678902762:0;ytf playlist.txt
-: 1678902820:0;sz
-: 1678902887:0;ytf playlist.txt
-: 1678902979:0;sz
-: 1678903099:0;ytf playlist.txt
-: 1678903158:0;sz
-: 1678903182:0;z asmr
-: 1678903190:0;ytf playlist.txt
-: 1678903222:0;z asmr
 : 1678903250:0;cd /mnt/r1/asmr
-: 1678903251:0;ls
 : 1678903270:0;wt yt-dlp.log
-: 1678903317:0;sz
-: 1678903329:0;killall yt-dlp
 : 1678903337:0;ps aux | yt
-: 1678903343:0;ps aux | grep yt
-: 1678903352:0;ytf playlist.txt
-: 1678903396:0;ls
 : 1678903399:0;less yt-dlp.log
 : 1678903407:0;tail -f yt-dlp.log
 : 1678903553:0;killall yt-dlp
-: 1678903556:0;ytf playlist.txt
-: 1678930872:0;cd
-: 1678931334:0;cd /mnt/r10
-: 1678931335:0;ls
 : 1678931349:0;cd compose/
-: 1678931349:0;ls
 : 1678931353:0;cd photoprism/
-: 1678931353:0;ls
 : 1678931362:0;cd originals/
-: 1678931362:0;ls
-: 1678931420:0;cd
 : 1678931428:0;fdupes -h
 : 1678931488:0;fdupes -rdp1I -l ~/fdupes.log .
-: 1678931497:0;gl
-: 1678931504:0;ls
-: 1678931506:0;cd ..
-: 1678931506:0;ls
 : 1678931509:0;cd /mnt/r1
-: 1678931509:0;ls
 : 1678931513:0;fzf
-: 1678931594:0;cl
 : 1678931603:0;cd ../r10/compose/photoprism/
-: 1678931603:0;ls
 : 1678931605:0;cd storage/
-: 1678931605:0;ls
-: 1678931608:0;..
-: 1678931609:0;ls
 : 1678931612:0;cd import/
-: 1678931612:0;ls
-: 1678931613:0;cd
 : 1678931623:0;cd /mnt/r10/compose/st-sync/
-: 1678931623:0;ls
-: 1678931710:0;cd
-: 1678931710:0;ls
-: 1678931716:0;wt rsync.log
-: 1678931728:0;ls
-: 1678931731:0;nsync -rvztchP /mnt/aliyun/* /mnt/r1
-: 1678931735:0;l
-: 1678931736:0;ls
-: 1678931737:0;ll
-: 1678934263:0;z compose
 : 1678934349:0;code docker-compose.yml
 : 1678938641:0;la
-: 1678938646:0;cd
-: 1678938646:0;ls
-: 1678938650:0;cd /mnt/r10
-: 1678938650:0;ls
-: 1678938653:0;cd vps/
-: 1678938653:0;ls
-: 1678938658:0;code nginx.conf
-: 1678938770:0;ssh root@8.222.138.130
-: 1678938871:0;cd
 : 1678938875:0;cat .ssh/id_rsa.pub
 : 1678938905:0;ssh root@8.222.138.130
-: 1678939212:0;ls
-: 1678939213:0;cd ..
-: 1678939214:0;ls
-: 1678939220:0;cd trojan/
-: 1678939220:0;ls
-: 1678939226:0;code server.json
-: 1678939237:0;ls
-: 1678939265:0;scp 4fm.top_other/* root@8.222.138.130:~
-: 1678939302:0;..
-: 1678939302:0;ls
 : 1678939305:0;cd vps/
-: 1678939306:0;ls
 : 1678939308:0;code nginx.conf
-: 1678939354:0;ls
 : 1678939358:0;unzip 4fm.top_other.zip
 : 1678939362:0;scp 4fm.top_other/* root@8.222.138.130:~
 : 1678939778:0;systemctl restart trojan
 : 1678939784:0;journalctl -u trojan -f
-: 1678940050:0;ls
-: 1678940051:0;..
 : 1678940053:0;cd trojan/
-: 1678940053:0;ls
 : 1678940058:0;code client.json
 : 1678940082:0;code server.json
-: 1678940975:0;ls
-: 1678940977:0;..
 : 1678940980:0;cd /mnt/r10
-: 1678940980:0;ls
-: 1678940982:0;..
 : 1678940984:0;cd r1
-: 1678940984:0;ls
 : 1678940992:0;cd Telegram
-: 1678940992:0;ls
-: 1678940995:0;..
 : 1678940995:0;l
 : 1678940999:0;cd asmr/
-: 1678941002:0;cd
-: 1678941003:0;ls
 : 1678941010:0;ps aux | grep yt
 : 1678941017:0;ps aux | grep rsync
 : 1678941029:0;s
-: 1678941030:0;ls
 : 1678941037:0;wt rsync.log
 : 1678941045:0;nsync -rvztchP /mnt/aliyun/* /mnt/r1
-: 1678941049:0;ls
 : 1678941051:0;z asmr
 : 1678941702:0;z compose
 : 1678941982:0;cl
-: 1678941984:0;ls
 : 1678941992:0;cd ..
-: 1678941993:0;ls
-: 1678942003:0;cd
 : 1678942010:0;code .sshrc
 : 1678942021:0;code .zshrc
 : 1678942396:0;apt install fish
 : 1678942408:0;cat /etc/shells
-: 1678942414:0;chsh -s /usr/bin/fish
 : 1678945665:0;echo $SHELL
 : 1678945673:0;chsh -s /usr/bin/fish
-: 1678956779:0;git clone -b v1.52.0 --depth 1 --shallow-submodules https://github.com/grpc/grpc
-: 1678956806:0;sp
 : 1678956807:0;git clone -b v1.52.0 --depth 1 --shallow-submodules https://github.com/grpc/grpc
 : 1678956827:0;cd grpc/examples/node
-: 1678956828:0;ls
 : 1678956833:0;npm i
 : 1678956844:0;cd dynamic_codegen/
-: 1678956845:0;ls
-: 1678956853:0;node greeter_server.js
 : 1678956992:0;code greeter_server.js
-: 1678957001:0;ls
 : 1678957136:0;node greeter_server.js
 : 1678958586:0;cc
-: 1678958587:0;cd
 : 1678958593:0;cd /mnt/r1/WebDevSimplified/
-: 1678958594:0;ls
 : 1678958599:0;ytf playlist.txt
-: 1678958642:0;ls
 : 1678958729:0;code yt-dlp.log
-: 1678960356:0;n ls
 : 1678960360:0;n rm 18
 : 1678960363:0;n ls
-: 1678960374:0;cd
 : 1678960379:0;code .config/fish
 : 1678961034:0;gl
-: 1679494232:0;ls
 : 1679494239:0;code .oh-my-zsh/ohmyzsh-custom/
 : 1679494918:0;cd
-: 1679494918:0;sz
-: 1679494924:0;cd stable-diffusion-webui/
-: 1679494925:0;ls
 : 1679494927:0;which pip3
-: 1679494929:0;ls
-: 1679494933:0;sd
-: 1679494945:0;unsp
-: 1679494951:0;sd
-: 1679495168:0;sp
-: 1679495169:0;sd
-: 1679495233:0;sp
-: 1679495234:0;sd
-: 1679495255:0;ls
-: 1679495257:0;unsp
-: 1679495259:0;sd
-: 1679495525:0;sp
-: 1679495528:0;pip install 'requests[socks]'
-: 1679495534:0;unsp
 : 1679495535:0;pip install 'requests[socks]'
 : 1679495539:0;sp
-: 1679495543:0;sd
 : 1679496091:0;pip install httpx[socks]
-: 1679496097:0;sd
 : 1679496234:0;unsp
-: 1679496236:0;sd
 : 1679496459:0;cd .oh-my-zsh
 : 1679496468:9;vi .zshrc
 : 1679496498:0;code .oh-my-zsh/ohmyzsh-custom
 : 1679496581:0;dz
 : 1679496583:0;sz
-: 1679496587:0;sd
+: 1679496932:0;ll
+: 1679496933:0;ls
+: 1679496937:0;cd bin/
+: 1679496946:0;source activate
+: 1679497034:0;..
+: 1679500659:0;cd stable-diffusion-webui/
+: 1679500670:0;source bin/activate
+: 1679500673:0;sd
+: 1679501234:0;cd /mnt/r1/ckpt/
+: 1679501236:0;wget https://civitai.com/api/download/models/16619
+: 1679575537:0;ipconfig
+: 1679576847:0;reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+: 1679592331:0;ssh root@10.10.10.10
+: 1679668079:0;ls
+: 1679668080:0;cd stable-diffusion-webui/
+: 1679668080:0;ls
+: 1679668084:0;source bin/activate
+: 1679668091:0;sd
+: 1679668133:0;cd
+: 1679668139:0;code .oh-my-zsh/ohmyzsh-custom/alias.zsh
+: 1679668164:0;sz
+: 1679668167:0;cd stable-diffusion-webui/
+: 1679668168:0;sd
+: 1679668786:0;ip address add 192.168.2.2/24 brd + dev eth0
+: 1679668941:0;ip addr
+: 1679669040:0;ping 192.168.1.1
+: 1679669060:0;ip addr
+: 1679669073:0;ping 192.168.2.1
+: 1679669079:0;ping 192.168.2.2
+: 1679669228:0;ping 192.168.2.1
+: 1679669232:0;ping 192.168.2.2
+: 1679669238:0;ping 10.10.10.100
+: 1679669374:0;cd /mnt
+: 1679669375:0;ls
+: 1679669377:0;cd r2
+: 1679669379:0;ls
+: 1679669381:0;cd r2
+: 1679669383:0;cd r1
+: 1679669384:0;ls
+: 1679669386:0;cd ..
+: 1679669412:0;mount -t drvfs Z: r10
+: 1679669417:0;mount -t drvfs Y: r1
+: 1679669439:0;ls
+: 1679669440:0;cd r2
+: 1679669440:0;ls
+: 1679669443:0;cd r1
+: 1679669444:0;ls
+: 1679669451:0;cd
+: 1679669451:0;ls
+: 1679669455:0;sd
+: 1679669463:0;ls
+: 1679669470:0;cd stable-diffusion-webui/
+: 1679669471:0;ls
+: 1679669475:0;cd models/
+: 1679669476:0;ls
+: 1679669482:0;ncdu
+: 1679669487:0;apt install ncdu
+: 1679669492:0;ncdu
+: 1679669498:0;cd Stable-diffusion
+: 1679669498:0;ls
+: 1679669510:0;mv v1-5-pruned-emaonly.safetensors /mnt/r1/ckpt
+: 1679669723:0;..
+: 1679669723:0;ls
+: 1679669727:0;cd BLIP
+: 1679669727:0;ls
+: 1679669730:0;cd
+: 1679669730:0;ls
+: 1679669741:0;cd stable-diffusion-webui/
+: 1679669745:0;cd models/Lora
+: 1679669746:0;ls
+: 1679669747:0;cd
+: 1679671557:0;glan
+: 1679671558:0;gl
+: 1679671570:0;apt install glancess
+: 1679671572:0;apt install glances
+: 1679671619:0;cd stable-diffusion-webui/
+: 1679671622:0;cd
+: 1679671628:0;python -v
+: 1679671637:0;apt install python3-pip
+: 1679671681:0;gl
+: 1679671801:0;cd stable-diffusion-webui/
+: 1679671803:0;source bin/activate
+: 1679671805:0;sd
+: 1679671863:0;cd /mnt
+: 1679671863:0;ls
+: 1679671867:0;mount -t drvfs Y: r1
+: 1679671875:0;mount -t drvfs Z: r10
+: 1679671877:0;cd
+: 1679671899:0;ip address add 192.168.2.2/24 brd + dev eth0
+: 1679671909:0;sd
+: 1679671915:0;cd stable-diffusion-webui/
+: 1679671915:0;sd
+: 1679673066:0;cd /mnt
+: 1679673068:0;mount -t drvfs Z: r10
+: 1679673072:0;mount -t drvfs Y: r1
+: 1679673075:0;ip address add 192.168.2.2/24 brd + dev eth0
+: 1679673078:0;cd
+: 1679673079:0;cd stable-diffusion-webui/
+: 1679673082:0;source bin/activate
+: 1679673084:0;sd
+: 1679673090:0;gl
+: 1679674845:0;kill 178
+: 1679674851:0;gl
+: 1679674869:0;cd stable-diffusion-webui/
+: 1679674870:0;source bin/activate
+: 1679674875:0;sd
+: 1679675423:0;killall python
+: 1679675437:0;sd
+: 1679675516:0;cd /mnt
+: 1679675516:0;ls
+: 1679675518:0;cd
+: 1679675518:0;ls
+: 1679675520:0;cd stable-diffusion-webui/
+: 1679675521:0;ls
+: 1679675524:0;source bin/activate
+: 1679675526:0;ls
+: 1679675531:0;sd
+: 1679675674:0;cd /mnt
+: 1679675675:0;mount -t drvfs Y: r1
+: 1679675679:0;cd
+: 1679675683:0;ip address add 192.168.2.2/24 brd + dev eth0
+: 1679675684:0;ls
+: 1679675687:0;cd stable-diffusion-webui/
+: 1679675689:0;source bin/activate
+: 1679675691:0;sd
+: 1679677604:0;gl
+: 1679677710:0;cd stable-diffusion-webui/
+: 1679677711:0;ll
+: 1679677777:0;code ~/.oh-my-zsh/ohmyzsh-custom/alias.zsh
+: 1679677857:0;gl
+: 1679677884:0;sz
+: 1679677889:0;cd stable-diffusion-webui/
+: 1679677891:0;source bin/activate
+: 1679677892:0;sd
+: 1679678003:0;python -v
+: 1679678008:0;python -V
+: 1679678019:0;which pip3
+: 1679678026:0;which python
+: 1679678036:0;sd
+: 1679678141:0;cd /mnt
+: 1679678143:0;mount -t drvfs Y: r1
+: 1679678145:0;cd
+: 1679678146:0;cd stable-diffusion-webui/
+: 1679678148:0;source bin/activate
+: 1679678161:0;ll
+: 1679678238:0;python3 launch.py --ckpt-dir=/mnt/r1/ckpt --listen --xformers
