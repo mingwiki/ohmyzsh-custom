@@ -45,7 +45,6 @@ or been moved out of Incoming.
 : 1678560780:0;swapon -p 1 /dev/sdg
 : 1678560784:0;swapon /dev/sdg
 : 1678560792:0;swapon -s
-: 1678560801:0;apt install glances
 : 1678562124:0;time
 : 1678562156:0;z op
 : 1678562166:0;gp
@@ -256,9 +255,7 @@ or been moved out of Incoming.
 : 1678704974:0;gla
 : 1678704978:0;glances
 : 1678718954:0;pip
-: 1678718958:0;python -v
 : 1678718967:0;apt install python-pip3
-: 1678718972:0;apt install python3-pip
 : 1678718982:0;pip install yt-dlp
 : 1678719147:0;yt --yes-playlist --download-archive archive.txt --batch-file playlist.txt -o "%(playlist_index)s/%(title)s.%(ext)s"
 : 1678719163:0;tail -F yt-dlp.log
@@ -275,7 +272,6 @@ or been moved out of Incoming.
 : 1678719417:0;watch tail -n 30 yt-dlp.log
 : 1678720507:0;docker run -i messense/aliyundrive-webdav aliyundrive-webdav qr login
 : 1678720520:0;docker run -i messense/aliyundrive-webdav:main aliyundrive-webdav qr login
-: 1678720707:0;cd /mnt
 : 1678720709:0;cd alist/
 : 1678720717:0;mkdir aliyun
 : 1678720737:0;mount -t davfs http://localhost:8080 /mnt/aliyun
@@ -395,7 +391,6 @@ or been moved out of Incoming.
 : 1678863547:0;apt install thefuck
 : 1678863586:0;apt remove thefuck
 : 1678863600:0;code gpt
-: 1678863699:0;code .oh-my-zsh/ohmyzsh-custom/alias.zsh
 : 1678863741:0;pip install thefuck
 : 1678863776:0;fuck
 : 1678863922:0;npm init
@@ -518,7 +513,6 @@ or been moved out of Incoming.
 : 1678897710:0;pwd
 : 1678897792:0;ping baidu.com
 : 1678897822:0;ping git.naizi.fun
-: 1678897852:0;ip addr
 : 1678897934:0;z
 : 1678898065:0;z ddns
 : 1678898066:0;npm start
@@ -536,7 +530,6 @@ or been moved out of Incoming.
 : 1678902426:0;yt playlist.txt
 : 1678902442:0;rm yt-dlp.log
 : 1678902477:0;code ~/.oh-my-zsh/ohmyzsh-custom/function.zsh
-: 1678902574:0;code ~/.oh-my-zsh/ohmyzsh-custom/alias.zsh
 : 1678903250:0;cd /mnt/r1/asmr
 : 1678903270:0;wt yt-dlp.log
 : 1678903337:0;ps aux | yt
@@ -568,7 +561,6 @@ or been moved out of Incoming.
 : 1678940058:0;code client.json
 : 1678940082:0;code server.json
 : 1678940980:0;cd /mnt/r10
-: 1678940984:0;cd r1
 : 1678940992:0;cd Telegram
 : 1678940995:0;l
 : 1678940999:0;cd asmr/
@@ -580,7 +572,6 @@ or been moved out of Incoming.
 : 1678941051:0;z asmr
 : 1678941702:0;z compose
 : 1678941982:0;cl
-: 1678941992:0;cd ..
 : 1678942010:0;code .sshrc
 : 1678942021:0;code .zshrc
 : 1678942396:0;apt install fish
@@ -600,10 +591,7 @@ or been moved out of Incoming.
 : 1678960360:0;n rm 18
 : 1678960363:0;n ls
 : 1678960379:0;code .config/fish
-: 1678961034:0;gl
 : 1679494239:0;code .oh-my-zsh/ohmyzsh-custom/
-: 1679494918:0;cd
-: 1679494927:0;which pip3
 : 1679495535:0;pip install 'requests[socks]'
 : 1679495539:0;sp
 : 1679496091:0;pip install httpx[socks]
@@ -612,150 +600,90 @@ or been moved out of Incoming.
 : 1679496468:9;vi .zshrc
 : 1679496498:0;code .oh-my-zsh/ohmyzsh-custom
 : 1679496581:0;dz
-: 1679496583:0;sz
-: 1679496932:0;ll
-: 1679496933:0;ls
 : 1679496937:0;cd bin/
 : 1679496946:0;source activate
-: 1679497034:0;..
-: 1679500659:0;cd stable-diffusion-webui/
-: 1679500670:0;source bin/activate
-: 1679500673:0;sd
 : 1679501234:0;cd /mnt/r1/ckpt/
 : 1679501236:0;wget https://civitai.com/api/download/models/16619
 : 1679575537:0;ipconfig
 : 1679576847:0;reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 : 1679592331:0;ssh root@10.10.10.10
-: 1679668079:0;ls
-: 1679668080:0;cd stable-diffusion-webui/
-: 1679668080:0;ls
-: 1679668084:0;source bin/activate
-: 1679668091:0;sd
-: 1679668133:0;cd
 : 1679668139:0;code .oh-my-zsh/ohmyzsh-custom/alias.zsh
-: 1679668164:0;sz
-: 1679668167:0;cd stable-diffusion-webui/
-: 1679668168:0;sd
-: 1679668786:0;ip address add 192.168.2.2/24 brd + dev eth0
-: 1679668941:0;ip addr
 : 1679669040:0;ping 192.168.1.1
-: 1679669060:0;ip addr
-: 1679669073:0;ping 192.168.2.1
-: 1679669079:0;ping 192.168.2.2
 : 1679669228:0;ping 192.168.2.1
 : 1679669232:0;ping 192.168.2.2
 : 1679669238:0;ping 10.10.10.100
-: 1679669374:0;cd /mnt
-: 1679669375:0;ls
-: 1679669377:0;cd r2
-: 1679669379:0;ls
-: 1679669381:0;cd r2
-: 1679669383:0;cd r1
-: 1679669384:0;ls
 : 1679669386:0;cd ..
-: 1679669412:0;mount -t drvfs Z: r10
-: 1679669417:0;mount -t drvfs Y: r1
-: 1679669439:0;ls
 : 1679669440:0;cd r2
-: 1679669440:0;ls
-: 1679669443:0;cd r1
-: 1679669444:0;ls
-: 1679669451:0;cd
-: 1679669451:0;ls
-: 1679669455:0;sd
-: 1679669463:0;ls
-: 1679669470:0;cd stable-diffusion-webui/
-: 1679669471:0;ls
-: 1679669475:0;cd models/
-: 1679669476:0;ls
-: 1679669482:0;ncdu
 : 1679669487:0;apt install ncdu
 : 1679669492:0;ncdu
 : 1679669498:0;cd Stable-diffusion
-: 1679669498:0;ls
 : 1679669510:0;mv v1-5-pruned-emaonly.safetensors /mnt/r1/ckpt
-: 1679669723:0;..
-: 1679669723:0;ls
 : 1679669727:0;cd BLIP
-: 1679669727:0;ls
-: 1679669730:0;cd
-: 1679669730:0;ls
-: 1679669741:0;cd stable-diffusion-webui/
 : 1679669745:0;cd models/Lora
-: 1679669746:0;ls
-: 1679669747:0;cd
 : 1679671557:0;glan
-: 1679671558:0;gl
 : 1679671570:0;apt install glancess
 : 1679671572:0;apt install glances
-: 1679671619:0;cd stable-diffusion-webui/
-: 1679671622:0;cd
-: 1679671628:0;python -v
 : 1679671637:0;apt install python3-pip
-: 1679671681:0;gl
-: 1679671801:0;cd stable-diffusion-webui/
-: 1679671803:0;source bin/activate
-: 1679671805:0;sd
-: 1679671863:0;cd /mnt
-: 1679671863:0;ls
-: 1679671867:0;mount -t drvfs Y: r1
-: 1679671875:0;mount -t drvfs Z: r10
-: 1679671877:0;cd
-: 1679671899:0;ip address add 192.168.2.2/24 brd + dev eth0
-: 1679671909:0;sd
-: 1679671915:0;cd stable-diffusion-webui/
-: 1679671915:0;sd
-: 1679673066:0;cd /mnt
-: 1679673068:0;mount -t drvfs Z: r10
-: 1679673072:0;mount -t drvfs Y: r1
-: 1679673075:0;ip address add 192.168.2.2/24 brd + dev eth0
-: 1679673078:0;cd
-: 1679673079:0;cd stable-diffusion-webui/
-: 1679673082:0;source bin/activate
-: 1679673084:0;sd
-: 1679673090:0;gl
 : 1679674845:0;kill 178
-: 1679674851:0;gl
-: 1679674869:0;cd stable-diffusion-webui/
-: 1679674870:0;source bin/activate
-: 1679674875:0;sd
 : 1679675423:0;killall python
-: 1679675437:0;sd
-: 1679675516:0;cd /mnt
-: 1679675516:0;ls
-: 1679675518:0;cd
-: 1679675518:0;ls
-: 1679675520:0;cd stable-diffusion-webui/
-: 1679675521:0;ls
-: 1679675524:0;source bin/activate
-: 1679675526:0;ls
-: 1679675531:0;sd
-: 1679675674:0;cd /mnt
-: 1679675675:0;mount -t drvfs Y: r1
-: 1679675679:0;cd
-: 1679675683:0;ip address add 192.168.2.2/24 brd + dev eth0
-: 1679675684:0;ls
-: 1679675687:0;cd stable-diffusion-webui/
-: 1679675689:0;source bin/activate
-: 1679675691:0;sd
-: 1679677604:0;gl
-: 1679677710:0;cd stable-diffusion-webui/
-: 1679677711:0;ll
-: 1679677777:0;code ~/.oh-my-zsh/ohmyzsh-custom/alias.zsh
-: 1679677857:0;gl
-: 1679677884:0;sz
-: 1679677889:0;cd stable-diffusion-webui/
-: 1679677891:0;source bin/activate
-: 1679677892:0;sd
 : 1679678003:0;python -v
 : 1679678008:0;python -V
 : 1679678019:0;which pip3
 : 1679678026:0;which python
-: 1679678036:0;sd
-: 1679678141:0;cd /mnt
-: 1679678143:0;mount -t drvfs Y: r1
-: 1679678145:0;cd
-: 1679678146:0;cd stable-diffusion-webui/
-: 1679678148:0;source bin/activate
 : 1679678161:0;ll
 : 1679678238:0;python3 launch.py --ckpt-dir=/mnt/r1/ckpt --listen --xformers
+: 1680089677:0;ip addr
+: 1680089702:0;cd /mnt
+: 1680089705:0;cd r1
+: 1680089712:0;mount -t drvfs Z: r10
+: 1680089716:0;mount -t drvfs Y: r1
+: 1680090676:0;gl
+: 1680090795:0;ip address add 192.168.2.2/24 brd + dev eth0
+: 1680090819:0;mount -t drvfs Z: /mnt/r10\
+mount -t drvfs Y: /mnt/r1
+: 1680090822:0;source bin/activate
+: 1680267495:0;cd models/
+: 1680267498:0;cd Lora
+: 1680267499:0;ls
+: 1680267503:0;..
+: 1680267518:0;cd
+: 1680267520:0;code ~/.oh-my-zsh/ohmyzsh-custom/alias.zsh
+: 1680267536:0;sz
+: 1680267539:0;cd stable-diffusion-webui/
+: 1680267541:0;sd
+: 1680320358:0;python
+: 1680320359:0;python3
+: 1680353988:0;cl
+: 1680353989:0;ls
+: 1680353993:0;cd /mnt
+: 1680353994:0;ls
+: 1680353997:0;mount -t drvfs Z: /mnt/r10\
+mount -t drvfs Y: /mnt/r1
+: 1680353998:0;ls
+: 1680354001:0;ip address add 192.168.2.2/24 brd + dev eth0
+: 1680354002:0;ls
+: 1680354002:0;cd
+: 1680354005:0;cd s
+: 1680354010:0;cd stable-diffusion-webui/
+: 1680354011:0;source bin/activate
+: 1680354014:0;sd
+: 1680356900:0;cd /mnt
+: 1680356902:0;mount -t drvfs Z: /mnt/r10\
+mount -t drvfs Y: /mnt/r1
+: 1680356902:0;ls
+: 1680356905:0;cd r1
+: 1680356905:0;os
+: 1680356906:0;ls
+: 1680356907:0;cd
+: 1680356908:0;ls
+: 1680356912:0;ip address add 192.168.2.2/24 brd + dev eth0
+: 1680356913:0;ls
+: 1680356915:0;cd stable-diffusion-webui/
+: 1680356916:0;ls
+: 1680356917:0;source bin/activate
+: 1680356919:0;sd
+: 1680356935:0;cd .oh-my-zsh/
+: 1680356936:0;ls
+: 1680356938:0;cd ohmyzsh-custom/
+: 1680356938:0;ls
+: 1680356942:0;git add .
